@@ -254,11 +254,12 @@
 					"name": "name",
 					"type": "string",
 					"constants": {
+						"command_block_output": "commandblockoutput",
 						"drowning_damage": "drowningdamage",
 						"fall_damage": "falldamage",
 						"fire_damage": "firedamage",
-						"immutable_world": "immutableworld",
-						"pvp": "pvp"
+						"pvp": "pvp",
+						"send_command_feedback": "sendcommandfeedback"
 					}
 				},
 				{

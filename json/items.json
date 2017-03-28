@@ -5157,6 +5157,7 @@
 
 		"minecart_with_command_block": {
 			"minecraft": 422,
+			"pocket": 443,
 			"stack": 1
 		},
 
