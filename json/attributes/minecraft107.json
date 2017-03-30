@@ -6,54 +6,54 @@
 
 	"attributes": {
 
-		"max_health": {
+		"generic.max_health": {
 
-			"name": "generic.maxHealth",
+			"name": "max_health",
 			"min": 0,
 			"max": 1024,
 			"default": 20
 
 		},
 
-		"absorption": {
+		"generic.absorption": {
 
-			"name": "generic.absorption",
+			"name": "absorption",
 			"min": 0,
 			"max": 4,
 			"default": 0
 
 		},
 
-		"movement_speed": {
+		"generic.movement_speed": {
 
-			"name": "generic.movementSpeed",
+			"name": "movement_speed",
 			"min": 0,
 			"max": 24791,
 			"default": 0.1
 
 		},
 
-		"knockback_resistance": {
+		"generic.knockback_resistance": {
 
-			"name": "generic.knockbackResistance",
+			"name": "knockback_resistance",
 			"min": 0,
 			"max": 1,
 			"default": 0
 
 		},
 
-		"attack_damage": {
+		"generic.attack_damage": {
 
-			"name": "generic.attackDamage",
+			"name": "attack_damage",
 			"min": 0,
 			"max": 2048,
 			"default": 2
 
 		},
 
-		"attack_speed": {
+		"generic.attack_speed": {
 
-			"name": "generic.attackSpeed",
+			"name": "attack_speed",
 			"min": 0,
 			"max": 1024,
 			"default": 4

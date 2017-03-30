@@ -6,72 +6,72 @@
 
 	"attributes": {
 
-		"health": {
+		"minecraft:health": {
 
-			"name": "minecraft:health",
+			"name": "health",
 			"min": 0,
 			"max": 20,
 			"default": 20
 
 		},
 
-		"absorption": {
+		"minecraft:generic.absorption": {
 
-			"name": "minecraft:generic.absorption",
+			"name": "absorption",
 			"min": 0,
 			"max": 4,
 			"default": 0
 
 		},
 
-		"hunger": {
+		"minecraft:player.hunger": {
 
-			"name": "minecraft:player.hunger",
+			"name": "hunger",
 			"min": 0,
 			"max": 20,
 			"default": 20
 
 		},
 
-		"saturation": {
+		"minecraft:player.saturation": {
 
-			"name": "minecraft:player.saturation",
+			"name": "saturation",
 			"min": 0,
 			"max": 20,
 			"default": 5
 
 		},
 
-		"experience": {
+		"minecraft:player.experience": {
 
-			"name": "minecraft:player.experience",
+			"name": "experience",
 			"min": 0,
 			"max": 1,
 			"default": 0
 
 		},
 
-		"level": {
+		"minecraft:player.level": {
 
-			"name": "minecraft:player.level",
+			"name": "level",
 			"min": 0,
 			"max": 24791,
 			"default": 0
 
 		},
 
-		"speed": {
+		"minecraft:movement": {
 
-			"name": "minecraft:movement",
+			"name": "speed",
 			"min": 0,
 			"max": 24791,
 			"default": 0.1
 
 		},
 
-		"knockback_resistance": {
+		"minecraft:generic.knockback_resistance": {
 
-			"name": "minecraft:generic.knockback_resistance",
+			"name": "knockback_resistance",
 			"min": 0,
 			"max": 1,
 			"default": 0
