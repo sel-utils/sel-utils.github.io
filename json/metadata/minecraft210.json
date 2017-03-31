@@ -2,7 +2,7 @@
 
 	"__website": "https://github.com/sel-project/sel-utils",
 	"__software": "Minecraft",
-	"__protocol": "316",
+	"__protocol": "210",
 
 	"encoding": {
 
@@ -18,67 +18,67 @@
 
 		"byte": {
 			"type": "byte",
-			"id": 0	
+			"id": 0
 		},
 
 		"int": {
 			"type": "varuint",
-			"id": 1	
+			"id": 1
 		},
 
 		"float": {
 			"type": "float",
-			"id": 2	
+			"id": 2
 		},
 
 		"string": {
 			"type": "string",
-			"id": 3	
+			"id": 3
 		},
 
 		"chat": {
 			"type": "string",
-			"id": 4	
+			"id": 4
 		},
 
 		"slot": {
 			"type": "slot",
-			"id": 5	
+			"id": 5
 		},
 
 		"bool": {
 			"type": "bool",
-			"id": 6	
+			"id": 6
 		},
 
 		"rotation": {
 			"type": "float<xyz>",
-			"id": 7	
+			"id": 7
 		},
 
 		"position": {
 			"type": "ulong",
-			"id": 8	
+			"id": 8
 		},
 
 		"optional_position": {
 			"type": "optional_position",
-			"id": 9	
+			"id": 9
 		},
 
 		"direction": {
 			"type": "varuint",
-			"id": 10	
+			"id": 10
 		},
 
 		"uuid": {
 			"type": "optional_uuid",
-			"id": 11	
+			"id": 11
 		},
 
 		"block": {
 			"type": "varuint",
-			"id": 12	
+			"id": 12
 		}
 
 	},
@@ -152,8 +152,7 @@
 		"color": {
 			"type": "int",
 			"id": 7,
-			"required": false,
-			"default": -1
+			"required": false
 		},
 
 		"is_single_point": {
@@ -248,12 +247,6 @@
 		"firework": {
 			"type": "slot",
 			"id": 6,
-			"required": false
-		},
-
-		"firework_thrower": {
-			"type": "int",
-			"id": 7,
 			"required": false
 		},
 
@@ -424,8 +417,8 @@
 			}
 		},
 
-		"owner_uuid": {
-			"type": "uuid",
+		"horse_type": {
+			"type": "int",
 			"id": 14,
 			"required": false
 		},
@@ -436,46 +429,21 @@
 			"required": false
 		},
 
+		"owner_uuid": {
+			"type": "uuid",
+			"id": 16,
+			"required": false
+		},
+
 		"horse_armor": {
 			"type": "int",
-			"id": 16,
-			"required": false
-		},
-
-		"chested": {
-			"type": "bool",
-			"id": 15,
-			"required": false
-		},
-
-		"llama_strength": {
-			"type": "int",
-			"id": 16,
-			"required": false
-		},
-
-		"carpet_color": {
-			"type": "int",
 			"id": 17,
-			"required": false,
-			"default": -1
-		},
-
-		"llama_variant": {
-			"type": "int",
-			"id": 18,
 			"required": false
 		},
 
 		"pig_saddled": {
 			"type": "bool",
 			"id": 13,
-			"required": false
-		},
-
-		"carrot_boost": {
-			"type": "int",
-			"id": 14,
 			"required": false
 		},
 
@@ -575,12 +543,6 @@
 			"required": false
 		},
 
-		"shulker_color": {
-			"type": "byte",
-			"id": 15,
-			"required": false
-		},
-
 		"blaze_on_fire": {
 			"type": "byte",
 			"id": 12,
@@ -606,10 +568,14 @@
 			"required": false
 		},
 
-		"rectracting_spikes": {
-			"type": "bool",
+		"guardian_flags": {
+			"type": "byte",
 			"id": 12,
-			"required": false
+			"required": false,
+			"flags": {
+				"retracting_spikes": 1,
+				"elder": 2
+			}
 		},
 
 		"guardian_target": {
@@ -618,21 +584,15 @@
 			"required": false
 		},
 
-		"spell": {
-			"type": "byte",
-			"id": 12,
-			"required": false
-		},
-
-		"attack_mode": {
-			"type": "byte",
+		"skeleton_type": {
+			"type": "int",
 			"id": 12,
 			"required": false
 		},
 
 		"swinging_arms": {
 			"type": "bool",
-			"id": 12,
+			"id": 13,
 			"required": false
 		},
 
@@ -666,21 +626,21 @@
 			"required": false
 		},
 
-		"hands_held_up": {
-			"type": "bool",
-			"id": 14,
+		"zombie_type": {
+			"type": "int",
+			"id": 13,
 			"required": false
 		},
 
 		"converting": {
 			"type": "bool",
-			"id": 15,
+			"id": 14,
 			"required": false
 		},
 
-		"zombie_villager_profession": {
-			"type": "int",
-			"id": 16,
+		"hands_held_up": {
+			"type": "bool",
+			"id": 15,
 			"required": false
 		},
 

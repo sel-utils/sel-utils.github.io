@@ -2,7 +2,7 @@
 
 	"__website": "https://github.com/sel-project/sel-utils",
 	"__software": "Minecraft: Pocket Edition",
-	"__protocol": "105",
+	"__protocol": "102",
 
 	"encoding": {
 
@@ -18,48 +18,48 @@
 
 		"byte": {
 			"type": "byte",
-			"id": 0	
+			"id": 0
 		},
 
 		"short": {
 			"type": "short",
 			"id": 1,
-			"endianness": "little_endian"	
+			"endianness": "little_endian"
 		},
 
 		"int": {
 			"type": "varint",
-			"id": 2	
+			"id": 2
 		},
 
 		"float": {
 			"type": "float",
-			"id": 3	
+			"id": 3
 		},
 
 		"string": {
 			"type": "string",
-			"id": 4	
+			"id": 4
 		},
 
 		"slot": {
 			"type": "slot",
-			"id": 5	
+			"id": 5
 		},
 
 		"block_position": {
 			"type": "varint<xyz>",
-			"id": 6	
+			"id": 6
 		},
 
 		"long": {
 			"type": "varlong",
-			"id": 7	
+			"id": 7
 		},
 
 		"entity_position": {
 			"type": "float<xyz>",
-			"id": 8	
+			"id": 8
 		}
 
 	},

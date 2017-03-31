@@ -18,67 +18,67 @@
 
 		"byte": {
 			"type": "byte",
-			"id": 0	
+			"id": 0
 		},
 
 		"int": {
 			"type": "varuint",
-			"id": 1	
+			"id": 1
 		},
 
 		"float": {
 			"type": "float",
-			"id": 2	
+			"id": 2
 		},
 
 		"string": {
 			"type": "string",
-			"id": 3	
+			"id": 3
 		},
 
 		"chat": {
 			"type": "string",
-			"id": 4	
+			"id": 4
 		},
 
 		"slot": {
 			"type": "slot",
-			"id": 5	
+			"id": 5
 		},
 
 		"bool": {
 			"type": "bool",
-			"id": 6	
+			"id": 6
 		},
 
 		"rotation": {
 			"type": "float<xyz>",
-			"id": 7	
+			"id": 7
 		},
 
 		"position": {
 			"type": "ulong",
-			"id": 8	
+			"id": 8
 		},
 
 		"optional_position": {
 			"type": "optional_position",
-			"id": 9	
+			"id": 9
 		},
 
 		"direction": {
 			"type": "varuint",
-			"id": 10	
+			"id": 10
 		},
 
 		"uuid": {
 			"type": "optional_uuid",
-			"id": 11	
+			"id": 11
 		},
 
 		"block": {
 			"type": "varuint",
-			"id": 12	
+			"id": 12
 		}
 
 	},

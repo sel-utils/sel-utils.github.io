@@ -6,137 +6,137 @@
 
 		"speed": {
 			"id": 1,
-			"color": "#7CAFC6"
+			"particles": "#7CAFC6"
 		},
 
 		"slowness": {
 			"id": 2,
-			"color": "#5A6C81"
+			"particles": "#5A6C81"
 		},
 
 		"haste": {
 			"id": 3,
-			"color": "#D9C043"
+			"particles": "#D9C043"
 		},
 
 		"mining_fatigue": {
 			"id": 4,
-			"color": "#4A4217"
+			"particles": "#4A4217"
 		},
 
 		"strength": {
 			"id": 5,
-			"color": "#932423"
+			"particles": "#932423"
 		},
 
 		"instant_health": {
 			"id": 6,
-			"color": "#F82423"
+			"particles": "#F82423"
 		},
 
 		"instant_damage": {
 			"id": 7,
-			"color": "#430A09"
+			"particles": "#430A09"
 		},
 
 		"jump_boost": {
 			"id": 8,
-			"color": "#786297"
+			"particles": "#786297"
 		},
 
 		"nausea": {
 			"id": 9,
-			"color": "#551D4A"
+			"particles": "#551D4A"
 		},
 
 		"regeneration": {
 			"id": 10,
-			"color": "#CD5CAB"
+			"particles": "#CD5CAB"
 		},
 
 		"resistance": {
 			"id": 11,
-			"color": "#99453A"
+			"particles": "#99453A"
 		},
 
 		"fire_resistance": {
 			"id": 12,
-			"color": "#E49A3A"
+			"particles": "#E49A3A"
 		},
 
 		"water_breathing": {
 			"id": 13,
-			"color": "#2E5299"
+			"particles": "#2E5299"
 		},
 
 		"invisibility": {
 			"id": 14,
-			"color": "#7F8392"
+			"particles": "#7F8392"
 		},
 
 		"blindness": {
 			"id": 15,
-			"color": "#1F1F23"
+			"particles": "#1F1F23"
 		},
 
 		"night_vision": {
 			"id": 16,
-			"color": "#1F1FA1"
+			"particles": "#1F1FA1"
 		},
 
 		"hunger": {
 			"id": 17,
-			"color": "#587653"
+			"particles": "#587653"
 		},
 
 		"weakness": {
 			"id": 18,
-			"color": "#484D48"
+			"particles": "#484D48"
 		},
 
 		"poison": {
 			"id": 19,
-			"color": "#4E9331"
+			"particles": "#4E9331"
 		},
 
 		"wither": {
 			"id": 20,
-			"color": "#352A27"
+			"particles": "#352A27"
 		},
 
 		"health_boost": {
 			"id": 21,
-			"color": "#F87D23"
+			"particles": "#F87D23"
 		},
 
 		"absorption": {
 			"id": 22,
-			"color": "#2552A5"
+			"particles": "#2552A5"
 		},
 
 		"saturation": {
 			"id": 23,
-			"color": "#F82423"
+			"particles": "#F82423"
 		},
 
 		"glowing": {
 			"id": 24,
-			"color": "#94A061"
+			"particles": "#94A061"
 		},
 
 		"levitation": {
 			"id": 25,
-			"color": "#CEFFFF"
+			"particles": "#CEFFFF"
 		},
 
 		"luck": {
 			"id": 26,
-			"color": "#339900"
+			"particles": "#339900"
 		},
 
 		"bad_luck": {
 			"id": 27,
-			"color": "#C0A44D"
+			"particles": "#C0A44D"
 		}
 
 	}

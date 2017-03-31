@@ -2,7 +2,7 @@
 
 	"__website": "https://github.com/sel-project/sel-utils",
 	"__software": "Minecraft: Pocket Edition",
-	"__protocol": 105,
+	"__protocol": 101,
 
 	"items": [
 
@@ -3753,3 +3753,4 @@
 	]
 
 }
+
