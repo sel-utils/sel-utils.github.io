@@ -693,6 +693,10 @@
 						"type": "bool"
 					},
 					{
+						"name": "game_rules",
+						"type": "rule[]"
+					},
+					{
 						"name": "level_id",
 						"type": "string"
 					},
