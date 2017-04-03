@@ -2,7 +2,7 @@
 
 	"__website": "https://github.com/sel-project/sel-utils",
 	"__software": "Minecraft: Pocket Edition",
-	"__protocol": 105,
+	"__protocol": 110,
 
 	"encoding": {
 
@@ -57,6 +57,14 @@
 					"name": "nbt",
 					"type": "nbt",
 					"when": "id>0"
+				},
+				{
+					"name": "can_place_on",
+					"type": "string[]"
+				},
+				{
+					"name": "can_destroy",
+					"type": "string[]"
 				}
 			],
 
@@ -253,9 +261,18 @@
 					"type": "string",
 					"constants": {
 						"command_block_output": "commandblockoutput",
+						"do_daylight_cycle": "dodaylightcycle",
+						"do_entity_drops": "doentitydrops",
+						"do_fire_tick": "dofiretick",
+						"do_mob_loot": "domobloot",
+						"do_mob_spawning": "domobspawning",
+						"do_tile_drops": "dotiledrops",
+						"do_weather_cycle": "doweathercycle",
 						"drowning_damage": "drowningdamage",
 						"fall_damage": "falldamage",
 						"fire_damage": "firedamage",
+						"keep_inventory": "keepinventory",
+						"mob_griefing": "mobgriefing",
 						"pvp": "pvp",
 						"send_command_feedback": "sendcommandfeedback"
 					}
@@ -349,7 +366,8 @@
 							"outdated_server": 2,
 							"spawned": 3,
 							"invalid_tenant": 4,
-							"edition_mismatch": 5
+							"edu_required": 5,
+							"vanilla_required": 6
 						}
 					}
 				]
@@ -397,20 +415,8 @@
 				]
 			},
 
-			"batch": {
-				"id": 6,
-				"clientbound": true,
-				"serverbound": true,
-				"fields": [
-					{
-						"name": "data",
-						"type": "ubyte[]"
-					}
-				]
-			},
-
 			"resource_packs_info": {
-				"id": 7,
+				"id": 6,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -430,7 +436,7 @@
 			},
 
 			"resource_packs_stack_packet": {
-				"id": 8,
+				"id": 7,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -450,7 +456,7 @@
 			},
 
 			"resource_pack_client_response": {
-				"id": 9,
+				"id": 8,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -472,7 +478,7 @@
 			},
 
 			"text": {
-				"id": 10,
+				"id": 9,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -568,7 +574,7 @@
 			},
 
 			"set_time": {
-				"id": 11,
+				"id": 10,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -584,7 +590,7 @@
 			},
 
 			"start_game": {
-				"id": 12,
+				"id": 11,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -698,7 +704,7 @@
 			},
 
 			"add_player": {
-				"id": 13,
+				"id": 12,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -750,7 +756,7 @@
 			},
 
 			"add_entity": {
-				"id": 14,
+				"id": 13,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -798,7 +804,7 @@
 			},
 
 			"remove_entity": {
-				"id": 15,
+				"id": 14,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -810,7 +816,7 @@
 			},
 
 			"add_item_entity": {
-				"id": 16,
+				"id": 15,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -838,7 +844,7 @@
 			},
 
 			"add_hanging_entity": {
-				"id": 17,
+				"id": 16,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -862,7 +868,7 @@
 			},
 
 			"take_item_entity": {
-				"id": 18,
+				"id": 17,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -878,7 +884,7 @@
 			},
 
 			"move_entity": {
-				"id": 19,
+				"id": 18,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -906,7 +912,7 @@
 			},
 
 			"move_player": {
-				"id": 20,
+				"id": 19,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -947,7 +953,7 @@
 			},
 
 			"rider_jump": {
-				"id": 21,
+				"id": 20,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -959,7 +965,7 @@
 			},
 
 			"remove_block": {
-				"id": 22,
+				"id": 21,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -971,7 +977,7 @@
 			},
 
 			"update_block": {
-				"id": 23,
+				"id": 22,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -997,7 +1003,7 @@
 			},
 
 			"add_painting": {
-				"id": 24,
+				"id": 23,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1025,7 +1031,7 @@
 			},
 
 			"explode": {
-				"id": 25,
+				"id": 24,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1045,7 +1051,7 @@
 			},
 
 			"level_sound_event": {
-				"id": 26,
+				"id": 25,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1171,7 +1177,7 @@
 			},
 
 			"level_event": {
-				"id": 27,
+				"id": 26,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1241,7 +1247,7 @@
 			},
 
 			"block_event": {
-				"id": 28,
+				"id": 27,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1257,7 +1263,7 @@
 			},
 
 			"entity_event": {
-				"id": 29,
+				"id": 28,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1293,7 +1299,7 @@
 			},
 
 			"mob_effect": {
-				"id": 30,
+				"id": 29,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1330,7 +1336,7 @@
 			},
 
 			"update_attributes": {
-				"id": 31,
+				"id": 30,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1346,7 +1352,7 @@
 			},
 
 			"mob_equipment": {
-				"id": 32,
+				"id": 31,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1374,7 +1380,7 @@
 			},
 
 			"mob_armor_equipment": {
-				"id": 33,
+				"id": 32,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1390,7 +1396,7 @@
 			},
 
 			"interact": {
-				"id": 34,
+				"id": 33,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1412,7 +1418,7 @@
 			},
 
 			"block_pick_request": {
-				"id": 35,
+				"id": 34,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1428,7 +1434,7 @@
 			},
 
 			"use_item": {
-				"id": 36,
+				"id": 35,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1464,7 +1470,7 @@
 			},
 
 			"player_action": {
-				"id": 37,
+				"id": 36,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1502,20 +1508,28 @@
 				]
 			},
 
-			"player_fall": {
-				"id": 38,
+			"entity_fall": {
+				"id": 37,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
 					{
+						"name": "entity_id",
+						"type": "varlong"
+					},
+					{
 						"name": "distance",
 						"type": "float"
+					},
+					{
+						"name": "?",
+						"type": "bool"
 					}
 				]
 			},
 
 			"hurt_armor": {
-				"id": 39,
+				"id": 38,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1527,7 +1541,7 @@
 			},
 
 			"set_entity_data": {
-				"id": 40,
+				"id": 39,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1543,7 +1557,7 @@
 			},
 
 			"set_entity_motion": {
-				"id": 41,
+				"id": 40,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1559,7 +1573,7 @@
 			},
 
 			"set_entity_link": {
-				"id": 42,
+				"id": 41,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1584,7 +1598,7 @@
 			},
 
 			"set_health": {
-				"id": 43,
+				"id": 42,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1596,7 +1610,7 @@
 			},
 
 			"set_spawn_position": {
-				"id": 44,
+				"id": 43,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1616,7 +1630,7 @@
 			},
 
 			"animate": {
-				"id": 45,
+				"id": 44,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1636,7 +1650,7 @@
 			},
 
 			"respawn": {
-				"id": 46,
+				"id": 45,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1648,7 +1662,7 @@
 			},
 
 			"drop_item": {
-				"id": 47,
+				"id": 46,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1667,7 +1681,7 @@
 			},
 
 			"inventory_action": {
-				"id": 48,
+				"id": 47,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1678,12 +1692,20 @@
 					{
 						"name": "item",
 						"type": "slot"
+					},
+					{
+						"name": "?",
+						"type": "varint"
+					},
+					{
+						"name": "?",
+						"type": "varint"
 					}
 				]
 			},
 
 			"container_open": {
-				"id": 49,
+				"id": 48,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1694,10 +1716,6 @@
 					{
 						"name": "type",
 						"type": "ubyte"
-					},
-					{
-						"name": "slot_count",
-						"type": "varint"
 					},
 					{
 						"name": "position",
@@ -1711,7 +1729,7 @@
 			},
 
 			"container_close": {
-				"id": 50,
+				"id": 49,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1723,7 +1741,7 @@
 			},
 
 			"container_set_slot": {
-				"id": 51,
+				"id": 50,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1751,7 +1769,7 @@
 			},
 
 			"container_set_data": {
-				"id": 52,
+				"id": 51,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1771,13 +1789,17 @@
 			},
 
 			"container_set_content": {
-				"id": 53,
+				"id": 52,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
 					{
 						"name": "window",
-						"type": "ubyte"
+						"type": "varuint"
+					},
+					{
+						"name": "entity_id",
+						"type": "varlong"
 					},
 					{
 						"name": "slots",
@@ -1785,13 +1807,14 @@
 					},
 					{
 						"name": "hotbar",
-						"type": "varint[]"
+						"type": "varint[]",
+						"when": "window==0"
 					}
 				]
 			},
 
 			"crafting_data": {
-				"id": 54,
+				"id": 53,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1803,7 +1826,7 @@
 			},
 
 			"crafting_event": {
-				"id": 55,
+				"id": 54,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1831,7 +1854,7 @@
 			},
 
 			"adventure_settings": {
-				"id": 56,
+				"id": 55,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1847,7 +1870,8 @@
 							"auto_jump": 32,
 							"allow_flight": 64,
 							"no_clip": 128,
-							"flying": 512
+							"flying": 512,
+							"muted": 1024
 						}
 					},
 					{
@@ -1865,7 +1889,7 @@
 			},
 
 			"block_entity_data": {
-				"id": 57,
+				"id": 56,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1881,7 +1905,7 @@
 			},
 
 			"player_input": {
-				"id": 58,
+				"id": 57,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -1901,7 +1925,7 @@
 			},
 
 			"full_chunk_data": {
-				"id": 59,
+				"id": 58,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1917,7 +1941,7 @@
 			},
 
 			"set_commands_enabled": {
-				"id": 60,
+				"id": 59,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1929,7 +1953,7 @@
 			},
 
 			"set_difficulty": {
-				"id": 61,
+				"id": 60,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1947,7 +1971,7 @@
 			},
 
 			"change_dimension": {
-				"id": 62,
+				"id": 61,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -1972,7 +1996,7 @@
 			},
 
 			"set_player_game_type": {
-				"id": 63,
+				"id": 62,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -1988,7 +2012,7 @@
 			},
 
 			"player_list": {
-				"id": 64,
+				"id": 63,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2022,8 +2046,17 @@
 				}
 			},
 
+			"simple_event": {
+				"id": 63,
+				"clientbound": true,
+				"serverbound": true,
+				"fields": [
+
+				]
+			},
+
 			"telemetry_event": {
-				"id": 65,
+				"id": 64,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2398,8 +2431,17 @@
 				]
 			},
 
-			"resource_pack_data_info": {
+			"update_equip": {
 				"id": 82,
+				"clientbound": true,
+				"serverbound": false,
+				"fields": [
+
+				]
+			},
+
+			"resource_pack_data_info": {
+				"id": 83,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2427,7 +2469,7 @@
 			},
 
 			"resource_pack_chunk_data": {
-				"id": 83,
+				"id": 84,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2451,7 +2493,7 @@
 			},
 
 			"resource_pack_chunk_request": {
-				"id": 84,
+				"id": 85,
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
@@ -2467,7 +2509,7 @@
 			},
 
 			"transfer": {
-				"id": 85,
+				"id": 86,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2484,7 +2526,7 @@
 			},
 
 			"play_sound": {
-				"id": 86,
+				"id": 87,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2508,7 +2550,7 @@
 			},
 
 			"stop_sound": {
-				"id": 87,
+				"id": 88,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2524,7 +2566,7 @@
 			},
 
 			"set_title": {
-				"id": 88,
+				"id": 89,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2556,6 +2598,24 @@
 						"name": "fade_out",
 						"type": "varint"
 					}
+				]
+			},
+
+			"add_behavior_tree": {
+				"id": 90,
+				"clientbound": true,
+				"serverbound": false,
+				"fields": [
+
+				]
+			},
+
+			"structure_block_update": {
+				"id": 91,
+				"clientbound": true,
+				"serverbound": false,
+				"fields": [
+
 				]
 			}
 

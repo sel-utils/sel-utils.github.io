@@ -9,12 +9,12 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Minecraft: Pocket Edition 105 | SEL Utils</title>
+		<title>Minecraft: Pocket Edition 110 | SEL Utils</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<meta name="theme-color" content="#1E2327" />
 		<meta name="description" content="Protocol used in Minecraft: Pocket Edition and variants. The network part of the protocol is managed by RakNet." />
 		<link rel="icon" type="image/png" href="../favicon.png" />
-		<link rel="canonical" href="https://sel-project.github.io/sel-utils/pocket/105.html" />
+		<link rel="canonical" href="https://sel-project.github.io/sel-utils/pocket/110.html" />
 		<link rel="stylesheet" href="../style.min.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css" />
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -23,16 +23,16 @@
 		<script src="https://platform.twitter.com/widgets.js"></script>
 	</head>
 	<body>
-		<div class="nav"><a href="../">Index</a>  <a href="https://github.com/sel-project/sel-utils/blob/master/README.md">About</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/TYPES.md">Types</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/CONTRIBUTING.md">Contribute</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/xml/protocol/pocket105.xml">XML</a>    <a href="https://github.com/sel-project/sel-utils">Github</a></div></div>
+		<div class="nav"><a href="../">Index</a>  <a href="https://github.com/sel-project/sel-utils/blob/master/README.md">About</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/TYPES.md">Types</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/CONTRIBUTING.md">Contribute</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/xml/protocol/pocket110.xml">XML</a>    <a href="https://github.com/sel-project/sel-utils">Github</a></div></div>
 </div>
 		<div class="logo" onclick="if(document.body.classList.contains('dark')){document.body.classList.remove('dark');}else{document.body.classList.add('dark');}"></div>
-		<h1>Minecraft: Pocket Edition 105</h1>
+		<h1>Minecraft: Pocket Edition 110</h1>
 		<a href="https://twitter.com/__selproject" class="twitter-follow-button" data-lang="en" data-show-count="true">Follow @__selproject</a>
 		<div style="height:4px"></div>
 		<div class="g-plusone" data-size="medium"></div>
 		<p><strong>Jump to</strong>: <a href="#encoding">Encoding</a>, <a href="#packets">Packets</a>, <a href="#types">Types</a>, <a href="#arrays">Arrays</a>, <a href="#metadata">Metadata</a>, <a href="#attributes">Attributes</a></p>
-		<p><strong>Released</strong>: March 28th, 2017</p>
-		<p>Used from version <strong>1.0.5</strong> to <strong>1.0.6</strong></p>
+		<p><strong>Released</strong>: April 1st, 2017</p>
+		<p>In use since version <strong>1.1.0</strong></p>
 		<p>Protocol used in Minecraft: Pocket Edition and variants. The network part of the protocol is managed by <a href="../raknet/8.html" target="_blank">RakNet</a>.</p>
 		<h4>Login sequence</h4>
 		<ul>
@@ -75,7 +75,7 @@
 			</tr>
 			<tr>
 				<td><a href="#play">Play</a></td>
-				<td class="center">88</td>
+				<td class="center">91</td>
 			</tr>
 		</table>
 		<h3 id="play">Play</h3>
@@ -118,362 +118,362 @@
 				<td class="center"></td>
 			</tr>
 			<tr>
-				<td><a href="#play_batch">Batch</a></td>
-				<td class="center">6</td>
-				<td class="center">✓</td>
-				<td class="center">✓</td>
-			</tr>
-			<tr>
 				<td><a href="#play_resource-packs-info">Resource Packs Info</a></td>
-				<td class="center">7</td>
+				<td class="center">6</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_resource-packs-stack-packet">Resource Packs Stack Packet</a></td>
-				<td class="center">8</td>
+				<td class="center">7</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_resource-pack-client-response">Resource Pack Client Response</a></td>
-				<td class="center">9</td>
+				<td class="center">8</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_text">Text</a></td>
-				<td class="center">10</td>
+				<td class="center">9</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-time">Set Time</a></td>
-				<td class="center">11</td>
+				<td class="center">10</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_start-game">Start Game</a></td>
-				<td class="center">12</td>
+				<td class="center">11</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_add-player">Add Player</a></td>
-				<td class="center">13</td>
+				<td class="center">12</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_add-entity">Add Entity</a></td>
-				<td class="center">14</td>
+				<td class="center">13</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_remove-entity">Remove Entity</a></td>
-				<td class="center">15</td>
+				<td class="center">14</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_add-item-entity">Add Item Entity</a></td>
-				<td class="center">16</td>
+				<td class="center">15</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_add-hanging-entity">Add Hanging Entity</a></td>
-				<td class="center">17</td>
+				<td class="center">16</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_take-item-entity">Take Item Entity</a></td>
-				<td class="center">18</td>
+				<td class="center">17</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_move-entity">Move Entity</a></td>
-				<td class="center">19</td>
+				<td class="center">18</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_move-player">Move Player</a></td>
-				<td class="center">20</td>
+				<td class="center">19</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_rider-jump">Rider Jump</a></td>
-				<td class="center">21</td>
+				<td class="center">20</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_remove-block">Remove Block</a></td>
-				<td class="center">22</td>
+				<td class="center">21</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_update-block">Update Block</a></td>
-				<td class="center">23</td>
+				<td class="center">22</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_add-painting">Add Painting</a></td>
-				<td class="center">24</td>
+				<td class="center">23</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_explode">Explode</a></td>
-				<td class="center">25</td>
+				<td class="center">24</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_level-sound-event">Level Sound Event</a></td>
-				<td class="center">26</td>
+				<td class="center">25</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_level-event">Level Event</a></td>
-				<td class="center">27</td>
+				<td class="center">26</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_block-event">Block Event</a></td>
-				<td class="center">28</td>
+				<td class="center">27</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_entity-event">Entity Event</a></td>
-				<td class="center">29</td>
+				<td class="center">28</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_mob-effect">Mob Effect</a></td>
-				<td class="center">30</td>
+				<td class="center">29</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_update-attributes">Update Attributes</a></td>
-				<td class="center">31</td>
+				<td class="center">30</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_mob-equipment">Mob Equipment</a></td>
-				<td class="center">32</td>
+				<td class="center">31</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_mob-armor-equipment">Mob Armor Equipment</a></td>
-				<td class="center">33</td>
+				<td class="center">32</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_interact">Interact</a></td>
-				<td class="center">34</td>
+				<td class="center">33</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_block-pick-request">Block Pick Request</a></td>
-				<td class="center">35</td>
+				<td class="center">34</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_use-item">Use Item</a></td>
-				<td class="center">36</td>
+				<td class="center">35</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_player-action">Player Action</a></td>
+				<td class="center">36</td>
+				<td class="center"></td>
+				<td class="center">✓</td>
+			</tr>
+			<tr>
+				<td><a href="#play_entity-fall">Entity Fall</a></td>
 				<td class="center">37</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
-				<td><a href="#play_player-fall">Player Fall</a></td>
-				<td class="center">38</td>
-				<td class="center"></td>
-				<td class="center">✓</td>
-			</tr>
-			<tr>
 				<td><a href="#play_hurt-armor">Hurt Armor</a></td>
-				<td class="center">39</td>
+				<td class="center">38</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-entity-data">Set Entity Data</a></td>
-				<td class="center">40</td>
+				<td class="center">39</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-entity-motion">Set Entity Motion</a></td>
-				<td class="center">41</td>
+				<td class="center">40</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-entity-link">Set Entity Link</a></td>
-				<td class="center">42</td>
+				<td class="center">41</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-health">Set Health</a></td>
-				<td class="center">43</td>
+				<td class="center">42</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-spawn-position">Set Spawn Position</a></td>
-				<td class="center">44</td>
+				<td class="center">43</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_animate">Animate</a></td>
-				<td class="center">45</td>
+				<td class="center">44</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_respawn">Respawn</a></td>
-				<td class="center">46</td>
+				<td class="center">45</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_drop-item">Drop Item</a></td>
-				<td class="center">47</td>
+				<td class="center">46</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_inventory-action">Inventory Action</a></td>
-				<td class="center">48</td>
+				<td class="center">47</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_container-open">Container Open</a></td>
-				<td class="center">49</td>
+				<td class="center">48</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_container-close">Container Close</a></td>
-				<td class="center">50</td>
+				<td class="center">49</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_container-set-slot">Container Set Slot</a></td>
-				<td class="center">51</td>
+				<td class="center">50</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_container-set-data">Container Set Data</a></td>
-				<td class="center">52</td>
+				<td class="center">51</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_container-set-content">Container Set Content</a></td>
-				<td class="center">53</td>
+				<td class="center">52</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_crafting-data">Crafting Data</a></td>
-				<td class="center">54</td>
+				<td class="center">53</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_crafting-event">Crafting Event</a></td>
-				<td class="center">55</td>
+				<td class="center">54</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_adventure-settings">Adventure Settings</a></td>
-				<td class="center">56</td>
+				<td class="center">55</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_block-entity-data">Block Entity Data</a></td>
-				<td class="center">57</td>
+				<td class="center">56</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_player-input">Player Input</a></td>
-				<td class="center">58</td>
+				<td class="center">57</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_full-chunk-data">Full Chunk Data</a></td>
-				<td class="center">59</td>
+				<td class="center">58</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-commands-enabled">Set Commands Enabled</a></td>
-				<td class="center">60</td>
+				<td class="center">59</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-difficulty">Set Difficulty</a></td>
-				<td class="center">61</td>
+				<td class="center">60</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_change-dimension">Change Dimension</a></td>
-				<td class="center">62</td>
+				<td class="center">61</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
 				<td><a href="#play_set-player-game-type">Set Player Game Type</a></td>
-				<td class="center">63</td>
+				<td class="center">62</td>
 				<td class="center">✓</td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_player-list">Player List</a></td>
-				<td class="center">64</td>
+				<td class="center">63</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
+				<td><a href="#play_simple-event">Simple Event</a></td>
+				<td class="center">63</td>
+				<td class="center">✓</td>
+				<td class="center">✓</td>
+			</tr>
+			<tr>
 				<td><a href="#play_telemetry-event">Telemetry Event</a></td>
-				<td class="center">65</td>
+				<td class="center">64</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
@@ -574,44 +574,62 @@
 				<td class="center"></td>
 			</tr>
 			<tr>
-				<td><a href="#play_resource-pack-data-info">Resource Pack Data Info</a></td>
+				<td><a href="#play_update-equip">Update Equip</a></td>
 				<td class="center">82</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
-				<td><a href="#play_resource-pack-chunk-data">Resource Pack Chunk Data</a></td>
+				<td><a href="#play_resource-pack-data-info">Resource Pack Data Info</a></td>
 				<td class="center">83</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
-				<td><a href="#play_resource-pack-chunk-request">Resource Pack Chunk Request</a></td>
+				<td><a href="#play_resource-pack-chunk-data">Resource Pack Chunk Data</a></td>
 				<td class="center">84</td>
+				<td class="center">✓</td>
+				<td class="center"></td>
+			</tr>
+			<tr>
+				<td><a href="#play_resource-pack-chunk-request">Resource Pack Chunk Request</a></td>
+				<td class="center">85</td>
 				<td class="center"></td>
 				<td class="center">✓</td>
 			</tr>
 			<tr>
 				<td><a href="#play_transfer">Transfer</a></td>
-				<td class="center">85</td>
-				<td class="center">✓</td>
-				<td class="center"></td>
-			</tr>
-			<tr>
-				<td><a href="#play_play-sound">Play Sound</a></td>
 				<td class="center">86</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
-				<td><a href="#play_stop-sound">Stop Sound</a></td>
+				<td><a href="#play_play-sound">Play Sound</a></td>
 				<td class="center">87</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
 			<tr>
-				<td><a href="#play_set-title">Set Title</a></td>
+				<td><a href="#play_stop-sound">Stop Sound</a></td>
 				<td class="center">88</td>
+				<td class="center">✓</td>
+				<td class="center"></td>
+			</tr>
+			<tr>
+				<td><a href="#play_set-title">Set Title</a></td>
+				<td class="center">89</td>
+				<td class="center">✓</td>
+				<td class="center"></td>
+			</tr>
+			<tr>
+				<td><a href="#play_add-behavior-tree">Add Behavior Tree</a></td>
+				<td class="center">90</td>
+				<td class="center">✓</td>
+				<td class="center"></td>
+			</tr>
+			<tr>
+				<td><a href="#play_structure-block-update">Structure Block Update</a></td>
+				<td class="center">91</td>
 				<td class="center">✓</td>
 				<td class="center"></td>
 			</tr>
@@ -724,8 +742,13 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td id="play_play-status_status_edition-mismatch">edition mismatch</td>
+								<td id="play_play-status_status_edu-required">edu required</td>
 								<td class="center">5</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="play_play-status_status_vanilla-required">vanilla required</td>
+								<td class="center">6</td>
 								<td></td>
 							</tr>
 						</table>
@@ -804,61 +827,11 @@
 				</ul>
 			</li>
 			<li>
-				<h3 id="play_batch">Batch</h3>
+				<h3 id="play_resource-packs-info">Resource Packs Info</h3>
 				<div class="desc">
 					<p><strong>Id</strong>: 6</p>
 					<p><strong>Hex</strong>: 06</p>
 					<p><strong>Bin</strong>: 00000110</p>
-					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
-				</div>
-				<p>One ore more packet, each prefixed with their varuint-encoded length, compressed with zlib's deflate algorithm.</p>
-				<p><strong>Fields</strong>:</p>
-				<table>
-					<tr>
-						<th>Name</th>
-						<th>Type</th>
-					</tr>
-					<tr>
-						<td><a href="#play_batch_data">data</a></td>
-						<td>ubyte[]</td>
-					</tr>
-				</table>
-				<ul>
-					<li>
-						<strong id="play_batch_data">data</strong>
-						<p>Compressed data.</p>
-						<p>Pseudo-code for decompression:</p>
-						<pre>
-							<code class="c">ubyte[] uncompressed = uncompress(batch.payload);
-int index = 0;
-while(index < uncompressed.length) {
-   int length = varuint.decode(uncompressed, &index);
-   if(length < uncompressed.length - index) {}
-      ubyte[] packet = uncompressed[0..length];
-      index += length;
-   }
-}
-</code>
-						</pre>
-						<p>Pseudo-code for compression:</p>
-						<pre>
-							<code class="c">ubyte[] payload;
-foreach(ubyte[] packet ; packets) {
-   payload.concat(varuint.encode(packet.length));
-   payload.concat(packet);
-}
-Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
-</code>
-						</pre>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<h3 id="play_resource-packs-info">Resource Packs Info</h3>
-				<div class="desc">
-					<p><strong>Id</strong>: 7</p>
-					<p><strong>Hex</strong>: 07</p>
-					<p><strong>Bin</strong>: 00000111</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -884,9 +857,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_resource-packs-stack-packet">Resource Packs Stack Packet</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 8</p>
-					<p><strong>Hex</strong>: 08</p>
-					<p><strong>Bin</strong>: 00001000</p>
+					<p><strong>Id</strong>: 7</p>
+					<p><strong>Hex</strong>: 07</p>
+					<p><strong>Bin</strong>: 00000111</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -912,9 +885,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_resource-pack-client-response">Resource Pack Client Response</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 9</p>
-					<p><strong>Hex</strong>: 09</p>
-					<p><strong>Bin</strong>: 00001001</p>
+					<p><strong>Id</strong>: 8</p>
+					<p><strong>Hex</strong>: 08</p>
+					<p><strong>Bin</strong>: 00001000</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -961,9 +934,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_text">Text</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 10</p>
-					<p><strong>Hex</strong>: 0A</p>
-					<p><strong>Bin</strong>: 00001010</p>
+					<p><strong>Id</strong>: 9</p>
+					<p><strong>Hex</strong>: 09</p>
+					<p><strong>Bin</strong>: 00001001</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p>Sends or receives a message from the player. Every variant's field can contain Minecraft's formatting codes.</p>
@@ -1168,9 +1141,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-time">Set Time</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 11</p>
-					<p><strong>Hex</strong>: 0B</p>
-					<p><strong>Bin</strong>: 00001011</p>
+					<p><strong>Id</strong>: 10</p>
+					<p><strong>Hex</strong>: 0A</p>
+					<p><strong>Bin</strong>: 00001010</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Sets the <a href="http://minecraft.gamepedia.com/Day-night_cycle" target="_blank">time</a>.</p>
@@ -1203,9 +1176,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_start-game">Start Game</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 12</p>
-					<p><strong>Hex</strong>: 0C</p>
-					<p><strong>Bin</strong>: 00001100</p>
+					<p><strong>Id</strong>: 11</p>
+					<p><strong>Hex</strong>: 0B</p>
+					<p><strong>Bin</strong>: 00001011</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1452,9 +1425,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_add-player">Add Player</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 13</p>
-					<p><strong>Hex</strong>: 0D</p>
-					<p><strong>Bin</strong>: 00001101</p>
+					<p><strong>Id</strong>: 12</p>
+					<p><strong>Hex</strong>: 0C</p>
+					<p><strong>Bin</strong>: 00001100</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Spawns a player after adding it to the player's list using <a href="#play_player-list">PlayerList</a>. If <a href="#play_player-list">PlayerList</a> is sent after this packet the player will appear to have the same skin as the player who receives this packet.</p>
@@ -1524,9 +1497,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_add-entity">Add Entity</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 14</p>
-					<p><strong>Hex</strong>: 0E</p>
-					<p><strong>Bin</strong>: 00001110</p>
+					<p><strong>Id</strong>: 13</p>
+					<p><strong>Hex</strong>: 0D</p>
+					<p><strong>Bin</strong>: 00001101</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1580,9 +1553,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_remove-entity">Remove Entity</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 15</p>
-					<p><strong>Hex</strong>: 0F</p>
-					<p><strong>Bin</strong>: 00001111</p>
+					<p><strong>Id</strong>: 14</p>
+					<p><strong>Hex</strong>: 0E</p>
+					<p><strong>Bin</strong>: 00001110</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Despawns an entity or a player.</p>
@@ -1601,9 +1574,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_add-item-entity">Add Item Entity</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 16</p>
-					<p><strong>Hex</strong>: 10</p>
-					<p><strong>Bin</strong>: 00010000</p>
+					<p><strong>Id</strong>: 15</p>
+					<p><strong>Hex</strong>: 0F</p>
+					<p><strong>Bin</strong>: 00001111</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Spawns a dropped item.</p>
@@ -1638,9 +1611,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_add-hanging-entity">Add Hanging Entity</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 17</p>
-					<p><strong>Hex</strong>: 11</p>
-					<p><strong>Bin</strong>: 00010001</p>
+					<p><strong>Id</strong>: 16</p>
+					<p><strong>Hex</strong>: 10</p>
+					<p><strong>Bin</strong>: 00010000</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1670,9 +1643,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_take-item-entity">Take Item Entity</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 18</p>
-					<p><strong>Hex</strong>: 12</p>
-					<p><strong>Bin</strong>: 00010010</p>
+					<p><strong>Id</strong>: 17</p>
+					<p><strong>Hex</strong>: 11</p>
+					<p><strong>Bin</strong>: 00010001</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Plays the collection animation and despawns the entity that has been collected.</p>
@@ -1705,9 +1678,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_move-entity">Move Entity</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 19</p>
-					<p><strong>Hex</strong>: 13</p>
-					<p><strong>Bin</strong>: 00010011</p>
+					<p><strong>Id</strong>: 18</p>
+					<p><strong>Hex</strong>: 12</p>
+					<p><strong>Bin</strong>: 00010010</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1741,9 +1714,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_move-player">Move Player</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 20</p>
-					<p><strong>Hex</strong>: 14</p>
-					<p><strong>Bin</strong>: 00010100</p>
+					<p><strong>Id</strong>: 19</p>
+					<p><strong>Hex</strong>: 13</p>
+					<p><strong>Bin</strong>: 00010011</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1806,9 +1779,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_rider-jump">Rider Jump</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 21</p>
-					<p><strong>Hex</strong>: 15</p>
-					<p><strong>Bin</strong>: 00010101</p>
+					<p><strong>Id</strong>: 20</p>
+					<p><strong>Hex</strong>: 14</p>
+					<p><strong>Bin</strong>: 00010100</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1826,9 +1799,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_remove-block">Remove Block</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 22</p>
-					<p><strong>Hex</strong>: 16</p>
-					<p><strong>Bin</strong>: 00010110</p>
+					<p><strong>Id</strong>: 21</p>
+					<p><strong>Hex</strong>: 15</p>
+					<p><strong>Bin</strong>: 00010101</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p>Instantly removes a block, either because the player is in creative mode or because the target block's hardness is 0 or lower (after all enchantments are applied).</p>
@@ -1847,9 +1820,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_update-block">Update Block</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 23</p>
-					<p><strong>Hex</strong>: 17</p>
-					<p><strong>Bin</strong>: 00010111</p>
+					<p><strong>Id</strong>: 22</p>
+					<p><strong>Hex</strong>: 16</p>
+					<p><strong>Bin</strong>: 00010110</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1900,9 +1873,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_add-painting">Add Painting</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 24</p>
-					<p><strong>Hex</strong>: 18</p>
-					<p><strong>Bin</strong>: 00011000</p>
+					<p><strong>Id</strong>: 23</p>
+					<p><strong>Hex</strong>: 17</p>
+					<p><strong>Bin</strong>: 00010111</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Spawns a painting entity in the world.</p>
@@ -1937,9 +1910,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_explode">Explode</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 25</p>
-					<p><strong>Hex</strong>: 19</p>
-					<p><strong>Bin</strong>: 00011001</p>
+					<p><strong>Id</strong>: 24</p>
+					<p><strong>Hex</strong>: 18</p>
+					<p><strong>Bin</strong>: 00011000</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -1965,9 +1938,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_level-sound-event">Level Sound Event</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 26</p>
-					<p><strong>Hex</strong>: 1A</p>
-					<p><strong>Bin</strong>: 00011010</p>
+					<p><strong>Id</strong>: 25</p>
+					<p><strong>Hex</strong>: 19</p>
+					<p><strong>Bin</strong>: 00011001</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p>Plays a sound at a certain position.</p>
@@ -2399,9 +2372,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_level-event">Level Event</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 27</p>
-					<p><strong>Hex</strong>: 1B</p>
-					<p><strong>Bin</strong>: 00011011</p>
+					<p><strong>Id</strong>: 26</p>
+					<p><strong>Hex</strong>: 1A</p>
+					<p><strong>Bin</strong>: 00011010</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -2628,9 +2601,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_block-event">Block Event</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 28</p>
-					<p><strong>Hex</strong>: 1C</p>
-					<p><strong>Bin</strong>: 00011100</p>
+					<p><strong>Id</strong>: 27</p>
+					<p><strong>Hex</strong>: 1B</p>
+					<p><strong>Bin</strong>: 00011011</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -2652,9 +2625,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_entity-event">Entity Event</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 29</p>
-					<p><strong>Hex</strong>: 1D</p>
-					<p><strong>Bin</strong>: 00011101</p>
+					<p><strong>Id</strong>: 28</p>
+					<p><strong>Hex</strong>: 1C</p>
+					<p><strong>Bin</strong>: 00011100</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -2745,9 +2718,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_mob-effect">Mob Effect</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 30</p>
-					<p><strong>Hex</strong>: 1E</p>
-					<p><strong>Bin</strong>: 00011110</p>
+					<p><strong>Id</strong>: 29</p>
+					<p><strong>Hex</strong>: 1D</p>
+					<p><strong>Bin</strong>: 00011101</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -2806,9 +2779,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_update-attributes">Update Attributes</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 31</p>
-					<p><strong>Hex</strong>: 1F</p>
-					<p><strong>Bin</strong>: 00011111</p>
+					<p><strong>Id</strong>: 30</p>
+					<p><strong>Hex</strong>: 1E</p>
+					<p><strong>Bin</strong>: 00011110</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Updates an entity's attributes. This packet should be used when a value must be modified but it cannot be done using another packet (for example controlling the player's experience and level).</p>
@@ -2831,9 +2804,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_mob-equipment">Mob Equipment</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 32</p>
-					<p><strong>Hex</strong>: 20</p>
-					<p><strong>Bin</strong>: 00100000</p>
+					<p><strong>Id</strong>: 31</p>
+					<p><strong>Hex</strong>: 1F</p>
+					<p><strong>Bin</strong>: 00011111</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p>Sent when the client puts an item in its hotbar or selects a new hotbar slot.</p>
@@ -2878,9 +2851,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_mob-armor-equipment">Mob Armor Equipment</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 33</p>
-					<p><strong>Hex</strong>: 21</p>
-					<p><strong>Bin</strong>: 00100001</p>
+					<p><strong>Id</strong>: 32</p>
+					<p><strong>Hex</strong>: 20</p>
+					<p><strong>Bin</strong>: 00100000</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -2902,9 +2875,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_interact">Interact</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 34</p>
-					<p><strong>Hex</strong>: 22</p>
-					<p><strong>Bin</strong>: 00100010</p>
+					<p><strong>Id</strong>: 33</p>
+					<p><strong>Hex</strong>: 21</p>
+					<p><strong>Bin</strong>: 00100001</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -2951,9 +2924,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_block-pick-request">Block Pick Request</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 35</p>
-					<p><strong>Hex</strong>: 23</p>
-					<p><strong>Bin</strong>: 00100011</p>
+					<p><strong>Id</strong>: 34</p>
+					<p><strong>Hex</strong>: 22</p>
+					<p><strong>Bin</strong>: 00100010</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -2975,9 +2948,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_use-item">Use Item</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 36</p>
-					<p><strong>Hex</strong>: 24</p>
-					<p><strong>Bin</strong>: 00100100</p>
+					<p><strong>Id</strong>: 35</p>
+					<p><strong>Hex</strong>: 23</p>
+					<p><strong>Bin</strong>: 00100011</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3019,9 +2992,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_player-action">Player Action</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 37</p>
-					<p><strong>Hex</strong>: 25</p>
-					<p><strong>Bin</strong>: 00100101</p>
+					<p><strong>Id</strong>: 36</p>
+					<p><strong>Hex</strong>: 24</p>
+					<p><strong>Bin</strong>: 00100100</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3110,11 +3083,11 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 				</ul>
 			</li>
 			<li>
-				<h3 id="play_player-fall">Player Fall</h3>
+				<h3 id="play_entity-fall">Entity Fall</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 38</p>
-					<p><strong>Hex</strong>: 26</p>
-					<p><strong>Bin</strong>: 00100110</p>
+					<p><strong>Id</strong>: 37</p>
+					<p><strong>Hex</strong>: 25</p>
+					<p><strong>Bin</strong>: 00100101</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p>Sent by the player when it falls from a distance that causes damage, that can be influenced by its armour and its effects.</p>
@@ -3125,13 +3098,21 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 						<th>Type</th>
 					</tr>
 					<tr>
-						<td><a href="#play_player-fall_distance">distance</a></td>
+						<td>entity id</td>
+						<td>varlong</td>
+					</tr>
+					<tr>
+						<td><a href="#play_entity-fall_distance">distance</a></td>
 						<td>float</td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>bool</td>
 					</tr>
 				</table>
 				<ul>
 					<li>
-						<strong id="play_player-fall_distance">distance</strong>
+						<strong id="play_entity-fall_distance">distance</strong>
 						<p>Number of blocks the player has been in free falling before hitting the ground.</p>
 					</li>
 				</ul>
@@ -3139,9 +3120,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_hurt-armor">Hurt Armor</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 39</p>
-					<p><strong>Hex</strong>: 27</p>
-					<p><strong>Bin</strong>: 00100111</p>
+					<p><strong>Id</strong>: 38</p>
+					<p><strong>Hex</strong>: 26</p>
+					<p><strong>Bin</strong>: 00100110</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3159,9 +3140,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-entity-data">Set Entity Data</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 40</p>
-					<p><strong>Hex</strong>: 28</p>
-					<p><strong>Bin</strong>: 00101000</p>
+					<p><strong>Id</strong>: 39</p>
+					<p><strong>Hex</strong>: 27</p>
+					<p><strong>Bin</strong>: 00100111</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Updates an entity's metadata.</p>
@@ -3184,9 +3165,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-entity-motion">Set Entity Motion</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 41</p>
-					<p><strong>Hex</strong>: 29</p>
-					<p><strong>Bin</strong>: 00101001</p>
+					<p><strong>Id</strong>: 40</p>
+					<p><strong>Hex</strong>: 28</p>
+					<p><strong>Bin</strong>: 00101000</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Updates an entity's motion.</p>
@@ -3219,9 +3200,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-entity-link">Set Entity Link</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 42</p>
-					<p><strong>Hex</strong>: 2A</p>
-					<p><strong>Bin</strong>: 00101010</p>
+					<p><strong>Id</strong>: 41</p>
+					<p><strong>Hex</strong>: 29</p>
+					<p><strong>Bin</strong>: 00101001</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3268,9 +3249,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-health">Set Health</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 43</p>
-					<p><strong>Hex</strong>: 2B</p>
-					<p><strong>Bin</strong>: 00101011</p>
+					<p><strong>Id</strong>: 42</p>
+					<p><strong>Hex</strong>: 2A</p>
+					<p><strong>Bin</strong>: 00101010</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3288,9 +3269,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-spawn-position">Set Spawn Position</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 44</p>
-					<p><strong>Hex</strong>: 2C</p>
-					<p><strong>Bin</strong>: 00101100</p>
+					<p><strong>Id</strong>: 43</p>
+					<p><strong>Hex</strong>: 2B</p>
+					<p><strong>Bin</strong>: 00101011</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3316,9 +3297,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_animate">Animate</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 45</p>
-					<p><strong>Hex</strong>: 2D</p>
-					<p><strong>Bin</strong>: 00101101</p>
+					<p><strong>Id</strong>: 44</p>
+					<p><strong>Hex</strong>: 2C</p>
+					<p><strong>Bin</strong>: 00101100</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3357,9 +3338,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_respawn">Respawn</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 46</p>
-					<p><strong>Hex</strong>: 2E</p>
-					<p><strong>Bin</strong>: 00101110</p>
+					<p><strong>Id</strong>: 45</p>
+					<p><strong>Hex</strong>: 2D</p>
+					<p><strong>Bin</strong>: 00101101</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3377,9 +3358,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_drop-item">Drop Item</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 47</p>
-					<p><strong>Hex</strong>: 2F</p>
-					<p><strong>Bin</strong>: 00101111</p>
+					<p><strong>Id</strong>: 46</p>
+					<p><strong>Hex</strong>: 2E</p>
+					<p><strong>Bin</strong>: 00101110</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3414,9 +3395,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_inventory-action">Inventory Action</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 48</p>
-					<p><strong>Hex</strong>: 30</p>
-					<p><strong>Bin</strong>: 00110000</p>
+					<p><strong>Id</strong>: 47</p>
+					<p><strong>Hex</strong>: 2F</p>
+					<p><strong>Bin</strong>: 00101111</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3433,14 +3414,22 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 						<td>item</td>
 						<td><a href="#types_slot">slot</a></td>
 					</tr>
+					<tr>
+						<td>?</td>
+						<td>varint</td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>varint</td>
+					</tr>
 				</table>
 			</li>
 			<li>
 				<h3 id="play_container-open">Container Open</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 49</p>
-					<p><strong>Hex</strong>: 31</p>
-					<p><strong>Bin</strong>: 00110001</p>
+					<p><strong>Id</strong>: 48</p>
+					<p><strong>Hex</strong>: 30</p>
+					<p><strong>Bin</strong>: 00110000</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3458,10 +3447,6 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 						<td>ubyte</td>
 					</tr>
 					<tr>
-						<td>slot count</td>
-						<td>varint</td>
-					</tr>
-					<tr>
 						<td>position</td>
 						<td><a href="#types_block-position">blockPosition</a></td>
 					</tr>
@@ -3474,9 +3459,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_container-close">Container Close</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 50</p>
-					<p><strong>Hex</strong>: 32</p>
-					<p><strong>Bin</strong>: 00110010</p>
+					<p><strong>Id</strong>: 49</p>
+					<p><strong>Hex</strong>: 31</p>
+					<p><strong>Bin</strong>: 00110001</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3494,9 +3479,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_container-set-slot">Container Set Slot</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 51</p>
-					<p><strong>Hex</strong>: 33</p>
-					<p><strong>Bin</strong>: 00110011</p>
+					<p><strong>Id</strong>: 50</p>
+					<p><strong>Hex</strong>: 32</p>
+					<p><strong>Bin</strong>: 00110010</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3530,9 +3515,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_container-set-data">Container Set Data</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 52</p>
-					<p><strong>Hex</strong>: 34</p>
-					<p><strong>Bin</strong>: 00110100</p>
+					<p><strong>Id</strong>: 51</p>
+					<p><strong>Hex</strong>: 33</p>
+					<p><strong>Bin</strong>: 00110011</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3558,9 +3543,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_container-set-content">Container Set Content</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 53</p>
-					<p><strong>Hex</strong>: 35</p>
-					<p><strong>Bin</strong>: 00110101</p>
+					<p><strong>Id</strong>: 52</p>
+					<p><strong>Hex</strong>: 34</p>
+					<p><strong>Bin</strong>: 00110100</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3568,27 +3553,36 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 					<tr>
 						<th>Name</th>
 						<th>Type</th>
+						<th>When</th>
 					</tr>
 					<tr>
 						<td>window</td>
-						<td>ubyte</td>
+						<td>varuint</td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>entity id</td>
+						<td>varlong</td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>slots</td>
 						<td><a href="#types_slot">slot</a>[]</td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>hotbar</td>
 						<td>varint[]</td>
+						<td class="center"><code>window</code> is equal to <code>0</code></td>
 					</tr>
 				</table>
 			</li>
 			<li>
 				<h3 id="play_crafting-data">Crafting Data</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 54</p>
-					<p><strong>Hex</strong>: 36</p>
-					<p><strong>Bin</strong>: 00110110</p>
+					<p><strong>Id</strong>: 53</p>
+					<p><strong>Hex</strong>: 35</p>
+					<p><strong>Bin</strong>: 00110101</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3606,9 +3600,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_crafting-event">Crafting Event</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 55</p>
-					<p><strong>Hex</strong>: 37</p>
-					<p><strong>Bin</strong>: 00110111</p>
+					<p><strong>Id</strong>: 54</p>
+					<p><strong>Hex</strong>: 36</p>
+					<p><strong>Bin</strong>: 00110110</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3642,9 +3636,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_adventure-settings">Adventure Settings</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 56</p>
-					<p><strong>Hex</strong>: 38</p>
-					<p><strong>Bin</strong>: 00111000</p>
+					<p><strong>Id</strong>: 55</p>
+					<p><strong>Hex</strong>: 37</p>
+					<p><strong>Bin</strong>: 00110111</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p>Updates the world's settings and client's permissions.</p>
@@ -3705,6 +3699,10 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 								<td id="play_adventure-settings_flags_flying">flying</td>
 								<td class="center">512</td>
 							</tr>
+							<tr>
+								<td id="play_adventure-settings_flags_muted">muted</td>
+								<td class="center">1024</td>
+							</tr>
 						</table>
 					</li>
 					<li>
@@ -3739,9 +3737,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_block-entity-data">Block Entity Data</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 57</p>
-					<p><strong>Hex</strong>: 39</p>
-					<p><strong>Bin</strong>: 00111001</p>
+					<p><strong>Id</strong>: 56</p>
+					<p><strong>Hex</strong>: 38</p>
+					<p><strong>Bin</strong>: 00111000</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Sets a block entity's nbt tag, block's additional data that cannot be indicated in the block's meta. More informations about block entities and their tag format can be found on <a href="http://minecraft.gamepedia.com/Block_entity" target="_blank">Minecraft Wiki</a>.</p>
@@ -3779,9 +3777,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_player-input">Player Input</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 58</p>
-					<p><strong>Hex</strong>: 3A</p>
-					<p><strong>Bin</strong>: 00111010</p>
+					<p><strong>Id</strong>: 57</p>
+					<p><strong>Hex</strong>: 39</p>
+					<p><strong>Bin</strong>: 00111001</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3807,9 +3805,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_full-chunk-data">Full Chunk Data</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 59</p>
-					<p><strong>Hex</strong>: 3B</p>
-					<p><strong>Bin</strong>: 00111011</p>
+					<p><strong>Id</strong>: 58</p>
+					<p><strong>Hex</strong>: 3A</p>
+					<p><strong>Bin</strong>: 00111010</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Sends a 16x16 chunk to the client with its blocks, lights and block entities (tiles).</p>
@@ -3838,9 +3836,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-commands-enabled">Set Commands Enabled</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 60</p>
-					<p><strong>Hex</strong>: 3C</p>
-					<p><strong>Bin</strong>: 00111100</p>
+					<p><strong>Id</strong>: 59</p>
+					<p><strong>Hex</strong>: 3B</p>
+					<p><strong>Bin</strong>: 00111011</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Indicates whether the cheats are enabled. If not the client cannot send commands.</p>
@@ -3859,9 +3857,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-difficulty">Set Difficulty</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 61</p>
-					<p><strong>Hex</strong>: 3D</p>
-					<p><strong>Bin</strong>: 00111101</p>
+					<p><strong>Id</strong>: 60</p>
+					<p><strong>Hex</strong>: 3C</p>
+					<p><strong>Bin</strong>: 00111100</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Sets the world's difficulty.</p>
@@ -3905,9 +3903,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_change-dimension">Change Dimension</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 62</p>
-					<p><strong>Hex</strong>: 3E</p>
-					<p><strong>Bin</strong>: 00111110</p>
+					<p><strong>Id</strong>: 61</p>
+					<p><strong>Hex</strong>: 3D</p>
+					<p><strong>Bin</strong>: 00111101</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -3954,9 +3952,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-player-game-type">Set Player Game Type</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 63</p>
-					<p><strong>Hex</strong>: 3F</p>
-					<p><strong>Bin</strong>: 00111111</p>
+					<p><strong>Id</strong>: 62</p>
+					<p><strong>Hex</strong>: 3E</p>
+					<p><strong>Bin</strong>: 00111110</p>
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p>Sets the player's gamemode. This packet is sent by the player when it has the operator status (set in <a href="#play_adventure-settings_permissions">AdventureSettings.permissions</a>) and it changes the gamemode in the settings screen.</p>
@@ -3992,9 +3990,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_player-list">Player List</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 64</p>
-					<p><strong>Hex</strong>: 40</p>
-					<p><strong>Bin</strong>: 01000000</p>
+					<p><strong>Id</strong>: 63</p>
+					<p><strong>Hex</strong>: 3F</p>
+					<p><strong>Bin</strong>: 00111111</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Adds or removes a player from the player's list displayed in the pause menu. This packet should be sent before spawning a player with <a href="#play_add-player">AddPlayer</a>, otherwise the skin is not applied.</p>
@@ -4059,11 +4057,20 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 				</ul>
 			</li>
 			<li>
+				<h3 id="play_simple-event">Simple Event</h3>
+				<div class="desc">
+					<p><strong>Id</strong>: 63</p>
+					<p><strong>Hex</strong>: 3F</p>
+					<p><strong>Bin</strong>: 00111111</p>
+					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
+				</div>
+			</li>
+			<li>
 				<h3 id="play_telemetry-event">Telemetry Event</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 65</p>
-					<p><strong>Hex</strong>: 41</p>
-					<p><strong>Bin</strong>: 01000001</p>
+					<p><strong>Id</strong>: 64</p>
+					<p><strong>Hex</strong>: 40</p>
+					<p><strong>Bin</strong>: 01000000</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -4656,11 +4663,20 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 				</table>
 			</li>
 			<li>
-				<h3 id="play_resource-pack-data-info">Resource Pack Data Info</h3>
+				<h3 id="play_update-equip">Update Equip</h3>
 				<div class="desc">
 					<p><strong>Id</strong>: 82</p>
 					<p><strong>Hex</strong>: 52</p>
 					<p><strong>Bin</strong>: 01010010</p>
+					<p>Sent by the <strong>server</strong></p>
+				</div>
+			</li>
+			<li>
+				<h3 id="play_resource-pack-data-info">Resource Pack Data Info</h3>
+				<div class="desc">
+					<p><strong>Id</strong>: 83</p>
+					<p><strong>Hex</strong>: 53</p>
+					<p><strong>Bin</strong>: 01010011</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -4700,9 +4716,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_resource-pack-chunk-data">Resource Pack Chunk Data</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 83</p>
-					<p><strong>Hex</strong>: 53</p>
-					<p><strong>Bin</strong>: 01010011</p>
+					<p><strong>Id</strong>: 84</p>
+					<p><strong>Hex</strong>: 54</p>
+					<p><strong>Bin</strong>: 01010100</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -4737,9 +4753,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_resource-pack-chunk-request">Resource Pack Chunk Request</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 84</p>
-					<p><strong>Hex</strong>: 54</p>
-					<p><strong>Bin</strong>: 01010100</p>
+					<p><strong>Id</strong>: 85</p>
+					<p><strong>Hex</strong>: 55</p>
+					<p><strong>Bin</strong>: 01010101</p>
 					<p>Sent by the <strong>client</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -4764,9 +4780,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_transfer">Transfer</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 85</p>
-					<p><strong>Hex</strong>: 55</p>
-					<p><strong>Bin</strong>: 01010101</p>
+					<p><strong>Id</strong>: 86</p>
+					<p><strong>Hex</strong>: 56</p>
+					<p><strong>Bin</strong>: 01010110</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p>Transfers the player to another server. Once transferred the player will immediately close the connection with the transferring server, try to resolve the ip and join the new server starting a new raknet session.</p>
@@ -4805,9 +4821,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_play-sound">Play Sound</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 86</p>
-					<p><strong>Hex</strong>: 56</p>
-					<p><strong>Bin</strong>: 01010110</p>
+					<p><strong>Id</strong>: 87</p>
+					<p><strong>Hex</strong>: 57</p>
+					<p><strong>Bin</strong>: 01010111</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -4837,9 +4853,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_stop-sound">Stop Sound</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 87</p>
-					<p><strong>Hex</strong>: 57</p>
-					<p><strong>Bin</strong>: 01010111</p>
+					<p><strong>Id</strong>: 88</p>
+					<p><strong>Hex</strong>: 58</p>
+					<p><strong>Bin</strong>: 01011000</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -4861,9 +4877,9 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 			<li>
 				<h3 id="play_set-title">Set Title</h3>
 				<div class="desc">
-					<p><strong>Id</strong>: 88</p>
-					<p><strong>Hex</strong>: 58</p>
-					<p><strong>Bin</strong>: 01011000</p>
+					<p><strong>Id</strong>: 89</p>
+					<p><strong>Hex</strong>: 59</p>
+					<p><strong>Bin</strong>: 01011001</p>
 					<p>Sent by the <strong>server</strong></p>
 				</div>
 				<p><strong>Fields</strong>:</p>
@@ -4926,6 +4942,24 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 						</table>
 					</li>
 				</ul>
+			</li>
+			<li>
+				<h3 id="play_add-behavior-tree">Add Behavior Tree</h3>
+				<div class="desc">
+					<p><strong>Id</strong>: 90</p>
+					<p><strong>Hex</strong>: 5A</p>
+					<p><strong>Bin</strong>: 01011010</p>
+					<p>Sent by the <strong>server</strong></p>
+				</div>
+			</li>
+			<li>
+				<h3 id="play_structure-block-update">Structure Block Update</h3>
+				<div class="desc">
+					<p><strong>Id</strong>: 91</p>
+					<p><strong>Hex</strong>: 5B</p>
+					<p><strong>Bin</strong>: 01011011</p>
+					<p>Sent by the <strong>server</strong></p>
+				</div>
 			</li>
 		</ul>
 		<hr>
@@ -5000,6 +5034,16 @@ Batch batch = new Batch(compress(payload, Zlib.DEFLATE));
 						<td><a href="#types_slot_nbt">nbt</a></td>
 						<td><a href="#types_nbt">nbt</a></td>
 						<td class="center"><code>id</code> is greater than <code>0</code></td>
+					</tr>
+					<tr>
+						<td>can place on</td>
+						<td>string[]</td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>can destroy</td>
+						<td>string[]</td>
+						<td class="center"></td>
 					</tr>
 				</table>
 				<ul>
@@ -5432,6 +5476,41 @@ var count = count & 255
 								<td>Command's block output in the chat</td>
 							</tr>
 							<tr>
+								<td id="types_rule_name_do-daylight-cycle">do daylight cycle</td>
+								<td class="center">dodaylightcycle</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_do-entity-drops">do entity drops</td>
+								<td class="center">doentitydrops</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_do-fire-tick">do fire tick</td>
+								<td class="center">dofiretick</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_do-mob-loot">do mob loot</td>
+								<td class="center">domobloot</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_do-mob-spawning">do mob spawning</td>
+								<td class="center">domobspawning</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_do-tile-drops">do tile drops</td>
+								<td class="center">dotiledrops</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_do-weather-cycle">do weather cycle</td>
+								<td class="center">doweathercycle</td>
+								<td></td>
+							</tr>
+							<tr>
 								<td id="types_rule_name_drowning-damage">drowning damage</td>
 								<td class="center">drowningdamage</td>
 								<td>Damage animation when drowning</td>
@@ -5445,6 +5524,16 @@ var count = count & 255
 								<td id="types_rule_name_fire-damage">fire damage</td>
 								<td class="center">firedamage</td>
 								<td>Damage animation when burning</td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_keep-inventory">keep inventory</td>
+								<td class="center">keepinventory</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td id="types_rule_name_mob-griefing">mob griefing</td>
+								<td class="center">mobgriefing</td>
+								<td></td>
 							</tr>
 							<tr>
 								<td id="types_rule_name_pvp">pvp</td>
@@ -5893,78 +5982,78 @@ var count = count & 255
 						</tr>
 						<tr>
 							<td>resting</td>
-							<td class="center">19</td>
-							<td class="center">13₁₆</td>
-						</tr>
-						<tr>
-							<td>sitting</td>
-							<td class="center">20</td>
-							<td class="center">14₁₆</td>
-						</tr>
-						<tr>
-							<td>angry</td>
-							<td class="center">21</td>
-							<td class="center">15₁₆</td>
-						</tr>
-						<tr>
-							<td>interested</td>
 							<td class="center">22</td>
 							<td class="center">16₁₆</td>
 						</tr>
 						<tr>
-							<td>charged</td>
+							<td>sitting</td>
 							<td class="center">23</td>
 							<td class="center">17₁₆</td>
 						</tr>
 						<tr>
-							<td>tamed</td>
+							<td>angry</td>
 							<td class="center">24</td>
 							<td class="center">18₁₆</td>
 						</tr>
 						<tr>
-							<td>leashed</td>
+							<td>interested</td>
 							<td class="center">25</td>
 							<td class="center">19₁₆</td>
 						</tr>
 						<tr>
-							<td>sheared</td>
+							<td>charged</td>
 							<td class="center">26</td>
 							<td class="center">1A₁₆</td>
 						</tr>
 						<tr>
-							<td>gliding</td>
+							<td>tamed</td>
 							<td class="center">27</td>
 							<td class="center">1B₁₆</td>
 						</tr>
 						<tr>
-							<td>elder</td>
+							<td>leashed</td>
 							<td class="center">28</td>
 							<td class="center">1C₁₆</td>
 						</tr>
 						<tr>
-							<td>moving</td>
+							<td>sheared</td>
 							<td class="center">29</td>
 							<td class="center">1D₁₆</td>
 						</tr>
 						<tr>
-							<td>breathing</td>
+							<td>gliding</td>
 							<td class="center">30</td>
 							<td class="center">1E₁₆</td>
 						</tr>
 						<tr>
-							<td>chested</td>
+							<td>elder</td>
 							<td class="center">31</td>
 							<td class="center">1F₁₆</td>
 						</tr>
 						<tr>
-							<td>stackable</td>
+							<td>moving</td>
 							<td class="center">32</td>
 							<td class="center">20₁₆</td>
 						</tr>
 						<tr>
+							<td>breathing</td>
+							<td class="center">33</td>
+							<td class="center">21₁₆</td>
+						</tr>
+						<tr>
+							<td>chested</td>
+							<td class="center">34</td>
+							<td class="center">22₁₆</td>
+						</tr>
+						<tr>
+							<td>stackable</td>
+							<td class="center">35</td>
+							<td class="center">23₁₆</td>
+						</tr>
+						<tr>
 							<td>idling</td>
-							<td class="center">36</td>
-							<td class="center">24₁₆</td>
+							<td class="center">39</td>
+							<td class="center">27₁₆</td>
 						</tr>
 					</table>
 					</li>

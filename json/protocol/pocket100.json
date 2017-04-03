@@ -2256,24 +2256,24 @@
 						"type": "varuint"
 					},
 					{
-						"name": "?",
+						"name": "current_step",
 						"type": "varuint"
 					},
 					{
-						"name": "is_output",
+						"name": "done",
 						"type": "bool"
 					},
 					{
-						"name": "?",
+						"name": "client_id",
 						"type": "varulong"
 					},
 					{
 						"name": "input",
-						"type": "string"
+						"type": "json"
 					},
 					{
 						"name": "output",
-						"type": "string"
+						"type": "json"
 					}
 				]
 			},
