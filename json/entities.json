@@ -183,6 +183,7 @@
 		"llama_spit": {
 			"object": true,
 			"minecraft": 68,
+			"pocket": 102,
 			"size": {
 				"width": 0.25,
 				"height": 0.25
@@ -266,6 +267,7 @@
 		"evocation_fangs": {
 			"object": true,
 			"minecraft": 79,
+			"pocket": 103,
 			"size": {
 				"width": 0.5,
 				"height": 0.8
@@ -396,9 +398,10 @@
 			}
 		},
 
-		"evocation_illager": {
+		"evoker": {
 			"object": false,
 			"minecraft": 34,
+			"pocket": 104,
 			"size": {
 				"width": 0.6,
 				"height": 1.95
@@ -408,15 +411,17 @@
 		"vex": {
 			"object": false,
 			"minecraft": 35,
+			"pocket": 105,
 			"size": {
 				"width": 0.4,
 				"height": 0.8
 			}
 		},
 
-		"vindication_illager": {
+		"vindicator": {
 			"object": false,
 			"minecraft": 36,
+			"pocket": 56,
 			"size": {
 				"width": 0.6,
 				"height": 1.95
@@ -744,6 +749,7 @@
 		"llama": {
 			"object": false,
 			"minecraft": 103,
+			"pocket": 29,
 			"size": {
 				"width": 0.9,
 				"height": 1.87

@@ -3175,6 +3175,7 @@
 
 		"frosted_ice": {
 			"minecraft": 212,
+			"pocket": 207,
 			"stack": 64
 		},
 
@@ -3211,81 +3212,577 @@
 
 		"white_shulker_box": {
 			"minecraft": 219,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"orange_shulker_box": {
 			"minecraft": 220,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"magenta_shulker_box": {
 			"minecraft": 221,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"light_blue_shulker_box": {
 			"minecraft": 222,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"yellow_shulker_box": {
 			"minecraft": 223,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"lime_shulker_box": {
 			"minecraft": 224,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"pink_shulker_box": {
 			"minecraft": 225,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"gray_shulker_box": {
 			"minecraft": 226,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"light_gray_shulker_box": {
 			"minecraft": 227,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"cyan_shulker_box": {
 			"minecraft": 228,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"purple_shulker_box": {
 			"minecraft": 229,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"blue_shulker_box": {
 			"minecraft": 230,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"brown_shulker_box": {
 			"minecraft": 231,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"green_shulker_box": {
 			"minecraft": 232,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"red_shulker_box": {
 			"minecraft": 233,
+			"pocket": 218,
 			"stack": 64
 		},
 
 		"black_shulker_box": {
 			"minecraft": 234,
+			"pocket": 218,
+			"stack": 64
+		},
+
+		"white_glazed_terracotta": {
+			"minecraft": 235,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"orange_glazed_terracotta": {
+			"minecraft": 236,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"magenta_glazed_terracotta": {
+			"minecraft": 237,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"light_blue_glazed_terracotta": {
+			"minecraft": 238,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"yellow_glazed_terracotta": {
+			"minecraft": 239,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"lime_glazed_terracotta": {
+			"minecraft": 240,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"pink_glazed_terracotta": {
+			"minecraft": 241,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"gray_glazed_terracotta": {
+			"minecraft": 242,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"light_gray_glazed_terracotta": {
+			"minecraft": 243,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"cyan_glazed_terracotta": {
+			"minecraft": 244,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"purple_glazed_terracotta": {
+			"minecraft": 245,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"blue_glazed_terracotta": {
+			"minecraft": 246,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"brown_glazed_terracotta": {
+			"minecraft": 247,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"green_glazed_terracotta": {
+			"minecraft": 248,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"red_glazed_terracotta": {
+			"minecraft": 249,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"black_glazed_terracotta": {
+			"minecraft": 250,
+			"pocket": 219,
+			"stack": 64
+		},
+
+		"white_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 0
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 0
+			},
+			"stack": 64
+		},
+
+		"orange_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 1
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 1
+			},
+			"stack": 64
+		},
+
+		"magenta_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 2
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 2
+			},
+			"stack": 64
+		},
+
+		"light_blue_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 3
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 3
+			},
+			"stack": 64
+		},
+
+		"yellow_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 4
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 4
+			},
+			"stack": 64
+		},
+
+		"lime_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 5
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 5
+			},
+			"stack": 64
+		},
+
+		"pink_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 6
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 6
+			},
+			"stack": 64
+		},
+
+		"gray_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 7
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 7
+			},
+			"stack": 64
+		},
+
+		"light_gray_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 8
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 8
+			},
+			"stack": 64
+		},
+
+		"cyan_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 9
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 9
+			},
+			"stack": 64
+		},
+
+		"purple_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 10
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 10
+			},
+			"stack": 64
+		},
+
+		"blue_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 11
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 11
+			},
+			"stack": 64
+		},
+
+		"brown_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 12
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 12
+			},
+			"stack": 64
+		},
+
+		"green_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 13
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 13
+			},
+			"stack": 64
+		},
+
+		"red_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 14
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 14
+			},
+			"stack": 64
+		},
+
+		"black_concrete": {
+			"minecraft": {
+				"id": 251,
+				"meta": 15
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 15
+			},
+			"stack": 64
+		},
+
+		"white_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 0
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 0
+			},
+			"stack": 64
+		},
+
+		"orange_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 1
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 1
+			},
+			"stack": 64
+		},
+
+		"magenta_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 2
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 2
+			},
+			"stack": 64
+		},
+
+		"light_blue_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 3
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 3
+			},
+			"stack": 64
+		},
+
+		"yellow_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 4
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 4
+			},
+			"stack": 64
+		},
+
+		"lime_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 5
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 5
+			},
+			"stack": 64
+		},
+
+		"pink_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 6
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 6
+			},
+			"stack": 64
+		},
+
+		"gray_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 7
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 7
+			},
+			"stack": 64
+		},
+
+		"light_gray_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 8
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 8
+			},
+			"stack": 64
+		},
+
+		"cyan_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 9
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 9
+			},
+			"stack": 64
+		},
+
+		"purple_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 10
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 10
+			},
+			"stack": 64
+		},
+
+		"blue_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 11
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 11
+			},
+			"stack": 64
+		},
+
+		"brown_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 12
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 12
+			},
+			"stack": 64
+		},
+
+		"green_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 13
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 13
+			},
+			"stack": 64
+		},
+
+		"red_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 14
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 14
+			},
+			"stack": 64
+		},
+
+		"black_concrete_powder": {
+			"minecraft": {
+				"id": 252,
+				"meta": 15
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 15
+			},
 			"stack": 64
 		},
 
@@ -5331,6 +5828,7 @@
 
 		"undying_totem": {
 			"minecraft": 449,
+			"pocket": 450,
 			"stack": 1
 		},
 
@@ -5342,6 +5840,7 @@
 
 		"iron_nugget": {
 			"minecraft": 452,
+			"pocket": 452,
 			"stack": 64
 		},
 
