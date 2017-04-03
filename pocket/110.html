@@ -34,23 +34,12 @@
 		<p><strong>Released</strong>: April 1st, 2017</p>
 		<p>In use since version <strong>1.1.0</strong></p>
 		<p>Protocol used in Minecraft: Pocket Edition and variants. The network part of the protocol is managed by <a href="../raknet/8.html" target="_blank">RakNet</a>.</p>
-		<h4>Login sequence</h4>
+		<h3>Login sequence</h3>
 		<ul>
 			<li>The client sends a <a href="#play_login">Login</a> packet with the details of its game and its account</li>
 			<li>The server always replies with a <a href="#play_play-status">PlayerStatus</a></li>
 			<li>If <a href="#play_play-status_status">status</a> field in the packet sent was different from <a href="#play_play-status_status_ok">ok</a> the connection is closed</li>
 		</ul>
-		<h3>Spawning sequence</h3>
-		<ul>
-			<li>The server sends a <a href="#play_start-game">StartGame</a> packet with the world's informations</li>
-			<li>The server sends zero or more <a href="#play_full-chunk-data">FullChunkData</a> with the chunk's blocks and tiles</li>
-			<li>The server sends the player's inventory using <a href="#play_container-set-content">ContainerSetContent</a></li>
-			<li>The server sends the world's textures through <a href="#play_resource-packs-info">ResourcePacksInfo</a> (the textures may be empty)</li>
-			<li>The client replies with <a href="#play_resource-pack-client-response">ResourcePackClientResponse</a> telling the server that the textures have been loaded</li>
-			<li>The server sends a <a href="#play_play-status">PlayStatus</a> packet set to <a href="#play_play-status_status_spawned">spawned</a></li>
-			<li>The client spawns</li>
-		</ul>
-		<p>Everything written in the documentation has been tested on <a href="https://github.com/sel-project/sel-server" target="_blank">sel-server</a>. The types and the packets without documentation haven't been tested yet or it's not clear what their real purpose in the game is.</p>
 		<hr>
 		<h2 id="encoding">Encoding</h2>
 		<p><strong>Endianness</strong>:</p>
@@ -940,7 +929,6 @@
 					<p>Sent by the <strong>server</strong> and the <strong>client</strong></p>
 				</div>
 				<p>Sends or receives a message from the player. Every variant's field can contain Minecraft's formatting codes.</p>
-				<p>Every packet sent in the same game tick should be joined together with <code>\n§r</code> (line break and reset formatting), otherwise the messages will be displayed multiple times on the client's chat (see <a href="https://bugs.mojang.com/browse/MCPE-17631" target="_blank">MCPE-17631</a>).</p>
 				<p><strong>Fields</strong>:</p>
 				<table>
 					<tr>

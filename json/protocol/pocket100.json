@@ -2269,11 +2269,11 @@
 					},
 					{
 						"name": "input",
-						"type": "json"
+						"type": "string"
 					},
 					{
 						"name": "output",
-						"type": "json"
+						"type": "string"
 					}
 				]
 			},
