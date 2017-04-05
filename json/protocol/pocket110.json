@@ -28,7 +28,8 @@
 				},
 				{
 					"name": "size",
-					"type": "ulong"
+					"type": "ulong",
+					"endianness": "little_endian"
 				}
 			],
 
@@ -232,7 +233,8 @@
 				},
 				{
 					"name": "value",
-					"type": "ushort"
+					"type": "ushort",
+					"endianness": "little_endian"
 				}
 			],
 
@@ -251,7 +253,8 @@
 				},
 				{
 					"name": "color",
-					"type": "uint"
+					"type": "uint",
+					"endianness": "little_endian"
 				}
 			],
 
@@ -366,8 +369,8 @@
 							"outdated_server": 2,
 							"spawned": 3,
 							"invalid_tenant": 4,
-							"edu_required": 5,
-							"vanilla_required": 6
+							"edition_mismatch_edu_to_vanilla": 5,
+							"edition_mismatch_vanilla_to_edu": 6
 						}
 					}
 				]
@@ -2455,15 +2458,18 @@
 					},
 					{
 						"name": "max_chunk_size",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "chunk_count",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "compressed_pack_size",
-						"type": "ulong"
+						"type": "ulong",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "sha256",
@@ -2483,11 +2489,13 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "progress",
-						"type": "ulong"
+						"type": "ulong",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "data",
@@ -2507,7 +2515,8 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					}
 				]
 			},
@@ -2524,6 +2533,7 @@
 					{
 						"name": "port",
 						"type": "ushort",
+						"endianness": "little_endian",
 						"default": 19132
 					}
 				]

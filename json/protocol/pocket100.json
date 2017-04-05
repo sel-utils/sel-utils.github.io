@@ -28,7 +28,8 @@
 				},
 				{
 					"name": "size",
-					"type": "ulong"
+					"type": "ulong",
+					"endianness": "little_endian"
 				}
 			],
 
@@ -224,7 +225,8 @@
 				},
 				{
 					"name": "value",
-					"type": "ushort"
+					"type": "ushort",
+					"endianness": "little_endian"
 				}
 			],
 
@@ -243,7 +245,8 @@
 				},
 				{
 					"name": "color",
-					"type": "uint"
+					"type": "uint",
+					"endianness": "little_endian"
 				}
 			],
 
@@ -2289,15 +2292,18 @@
 					},
 					{
 						"name": "max_chunk_size",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "chunk_count",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "compressed_pack_size",
-						"type": "ulong"
+						"type": "ulong",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "sha256",
@@ -2317,11 +2323,13 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "progress",
-						"type": "ulong"
+						"type": "ulong",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "data",
@@ -2341,7 +2349,8 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint"
+						"type": "uint",
+						"endianness": "little_endian"
 					}
 				]
 			}
