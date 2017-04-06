@@ -3028,31 +3028,46 @@
 
 		"spruce_fence": {
 			"minecraft": 188,
-			"pocket": 188,
+			"pocket": {
+				"id": 85,
+				"meta": 1
+			},
 			"stack": 64
 		},
 
 		"birch_fence": {
 			"minecraft": 189,
-			"pocket": 189,
+			"pocket": {
+				"id": 85,
+				"meta": 2
+			},
 			"stack": 64
 		},
 
 		"jungle_fence": {
 			"minecraft": 190,
-			"pocket": 190,
+			"pocket": {
+				"id": 85,
+				"meta": 3
+			},
 			"stack": 64
 		},
 
 		"dark_oak_fence": {
 			"minecraft": 191,
-			"pocket": 191,
+			"pocket": {
+				"id": 85,
+				"meta": 4
+			},
 			"stack": 64
 		},
 
 		"acacia_fence": {
 			"minecraft": 192,
-			"pocket": 192,
+			"pocket": {
+				"id": 85,
+				"meta": 5
+			},
 			"stack": 64
 		},
 
@@ -3212,97 +3227,145 @@
 
 		"white_shulker_box": {
 			"minecraft": 219,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 0
+			},
 			"stack": 64
 		},
 
 		"orange_shulker_box": {
 			"minecraft": 220,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 1
+			},
 			"stack": 64
 		},
 
 		"magenta_shulker_box": {
 			"minecraft": 221,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 2
+			},
 			"stack": 64
 		},
 
 		"light_blue_shulker_box": {
 			"minecraft": 222,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 3
+			},
 			"stack": 64
 		},
 
 		"yellow_shulker_box": {
 			"minecraft": 223,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 4
+			},
 			"stack": 64
 		},
 
 		"lime_shulker_box": {
 			"minecraft": 224,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 5
+			},
 			"stack": 64
 		},
 
 		"pink_shulker_box": {
 			"minecraft": 225,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 6
+			},
 			"stack": 64
 		},
 
 		"gray_shulker_box": {
 			"minecraft": 226,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 7
+			},
 			"stack": 64
 		},
 
 		"light_gray_shulker_box": {
 			"minecraft": 227,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 8
+			},
 			"stack": 64
 		},
 
 		"cyan_shulker_box": {
 			"minecraft": 228,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 9
+			},
 			"stack": 64
 		},
 
 		"purple_shulker_box": {
 			"minecraft": 229,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 10
+			},
 			"stack": 64
 		},
 
 		"blue_shulker_box": {
 			"minecraft": 230,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 11
+			},
 			"stack": 64
 		},
 
 		"brown_shulker_box": {
 			"minecraft": 231,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 12
+			},
 			"stack": 64
 		},
 
 		"green_shulker_box": {
 			"minecraft": 232,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 13
+			},
 			"stack": 64
 		},
 
 		"red_shulker_box": {
 			"minecraft": 233,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 14
+			},
 			"stack": 64
 		},
 
 		"black_shulker_box": {
 			"minecraft": 234,
-			"pocket": 218,
+			"pocket": {
+				"id": 218,
+				"meta": 15
+			},
 			"stack": 64
 		},
 
@@ -3314,91 +3377,91 @@
 
 		"orange_glazed_terracotta": {
 			"minecraft": 236,
-			"pocket": 219,
+			"pocket": 220,
 			"stack": 64
 		},
 
 		"magenta_glazed_terracotta": {
 			"minecraft": 237,
-			"pocket": 219,
+			"pocket": 221,
 			"stack": 64
 		},
 
 		"light_blue_glazed_terracotta": {
 			"minecraft": 238,
-			"pocket": 219,
+			"pocket": 222,
 			"stack": 64
 		},
 
 		"yellow_glazed_terracotta": {
 			"minecraft": 239,
-			"pocket": 219,
+			"pocket": 223,
 			"stack": 64
 		},
 
 		"lime_glazed_terracotta": {
 			"minecraft": 240,
-			"pocket": 219,
+			"pocket": 224,
 			"stack": 64
 		},
 
 		"pink_glazed_terracotta": {
 			"minecraft": 241,
-			"pocket": 219,
+			"pocket": 225,
 			"stack": 64
 		},
 
 		"gray_glazed_terracotta": {
 			"minecraft": 242,
-			"pocket": 219,
+			"pocket": 226,
 			"stack": 64
 		},
 
 		"light_gray_glazed_terracotta": {
 			"minecraft": 243,
-			"pocket": 219,
+			"pocket": 227,
 			"stack": 64
 		},
 
 		"cyan_glazed_terracotta": {
 			"minecraft": 244,
-			"pocket": 219,
+			"pocket": 228,
 			"stack": 64
 		},
 
 		"purple_glazed_terracotta": {
 			"minecraft": 245,
-			"pocket": 219,
+			"pocket": 229,
 			"stack": 64
 		},
 
 		"blue_glazed_terracotta": {
 			"minecraft": 246,
-			"pocket": 219,
+			"pocket": 231,
 			"stack": 64
 		},
 
 		"brown_glazed_terracotta": {
 			"minecraft": 247,
-			"pocket": 219,
+			"pocket": 232,
 			"stack": 64
 		},
 
 		"green_glazed_terracotta": {
 			"minecraft": 248,
-			"pocket": 219,
+			"pocket": 233,
 			"stack": 64
 		},
 
 		"red_glazed_terracotta": {
 			"minecraft": 249,
-			"pocket": 219,
+			"pocket": 234,
 			"stack": 64
 		},
 
 		"black_glazed_terracotta": {
 			"minecraft": 250,
-			"pocket": 219,
+			"pocket": 235,
 			"stack": 64
 		},
 
@@ -4694,10 +4757,133 @@
 			"stack": 1
 		},
 
-		"bed": {
+		"white_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 0
+			},
+			"stack": 64
+		},
+
+		"orange_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 1
+			},
+			"stack": 64
+		},
+
+		"magenta_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 2
+			},
+			"stack": 64
+		},
+
+		"light_blue_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 3
+			},
+			"stack": 64
+		},
+
+		"yellow_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 4
+			},
+			"stack": 64
+		},
+
+		"lime_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 5
+			},
+			"stack": 64
+		},
+
+		"pink_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 6
+			},
+			"stack": 64
+		},
+
+		"gray_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 7
+			},
+			"stack": 64
+		},
+
+		"light_gray_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 8
+			},
+			"stack": 64
+		},
+
+		"cyan_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 9
+			},
+			"stack": 64
+		},
+
+		"purple_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 10
+			},
+			"stack": 64
+		},
+
+		"blue_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 11
+			},
+			"stack": 64
+		},
+
+		"brown_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 12
+			},
+			"stack": 64
+		},
+
+		"green_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 13
+			},
+			"stack": 64
+		},
+
+		"red_bed": {
 			"minecraft": 355,
-			"pocket": 355,
-			"stack": 1
+			"pocket": {
+				"id": 355,
+				"meta": 14
+			},
+			"stack": 64
+		},
+
+		"black_bed": {
+			"pocket": {
+				"id": 355,
+				"meta": 15
+			},
+			"stack": 64
 		},
 
 		"redstone_repeater": {
@@ -4975,6 +5161,10 @@
 				"id": 383,
 				"meta": 34
 			},
+			"pocket": {
+				"id": 383,
+				"meta": 104
+			},
 			"stack": 64
 		},
 
@@ -4983,6 +5173,10 @@
 				"id": 383,
 				"meta": 35
 			},
+			"pocket": {
+				"id": 383,
+				"meta": 105
+			},
 			"stack": 64
 		},
 
@@ -4990,6 +5184,10 @@
 			"minecraft": {
 				"id": 383,
 				"meta": 36
+			},
+			"pocket": {
+				"id": 383,
+				"meta": 56
 			},
 			"stack": 64
 		},
@@ -5334,6 +5532,10 @@
 			"minecraft": {
 				"id": 383,
 				"meta": 103
+			},
+			"pocket": {
+				"id": 383,
+				"meta": 29
 			},
 			"stack": 64
 		},

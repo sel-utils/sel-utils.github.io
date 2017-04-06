@@ -1814,8 +1814,7 @@
 					},
 					{
 						"name": "hotbar",
-						"type": "varint[]",
-						"when": "window==0"
+						"type": "varint[]"
 					}
 				]
 			},

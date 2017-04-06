@@ -60,6 +60,7 @@
 
 		"frost_walker": {
 			"minecraft": 9,
+			"pocket": 25,
 			"max": 2
 		},
 
@@ -171,6 +172,7 @@
 
 		"mending": {
 			"minecraft": 70,
+			"pocket": 26,
 			"max": 1
 		},
 
