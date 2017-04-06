@@ -585,11 +585,13 @@
 										"unknown": 0,
 										"android": 1,
 										"ios": 2,
-										"fire_os": 3,
-										"gear_vr": 4,
-										"apple_tv": 5,
-										"fire_tv": 6,
-										"windows10": 7
+										"osx": 3,
+										"fire_os": 4,
+										"gear_vr": 5,
+										"hololens": 6,
+										"windows10": 7,
+										"windows32": 8,
+										"dedicated": 9
 									}
 								},
 								{
