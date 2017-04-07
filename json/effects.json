@@ -5,137 +5,161 @@
 	"effects": {
 
 		"speed": {
-			"id": 1,
+			"minecraft": 1,
+			"pocket": 1,
 			"particles": "#7CAFC6"
 		},
 
 		"slowness": {
-			"id": 2,
+			"minecraft": 2,
+			"pocket": 2,
 			"particles": "#5A6C81"
 		},
 
 		"haste": {
-			"id": 3,
+			"minecraft": 3,
+			"pocket": 3,
 			"particles": "#D9C043"
 		},
 
 		"mining_fatigue": {
-			"id": 4,
+			"minecraft": 4,
+			"pocket": 4,
 			"particles": "#4A4217"
 		},
 
 		"strength": {
-			"id": 5,
+			"minecraft": 5,
+			"pocket": 5,
 			"particles": "#932423"
 		},
 
 		"instant_health": {
-			"id": 6,
+			"minecraft": 6,
+			"pocket": 6,
 			"particles": "#F82423"
 		},
 
 		"instant_damage": {
-			"id": 7,
+			"minecraft": 7,
+			"pocket": 7,
 			"particles": "#430A09"
 		},
 
 		"jump_boost": {
-			"id": 8,
+			"minecraft": 8,
+			"pocket": 8,
 			"particles": "#786297"
 		},
 
 		"nausea": {
-			"id": 9,
+			"minecraft": 9,
+			"pocket": 9,
 			"particles": "#551D4A"
 		},
 
 		"regeneration": {
-			"id": 10,
+			"minecraft": 10,
+			"pocket": 10,
 			"particles": "#CD5CAB"
 		},
 
 		"resistance": {
-			"id": 11,
+			"minecraft": 11,
+			"pocket": 11,
 			"particles": "#99453A"
 		},
 
 		"fire_resistance": {
-			"id": 12,
+			"minecraft": 12,
+			"pocket": 12,
 			"particles": "#E49A3A"
 		},
 
 		"water_breathing": {
-			"id": 13,
+			"minecraft": 13,
+			"pocket": 13,
 			"particles": "#2E5299"
 		},
 
 		"invisibility": {
-			"id": 14,
+			"minecraft": 14,
+			"pocket": 14,
 			"particles": "#7F8392"
 		},
 
 		"blindness": {
-			"id": 15,
+			"minecraft": 15,
+			"pocket": 15,
 			"particles": "#1F1F23"
 		},
 
 		"night_vision": {
-			"id": 16,
+			"minecraft": 16,
+			"pocket": 16,
 			"particles": "#1F1FA1"
 		},
 
 		"hunger": {
-			"id": 17,
+			"minecraft": 17,
+			"pocket": 17,
 			"particles": "#587653"
 		},
 
 		"weakness": {
-			"id": 18,
+			"minecraft": 18,
+			"pocket": 18,
 			"particles": "#484D48"
 		},
 
 		"poison": {
-			"id": 19,
+			"minecraft": 19,
+			"pocket": 19,
 			"particles": "#4E9331"
 		},
 
 		"wither": {
-			"id": 20,
+			"minecraft": 20,
+			"pocket": 20,
 			"particles": "#352A27"
 		},
 
 		"health_boost": {
-			"id": 21,
+			"minecraft": 21,
+			"pocket": 21,
 			"particles": "#F87D23"
 		},
 
 		"absorption": {
-			"id": 22,
+			"minecraft": 22,
+			"pocket": 22,
 			"particles": "#2552A5"
 		},
 
 		"saturation": {
-			"id": 23,
+			"minecraft": 23,
+			"pocket": 23,
 			"particles": "#F82423"
 		},
 
 		"glowing": {
-			"id": 24,
+			"minecraft": 24,
 			"particles": "#94A061"
 		},
 
 		"levitation": {
-			"id": 25,
+			"minecraft": 25,
+			"pocket": 24,
 			"particles": "#CEFFFF"
 		},
 
 		"luck": {
-			"id": 26,
+			"minecraft": 26,
 			"particles": "#339900"
 		},
 
 		"bad_luck": {
-			"id": 27,
+			"minecraft": 27,
 			"particles": "#C0A44D"
 		}
 
