@@ -24,6 +24,16 @@
 			}
 		},
 
+		"experience_orb": {
+			"object": true,
+			"minecraft": 2,
+			"pocket": 69,
+			"size": {
+				"width": 0.25,
+				"height": 0.25
+			}
+		},
+
 		"area_effect_cloud": {
 			"object": true,
 			"minecraft": 3,
@@ -305,6 +315,18 @@
 		"camera": {
 			"object": true,
 			"pocket": 62,
+			"size": null
+		},
+
+		"painting": {
+			"object": true,
+			"pocket": 83,
+			"size": null
+		},
+
+		"lightning": {
+			"object": true,
+			"pocket": 93,
 			"size": null
 		},
 
