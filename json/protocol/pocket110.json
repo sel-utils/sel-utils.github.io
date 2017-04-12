@@ -28,8 +28,7 @@
 				},
 				{
 					"name": "size",
-					"type": "ulong",
-					"endianness": "little_endian"
+					"type": "varulong"
 				}
 			],
 
@@ -294,20 +293,8 @@
 
 		"arrays": {
 
-			"pack_array": {
-				"base": "pack",
-				"length": "ushort",
-				"endianness": "little_endian"
-			},
-
 			"nbt": {
 				"base": "ubyte",
-				"length": "ushort",
-				"endianness": "little_endian"
-			},
-
-			"pack_with_size_array": {
-				"base": "pack_with_size",
 				"length": "ushort",
 				"endianness": "little_endian"
 			},
@@ -315,12 +302,6 @@
 			"rules": {
 				"base": "rule",
 				"length": "uint"
-			},
-
-			"pack_ids": {
-				"base": "string",
-				"length": "ushort",
-				"endianness": "little_endian"
 			}
 
 		}
@@ -338,13 +319,14 @@
 				"fields": [
 					{
 						"name": "protocol",
-						"type": "uint"
+						"type": "uint",
+						"default": 110
 					},
 					{
-						"name": "edition",
+						"name": "version",
 						"type": "ubyte",
 						"constants": {
-							"classic": 0,
+							"vanilla": 0,
 							"education": 1
 						}
 					},
@@ -429,11 +411,11 @@
 					},
 					{
 						"name": "behaviour_packs",
-						"type": "pack_with_size_array"
+						"type": "pack_with_size[]"
 					},
 					{
 						"name": "resource_packs",
-						"type": "pack_with_size_array"
+						"type": "pack_with_size[]"
 					}
 				]
 			},
@@ -449,11 +431,11 @@
 					},
 					{
 						"name": "behaviour_packs",
-						"type": "pack_array"
+						"type": "pack[]"
 					},
 					{
 						"name": "resource_packs",
-						"type": "pack_array"
+						"type": "pack[]"
 					}
 				]
 			},
@@ -475,7 +457,7 @@
 					},
 					{
 						"name": "pack_ids",
-						"type": "pack_ids"
+						"type": "string[]"
 					}
 				]
 			},
@@ -584,10 +566,6 @@
 					{
 						"name": "time",
 						"type": "varint"
-					},
-					{
-						"name": "daylight_cycle",
-						"type": "bool"
 					}
 				]
 			},
@@ -646,7 +624,8 @@
 						"type": "varint",
 						"constants": {
 							"survival": 0,
-							"creative": 1
+							"creative": 1,
+							"adventure": 2
 						}
 					},
 					{
@@ -672,10 +651,10 @@
 						"type": "varint"
 					},
 					{
-						"name": "edition",
+						"name": "version",
 						"type": "ubyte",
 						"constants": {
-							"classic": 0,
+							"vanilla": 0,
 							"education": 1
 						}
 					},
@@ -914,6 +893,10 @@
 					{
 						"name": "yaw",
 						"type": "ubyte"
+					},
+					{
+						"name": "on_ground",
+						"type": "bool"
 					}
 				]
 			},
@@ -2011,7 +1994,8 @@
 						"type": "varint",
 						"constants": {
 							"survival": 0,
-							"creative": 1
+							"creative": 1,
+							"adventure": 2
 						}
 					}
 				]
@@ -2457,18 +2441,15 @@
 					},
 					{
 						"name": "max_chunk_size",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "varuint"
 					},
 					{
 						"name": "chunk_count",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "varuint"
 					},
 					{
 						"name": "compressed_pack_size",
-						"type": "ulong",
-						"endianness": "little_endian"
+						"type": "varulong"
 					},
 					{
 						"name": "sha256",
@@ -2488,13 +2469,11 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "varuint"
 					},
 					{
 						"name": "progress",
-						"type": "ulong",
-						"endianness": "little_endian"
+						"type": "varulong"
 					},
 					{
 						"name": "data",
@@ -2514,8 +2493,7 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "varuint"
 					}
 				]
 			},
