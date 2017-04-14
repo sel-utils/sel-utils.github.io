@@ -5693,6 +5693,14 @@
 			"stack": 64
 		},
 
+		"empty_locator_map": {
+			"pocket": {
+				"id": 395,
+				"meta": 2
+			},
+			"stack": 64
+		},
+
 		"golden_carrot": {
 			"minecraft": 396,
 			"pocket": 396,
