@@ -4758,6 +4758,10 @@
 		},
 
 		"white_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 0
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 0
@@ -4766,6 +4770,10 @@
 		},
 
 		"orange_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 1
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 1
@@ -4774,6 +4782,10 @@
 		},
 
 		"magenta_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 2
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 2
@@ -4782,6 +4794,10 @@
 		},
 
 		"light_blue_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 3
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 3
@@ -4790,6 +4806,10 @@
 		},
 
 		"yellow_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 4
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 4
@@ -4798,6 +4818,10 @@
 		},
 
 		"lime_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 5
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 5
@@ -4806,6 +4830,10 @@
 		},
 
 		"pink_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 6
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 6
@@ -4814,6 +4842,10 @@
 		},
 
 		"gray_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 7
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 7
@@ -4822,6 +4854,10 @@
 		},
 
 		"light_gray_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 8
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 8
@@ -4830,6 +4866,10 @@
 		},
 
 		"cyan_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 9
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 9
@@ -4838,6 +4878,10 @@
 		},
 
 		"purple_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 10
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 10
@@ -4846,6 +4890,10 @@
 		},
 
 		"blue_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 11
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 11
@@ -4854,6 +4902,10 @@
 		},
 
 		"brown_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 12
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 12
@@ -4862,6 +4914,10 @@
 		},
 
 		"green_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 13
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 13
@@ -4870,7 +4926,10 @@
 		},
 
 		"red_bed": {
-			"minecraft": 355,
+			"minecraft": {
+				"id": 355,
+				"meta": 14
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 14
@@ -4879,6 +4938,10 @@
 		},
 
 		"black_bed": {
+			"minecraft": {
+				"id": 355,
+				"meta": 15
+			},
 			"pocket": {
 				"id": 355,
 				"meta": 15
