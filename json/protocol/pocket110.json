@@ -2608,6 +2608,24 @@
 				"fields": [
 
 				]
+			},
+
+			"show_store_offer": {
+				"id": 92,
+				"clientbound": true,
+				"serverbound": false,
+				"fields": [
+
+				]
+			},
+
+			"purchase_receipt": {
+				"id": 93,
+				"clientbound": false,
+				"serverbound": true,
+				"fields": [
+
+				]
 			}
 
 		}

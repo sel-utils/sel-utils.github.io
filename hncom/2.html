@@ -1664,7 +1664,24 @@
 					</li>
 					<li>
 						<h3 id="player_add_minecraft">Minecraft</h3>
-						<p>A Minecraft client. Currently there are no additional fields.</p>
+						<p>A Minecraft client.</p>
+						<p><strong>Additional Fields</strong>:</p>
+						<table>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+							</tr>
+							<tr>
+								<td><a href="#player_add_minecraft_properties">properties</a></td>
+								<td><a href="#types_property">property</a>[]</td>
+							</tr>
+						</table>
+						<ul>
+							<li>
+								<strong id="player_add_minecraft_properties">properties</strong>
+								<p>Additional properties like textures when the server is on online mode.</p>
+							</li>
+						</ul>
 					</li>
 					<li>
 						<h3 id="player_add_console">Console</h3>
@@ -2526,7 +2543,7 @@
 		</ul>
 		<hr>
 		<h2 id="types">Types</h2>
-		<p><strong>Jump to</strong>: <a href="#types_address">Address</a>, <a href="#types_game">Game</a>, <a href="#types_game-info">Game Info</a>, <a href="#types_plugin">Plugin</a>, <a href="#types_motd">Motd</a>, <a href="#types_skin">Skin</a></p>
+		<p><strong>Jump to</strong>: <a href="#types_address">Address</a>, <a href="#types_game">Game</a>, <a href="#types_game-info">Game Info</a>, <a href="#types_plugin">Plugin</a>, <a href="#types_motd">Motd</a>, <a href="#types_skin">Skin</a>, <a href="#types_property">Property</a></p>
 		<ul>
 			<li>
 				<h3 id="types_address">Address</h3>
@@ -2736,6 +2753,9 @@
 						<p>RGBA map of the skin colours. Length should be, if the skin is not empty, 8192 (64x32) or 16384 (64x64) bytes.</p>
 					</li>
 				</ul>
+			</li>
+			<li>
+				<h3 id="types_property">Property</h3>
 			</li>
 		</ul>
 	</body>
