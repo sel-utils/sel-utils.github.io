@@ -1194,6 +1194,11 @@
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td><a href="#play_start-game_gamemode">gamemode</a></td>
+						<td>varint</td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td><a href="#play_start-game_position">position</a></td>
 						<td>float&lt;xyz&gt;</td>
 						<td class="center"></td>
@@ -1288,11 +1293,36 @@
 						<td>string</td>
 						<td class="center"></td>
 					</tr>
+					<tr>
+						<td>premium world template</td>
+						<td>string</td>
+						<td class="center"></td>
+					</tr>
 				</table>
 				<ul>
 					<li>
 						<strong id="play_start-game_entity-id">entity id</strong>
 						<p>Player's entity id that uniquely identifies the entity of the server.</p>
+					</li>
+					<li>
+						<strong id="play_start-game_gamemode">gamemode</strong>
+						<p>Player's gamemode that may differ from the world's gamemode.</p>
+						<p><strong>Constants</strong>:</p>
+						<table>
+							<tr><th>Name</th><th>Value</th></tr>
+							<tr>
+								<td id="play_start-game_gamemode_survival">survival</td>
+								<td class="center">0</td>
+							</tr>
+							<tr>
+								<td id="play_start-game_gamemode_creative">creative</td>
+								<td class="center">1</td>
+							</tr>
+							<tr>
+								<td id="play_start-game_gamemode_adventure">adventure</td>
+								<td class="center">2</td>
+							</tr>
+						</table>
 					</li>
 					<li>
 						<strong id="play_start-game_position">position</strong>
@@ -1345,23 +1375,7 @@
 					</li>
 					<li>
 						<strong id="play_start-game_world-gamemode">world gamemode</strong>
-						<p>Default's world gamemode. If the player's gamemode is different from the default's one a <a href="#play_set-player-game-type">SetPlayerGameType</a> should be sent after this.</p>
-						<p><strong>Constants</strong>:</p>
-						<table>
-							<tr><th>Name</th><th>Value</th></tr>
-							<tr>
-								<td id="play_start-game_world-gamemode_survival">survival</td>
-								<td class="center">0</td>
-							</tr>
-							<tr>
-								<td id="play_start-game_world-gamemode_creative">creative</td>
-								<td class="center">1</td>
-							</tr>
-							<tr>
-								<td id="play_start-game_world-gamemode_adventure">adventure</td>
-								<td class="center">2</td>
-							</tr>
-						</table>
+						<p>Default's world gamemode.</p>
 					</li>
 					<li>
 						<strong id="play_start-game_difficulty">difficulty</strong>
@@ -1759,6 +1773,10 @@
 					<tr>
 						<td>on ground</td>
 						<td>bool</td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>varlong</td>
 					</tr>
 				</table>
 				<ul>
@@ -5748,6 +5766,14 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td>Age</td>
+						<td>short</td>
+						<td class="center">25</td>
+						<td class="center">19₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td><a href="#metadata_player-flags">Player Flags</a></td>
 						<td>byte</td>
 						<td class="center">27</td>
@@ -5872,6 +5898,22 @@ var count = count & 255
 						<td>long</td>
 						<td class="center">68</td>
 						<td class="center">44₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Strength</td>
+						<td>int</td>
+						<td class="center">76</td>
+						<td class="center">4C₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Max Strength</td>
+						<td>int</td>
+						<td class="center">77</td>
+						<td class="center">4D₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
@@ -6048,6 +6090,21 @@ var count = count & 255
 							<td>stackable</td>
 							<td class="center">35</td>
 							<td class="center">23₁₆</td>
+						</tr>
+						<tr>
+							<td>showbase</td>
+							<td class="center">36</td>
+							<td class="center">24₁₆</td>
+						</tr>
+						<tr>
+							<td>rearing</td>
+							<td class="center">37</td>
+							<td class="center">25₁₆</td>
+						</tr>
+						<tr>
+							<td>vibrating</td>
+							<td class="center">38</td>
+							<td class="center">26₁₆</td>
 						</tr>
 						<tr>
 							<td>idling</td>

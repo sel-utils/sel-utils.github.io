@@ -584,6 +584,15 @@
 						"type": "varlong"
 					},
 					{
+						"name": "gamemode",
+						"type": "varint",
+						"constants": {
+							"survival": 0,
+							"creative": 1,
+							"adventure": 2
+						}
+					},
+					{
 						"name": "position",
 						"type": "float<xyz>"
 					},
@@ -621,12 +630,7 @@
 					},
 					{
 						"name": "world_gamemode",
-						"type": "varint",
-						"constants": {
-							"survival": 0,
-							"creative": 1,
-							"adventure": 2
-						}
+						"type": "varint"
 					},
 					{
 						"name": "difficulty",
@@ -684,6 +688,10 @@
 					},
 					{
 						"name": "world_name",
+						"type": "string"
+					},
+					{
+						"name": "premium_world_template",
 						"type": "string"
 					}
 				]
@@ -938,6 +946,10 @@
 					{
 						"name": "on_ground",
 						"type": "bool"
+					},
+					{
+						"name": "?",
+						"type": "varlong"
 					}
 				]
 			},

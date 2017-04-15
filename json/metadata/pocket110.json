@@ -105,6 +105,9 @@
 				"breathing": 33,
 				"chested": 34,
 				"stackable": 35,
+				"showbase": 36,
+				"rearing": 37,
+				"vibrating": 38,
 				"idling": 39
 			}
 		},
@@ -158,6 +161,12 @@
 			"id": 16,
 			"required": false,
 			"default": 1
+		},
+
+		"age": {
+			"type": "short",
+			"id": 25,
+			"required": false
 		},
 
 		"player_flags": {
@@ -258,6 +267,18 @@
 		"trading_player": {
 			"type": "long",
 			"id": 68,
+			"required": false
+		},
+
+		"strength": {
+			"type": "int",
+			"id": 76,
+			"required": false
+		},
+
+		"max_strength": {
+			"type": "int",
+			"id": 77,
 			"required": false
 		}
 
