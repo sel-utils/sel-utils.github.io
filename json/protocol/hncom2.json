@@ -7,8 +7,7 @@
 	"encoding": {
 
 		"endianness": {
-			"*": "big_endian",
-			"ushort": "little_endian"
+			"*": "big_endian"
 		},
 
 		"id": "ubyte",
@@ -52,6 +51,10 @@
 				{
 					"name": "motd",
 					"type": "string"
+				},
+				{
+					"name": "online_mode",
+					"type": "bool"
 				},
 				{
 					"name": "port",
@@ -214,10 +217,6 @@
 					{
 						"name": "display_name",
 						"type": "string"
-					},
-					{
-						"name": "online_mode",
-						"type": "bool"
 					},
 					{
 						"name": "games_info",

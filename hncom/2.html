@@ -49,11 +49,11 @@
 		<table>
 			<tr>
 				<td>big endian</td>
-				<td>short, float</td>
+				<td>short, ushort, float</td>
 			</tr>
 			<tr>
 				<td>little endian</td>
-				<td>ushort</td>
+				<td></td>
 			</tr>
 		</table>
 		<p><strong>Ids</strong>: ubyte</p>
@@ -368,10 +368,6 @@
 						<td>string</td>
 					</tr>
 					<tr>
-						<td><a href="#login_hub-info_online-mode">online mode</a></td>
-						<td>bool</td>
-					</tr>
-					<tr>
 						<td><a href="#login_hub-info_games-info">games info</a></td>
 						<td><a href="#types_game-info">gameInfo</a>[]</td>
 					</tr>
@@ -412,10 +408,6 @@
 					<li>
 						<strong id="login_hub-info_display-name">display name</strong>
 						<p>Unformatted name of the server as indicated in the hub's configuration file.</p>
-					</li>
-					<li>
-						<strong id="login_hub-info_online-mode">online mode</strong>
-						<p>Indicates whether the player are authenticated using the games' official authentication services and their identity should be trusted.</p>
 					</li>
 					<li>
 						<strong id="login_hub-info_games-info">games info</strong>
@@ -465,7 +457,7 @@
       "twitter": "example_tweets",
       "youtube": "examplechannel",
       "instagram": "example",
-      "google_plus": "example-plus"
+      "google-plus": "example-plus"
    },
    "system": {
       "os": "Ubuntu 16.04",
@@ -2637,6 +2629,10 @@
 						<td>string</td>
 					</tr>
 					<tr>
+						<td><a href="#types_game-info_online-mode">online mode</a></td>
+						<td>bool</td>
+					</tr>
+					<tr>
 						<td><a href="#types_game-info_port">port</a></td>
 						<td>ushort</td>
 					</tr>
@@ -2649,6 +2645,10 @@
 					<li>
 						<strong id="types_game-info_motd">motd</strong>
 						<p>"Message of the day" which is displayed in the game's server list. It may contain Minecraft formatting codes.</p>
+					</li>
+					<li>
+						<strong id="types_game-info_online-mode">online mode</strong>
+						<p>Indicates whether the players are authenticated using the games' official authentication services and their identity should be trusted.</p>
 					</li>
 					<li>
 						<strong id="types_game-info_port">port</strong>
