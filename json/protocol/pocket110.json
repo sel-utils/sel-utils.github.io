@@ -17,6 +17,17 @@
 
 		"types": {
 
+			"login_body": [
+				{
+					"name": "chain",
+					"type": "login_payload"
+				},
+				{
+					"name": "client_data",
+					"type": "login_payload"
+				}
+			],
+
 			"pack_with_size": [
 				{
 					"name": "id",
@@ -302,6 +313,12 @@
 			"rules": {
 				"base": "rule",
 				"length": "uint"
+			},
+
+			"login_payload": {
+				"base": "ubyte",
+				"length": "uint",
+				"endianness": "little_endian"
 			}
 
 		}
@@ -331,8 +348,12 @@
 						}
 					},
 					{
+						"name": "body_length",
+						"type": "varuint"
+					},
+					{
 						"name": "body",
-						"type": "ubyte[]"
+						"type": "login_body"
 					}
 				]
 			},

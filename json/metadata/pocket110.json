@@ -112,6 +112,12 @@
 			}
 		},
 
+		"health": {
+			"type": "int",
+			"id": 1,
+			"required": false
+		},
+
 		"variant": {
 			"type": "int",
 			"id": 2,
@@ -137,6 +143,12 @@
 			"default": -1
 		},
 
+		"target": {
+			"type": "long",
+			"id": 6,
+			"required": false
+		},
+
 		"air": {
 			"type": "short",
 			"id": 7,
@@ -153,6 +165,24 @@
 		"potion_ambient": {
 			"type": "byte",
 			"id": 9,
+			"required": false
+		},
+
+		"hurt_time": {
+			"type": "int",
+			"id": 11,
+			"required": false
+		},
+
+		"hurt_direction": {
+			"type": "int",
+			"id": 12,
+			"required": false
+		},
+
+		"experience_count": {
+			"type": "int",
+			"id": 15,
 			"required": false
 		},
 
@@ -190,6 +220,12 @@
 			"required": false
 		},
 
+		"potion_aux_value": {
+			"type": "short",
+			"id": 37,
+			"required": false
+		},
+
 		"lead_holder": {
 			"type": "long",
 			"id": 38,
@@ -207,6 +243,12 @@
 		"interactive_tag": {
 			"type": "string",
 			"id": 40,
+			"required": false
+		},
+
+		"npc_id": {
+			"type": "string",
+			"id": 41,
 			"required": false
 		},
 
@@ -230,43 +272,56 @@
 
 		"bounding_box_width": {
 			"type": "float",
-			"id": 54,
+			"id": 55,
 			"required": false
 		},
 
 		"bounding_box_height": {
 			"type": "float",
-			"id": 55,
+			"id": 56,
 			"required": false
 		},
 
 		"fuse_length": {
 			"type": "int",
-			"id": 56,
+			"id": 57,
+			"required": false
+		},
+
+		"rider_seat_position": {
+			"type": "entity_position",
+			"id": 58,
 			"required": false
 		},
 
 		"area_effect_cloud_radius": {
 			"type": "float",
-			"id": 61,
-			"required": false
+			"id": 62,
+			"required": false,
+			"default": 0.5
 		},
 
 		"area_effect_cloud_waiting": {
-			"type": "int",
-			"id": 62,
-			"required": false
-		},
-
-		"area_effect_cloud_particle": {
 			"type": "int",
 			"id": 63,
 			"required": false
 		},
 
+		"area_effect_cloud_particle": {
+			"type": "int",
+			"id": 64,
+			"required": false
+		},
+
 		"trading_player": {
 			"type": "long",
-			"id": 68,
+			"id": 69,
+			"required": false
+		},
+
+		"controlling_rider_seat_number": {
+			"type": "byte",
+			"id": 75,
 			"required": false
 		},
 

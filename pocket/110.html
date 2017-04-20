@@ -39,6 +39,17 @@
 			<li>The server always replies with a <a href="#play_play-status">PlayerStatus</a></li>
 			<li>If <a href="#play_play-status_status">status</a> field in the packet sent was different from <a href="#play_play-status_status_ok">ok</a> the connection is closed</li>
 		</ul>
+		<h3>Spawning sequence</h3>
+		<ul>
+			<li>The server sends a <a href="#play_start-game">StartGame</a> packet with the world's informations</li>
+			<li>The server sends zero or more <a href="#play_full-chunk-data">FullChunkData</a> with the chunk's blocks and tiles</li>
+			<li>The server sends the player's inventory using <a href="#play_container-set-content">ContainerSetContent</a></li>
+			<li>The server sends the world's textures through <a href="#play_resource-packs-info">ResourcePacksInfo</a> (the textures may be empty)</li>
+			<li>The client replies with <a href="#play_resource-pack-client-response">ResourcePackClientResponse</a> telling the server that the textures have been loaded</li>
+			<li>The server sends a <a href="#play_play-status">PlayStatus</a> packet set to <a href="#play_play-status_status_spawned">spawned</a></li>
+			<li>The client spawns</li>
+		</ul>
+		<p>Everything written in the documentation has been tested on <a href="https://github.com/sel-project/sel-server" target="_blank">sel-server</a>. The types and the packets without documentation haven't been tested yet or it's not clear what their real purpose in the game is.</p>
 		<hr>
 		<h2 id="encoding">Encoding</h2>
 		<p><strong>Endianness</strong>:</p>
@@ -662,8 +673,13 @@
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td><a href="#play_login_body-length">body length</a></td>
+						<td>varuint</td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td><a href="#play_login_body">body</a></td>
-						<td>ubyte[]</td>
+						<td><a href="#types_login-body">loginBody</a></td>
 						<td class="center"></td>
 					</tr>
 				</table>
@@ -689,8 +705,12 @@
 						</table>
 					</li>
 					<li>
+						<strong id="play_login_body-length">body length</strong>
+						<p>Length, in bytes, of the following field. This field was used when the body was compressed.</p>
+					</li>
+					<li>
 						<strong id="play_login_body">body</strong>
-						<p>Zlib-compressed bytes that contains 2 JWTs with more informations about the player and its account. Once uncompressed the resulting payload will contain 2 JWTs which length is indicated by a little-endian unsigned integer each.</p>
+						<p>Payload that contains 2 JWTs (with each length indicated by an unsigned little-endian 32-bits integer) with more informations about the player and its account.</p>
 					</li>
 				</ul>
 			</li>
@@ -5003,8 +5023,26 @@
 		</ul>
 		<hr>
 		<h2 id="types">Types</h2>
-		<p><strong>Jump to</strong>: <a href="#types_pack-with-size">Pack With Size</a>, <a href="#types_pack">Pack</a>, <a href="#types_slot">Slot</a>, <a href="#types_attribute">Attribute</a>, <a href="#types_block-position">Block Position</a>, <a href="#types_skin">Skin</a>, <a href="#types_player-list">Player List</a>, <a href="#types_link">Link</a>, <a href="#types_recipe">Recipe</a>, <a href="#types_chunk-data">Chunk Data</a>, <a href="#types_section">Section</a>, <a href="#types_extra-data">Extra Data</a>, <a href="#types_decoration">Decoration</a>, <a href="#types_rule">Rule</a></p>
+		<p><strong>Jump to</strong>: <a href="#types_login-body">Login Body</a>, <a href="#types_pack-with-size">Pack With Size</a>, <a href="#types_pack">Pack</a>, <a href="#types_slot">Slot</a>, <a href="#types_attribute">Attribute</a>, <a href="#types_block-position">Block Position</a>, <a href="#types_skin">Skin</a>, <a href="#types_player-list">Player List</a>, <a href="#types_link">Link</a>, <a href="#types_recipe">Recipe</a>, <a href="#types_chunk-data">Chunk Data</a>, <a href="#types_section">Section</a>, <a href="#types_extra-data">Extra Data</a>, <a href="#types_decoration">Decoration</a>, <a href="#types_rule">Rule</a></p>
 		<ul>
+			<li>
+				<h3 id="types_login-body">Login Body</h3>
+				<p><strong>Fields</strong>:</p>
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+					</tr>
+					<tr>
+						<td>chain</td>
+						<td><a href="#types_login-payload">loginPayload</a></td>
+					</tr>
+					<tr>
+						<td>client data</td>
+						<td><a href="#types_login-payload">loginPayload</a></td>
+					</tr>
+				</table>
+			</li>
 			<li>
 				<h3 id="types_pack-with-size">Pack With Size</h3>
 				<p><strong>Fields</strong>:</p>
@@ -5610,6 +5648,12 @@ var count = count & 255
 				<td>uint</td>
 				<td></td>
 			</tr>
+			<tr id="types_login-payload">
+				<td>loginPayload</td>
+				<td>ubyte</td>
+				<td>uint</td>
+				<td>little endian</td>
+			</tr>
 		</table>
 		<hr>
 		<h2 id="metadata">Metadata</h2>
@@ -5702,6 +5746,14 @@ var count = count & 255
 						<td class="center">✓</td>
 					</tr>
 					<tr>
+						<td>Health</td>
+						<td>int</td>
+						<td class="center">1</td>
+						<td class="center">1₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td>Variant</td>
 						<td>int</td>
 						<td class="center">2</td>
@@ -5734,6 +5786,14 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td>Target</td>
+						<td>long</td>
+						<td class="center">6</td>
+						<td class="center">6₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td><a href="#metadata_air">Air</a></td>
 						<td>short</td>
 						<td class="center">7</td>
@@ -5754,6 +5814,30 @@ var count = count & 255
 						<td>byte</td>
 						<td class="center">9</td>
 						<td class="center">9₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Hurt Time</td>
+						<td>int</td>
+						<td class="center">11</td>
+						<td class="center">B₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Hurt Direction</td>
+						<td>int</td>
+						<td class="center">12</td>
+						<td class="center">C₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Experience Count</td>
+						<td>int</td>
+						<td class="center">15</td>
+						<td class="center">F₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
@@ -5798,6 +5882,14 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td>Potion Aux Value</td>
+						<td>short</td>
+						<td class="center">37</td>
+						<td class="center">25₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td>Lead Holder</td>
 						<td>long</td>
 						<td class="center">38</td>
@@ -5818,6 +5910,14 @@ var count = count & 255
 						<td>string</td>
 						<td class="center">40</td>
 						<td class="center">28₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Npc Id</td>
+						<td>string</td>
+						<td class="center">41</td>
+						<td class="center">29₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
@@ -5848,45 +5948,45 @@ var count = count & 255
 					<tr>
 						<td>Bounding Box Width</td>
 						<td>float</td>
-						<td class="center">54</td>
-						<td class="center">36₁₆</td>
-						<td class="center"></td>
-						<td class="center"></td>
-					</tr>
-					<tr>
-						<td>Bounding Box Height</td>
-						<td>float</td>
 						<td class="center">55</td>
 						<td class="center">37₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
-						<td>Fuse Length</td>
-						<td>int</td>
+						<td>Bounding Box Height</td>
+						<td>float</td>
 						<td class="center">56</td>
 						<td class="center">38₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td>Fuse Length</td>
+						<td>int</td>
+						<td class="center">57</td>
+						<td class="center">39₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Rider Seat Position</td>
+						<td><a href="#types_entity-position">entityPosition</a></td>
+						<td class="center">58</td>
+						<td class="center">3A₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td>Area Effect Cloud Radius</td>
 						<td>float</td>
-						<td class="center">61</td>
-						<td class="center">3D₁₆</td>
-						<td class="center"></td>
+						<td class="center">62</td>
+						<td class="center">3E₁₆</td>
+						<td class="center">0.5</td>
 						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>Area Effect Cloud Waiting</td>
-						<td>int</td>
-						<td class="center">62</td>
-						<td class="center">3E₁₆</td>
-						<td class="center"></td>
-						<td class="center"></td>
-					</tr>
-					<tr>
-						<td>Area Effect Cloud Particle</td>
 						<td>int</td>
 						<td class="center">63</td>
 						<td class="center">3F₁₆</td>
@@ -5894,10 +5994,26 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td>Area Effect Cloud Particle</td>
+						<td>int</td>
+						<td class="center">64</td>
+						<td class="center">40₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td>Trading Player</td>
 						<td>long</td>
-						<td class="center">68</td>
-						<td class="center">44₁₆</td>
+						<td class="center">69</td>
+						<td class="center">45₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Controlling Rider Seat Number</td>
+						<td>byte</td>
+						<td class="center">75</td>
+						<td class="center">4B₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
