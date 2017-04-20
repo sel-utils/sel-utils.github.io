@@ -854,6 +854,10 @@
 					{
 						"name": "motion",
 						"type": "float<xyz>"
+					},
+					{
+						"name": "metadata",
+						"type": "metadata"
 					}
 				]
 			},
@@ -925,6 +929,10 @@
 					},
 					{
 						"name": "on_ground",
+						"type": "bool"
+					},
+					{
+						"name": "?",
 						"type": "bool"
 					}
 				]
