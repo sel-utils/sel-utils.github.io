@@ -91,6 +91,9 @@
 				"no_ai": 16,
 				"silent": 17,
 				"climbing": 18,
+				"can_climb": 19,
+				"can_swim": 20,
+				"can_fly": 21,
 				"resting": 22,
 				"sitting": 23,
 				"angry": 24,
@@ -177,6 +180,18 @@
 		"hurt_direction": {
 			"type": "int",
 			"id": 12,
+			"required": false
+		},
+
+		"paddle_time_left": {
+			"type": "float",
+			"id": 13,
+			"required": false
+		},
+
+		"paddle_time_right": {
+			"type": "float",
+			"id": 14,
 			"required": false
 		},
 
@@ -270,70 +285,124 @@
 			"required": false
 		},
 
+		"invulnerable_time": {
+			"type": "int",
+			"id": 49,
+			"required": false
+		},
+
+		"center_head_target": {
+			"type": "long",
+			"id": 50,
+			"required": false
+		},
+
+		"left_head_target": {
+			"type": "long",
+			"id": 51,
+			"required": false
+		},
+
+		"right_head_target": {
+			"type": "long",
+			"id": 52,
+			"required": false
+		},
+
 		"bounding_box_width": {
 			"type": "float",
-			"id": 55,
+			"id": 54,
 			"required": false
 		},
 
 		"bounding_box_height": {
 			"type": "float",
-			"id": 56,
+			"id": 55,
 			"required": false
 		},
 
 		"fuse_length": {
 			"type": "int",
-			"id": 57,
+			"id": 56,
 			"required": false
 		},
 
 		"rider_seat_position": {
 			"type": "entity_position",
+			"id": 57,
+			"required": false
+		},
+
+		"rider_rotation_locked": {
+			"type": "byte",
 			"id": 58,
+			"required": false
+		},
+
+		"rider_max_rotation": {
+			"type": "float",
+			"id": 59,
+			"required": false
+		},
+
+		"rider_min_rotation": {
+			"type": "float",
+			"id": 60,
 			"required": false
 		},
 
 		"area_effect_cloud_radius": {
 			"type": "float",
-			"id": 62,
+			"id": 61,
 			"required": false,
 			"default": 0.5
 		},
 
 		"area_effect_cloud_waiting": {
 			"type": "int",
-			"id": 63,
+			"id": 62,
 			"required": false
 		},
 
 		"area_effect_cloud_particle": {
 			"type": "int",
-			"id": 64,
+			"id": 63,
+			"required": false
+		},
+
+		"shuker_direction": {
+			"type": "byte",
+			"id": 65,
+			"required": false
+		},
+
+		"shulker_attachment": {
+			"type": "block_position",
+			"id": 67,
 			"required": false
 		},
 
 		"trading_player": {
 			"type": "long",
-			"id": 69,
+			"id": 68,
 			"required": false
 		},
 
 		"controlling_rider_seat_number": {
 			"type": "byte",
-			"id": 75,
+			"id": 74,
 			"required": false
 		},
 
 		"strength": {
 			"type": "int",
-			"id": 76,
+			"id": 75,
 			"required": false
 		},
 
 		"max_strength": {
 			"type": "int",
-			"id": 77,
+			"id": 76,
 			"required": false
 		}
 

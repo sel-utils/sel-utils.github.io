@@ -1676,6 +1676,11 @@
 					{
 						"name": "entity_id",
 						"type": "varlong"
+					},
+					{
+						"name": "?",
+						"type": "float",
+						"when": "action>128"
 					}
 				]
 			},

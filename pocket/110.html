@@ -3360,14 +3360,22 @@
 					<tr>
 						<th>Name</th>
 						<th>Type</th>
+						<th>When</th>
 					</tr>
 					<tr>
 						<td><a href="#play_animate_action">action</a></td>
 						<td>varint</td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>entity id</td>
 						<td>varlong</td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>float</td>
+						<td class="center"><code>action</code> is greater than <code>128</code></td>
 					</tr>
 				</table>
 				<ul>
@@ -5842,6 +5850,22 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td>Paddle Time Left</td>
+						<td>float</td>
+						<td class="center">13</td>
+						<td class="center">D₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Paddle Time Right</td>
+						<td>float</td>
+						<td class="center">14</td>
+						<td class="center">E₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td>Experience Count</td>
 						<td>int</td>
 						<td class="center">15</td>
@@ -5930,7 +5954,7 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
-						<td>Interactive Tag Url</td>
+						<td><a href="#metadata_interactive-tag-url">Interactive Tag Url</a></td>
 						<td>string</td>
 						<td class="center">43</td>
 						<td class="center">2B₁₆</td>
@@ -5954,7 +5978,47 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td><a href="#metadata_invulnerable-time">Invulnerable Time</a></td>
+						<td>int</td>
+						<td class="center">49</td>
+						<td class="center">31₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td><a href="#metadata_center-head-target">Center Head Target</a></td>
+						<td>long</td>
+						<td class="center">50</td>
+						<td class="center">32₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td><a href="#metadata_left-head-target">Left Head Target</a></td>
+						<td>long</td>
+						<td class="center">51</td>
+						<td class="center">33₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td><a href="#metadata_right-head-target">Right Head Target</a></td>
+						<td>long</td>
+						<td class="center">52</td>
+						<td class="center">34₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td>Bounding Box Width</td>
+						<td>float</td>
+						<td class="center">54</td>
+						<td class="center">36₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Bounding Box Height</td>
 						<td>float</td>
 						<td class="center">55</td>
 						<td class="center">37₁₆</td>
@@ -5962,39 +6026,63 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
-						<td>Bounding Box Height</td>
-						<td>float</td>
+						<td>Fuse Length</td>
+						<td>int</td>
 						<td class="center">56</td>
 						<td class="center">38₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
-						<td>Fuse Length</td>
-						<td>int</td>
+						<td>Rider Seat Position</td>
+						<td><a href="#types_entity-position">entityPosition</a></td>
 						<td class="center">57</td>
 						<td class="center">39₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
-						<td>Rider Seat Position</td>
-						<td><a href="#types_entity-position">entityPosition</a></td>
+						<td>Rider Rotation Locked</td>
+						<td>byte</td>
 						<td class="center">58</td>
 						<td class="center">3A₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
+						<td>Rider Max Rotation</td>
+						<td>float</td>
+						<td class="center">59</td>
+						<td class="center">3B₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Rider Min Rotation</td>
+						<td>float</td>
+						<td class="center">60</td>
+						<td class="center">3C₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
 						<td>Area Effect Cloud Radius</td>
 						<td>float</td>
-						<td class="center">62</td>
-						<td class="center">3E₁₆</td>
+						<td class="center">61</td>
+						<td class="center">3D₁₆</td>
 						<td class="center">0.5</td>
 						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>Area Effect Cloud Waiting</td>
+						<td>int</td>
+						<td class="center">62</td>
+						<td class="center">3E₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Area Effect Cloud Particle</td>
 						<td>int</td>
 						<td class="center">63</td>
 						<td class="center">3F₁₆</td>
@@ -6002,42 +6090,50 @@ var count = count & 255
 						<td class="center"></td>
 					</tr>
 					<tr>
-						<td>Area Effect Cloud Particle</td>
-						<td>int</td>
-						<td class="center">64</td>
-						<td class="center">40₁₆</td>
+						<td>Shuker Direction</td>
+						<td>byte</td>
+						<td class="center">65</td>
+						<td class="center">41₁₆</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>Shulker Attachment</td>
+						<td><a href="#types_block-position">blockPosition</a></td>
+						<td class="center">67</td>
+						<td class="center">43₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>Trading Player</td>
 						<td>long</td>
-						<td class="center">69</td>
-						<td class="center">45₁₆</td>
+						<td class="center">68</td>
+						<td class="center">44₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>Controlling Rider Seat Number</td>
 						<td>byte</td>
-						<td class="center">75</td>
-						<td class="center">4B₁₆</td>
+						<td class="center">74</td>
+						<td class="center">4A₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>Strength</td>
 						<td>int</td>
-						<td class="center">76</td>
-						<td class="center">4C₁₆</td>
+						<td class="center">75</td>
+						<td class="center">4B₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>Max Strength</td>
 						<td>int</td>
-						<td class="center">77</td>
-						<td class="center">4D₁₆</td>
+						<td class="center">76</td>
+						<td class="center">4C₁₆</td>
 						<td class="center"></td>
 						<td class="center"></td>
 					</tr>
@@ -6144,6 +6240,21 @@ var count = count & 255
 							<td>climbing</td>
 							<td class="center">18</td>
 							<td class="center">12₁₆</td>
+						</tr>
+						<tr>
+							<td>can climb</td>
+							<td class="center">19</td>
+							<td class="center">13₁₆</td>
+						</tr>
+						<tr>
+							<td>can swim</td>
+							<td class="center">20</td>
+							<td class="center">14₁₆</td>
+						</tr>
+						<tr>
+							<td>can fly</td>
+							<td class="center">21</td>
+							<td class="center">15₁₆</td>
 						</tr>
 						<tr>
 							<td>resting</td>
@@ -6254,6 +6365,26 @@ var count = count & 255
 							<td class="center">1₁₆</td>
 						</tr>
 					</table>
+					</li>
+					<li>
+					<h4 id="metadata_interactive-tag-url">Interactive Tag Url</h4>
+					<p>NPC's tag with external link.</p>
+					</li>
+					<li>
+					<h4 id="metadata_invulnerable-time">Invulnerable Time</h4>
+					<p>Wither's invulnerable time.</p>
+					</li>
+					<li>
+					<h4 id="metadata_center-head-target">Center Head Target</h4>
+					<p>Wither's centre head.</p>
+					</li>
+					<li>
+					<h4 id="metadata_left-head-target">Left Head Target</h4>
+					<p>Wither's left (or right?) head.</p>
+					</li>
+					<li>
+					<h4 id="metadata_right-head-target">Right Head Target</h4>
+					<p>Wither's right (or left?) head.</p>
 					</li>
 				</ul>
 			</li>
