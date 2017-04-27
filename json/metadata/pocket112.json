@@ -2,7 +2,7 @@
 
 	"__website": "https://github.com/sel-project/sel-utils",
 	"__software": "Minecraft: Pocket Edition",
-	"__protocol": "111",
+	"__protocol": "112",
 
 	"encoding": {
 
@@ -111,7 +111,10 @@
 				"showbase": 36,
 				"rearing": 37,
 				"vibrating": 38,
-				"idling": 39
+				"idling": 39,
+				"evoker_spell": 40,
+				"charge_attack": 41,
+				"linger": 45
 			}
 		},
 
@@ -201,11 +204,34 @@
 			"required": false
 		},
 
-		"slime_size": {
-			"type": "byte",
+		"minecart_block": {
+			"type": "int",
 			"id": 16,
-			"required": false,
-			"default": 1
+			"required": false
+		},
+
+		"minecart_offset": {
+			"type": "int",
+			"id": 17,
+			"required": false
+		},
+
+		"minecart_has_block": {
+			"type": "byte",
+			"id": 18,
+			"required": false
+		},
+
+		"enderman_item_id": {
+			"type": "short",
+			"id": 23,
+			"required": false
+		},
+
+		"enderman_item_damage": {
+			"type": "short",
+			"id": 24,
+			"required": false
 		},
 
 		"age": {
@@ -232,6 +258,24 @@
 		"bed_position": {
 			"type": "block_position",
 			"id": 29,
+			"required": false
+		},
+
+		"fireball_power_x": {
+			"type": "float",
+			"id": 30,
+			"required": false
+		},
+
+		"fireball_power_y": {
+			"type": "float",
+			"id": 31,
+			"required": false
+		},
+
+		"fireball_power_z": {
+			"type": "float",
+			"id": 32,
 			"required": false
 		},
 
@@ -269,19 +313,25 @@
 
 		"interactive_tag_url": {
 			"type": "string",
-			"id": 43,
+			"id": 42,
 			"required": false
 		},
 
 		"max_air": {
 			"type": "short",
-			"id": 44,
+			"id": 43,
 			"required": false
 		},
 
 		"mark_variant": {
 			"type": "int",
-			"id": 45,
+			"id": 44,
+			"required": false
+		},
+
+		"block_target": {
+			"type": "block_position",
+			"id": 48,
 			"required": false
 		},
 
@@ -385,6 +435,24 @@
 		"trading_player": {
 			"type": "long",
 			"id": 68,
+			"required": false
+		},
+
+		"command_block_command": {
+			"type": "string",
+			"id": 71,
+			"required": false
+		},
+
+		"command_block_last_output": {
+			"type": "string",
+			"id": 72,
+			"required": false
+		},
+
+		"command_block_track_output": {
+			"type": "string",
+			"id": 73,
 			"required": false
 		},
 

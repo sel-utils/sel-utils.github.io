@@ -2,7 +2,7 @@
 
 	"__website": "https://github.com/sel-project/sel-utils",
 	"__software": "Minecraft: Pocket Edition",
-	"__protocol": 111,
+	"__protocol": 112,
 
 	"health": {
 		"name": "minecraft:health",
