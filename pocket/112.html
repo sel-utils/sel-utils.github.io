@@ -1017,6 +1017,11 @@
 						<td>type</td>
 						<td class="center">6</td>
 					</tr>
+					<tr>
+						<td><a href="#play_text_announcement">Announcement</a></td>
+						<td>type</td>
+						<td class="center">7</td>
+					</tr>
 				</table>
 				<ul>
 					<li>
@@ -1151,6 +1156,24 @@
 							</tr>
 							<tr>
 								<td>sender</td>
+								<td>string</td>
+							</tr>
+							<tr>
+								<td>message</td>
+								<td>string</td>
+							</tr>
+						</table>
+					</li>
+					<li>
+						<h3 id="play_text_announcement">Announcement</h3>
+						<p><strong>Additional Fields</strong>:</p>
+						<table>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+							</tr>
+							<tr>
+								<td>announcer</td>
 								<td>string</td>
 							</tr>
 							<tr>
@@ -1773,38 +1796,68 @@
 					<tr>
 						<th>Name</th>
 						<th>Type</th>
+						<th>Endianness</th>
+						<th>When</th>
 					</tr>
 					<tr>
 						<td>entity id</td>
 						<td>varlong</td>
+						<td class="center"></td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>position</td>
 						<td>float&lt;xyz&gt;</td>
+						<td class="center"></td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>pitch</td>
 						<td>float</td>
+						<td class="center"></td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>head yaw</td>
 						<td>float</td>
+						<td class="center"></td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>yaw</td>
 						<td>float</td>
+						<td class="center"></td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td><a href="#play_move-player_animation">animation</a></td>
 						<td>ubyte</td>
+						<td class="center"></td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>on ground</td>
 						<td>bool</td>
+						<td class="center"></td>
+						<td class="center"></td>
 					</tr>
 					<tr>
 						<td>?</td>
 						<td>varlong</td>
+						<td class="center"></td>
+						<td class="center"></td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>int</td>
+						<td class="center">little endian</td>
+						<td class="center"><code>animation</code> is equal to <code>3</code></td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>int</td>
+						<td class="center">little endian</td>
+						<td class="center"><code>animation</code> is equal to <code>3</code></td>
 					</tr>
 				</table>
 				<ul>
@@ -1822,8 +1875,12 @@
 								<td class="center">1</td>
 							</tr>
 							<tr>
-								<td id="play_move-player_animation_rotation">rotation</td>
+								<td id="play_move-player_animation_teleport">teleport</td>
 								<td class="center">2</td>
+							</tr>
+							<tr>
+								<td id="play_move-player_animation_pitch">pitch</td>
+								<td class="center">3</td>
 							</tr>
 						</table>
 					</li>

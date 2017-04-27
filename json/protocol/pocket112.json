@@ -574,6 +574,19 @@
 									"type": "string"
 								}
 							]
+						},
+						"announcement": {
+							"value": 7,
+							"fields": [
+								{
+									"name": "announcer",
+									"type": "string"
+								},
+								{
+									"name": "message",
+									"type": "string"
+								}
+							]
 						}
 					}
 				}
@@ -969,7 +982,8 @@
 						"constants": {
 							"full": 0,
 							"none": 1,
-							"rotation": 2
+							"teleport": 2,
+							"pitch": 3
 						}
 					},
 					{
@@ -979,6 +993,18 @@
 					{
 						"name": "?",
 						"type": "varlong"
+					},
+					{
+						"name": "?",
+						"type": "int",
+						"endianness": "little_endian",
+						"when": "animation==3"
+					},
+					{
+						"name": "?",
+						"type": "int",
+						"endianness": "little_endian",
+						"when": "animation==3"
 					}
 				]
 			},
