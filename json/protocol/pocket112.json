@@ -117,6 +117,19 @@
 				}
 			],
 
+			"mcpe_uuid": [
+				{
+					"name": "most_significant_bits",
+					"type": "long",
+					"endianness": "little_endian"
+				},
+				{
+					"name": "least_significant_bits",
+					"type": "long",
+					"endianness": "little_endian"
+				}
+			],
+
 			"skin": [
 				{
 					"name": "name",
@@ -131,7 +144,7 @@
 			"player_list": [
 				{
 					"name": "uuid",
-					"type": "uuid"
+					"type": "mcpe_uuid"
 				},
 				{
 					"name": "entity_id",
@@ -738,7 +751,7 @@
 				"fields": [
 					{
 						"name": "uuid",
-						"type": "uuid"
+						"type": "mcpe_uuid"
 					},
 					{
 						"name": "username",
@@ -1901,7 +1914,7 @@
 					},
 					{
 						"name": "uuid",
-						"type": "uuid"
+						"type": "mcpe_uuid"
 					},
 					{
 						"name": "input",
@@ -2100,7 +2113,7 @@
 							"fields": [
 								{
 									"name": "players",
-									"type": "uuid[]"
+									"type": "mcpe_uuid[]"
 								}
 							]
 						}

@@ -1500,7 +1500,7 @@
 					</tr>
 					<tr>
 						<td><a href="#play_add-player_uuid">uuid</a></td>
-						<td>uuid</td>
+						<td><a href="#types_mcpe-uuid">mcpeUuid</a></td>
 					</tr>
 					<tr>
 						<td><a href="#play_add-player_username">username</a></td>
@@ -3734,7 +3734,7 @@
 					</tr>
 					<tr>
 						<td>uuid</td>
-						<td>uuid</td>
+						<td><a href="#types_mcpe-uuid">mcpeUuid</a></td>
 					</tr>
 					<tr>
 						<td>input</td>
@@ -4167,7 +4167,7 @@
 							</tr>
 							<tr>
 								<td>players</td>
-								<td>uuid[]</td>
+								<td><a href="#types_mcpe-uuid">mcpeUuid</a>[]</td>
 							</tr>
 						</table>
 					</li>
@@ -5096,7 +5096,7 @@
 		</ul>
 		<hr>
 		<h2 id="types">Types</h2>
-		<p><strong>Jump to</strong>: <a href="#types_login-body">Login Body</a>, <a href="#types_pack-with-size">Pack With Size</a>, <a href="#types_pack">Pack</a>, <a href="#types_slot">Slot</a>, <a href="#types_attribute">Attribute</a>, <a href="#types_block-position">Block Position</a>, <a href="#types_skin">Skin</a>, <a href="#types_player-list">Player List</a>, <a href="#types_link">Link</a>, <a href="#types_recipe">Recipe</a>, <a href="#types_chunk-data">Chunk Data</a>, <a href="#types_section">Section</a>, <a href="#types_extra-data">Extra Data</a>, <a href="#types_decoration">Decoration</a>, <a href="#types_rule">Rule</a></p>
+		<p><strong>Jump to</strong>: <a href="#types_login-body">Login Body</a>, <a href="#types_pack-with-size">Pack With Size</a>, <a href="#types_pack">Pack</a>, <a href="#types_slot">Slot</a>, <a href="#types_attribute">Attribute</a>, <a href="#types_block-position">Block Position</a>, <a href="#types_mcpe-uuid">Mcpe Uuid</a>, <a href="#types_skin">Skin</a>, <a href="#types_player-list">Player List</a>, <a href="#types_link">Link</a>, <a href="#types_recipe">Recipe</a>, <a href="#types_chunk-data">Chunk Data</a>, <a href="#types_section">Section</a>, <a href="#types_extra-data">Extra Data</a>, <a href="#types_decoration">Decoration</a>, <a href="#types_rule">Rule</a></p>
 		<ul>
 			<li>
 				<h3 id="types_login-body">Login Body</h3>
@@ -5268,6 +5268,27 @@ var count = count & 255
 				</table>
 			</li>
 			<li>
+				<h3 id="types_mcpe-uuid">Mcpe Uuid</h3>
+				<p><strong>Fields</strong>:</p>
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Type</th>
+						<th>Endianness</th>
+					</tr>
+					<tr>
+						<td>most significant bits</td>
+						<td>long</td>
+						<td class="center">little endian</td>
+					</tr>
+					<tr>
+						<td>least significant bits</td>
+						<td>long</td>
+						<td class="center">little endian</td>
+					</tr>
+				</table>
+			</li>
+			<li>
 				<h3 id="types_skin">Skin</h3>
 				<p>Player's <a href="http://minecraft.gamepedia.com/Skin" target="_blank">skin</a>.</p>
 				<p><strong>Fields</strong>:</p>
@@ -5307,7 +5328,7 @@ var count = count & 255
 					</tr>
 					<tr>
 						<td><a href="#types_player-list_uuid">uuid</a></td>
-						<td>uuid</td>
+						<td><a href="#types_mcpe-uuid">mcpeUuid</a></td>
 					</tr>
 					<tr>
 						<td><a href="#types_player-list_entity-id">entity id</a></td>
