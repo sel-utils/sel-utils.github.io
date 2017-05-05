@@ -1,0 +1,324 @@
+{
+
+	"__website": "https://github.com/sel-project/sel-utils",
+
+	"biomes": {
+
+		"ocean": {
+			"id": 0,
+			"temperature": 0.5
+		},
+
+		"plains": {
+			"id": 1,
+			"temperature": 0.8
+		},
+
+		"desert": {
+			"id": 2,
+			"temperature": 2
+		},
+
+		"extreme_hills": {
+			"id": 3,
+			"temperature": 0.2
+		},
+
+		"forest": {
+			"id": 4,
+			"temperature": 0.7
+		},
+
+		"taiga": {
+			"id": 5,
+			"temperature": 0.05
+		},
+
+		"swampland": {
+			"id": 6,
+			"temperature": 0.8
+		},
+
+		"river": {
+			"id": 7,
+			"temperature": 0.5
+		},
+
+		"hell": {
+			"id": 8,
+			"temperature": 2
+		},
+
+		"the_end": {
+			"id": 9,
+			"temperature": 0.5
+		},
+
+		"frozen_ocean": {
+			"id": 10,
+			"temperature": 0
+		},
+
+		"frozen_river": {
+			"id": 11,
+			"temperature": 0
+		},
+
+		"ice_plains": {
+			"id": 12,
+			"temperature": 0
+		},
+
+		"ice_mountains": {
+			"id": 13,
+			"temperature": 0
+		},
+
+		"mushroom_island": {
+			"id": 14,
+			"temperature": 0.9
+		},
+
+		"mushroom_island_shore": {
+			"id": 15,
+			"temperature": 0.9
+		},
+
+		"beach": {
+			"id": 16,
+			"temperature": 0.8
+		},
+
+		"desert_hills": {
+			"id": 17,
+			"temperature": 2
+		},
+
+		"forest_hills": {
+			"id": 18,
+			"temperature": 0.7
+		},
+
+		"taiga_hills": {
+			"id": 19,
+			"temperature": 0.2
+		},
+
+		"extreme_hills_edge": {
+			"id": 20,
+			"temperature": 0.2
+		},
+
+		"jungle": {
+			"id": 21,
+			"temperature": 1.2
+		},
+
+		"jungle_hills": {
+			"id": 22,
+			"temperature": 1.2
+		},
+
+		"jungle_edge": {
+			"id": 23,
+			"temperature": 0.95
+		},
+
+		"deep_ocean": {
+			"id": 24,
+			"temperature": 0.5
+		},
+
+		"stone_beach": {
+			"id": 25,
+			"temperature": 0.2
+		},
+
+		"cold_beach": {
+			"id": 26,
+			"temperature": 0.05
+		},
+
+		"birch_forest": {
+			"id": 27,
+			"temperature": 0.6
+		},
+
+		"birch_forest_hills": {
+			"id": 28,
+			"temperature": 0.6
+		},
+
+		"roofed_forest": {
+			"id": 29,
+			"temperature": 0.7
+		},
+
+		"cold_taiga": {
+			"id": 30,
+			"temperature": -0.5
+		},
+
+		"cold_taiga_hills": {
+			"id": 31,
+			"temperature": -0.5
+		},
+
+		"mega_taiga": {
+			"id": 32,
+			"temperature": 0.3
+		},
+
+		"mega_taiga_hills": {
+			"id": 33,
+			"temperature": 0.3
+		},
+
+		"extreme_hills_plus": {
+			"id": 34,
+			"temperature": 0.2
+		},
+
+		"savanna": {
+			"id": 35,
+			"temperature": 1.2
+		},
+
+		"savanna_plateau": {
+			"id": 36,
+			"temperature": 1
+		},
+
+		"mesa": {
+			"id": 37,
+			"temperature": 2
+		},
+
+		"mesa_plateau_f": {
+			"id": 38,
+			"temperature": 2
+		},
+
+		"mesa_plateau": {
+			"id": 39,
+			"temperature": 2
+		},
+
+		"the_void": {
+			"id": 127,
+			"temperature": 0
+		},
+
+		"plains_m": {
+			"id": 128,
+			"temperature": 0.5
+		},
+
+		"sunflower_plains": {
+			"id": 129,
+			"temperature": 0.8
+		},
+
+		"desert_m": {
+			"id": 130,
+			"temperature": 2
+		},
+
+		"extreme_hills_m": {
+			"id": 131,
+			"temperature": 0.2
+		},
+
+		"flower_forest": {
+			"id": 132,
+			"temperature": 0.7
+		},
+
+		"taiga_m": {
+			"id": 133,
+			"temperature": 0.05
+		},
+
+		"swampland_m": {
+			"id": 134,
+			"temperature": 0.8
+		},
+
+		"ice_plains_spikes": {
+			"id": 140,
+			"temperature": 0
+		},
+
+		"jungle_m": {
+			"id": 149,
+			"temperature": 1.2
+		},
+
+		"jungle_edge_m": {
+			"id": 151,
+			"temperature": 0.95
+		},
+
+		"birch_forest_m": {
+			"id": 155,
+			"temperature": 0.6
+		},
+
+		"birch_forest_hills_m": {
+			"id": 156,
+			"temperature": 0.6
+		},
+
+		"roofed_forest_m": {
+			"id": 157,
+			"temperature": 0.7
+		},
+
+		"cold_taiga_m": {
+			"id": 158,
+			"temperature": -0.5
+		},
+
+		"mega_spruce_taiga": {
+			"id": 160,
+			"temperature": 0.3
+		},
+
+		"redwood_taiga_hills_m": {
+			"id": 161,
+			"temperature": 0.3
+		},
+
+		"extreme_hills_plus_m": {
+			"id": 162,
+			"temperature": 0.2
+		},
+
+		"savanna_m": {
+			"id": 163,
+			"temperature": 1.2
+		},
+
+		"savanna_plateau_m": {
+			"id": 164,
+			"temperature": 1
+		},
+
+		"mesa_bryce": {
+			"id": 165,
+			"temperature": 2
+		},
+
+		"mesa_plateau_f_m": {
+			"id": 166,
+			"temperature": 2
+		},
+
+		"mesa_plateau_m": {
+			"id": 167,
+			"temperature": 2
+		}
+
+	}
+
+}
