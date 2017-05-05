@@ -1563,8 +1563,10 @@ const Play = {
 		static get HAGGLE_YES(){ return 91; }
 		static get HAGGLE_NO(){ return 92; }
 		static get HAGGLE_IDLE(){ return 93; }
-		static get DEFAULT(){ return 94; }
-		static get UNDEFINED(){ return 95; }
+		static get CHORUS_GROW(){ return 94; }
+		static get CHORUS_DEATH(){ return 95; }
+		static get DEFAULT(){ return 96; }
+		static get UNDEFINED(){ return 97; }
 
 		/**
 		 * @param position
@@ -1627,50 +1629,55 @@ const Play = {
 		static get START_THUNDER(){ return 3002; }
 		static get STOP_RAIN(){ return 3003; }
 		static get STOP_THUNDER(){ return 3004; }
+		static get START_BLOCK_BREAK(){ return 3600; }
+		static get STOP_BLOCK_BREAK(){ return 3601; }
 		static get SET_DATA(){ return 4000; }
 		static get PLAYERS_SLEEPING(){ return 9800; }
-		static get BUBBLE(){ return 16385; }
-		static get CRITICAL(){ return 16386; }
-		static get BLOCK_FORCE_FIELD(){ return 16387; }
-		static get SMOKE(){ return 16388; }
-		static get EXPLODE(){ return 16389; }
-		static get EVAPORATION(){ return 16390; }
-		static get FLAME(){ return 16391; }
-		static get LAVA(){ return 16392; }
-		static get LARGE_SMOKE(){ return 16393; }
-		static get REDSTONE(){ return 16394; }
-		static get RISING_RED_DUST(){ return 16395; }
-		static get ITEM_BREAK(){ return 16396; }
-		static get SNOWBALL_POOF(){ return 16397; }
-		static get HUGE_EXPLODE(){ return 16398; }
-		static get HUGE_EXPLODE_SEED(){ return 16399; }
-		static get MOB_FLAME(){ return 16400; }
-		static get HEART(){ return 16401; }
-		static get TERRAIN(){ return 16402; }
-		static get TOWN_AURA(){ return 16403; }
-		static get PORTAL(){ return 16404; }
-		static get WATER_SPLASH(){ return 16405; }
-		static get WATER_WAKE(){ return 16406; }
-		static get DRIP_WATER(){ return 16407; }
-		static get DRIP_LAVA(){ return 16408; }
-		static get FALLING_DUST(){ return 16409; }
-		static get MOB_SPELL(){ return 16410; }
-		static get MOB_SPELL_AMBIENT(){ return 16411; }
-		static get MOB_SPELL_INSTANTANEOUS(){ return 16412; }
-		static get INK(){ return 16413; }
-		static get SLIME(){ return 16414; }
-		static get RAIN_SPLASH(){ return 16415; }
-		static get VILLAGER_ANGRY(){ return 16416; }
-		static get VILLAGER_HAPPY(){ return 16417; }
-		static get ENCHANTMENT_TABLE(){ return 16418; }
-		static get TRACKING_EMITTER(){ return 16419; }
-		static get NOTE(){ return 16420; }
-		static get WITCH_SPELL(){ return 16421; }
-		static get CARROT(){ return 16422; }
-		static get END_ROD(){ return 16424; }
-		static get DRAGON_BREATH(){ return 16425; }
-		static get SHOOT(){ return 2000; }
-		static get DESTROY(){ return 2001; }
+		static get PARTICLE_BUBBLE(){ return 16385; }
+		static get PARTICLE_CRITICAL(){ return 16386; }
+		static get PARTICLE_BLOCK_FORCE_FIELD(){ return 16387; }
+		static get PARTICLE_SMOKE(){ return 16388; }
+		static get PARTICLE_EXPLODE(){ return 16389; }
+		static get PARTICLE_EVAPORATION(){ return 16390; }
+		static get PARTICLE_FLAME(){ return 16391; }
+		static get PARTICLE_LAVA(){ return 16392; }
+		static get PARTICLE_LARGE_SMOKE(){ return 16393; }
+		static get PARTICLE_REDSTONE(){ return 16394; }
+		static get PARTICLE_RISING_RED_DUST(){ return 16395; }
+		static get PARTICLE_ITEM_BREAK(){ return 16396; }
+		static get PARTICLE_SNOWBALL_POOF(){ return 16397; }
+		static get PARTICLE_HUGE_EXPLODE(){ return 16398; }
+		static get PARTICLE_HUGE_EXPLODE_SEED(){ return 16399; }
+		static get PARTICLE_MOB_FLAME(){ return 16400; }
+		static get PARTICLE_HEART(){ return 16401; }
+		static get PARTICLE_TERRAIN(){ return 16402; }
+		static get PARTICLE_TOWN_AURA(){ return 16403; }
+		static get PARTICLE_PORTAL(){ return 16404; }
+		static get PARTICLE_WATER_SPLASH(){ return 16405; }
+		static get PARTICLE_WATER_WAKE(){ return 16406; }
+		static get PARTICLE_DRIP_WATER(){ return 16407; }
+		static get PARTICLE_DRIP_LAVA(){ return 16408; }
+		static get PARTICLE_FALLING_DUST(){ return 16409; }
+		static get PARTICLE_MOB_SPELL(){ return 16410; }
+		static get PARTICLE_MOB_SPELL_AMBIENT(){ return 16411; }
+		static get PARTICLE_MOB_SPELL_INSTANTANEOUS(){ return 16412; }
+		static get PARTICLE_INK(){ return 16413; }
+		static get PARTICLE_SLIME(){ return 16414; }
+		static get PARTICLE_RAIN_SPLASH(){ return 16415; }
+		static get PARTICLE_VILLAGER_ANGRY(){ return 16416; }
+		static get PARTICLE_VILLAGER_HAPPY(){ return 16417; }
+		static get PARTICLE_ENCHANTMENT_TABLE(){ return 16418; }
+		static get PARTICLE_TRACKING_EMITTER(){ return 16419; }
+		static get PARTICLE_NOTE(){ return 16420; }
+		static get PARTICLE_WITCH_SPELL(){ return 16421; }
+		static get PARTICLE_CARROT(){ return 16422; }
+		static get PARTICLE_END_ROD(){ return 16424; }
+		static get PARTICLE_DRAGON_BREATH(){ return 16425; }
+		static get PARTICLE_SHOOT(){ return 2000; }
+		static get PARTICLE_DESTROY(){ return 2001; }
+		static get PARTICLE_SPLASH(){ return 2002; }
+		static get PARTICLE_EYE_DESPAWN(){ return 2003; }
+		static get PARTICLE_SPAWN(){ return 2004; }
 
 		constructor(eventId=0, position={x:0,y:0,z:0}, data=0) {
 			super();
@@ -2200,6 +2207,7 @@ const Play = {
 		static get STOP_SNEAK(){ return 12; }
 		static get START_GLIDING(){ return 15; }
 		static get STOP_GLIDING(){ return 16; }
+		static get CONTINUE_BREAK(){ return 18; }
 
 		constructor(entityId=0, action=0, position=null, face=0) {
 			super();
