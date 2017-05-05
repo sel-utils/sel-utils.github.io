@@ -361,10 +361,6 @@
 						}
 					},
 					{
-						"name": "body_length",
-						"type": "varuint"
-					},
-					{
 						"name": "body",
 						"type": "login_body"
 					}

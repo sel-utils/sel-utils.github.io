@@ -23,14 +23,23 @@ const Types = {
 			this._buffer = [];
 			this.writeLittleEndianInt(this.chain.length); this.writeBytes(this.chain);
 			this.writeLittleEndianInt(this.clientData.length); this.writeBytes(this.clientData);
+			var _length = this._buffer.length;
+			this.writeVaruint(_length);
+			var _length_array = [];
+			while(this._buffer.length > _length) _length_array.push(this._buffer.pop());
+			while(_length_array.length > 0) this._buffer.unshift(_length_array.shift());
 			return new Uint8Array(this._buffer);
 		}
 
 		/** @param {(Uint8Array|Array)} buffer */
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
+			var _length=this.readVaruint();
+			_buffer = this._buffer.slice(_length);
+			if(this._buffer.length > _length) this._buffer.length = _length;
 			var aramyha4=this.readLittleEndianInt(); this.chain=this.readBytes(aramyha4);
 			var aramyxz5=this.readLittleEndianInt(); this.clientData=this.readBytes(aramyxz5);
+			this._buffer = _buffer;
 			return this;
 		}
 

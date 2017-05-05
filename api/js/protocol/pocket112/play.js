@@ -38,17 +38,14 @@ const Play = {
 		 * @param version
 		 *        Edition that the player is using to join the server. The different editions may have different features
 		 *        and servers may block the access from unaccepted editions of the game.
-		 * @param bodyLength
-		 *        Length, in bytes, of the following field. This field was used when the body was compressed.
 		 * @param body
 		 *        Payload that contains 2 JWTs (with each length indicated by an unsigned little-endian 32-bits
 		 *        integer) with more informations about the player and its account.
 		 */
-		constructor(protocol=112, version=0, bodyLength=0, body=null) {
+		constructor(protocol=112, version=0, body=null) {
 			super();
 			this.protocol = protocol;
 			this.version = version;
-			this.bodyLength = bodyLength;
 			this.body = body;
 		}
 
@@ -58,7 +55,6 @@ const Play = {
 			this.writeBigEndianByte(1);
 			this.writeBigEndianInt(this.protocol);
 			this.writeBigEndianByte(this.version);
-			this.writeVaruint(this.bodyLength);
 			this.writeBytes(this.body.encode());
 			return new Uint8Array(this._buffer);
 		}
@@ -69,7 +65,6 @@ const Play = {
 			var _id=this.readBigEndianByte();
 			this.protocol=this.readBigEndianInt();
 			this.version=this.readBigEndianByte();
-			this.bodyLength=this.readVaruint();
 			this.body=Types.LoginBody.fromBuffer(this._buffer); this._buffer=this.body._buffer;
 			return this;
 		}
@@ -81,7 +76,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "Login(protocol: " + this.protocol + ", version: " + this.version + ", bodyLength: " + this.bodyLength + ", body: " + this.body + ")";
+			return "Login(protocol: " + this.protocol + ", version: " + this.version + ", body: " + this.body + ")";
 		}
 
 	},
