@@ -4,7 +4,7 @@ import std.json : parseJSON;
 
 void main(string[] args) {
 
-	foreach(string file ; dirEntries("../json", SpanMode.breadth)) {
+	foreach(string file ; dirEntries("../api/json", SpanMode.breadth)) {
 		if(file.endsWith(".json")) parseJSON(cast(string)read(file));
 	}
 
