@@ -39,7 +39,8 @@
 				},
 				{
 					"name": "size",
-					"type": "varulong"
+					"type": "ulong",
+					"endianness": "little_endian"
 				}
 			],
 
@@ -317,8 +318,20 @@
 
 		"arrays": {
 
+			"uint_le_bytes": {
+				"base": "ubyte",
+				"length": "uint",
+				"endianness": "little_endian"
+			},
+
 			"nbt": {
 				"base": "ubyte",
+				"length": "ushort",
+				"endianness": "little_endian"
+			},
+
+			"pack_with_size_array": {
+				"base": "pack_with_size",
 				"length": "ushort",
 				"endianness": "little_endian"
 			},
@@ -326,6 +339,12 @@
 			"rules": {
 				"base": "rule",
 				"length": "uint"
+			},
+
+			"pack_ids": {
+				"base": "string",
+				"length": "ushort",
+				"endianness": "little_endian"
 			},
 
 			"login_payload": {
@@ -441,11 +460,11 @@
 					},
 					{
 						"name": "behaviour_packs",
-						"type": "pack_with_size[]"
+						"type": "pack_with_size_array"
 					},
 					{
 						"name": "resource_packs",
-						"type": "pack_with_size[]"
+						"type": "pack_with_size_array"
 					}
 				]
 			},
@@ -487,7 +506,7 @@
 					},
 					{
 						"name": "pack_ids",
-						"type": "string[]"
+						"type": "pack_ids"
 					}
 				]
 			},
@@ -2530,15 +2549,18 @@
 					},
 					{
 						"name": "max_chunk_size",
-						"type": "varuint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "chunk_count",
-						"type": "varuint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "compressed_pack_size",
-						"type": "varulong"
+						"type": "ulong",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "sha256",
@@ -2558,15 +2580,17 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "varuint"
+						"type": "uint",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "progress",
-						"type": "varulong"
+						"type": "ulong",
+						"endianness": "little_endian"
 					},
 					{
 						"name": "data",
-						"type": "ubyte[]"
+						"type": "uint_le_bytes"
 					}
 				]
 			},
@@ -2582,7 +2606,8 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "varuint"
+						"type": "uint",
+						"endianness": "little_endian"
 					}
 				]
 			},

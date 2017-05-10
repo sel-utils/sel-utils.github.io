@@ -34,9 +34,21 @@
 				<th>Length</th>
 				<th>Length's Endianness</th>
 			</tr>
+			<tr id="types_uint-le-bytes">
+				<td>uintLeBytes</td>
+				<td>ubyte</td>
+				<td>uint</td>
+				<td>little endian</td>
+			</tr>
 			<tr id="types_nbt">
 				<td>nbt</td>
 				<td>ubyte</td>
+				<td>ushort</td>
+				<td>little endian</td>
+			</tr>
+			<tr id="types_pack-with-size-array">
+				<td>packWithSizeArray</td>
+				<td><a href="/protocol/pocket112/types/pack-with-size">packWithSize</a></td>
 				<td>ushort</td>
 				<td>little endian</td>
 			</tr>
@@ -45,6 +57,12 @@
 				<td><a href="/protocol/pocket112/types/rule">rule</a></td>
 				<td>uint</td>
 				<td></td>
+			</tr>
+			<tr id="types_pack-ids">
+				<td>packIds</td>
+				<td>string</td>
+				<td>ushort</td>
+				<td>little endian</td>
 			</tr>
 			<tr id="types_login-payload">
 				<td>loginPayload</td>

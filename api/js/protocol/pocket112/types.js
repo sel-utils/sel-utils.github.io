@@ -69,7 +69,7 @@ const Types = {
 			this._buffer = [];
 			var dhc5z=this.encodeString(this.id); this.writeVaruint(dhc5z.length); this.writeBytes(dhc5z);
 			var dhc5zja9=this.encodeString(this.version); this.writeVaruint(dhc5zja9.length); this.writeBytes(dhc5zja9);
-			this.writeVarulong(this.size);
+			this.writeLittleEndianLong(this.size);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -78,7 +78,7 @@ const Types = {
 			this._buffer = Array.from(_buffer);
 			this.id=this.decodeString(this.readBytes(this.readVaruint()));
 			this.version=this.decodeString(this.readBytes(this.readVaruint()));
-			this.size=this.readVarulong();
+			this.size=this.readLittleEndianLong();
 			return this;
 		}
 
