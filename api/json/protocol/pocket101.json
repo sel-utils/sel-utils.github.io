@@ -267,7 +267,7 @@
 					"type": "bool"
 				},
 				{
-					"name": "?",
+					"name": "unknown2",
 					"type": "bool"
 				}
 			]
@@ -857,7 +857,7 @@
 						"type": "block_position"
 					},
 					{
-						"name": "?",
+						"name": "unknown3",
 						"type": "varint"
 					}
 				]
@@ -1162,7 +1162,7 @@
 						"type": "varint"
 					},
 					{
-						"name": "?",
+						"name": "unknown4",
 						"type": "bool"
 					}
 				]
@@ -1284,7 +1284,7 @@
 						}
 					},
 					{
-						"name": "?",
+						"name": "unknown2",
 						"type": "varint"
 					}
 				]
@@ -1365,7 +1365,7 @@
 						"type": "ubyte"
 					},
 					{
-						"name": "?",
+						"name": "unknown4",
 						"type": "ubyte"
 					}
 				]
@@ -1502,7 +1502,7 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "?",
+						"name": "unknown0",
 						"type": "varint"
 					}
 				]
@@ -1583,7 +1583,7 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "?",
+						"name": "unknown0",
 						"type": "varint"
 					},
 					{
@@ -1591,7 +1591,7 @@
 						"type": "block_position"
 					},
 					{
-						"name": "?",
+						"name": "unknown2",
 						"type": "bool"
 					}
 				]
@@ -1726,7 +1726,7 @@
 						"type": "slot"
 					},
 					{
-						"name": "?",
+						"name": "unknown4",
 						"type": "ubyte"
 					}
 				]
@@ -1876,7 +1876,7 @@
 						"type": "ubyte"
 					},
 					{
-						"name": "?",
+						"name": "unknown2",
 						"type": "bool"
 					}
 				]
@@ -1947,7 +1947,7 @@
 						"type": "float<xyz>"
 					},
 					{
-						"name": "?",
+						"name": "unknown2",
 						"type": "bool"
 					}
 				]
@@ -2164,11 +2164,11 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "?",
+						"name": "unknown0",
 						"type": "varlong"
 					},
 					{
-						"name": "?",
+						"name": "unknown1",
 						"type": "varlong"
 					}
 				]
@@ -2237,7 +2237,7 @@
 						"type": "string"
 					},
 					{
-						"name": "?",
+						"name": "unknown1",
 						"type": "string"
 					}
 				]
@@ -2257,7 +2257,7 @@
 						"type": "string"
 					},
 					{
-						"name": "?",
+						"name": "unknown2",
 						"type": "varuint"
 					},
 					{
