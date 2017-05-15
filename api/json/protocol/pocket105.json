@@ -268,7 +268,7 @@
 					"type": "bool"
 				},
 				{
-					"name": "unknown2",
+					"name": "?",
 					"type": "bool"
 				}
 			]
@@ -858,7 +858,7 @@
 						"type": "block_position"
 					},
 					{
-						"name": "unknown3",
+						"name": "?",
 						"type": "varint"
 					}
 				]
@@ -1167,7 +1167,7 @@
 						"type": "varint"
 					},
 					{
-						"name": "unknown4",
+						"name": "?",
 						"type": "bool"
 					}
 				]
@@ -1289,7 +1289,7 @@
 						}
 					},
 					{
-						"name": "unknown2",
+						"name": "?",
 						"type": "varint"
 					}
 				]
@@ -1370,7 +1370,7 @@
 						"type": "ubyte"
 					},
 					{
-						"name": "unknown4",
+						"name": "?",
 						"type": "ubyte"
 					}
 				]
@@ -1523,7 +1523,7 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "unknown0",
+						"name": "?",
 						"type": "varint"
 					}
 				]
@@ -1604,7 +1604,7 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "unknown0",
+						"name": "?",
 						"type": "varint"
 					},
 					{
@@ -1612,7 +1612,7 @@
 						"type": "block_position"
 					},
 					{
-						"name": "unknown2",
+						"name": "?",
 						"type": "bool"
 					}
 				]
@@ -1747,7 +1747,7 @@
 						"type": "slot"
 					},
 					{
-						"name": "unknown4",
+						"name": "?",
 						"type": "ubyte"
 					}
 				]
@@ -1897,7 +1897,7 @@
 						"type": "ubyte"
 					},
 					{
-						"name": "unknown2",
+						"name": "?",
 						"type": "bool"
 					}
 				]
@@ -1968,7 +1968,7 @@
 						"type": "float<xyz>"
 					},
 					{
-						"name": "unknown2",
+						"name": "?",
 						"type": "bool"
 					}
 				]
@@ -2185,11 +2185,11 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "unknown0",
+						"name": "?",
 						"type": "varlong"
 					},
 					{
-						"name": "unknown1",
+						"name": "?",
 						"type": "varlong"
 					}
 				]
@@ -2258,7 +2258,7 @@
 						"type": "string"
 					},
 					{
-						"name": "unknown1",
+						"name": "?",
 						"type": "string"
 					}
 				]
@@ -2278,7 +2278,7 @@
 						"type": "string"
 					},
 					{
-						"name": "unknown2",
+						"name": "?",
 						"type": "varuint"
 					},
 					{
@@ -2363,23 +2363,23 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "unknown0",
+						"name": "?",
 						"type": "ubyte"
 					},
 					{
-						"name": "unknown1",
+						"name": "?",
 						"type": "ubyte"
 					},
 					{
-						"name": "unknown2",
+						"name": "?",
 						"type": "varint"
 					},
 					{
-						"name": "unknown3",
+						"name": "?",
 						"type": "varint"
 					},
 					{
-						"name": "unknown4",
+						"name": "?",
 						"type": "bool"
 					},
 					{
@@ -2391,7 +2391,7 @@
 						"type": "varlong"
 					},
 					{
-						"name": "unknown7",
+						"name": "?",
 						"type": "string"
 					},
 					{
@@ -2499,7 +2499,7 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "unknown0",
+						"name": "?",
 						"type": "string"
 					},
 					{
@@ -2507,11 +2507,11 @@
 						"type": "block_position"
 					},
 					{
-						"name": "unknown2",
+						"name": "?",
 						"type": "float"
 					},
 					{
-						"name": "unknown3",
+						"name": "?",
 						"type": "float"
 					}
 				]
@@ -2523,11 +2523,11 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "unknown0",
+						"name": "?",
 						"type": "string"
 					},
 					{
-						"name": "unknown1",
+						"name": "?",
 						"type": "bool"
 					}
 				]
