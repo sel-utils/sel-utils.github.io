@@ -1206,42 +1206,52 @@
 							"item_fizz": 59,
 							"chest_open": 60,
 							"chest_closed": 61,
-							"power_on": 62,
-							"power_off": 63,
-							"attach": 64,
-							"detach": 65,
-							"deny": 66,
-							"tripod": 67,
-							"pop": 68,
-							"drop_slot": 69,
-							"note": 70,
-							"thorns": 71,
-							"piston_in": 72,
-							"piston_out": 73,
-							"portal": 74,
-							"water": 75,
-							"lava_pop": 76,
-							"lava": 77,
-							"burp": 78,
-							"bucket_fill_water": 79,
-							"bucket_fill_lava": 80,
-							"bucket_empty_water": 81,
-							"bucket_empty_lava": 82,
-							"guardian_flop": 83,
-							"elderguardian_curse": 84,
-							"mob_warning": 85,
-							"mob_warning_baby": 86,
-							"teleport": 87,
-							"shulker_open": 88,
-							"shulker_close": 89,
-							"haggle": 90,
-							"haggle_yes": 91,
-							"haggle_no": 92,
-							"haggle_idle": 93,
-							"chorus_grow": 94,
-							"chorus_death": 95,
-							"default": 96,
-							"undefined": 97
+							"shulker_box_open": 62,
+							"shulker_box_close": 63,
+							"power_on": 64,
+							"power_off": 65,
+							"attach": 66,
+							"detach": 67,
+							"deny": 68,
+							"tripod": 69,
+							"pop": 70,
+							"drop_slot": 71,
+							"note": 72,
+							"thorns": 73,
+							"piston_in": 74,
+							"piston_out": 75,
+							"portal": 76,
+							"water": 77,
+							"lava_pop": 78,
+							"lava": 79,
+							"burp": 80,
+							"bucket_fill_water": 81,
+							"bucket_fill_lava": 82,
+							"bucket_empty_water": 83,
+							"bucket_empty_lava": 84,
+							"guardian_flop": 85,
+							"elderguardian_curse": 86,
+							"mob_warning": 87,
+							"mob_warning_baby": 88,
+							"teleport": 89,
+							"shulker_open": 90,
+							"shulker_close": 91,
+							"haggle": 92,
+							"haggle_yes": 93,
+							"haggle_no": 94,
+							"haggle_idle": 95,
+							"chorus_grow": 96,
+							"chorus_death": 97,
+							"glass": 98,
+							"cast_spell": 99,
+							"prepare_attack": 100,
+							"prepare_summon": 101,
+							"prepare_wololo": 102,
+							"fang": 103,
+							"charge": 104,
+							"take_picture": 105,
+							"default": 106,
+							"undefined": 107
 						}
 					},
 					{
@@ -2636,7 +2646,7 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "?",
+						"name": "name",
 						"type": "string"
 					},
 					{
@@ -2644,11 +2654,11 @@
 						"type": "block_position"
 					},
 					{
-						"name": "?",
+						"name": "volume",
 						"type": "float"
 					},
 					{
-						"name": "?",
+						"name": "pitch",
 						"type": "float"
 					}
 				]
@@ -2660,11 +2670,11 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "?",
+						"name": "name",
 						"type": "string"
 					},
 					{
-						"name": "?",
+						"name": "stop_all",
 						"type": "bool"
 					}
 				]

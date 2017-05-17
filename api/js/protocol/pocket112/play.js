@@ -1526,42 +1526,52 @@ const Play = {
 		static get ITEM_FIZZ(){ return 59; }
 		static get CHEST_OPEN(){ return 60; }
 		static get CHEST_CLOSED(){ return 61; }
-		static get POWER_ON(){ return 62; }
-		static get POWER_OFF(){ return 63; }
-		static get ATTACH(){ return 64; }
-		static get DETACH(){ return 65; }
-		static get DENY(){ return 66; }
-		static get TRIPOD(){ return 67; }
-		static get POP(){ return 68; }
-		static get DROP_SLOT(){ return 69; }
-		static get NOTE(){ return 70; }
-		static get THORNS(){ return 71; }
-		static get PISTON_IN(){ return 72; }
-		static get PISTON_OUT(){ return 73; }
-		static get PORTAL(){ return 74; }
-		static get WATER(){ return 75; }
-		static get LAVA_POP(){ return 76; }
-		static get LAVA(){ return 77; }
-		static get BURP(){ return 78; }
-		static get BUCKET_FILL_WATER(){ return 79; }
-		static get BUCKET_FILL_LAVA(){ return 80; }
-		static get BUCKET_EMPTY_WATER(){ return 81; }
-		static get BUCKET_EMPTY_LAVA(){ return 82; }
-		static get GUARDIAN_FLOP(){ return 83; }
-		static get ELDERGUARDIAN_CURSE(){ return 84; }
-		static get MOB_WARNING(){ return 85; }
-		static get MOB_WARNING_BABY(){ return 86; }
-		static get TELEPORT(){ return 87; }
-		static get SHULKER_OPEN(){ return 88; }
-		static get SHULKER_CLOSE(){ return 89; }
-		static get HAGGLE(){ return 90; }
-		static get HAGGLE_YES(){ return 91; }
-		static get HAGGLE_NO(){ return 92; }
-		static get HAGGLE_IDLE(){ return 93; }
-		static get CHORUS_GROW(){ return 94; }
-		static get CHORUS_DEATH(){ return 95; }
-		static get DEFAULT(){ return 96; }
-		static get UNDEFINED(){ return 97; }
+		static get SHULKER_BOX_OPEN(){ return 62; }
+		static get SHULKER_BOX_CLOSE(){ return 63; }
+		static get POWER_ON(){ return 64; }
+		static get POWER_OFF(){ return 65; }
+		static get ATTACH(){ return 66; }
+		static get DETACH(){ return 67; }
+		static get DENY(){ return 68; }
+		static get TRIPOD(){ return 69; }
+		static get POP(){ return 70; }
+		static get DROP_SLOT(){ return 71; }
+		static get NOTE(){ return 72; }
+		static get THORNS(){ return 73; }
+		static get PISTON_IN(){ return 74; }
+		static get PISTON_OUT(){ return 75; }
+		static get PORTAL(){ return 76; }
+		static get WATER(){ return 77; }
+		static get LAVA_POP(){ return 78; }
+		static get LAVA(){ return 79; }
+		static get BURP(){ return 80; }
+		static get BUCKET_FILL_WATER(){ return 81; }
+		static get BUCKET_FILL_LAVA(){ return 82; }
+		static get BUCKET_EMPTY_WATER(){ return 83; }
+		static get BUCKET_EMPTY_LAVA(){ return 84; }
+		static get GUARDIAN_FLOP(){ return 85; }
+		static get ELDERGUARDIAN_CURSE(){ return 86; }
+		static get MOB_WARNING(){ return 87; }
+		static get MOB_WARNING_BABY(){ return 88; }
+		static get TELEPORT(){ return 89; }
+		static get SHULKER_OPEN(){ return 90; }
+		static get SHULKER_CLOSE(){ return 91; }
+		static get HAGGLE(){ return 92; }
+		static get HAGGLE_YES(){ return 93; }
+		static get HAGGLE_NO(){ return 94; }
+		static get HAGGLE_IDLE(){ return 95; }
+		static get CHORUS_GROW(){ return 96; }
+		static get CHORUS_DEATH(){ return 97; }
+		static get GLASS(){ return 98; }
+		static get CAST_SPELL(){ return 99; }
+		static get PREPARE_ATTACK(){ return 100; }
+		static get PREPARE_SUMMON(){ return 101; }
+		static get PREPARE_WOLOLO(){ return 102; }
+		static get FANG(){ return 103; }
+		static get CHARGE(){ return 104; }
+		static get TAKE_PICTURE(){ return 105; }
+		static get DEFAULT(){ return 106; }
+		static get UNDEFINED(){ return 107; }
 
 		/**
 		 * @param position
@@ -4698,22 +4708,22 @@ const Play = {
 		static get CLIENTBOUND(){ return true; }
 		static get SERVERBOUND(){ return false; }
 
-		constructor(unknown0="", position=null, unknown2=.0, unknown3=.0) {
+		constructor(name="", position=null, volume=.0, pitch=.0) {
 			super();
-			this.unknown0 = unknown0;
+			this.name = name;
 			this.position = position;
-			this.unknown2 = unknown2;
-			this.unknown3 = unknown3;
+			this.volume = volume;
+			this.pitch = pitch;
 		}
 
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
 			this.writeBigEndianByte(87);
-			var dhc5btbd=this.encodeString(this.unknown0); this.writeVaruint(dhc5btbd.length); this.writeBytes(dhc5btbd);
+			var dhc5y1=this.encodeString(this.name); this.writeVaruint(dhc5y1.length); this.writeBytes(dhc5y1);
 			this.writeBytes(this.position.encode());
-			this.writeLittleEndianFloat(this.unknown2);
-			this.writeLittleEndianFloat(this.unknown3);
+			this.writeLittleEndianFloat(this.volume);
+			this.writeLittleEndianFloat(this.pitch);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -4721,10 +4731,10 @@ const Play = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readBigEndianByte();
-			this.unknown0=this.decodeString(this.readBytes(this.readVaruint()));
+			this.name=this.decodeString(this.readBytes(this.readVaruint()));
 			this.position=Types.BlockPosition.fromBuffer(this._buffer); this._buffer=this.position._buffer;
-			this.unknown2=this.readLittleEndianFloat();
-			this.unknown3=this.readLittleEndianFloat();
+			this.volume=this.readLittleEndianFloat();
+			this.pitch=this.readLittleEndianFloat();
 			return this;
 		}
 
@@ -4735,7 +4745,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "PlaySound(unknown0: " + this.unknown0 + ", position: " + this.position + ", unknown2: " + this.unknown2 + ", unknown3: " + this.unknown3 + ")";
+			return "PlaySound(name: " + this.name + ", position: " + this.position + ", volume: " + this.volume + ", pitch: " + this.pitch + ")";
 		}
 
 	},
@@ -4747,18 +4757,18 @@ const Play = {
 		static get CLIENTBOUND(){ return true; }
 		static get SERVERBOUND(){ return false; }
 
-		constructor(unknown0="", unknown1=false) {
+		constructor(name="", stopAll=false) {
 			super();
-			this.unknown0 = unknown0;
-			this.unknown1 = unknown1;
+			this.name = name;
+			this.stopAll = stopAll;
 		}
 
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
 			this.writeBigEndianByte(88);
-			var dhc5btbd=this.encodeString(this.unknown0); this.writeVaruint(dhc5btbd.length); this.writeBytes(dhc5btbd);
-			this.writeBigEndianByte(this.unknown1?1:0);
+			var dhc5y1=this.encodeString(this.name); this.writeVaruint(dhc5y1.length); this.writeBytes(dhc5y1);
+			this.writeBigEndianByte(this.stopAll?1:0);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -4766,8 +4776,8 @@ const Play = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readBigEndianByte();
-			this.unknown0=this.decodeString(this.readBytes(this.readVaruint()));
-			this.unknown1=this.readBigEndianByte()!==0;
+			this.name=this.decodeString(this.readBytes(this.readVaruint()));
+			this.stopAll=this.readBigEndianByte()!==0;
 			return this;
 		}
 
@@ -4778,7 +4788,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "StopSound(unknown0: " + this.unknown0 + ", unknown1: " + this.unknown1 + ")";
+			return "StopSound(name: " + this.name + ", stopAll: " + this.stopAll + ")";
 		}
 
 	},
