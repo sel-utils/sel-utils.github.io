@@ -2549,20 +2549,24 @@ const Play = {
 		static get CLIENTBOUND(){ return true; }
 		static get SERVERBOUND(){ return false; }
 
-		constructor(unknown0=0, position=null, unknown2=false) {
+		// type
+		static get PLAYER_SPAWN(){ return 0; }
+		static get WORLD_SPAWN(){ return 1; }
+
+		constructor(type=0, position=null, forced=false) {
 			super();
-			this.unknown0 = unknown0;
+			this.type = type;
 			this.position = position;
-			this.unknown2 = unknown2;
+			this.forced = forced;
 		}
 
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
 			this.writeBigEndianByte(43);
-			this.writeVarint(this.unknown0);
+			this.writeVarint(this.type);
 			this.writeBytes(this.position.encode());
-			this.writeBigEndianByte(this.unknown2?1:0);
+			this.writeBigEndianByte(this.forced?1:0);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -2570,9 +2574,9 @@ const Play = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readBigEndianByte();
-			this.unknown0=this.readVarint();
+			this.type=this.readVarint();
 			this.position=Types.BlockPosition.fromBuffer(this._buffer); this._buffer=this.position._buffer;
-			this.unknown2=this.readBigEndianByte()!==0;
+			this.forced=this.readBigEndianByte()!==0;
 			return this;
 		}
 
@@ -2583,7 +2587,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "SetSpawnPosition(unknown0: " + this.unknown0 + ", position: " + this.position + ", unknown2: " + this.unknown2 + ")";
+			return "SetSpawnPosition(type: " + this.type + ", position: " + this.position + ", forced: " + this.forced + ")";
 		}
 
 	},

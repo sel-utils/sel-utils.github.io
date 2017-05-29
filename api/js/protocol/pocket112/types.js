@@ -709,26 +709,33 @@ const Types = {
 		static get PVP(){ return pvp; }
 		static get SEND_COMMAND_FEEDBACK(){ return sendcommandfeedback; }
 
+		// type
+		static get BOOLEAN(){ return 1; }
+		static get INTEGER(){ return 2; }
+		static get FLOATING(){ return 3; }
+
 		/**
 		 * @param name
 		 *        Name of the rule. Same of the `gamerule` command's field in the game.
 		 *        The behaviours indicated in the following constants' descriptions is enabled or disabled.
-		 * @param value
-		 *        Indicates whether the game rule is enabled.
 		 */
-		constructor(name="", value=false, unknown2=false) {
+		constructor(name="", type=0, booleanValue=false, integerValue=0, floatingValue=.0) {
 			super();
 			this.name = name;
-			this.value = value;
-			this.unknown2 = unknown2;
+			this.type = type;
+			this.booleanValue = booleanValue;
+			this.integerValue = integerValue;
+			this.floatingValue = floatingValue;
 		}
 
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
 			var dhc5y1=this.encodeString(this.name); this.writeVaruint(dhc5y1.length); this.writeBytes(dhc5y1);
-			this.writeBigEndianByte(this.value?1:0);
-			this.writeBigEndianByte(this.unknown2?1:0);
+			this.writeBigEndianByte(this.type);
+			if(type==1){ this.writeBigEndianByte(this.booleanValue?1:0); }
+			if(type==2){ this.writeBigEndianInt(this.integerValue); }
+			if(type==3){ this.writeLittleEndianFloat(this.floatingValue); }
 			return new Uint8Array(this._buffer);
 		}
 
@@ -736,8 +743,10 @@ const Types = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			this.name=this.decodeString(this.readBytes(this.readVaruint()));
-			this.value=this.readBigEndianByte()!==0;
-			this.unknown2=this.readBigEndianByte()!==0;
+			this.type=this.readBigEndianByte();
+			if(type==1){ this.booleanValue=this.readBigEndianByte()!==0; }
+			if(type==2){ this.integerValue=this.readBigEndianInt(); }
+			if(type==3){ this.floatingValue=this.readLittleEndianFloat(); }
 			return this;
 		}
 
@@ -748,7 +757,7 @@ const Types = {
 
 		/** @return {string} */
 		toString() {
-			return "Rule(name: " + this.name + ", value: " + this.value + ", unknown2: " + this.unknown2 + ")";
+			return "Rule(name: " + this.name + ", type: " + this.type + ", booleanValue: " + this.booleanValue + ", integerValue: " + this.integerValue + ", floatingValue: " + this.floatingValue + ")";
 		}
 
 	}

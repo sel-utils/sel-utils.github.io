@@ -305,12 +305,28 @@
 					}
 				},
 				{
-					"name": "value",
-					"type": "bool"
+					"name": "type",
+					"type": "ubyte",
+					"constants": {
+						"boolean": 1,
+						"integer": 2,
+						"floating": 3
+					}
 				},
 				{
-					"name": "?",
-					"type": "bool"
+					"name": "boolean_value",
+					"type": "bool",
+					"when": "type==1"
+				},
+				{
+					"name": "integer_value",
+					"type": "int",
+					"when": "type==2"
+				},
+				{
+					"name": "floating_value",
+					"type": "float",
+					"when": "type==3"
 				}
 			]
 
@@ -1718,15 +1734,19 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "?",
-						"type": "varint"
+						"name": "type",
+						"type": "varint",
+						"constants": {
+							"player_spawn": 0,
+							"world_spawn": 1
+						}
 					},
 					{
 						"name": "position",
 						"type": "block_position"
 					},
 					{
-						"name": "?",
+						"name": "forced",
 						"type": "bool"
 					}
 				]
