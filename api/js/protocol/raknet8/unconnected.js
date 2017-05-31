@@ -19,10 +19,11 @@ const Unconnected = {
 		static get CLIENTBOUND(){ return false; }
 		static get SERVERBOUND(){ return true; }
 
-		constructor(pingId=0, magic=new Uint8Array(16)) {
+		constructor(pingId=0, magic=new Uint8Array(16), guid=0) {
 			super();
 			this.pingId = pingId;
 			this.magic = magic;
+			this.guid = guid;
 		}
 
 		/** @return {Uint8Array} */
@@ -31,6 +32,7 @@ const Unconnected = {
 			this.writeBigEndianByte(1);
 			this.writeBigEndianLong(this.pingId);
 			this.writeBytes(this.magic);
+			this.writeBigEndianLong(this.guid);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -40,6 +42,7 @@ const Unconnected = {
 			var _id=this.readBigEndianByte();
 			this.pingId=this.readBigEndianLong();
 			var arambfam=16; this.magic=this.readBytes(arambfam);
+			this.guid=this.readBigEndianLong();
 			return this;
 		}
 
@@ -50,7 +53,7 @@ const Unconnected = {
 
 		/** @return {string} */
 		toString() {
-			return "Ping(pingId: " + this.pingId + ", magic: " + this.magic + ")";
+			return "Ping(pingId: " + this.pingId + ", magic: " + this.magic + ", guid: " + this.guid + ")";
 		}
 
 	},
