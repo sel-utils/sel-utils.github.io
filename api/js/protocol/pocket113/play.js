@@ -634,7 +634,7 @@ const Play = {
 		 * @param worldName
 		 *        World's name that will be displayed in the game's world settings. It can contain formatting codes.
 		 */
-		constructor(entityId=0, runtimeId=0, gamemode=0, position={x:0,y:0,z:0}, yaw=.0, pitch=.0, seed=0, dimension=0, generator=1, worldGamemode=0, difficulty=0, spawnPosition={x:0,y:0,z:0}, loadedInCreative=false, time=0, version=0, rainLevel=.0, lightingLevel=.0, commandsEnabled=false, textureRequired=false, gameRules=[], levelId="", worldName="", premiumWorldTemplate="") {
+		constructor(entityId=0, runtimeId=0, gamemode=0, position={x:0,y:0,z:0}, yaw=.0, pitch=.0, seed=0, dimension=0, generator=1, worldGamemode=0, difficulty=0, spawnPosition={x:0,y:0,z:0}, loadedInCreative=false, time=0, version=0, rainLevel=.0, lightingLevel=.0, commandsEnabled=false, textureRequired=false, gameRules=[], levelId="", worldName="", premiumWorldTemplate="", unknown23=false, worldTicks=0) {
 			super();
 			this.entityId = entityId;
 			this.runtimeId = runtimeId;
@@ -659,6 +659,8 @@ const Play = {
 			this.levelId = levelId;
 			this.worldName = worldName;
 			this.premiumWorldTemplate = premiumWorldTemplate;
+			this.unknown23 = unknown23;
+			this.worldTicks = worldTicks;
 		}
 
 		/** @return {Uint8Array} */
@@ -688,6 +690,8 @@ const Play = {
 			var dhc5zzbl=this.encodeString(this.levelId); this.writeVaruint(dhc5zzbl.length); this.writeBytes(dhc5zzbl);
 			var dhc5bjz5=this.encodeString(this.worldName); this.writeVaruint(dhc5bjz5.length); this.writeBytes(dhc5bjz5);
 			var dhc5cvav=this.encodeString(this.premiumWorldTemplate); this.writeVaruint(dhc5cvav.length); this.writeBytes(dhc5cvav);
+			this.writeBigEndianByte(this.unknown23?1:0);
+			this.writeLittleEndianLong(this.worldTicks);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -718,6 +722,8 @@ const Play = {
 			this.levelId=this.decodeString(this.readBytes(this.readVaruint()));
 			this.worldName=this.decodeString(this.readBytes(this.readVaruint()));
 			this.premiumWorldTemplate=this.decodeString(this.readBytes(this.readVaruint()));
+			this.unknown23=this.readBigEndianByte()!==0;
+			this.worldTicks=this.readLittleEndianLong();
 			return this;
 		}
 
@@ -728,7 +734,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "StartGame(entityId: " + this.entityId + ", runtimeId: " + this.runtimeId + ", gamemode: " + this.gamemode + ", position: " + this.position + ", yaw: " + this.yaw + ", pitch: " + this.pitch + ", seed: " + this.seed + ", dimension: " + this.dimension + ", generator: " + this.generator + ", worldGamemode: " + this.worldGamemode + ", difficulty: " + this.difficulty + ", spawnPosition: " + this.spawnPosition + ", loadedInCreative: " + this.loadedInCreative + ", time: " + this.time + ", version: " + this.version + ", rainLevel: " + this.rainLevel + ", lightingLevel: " + this.lightingLevel + ", commandsEnabled: " + this.commandsEnabled + ", textureRequired: " + this.textureRequired + ", gameRules: " + this.gameRules + ", levelId: " + this.levelId + ", worldName: " + this.worldName + ", premiumWorldTemplate: " + this.premiumWorldTemplate + ")";
+			return "StartGame(entityId: " + this.entityId + ", runtimeId: " + this.runtimeId + ", gamemode: " + this.gamemode + ", position: " + this.position + ", yaw: " + this.yaw + ", pitch: " + this.pitch + ", seed: " + this.seed + ", dimension: " + this.dimension + ", generator: " + this.generator + ", worldGamemode: " + this.worldGamemode + ", difficulty: " + this.difficulty + ", spawnPosition: " + this.spawnPosition + ", loadedInCreative: " + this.loadedInCreative + ", time: " + this.time + ", version: " + this.version + ", rainLevel: " + this.rainLevel + ", lightingLevel: " + this.lightingLevel + ", commandsEnabled: " + this.commandsEnabled + ", textureRequired: " + this.textureRequired + ", gameRules: " + this.gameRules + ", levelId: " + this.levelId + ", worldName: " + this.worldName + ", premiumWorldTemplate: " + this.premiumWorldTemplate + ", unknown23: " + this.unknown23 + ", worldTicks: " + this.worldTicks + ")";
 		}
 
 	},

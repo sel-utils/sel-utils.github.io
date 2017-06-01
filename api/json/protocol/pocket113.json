@@ -771,6 +771,15 @@
 					{
 						"name": "premium_world_template",
 						"type": "string"
+					},
+					{
+						"name": "?",
+						"type": "bool"
+					},
+					{
+						"name": "world_ticks",
+						"type": "ulong",
+						"endianness": "little_endian"
 					}
 				]
 			},
