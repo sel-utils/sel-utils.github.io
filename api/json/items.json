@@ -5603,6 +5603,14 @@
 			"stack": 64
 		},
 
+		"spawn_parrot": {
+			"minecraft": {
+				"id": 383,
+				"meta": 105
+			},
+			"stack": 64
+		},
+
 		"spawn_villager": {
 			"minecraft": {
 				"id": 383,
@@ -6115,6 +6123,11 @@
 			"minecraft": 452,
 			"pocket": 452,
 			"stack": 64
+		},
+
+		"knowledge_book": {
+			"minecraft": 453,
+			"stack": 1
 		},
 
 		"disc_13": {
