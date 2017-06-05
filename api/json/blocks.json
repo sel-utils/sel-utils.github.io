@@ -40636,6 +40636,1030 @@
 					"z": 16
 				}
 			}
+		},
+
+		"white_concrete": {
+			"id": 1377,
+			"minecraft": {
+				"id": 251,
+				"meta": 0
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 0
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"orange_concrete": {
+			"id": 1378,
+			"minecraft": {
+				"id": 251,
+				"meta": 1
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 1
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"magenta_concrete": {
+			"id": 1379,
+			"minecraft": {
+				"id": 251,
+				"meta": 2
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 2
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"light_blue_concrete": {
+			"id": 1380,
+			"minecraft": {
+				"id": 251,
+				"meta": 3
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 3
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"yellow_concrete": {
+			"id": 1381,
+			"minecraft": {
+				"id": 251,
+				"meta": 4
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 4
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"lime_concrete": {
+			"id": 1382,
+			"minecraft": {
+				"id": 251,
+				"meta": 5
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 5
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"pink_concrete": {
+			"id": 1383,
+			"minecraft": {
+				"id": 251,
+				"meta": 6
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 6
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"gray_concrete": {
+			"id": 1384,
+			"minecraft": {
+				"id": 251,
+				"meta": 7
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 7
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"light_gray_concrete": {
+			"id": 1385,
+			"minecraft": {
+				"id": 251,
+				"meta": 8
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 8
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"cyan_concrete": {
+			"id": 1386,
+			"minecraft": {
+				"id": 251,
+				"meta": 9
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 9
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"purple_concrete": {
+			"id": 1387,
+			"minecraft": {
+				"id": 251,
+				"meta": 10
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 10
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"blue_concrete": {
+			"id": 1388,
+			"minecraft": {
+				"id": 251,
+				"meta": 11
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 11
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"brown_concrete": {
+			"id": 1389,
+			"minecraft": {
+				"id": 251,
+				"meta": 12
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 12
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"green_concrete": {
+			"id": 1390,
+			"minecraft": {
+				"id": 251,
+				"meta": 13
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 13
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"red_concrete": {
+			"id": 1391,
+			"minecraft": {
+				"id": 251,
+				"meta": 14
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 14
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"black_concrete": {
+			"id": 1392,
+			"minecraft": {
+				"id": 251,
+				"meta": 15
+			},
+			"pocket": {
+				"id": 236,
+				"meta": 15
+			},
+			"solid": true,
+			"hardness": 1.8,
+			"blast_resistance": 9,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"white_concrete_powder": {
+			"id": 1393,
+			"minecraft": {
+				"id": 252,
+				"meta": 0
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 0
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"orange_concrete_powder": {
+			"id": 1394,
+			"minecraft": {
+				"id": 252,
+				"meta": 1
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 1
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"magenta_concrete_powder": {
+			"id": 1395,
+			"minecraft": {
+				"id": 252,
+				"meta": 2
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 2
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"light_blue_concrete_powder": {
+			"id": 1396,
+			"minecraft": {
+				"id": 252,
+				"meta": 3
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 3
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"yellow_concrete_powder": {
+			"id": 1397,
+			"minecraft": {
+				"id": 252,
+				"meta": 4
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 4
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"lime_concrete_powder": {
+			"id": 1398,
+			"minecraft": {
+				"id": 252,
+				"meta": 5
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 5
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"pink_concrete_powder": {
+			"id": 1399,
+			"minecraft": {
+				"id": 252,
+				"meta": 6
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 6
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"gray_concrete_powder": {
+			"id": 1400,
+			"minecraft": {
+				"id": 252,
+				"meta": 7
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 7
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"light_gray_concrete_powder": {
+			"id": 1401,
+			"minecraft": {
+				"id": 252,
+				"meta": 8
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 8
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"cyan_concrete_powder": {
+			"id": 1402,
+			"minecraft": {
+				"id": 252,
+				"meta": 9
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 9
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"purple_concrete_powder": {
+			"id": 1403,
+			"minecraft": {
+				"id": 252,
+				"meta": 10
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 10
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"blue_concrete_powder": {
+			"id": 1404,
+			"minecraft": {
+				"id": 252,
+				"meta": 11
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 11
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"brown_concrete_powder": {
+			"id": 1405,
+			"minecraft": {
+				"id": 252,
+				"meta": 12
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 12
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"green_concrete_powder": {
+			"id": 1406,
+			"minecraft": {
+				"id": 252,
+				"meta": 13
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 13
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"red_concrete_powder": {
+			"id": 1407,
+			"minecraft": {
+				"id": 252,
+				"meta": 14
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 14
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
+		},
+
+		"black_concrete_powder": {
+			"id": 1408,
+			"minecraft": {
+				"id": 252,
+				"meta": 15
+			},
+			"pocket": {
+				"id": 237,
+				"meta": 15
+			},
+			"solid": true,
+			"hardness": 0.5,
+			"blast_resistance": 2.5,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
 		}
 
 	}
