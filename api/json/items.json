@@ -3057,7 +3057,7 @@
 			"minecraft": 191,
 			"pocket": {
 				"id": 85,
-				"meta": 4
+				"meta": 5
 			},
 			"stack": 64
 		},
@@ -3066,7 +3066,7 @@
 			"minecraft": 192,
 			"pocket": {
 				"id": 85,
-				"meta": 5
+				"meta": 4
 			},
 			"stack": 64
 		},
@@ -3371,67 +3371,67 @@
 
 		"white_glazed_terracotta": {
 			"minecraft": 235,
-			"pocket": 219,
+			"pocket": 220,
 			"stack": 64
 		},
 
 		"orange_glazed_terracotta": {
 			"minecraft": 236,
-			"pocket": 220,
+			"pocket": 221,
 			"stack": 64
 		},
 
 		"magenta_glazed_terracotta": {
 			"minecraft": 237,
-			"pocket": 221,
+			"pocket": 222,
 			"stack": 64
 		},
 
 		"light_blue_glazed_terracotta": {
 			"minecraft": 238,
-			"pocket": 222,
+			"pocket": 223,
 			"stack": 64
 		},
 
 		"yellow_glazed_terracotta": {
 			"minecraft": 239,
-			"pocket": 223,
+			"pocket": 224,
 			"stack": 64
 		},
 
 		"lime_glazed_terracotta": {
 			"minecraft": 240,
-			"pocket": 224,
+			"pocket": 225,
 			"stack": 64
 		},
 
 		"pink_glazed_terracotta": {
 			"minecraft": 241,
-			"pocket": 225,
+			"pocket": 226,
 			"stack": 64
 		},
 
 		"gray_glazed_terracotta": {
 			"minecraft": 242,
-			"pocket": 226,
+			"pocket": 227,
 			"stack": 64
 		},
 
 		"light_gray_glazed_terracotta": {
 			"minecraft": 243,
-			"pocket": 227,
+			"pocket": 228,
 			"stack": 64
 		},
 
 		"cyan_glazed_terracotta": {
 			"minecraft": 244,
-			"pocket": 228,
+			"pocket": 229,
 			"stack": 64
 		},
 
 		"purple_glazed_terracotta": {
 			"minecraft": 245,
-			"pocket": 229,
+			"pocket": 219,
 			"stack": 64
 		},
 
