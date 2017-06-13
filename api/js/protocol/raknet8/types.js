@@ -12,11 +12,12 @@ const Types = {
 
 	Address: class extends Buffer {
 
-		constructor(type=0, ipv4=0, ipv6=new Uint8Array(16), port=0) {
+		constructor(type=0, ipv4=0, ipv6=new Uint8Array(16), unknown3=new Uint8Array(10), port=0) {
 			super();
 			this.type = type;
 			this.ipv4 = ipv4;
 			this.ipv6 = ipv6;
+			this.unknown3 = unknown3;
 			this.port = port;
 		}
 
@@ -26,6 +27,7 @@ const Types = {
 			this.writeBigEndianByte(this.type);
 			if(type==4){ this.writeBigEndianInt(this.ipv4); }
 			if(type==6){ this.writeBytes(this.ipv6); }
+			if(type==6){ this.writeBytes(this.unknown3); }
 			this.writeBigEndianShort(this.port);
 			return new Uint8Array(this._buffer);
 		}
@@ -36,6 +38,7 @@ const Types = {
 			this.type=this.readBigEndianByte();
 			if(type==4){ this.ipv4=this.readBigEndianInt(); }
 			if(type==6){ var aramabn=16; this.ipv6=this.readBytes(aramabn); }
+			if(type==6){ var aramd5b9=10; this.unknown3=this.readBytes(aramd5b9); }
 			this.port=this.readBigEndianShort();
 			return this;
 		}
@@ -47,7 +50,7 @@ const Types = {
 
 		/** @return {string} */
 		toString() {
-			return "Address(type: " + this.type + ", ipv4: " + this.ipv4 + ", ipv6: " + this.ipv6 + ", port: " + this.port + ")";
+			return "Address(type: " + this.type + ", ipv4: " + this.ipv4 + ", ipv6: " + this.ipv6 + ", unknown3: " + this.unknown3 + ", port: " + this.port + ")";
 		}
 
 	},

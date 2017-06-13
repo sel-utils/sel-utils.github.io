@@ -33,6 +33,11 @@
 					"when": "type==6"
 				},
 				{
+					"name": "?",
+					"type": "ubyte[10]",
+					"when": "type==6"
+				},
+				{
 					"name": "port",
 					"type": "ushort"
 				}
