@@ -745,7 +745,7 @@
 						"type": "float"
 					},
 					{
-						"name": "lighting_level",
+						"name": "lightning_level",
 						"type": "float"
 					},
 					{

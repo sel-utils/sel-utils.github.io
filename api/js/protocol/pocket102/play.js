@@ -683,7 +683,7 @@ const Play = {
 		 * @param worldName
 		 *        World's name that will be displayed in the game's world settings. It can contain formatting codes.
 		 */
-		constructor(entityId=0, runtimeId=0, position={x:0,y:0,z:0}, yaw=.0, pitch=.0, seed=0, dimension=0, generator=1, worldGamemode=0, difficulty=0, spawnPosition={x:0,y:0,z:0}, loadedInCreative=false, time=0, edition=0, rainLevel=.0, lightingLevel=.0, commandsEnabled=false, textureRequired=false, levelId="", worldName="") {
+		constructor(entityId=0, runtimeId=0, position={x:0,y:0,z:0}, yaw=.0, pitch=.0, seed=0, dimension=0, generator=1, worldGamemode=0, difficulty=0, spawnPosition={x:0,y:0,z:0}, loadedInCreative=false, time=0, edition=0, rainLevel=.0, lightningLevel=.0, commandsEnabled=false, textureRequired=false, levelId="", worldName="") {
 			super();
 			this.entityId = entityId;
 			this.runtimeId = runtimeId;
@@ -700,7 +700,7 @@ const Play = {
 			this.time = time;
 			this.edition = edition;
 			this.rainLevel = rainLevel;
-			this.lightingLevel = lightingLevel;
+			this.lightningLevel = lightningLevel;
 			this.commandsEnabled = commandsEnabled;
 			this.textureRequired = textureRequired;
 			this.levelId = levelId;
@@ -726,7 +726,7 @@ const Play = {
 			this.writeVarint(this.time);
 			this.writeBigEndianByte(this.edition);
 			this.writeLittleEndianFloat(this.rainLevel);
-			this.writeLittleEndianFloat(this.lightingLevel);
+			this.writeLittleEndianFloat(this.lightningLevel);
 			this.writeBigEndianByte(this.commandsEnabled?1:0);
 			this.writeBigEndianByte(this.textureRequired?1:0);
 			var dhc5zzbl=this.encodeString(this.levelId); this.writeVaruint(dhc5zzbl.length); this.writeBytes(dhc5zzbl);
@@ -753,7 +753,7 @@ const Play = {
 			this.time=this.readVarint();
 			this.edition=this.readBigEndianByte();
 			this.rainLevel=this.readLittleEndianFloat();
-			this.lightingLevel=this.readLittleEndianFloat();
+			this.lightningLevel=this.readLittleEndianFloat();
 			this.commandsEnabled=this.readBigEndianByte()!==0;
 			this.textureRequired=this.readBigEndianByte()!==0;
 			this.levelId=this.decodeString(this.readBytes(this.readVaruint()));
@@ -768,7 +768,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "StartGame(entityId: " + this.entityId + ", runtimeId: " + this.runtimeId + ", position: " + this.position + ", yaw: " + this.yaw + ", pitch: " + this.pitch + ", seed: " + this.seed + ", dimension: " + this.dimension + ", generator: " + this.generator + ", worldGamemode: " + this.worldGamemode + ", difficulty: " + this.difficulty + ", spawnPosition: " + this.spawnPosition + ", loadedInCreative: " + this.loadedInCreative + ", time: " + this.time + ", edition: " + this.edition + ", rainLevel: " + this.rainLevel + ", lightingLevel: " + this.lightingLevel + ", commandsEnabled: " + this.commandsEnabled + ", textureRequired: " + this.textureRequired + ", levelId: " + this.levelId + ", worldName: " + this.worldName + ")";
+			return "StartGame(entityId: " + this.entityId + ", runtimeId: " + this.runtimeId + ", position: " + this.position + ", yaw: " + this.yaw + ", pitch: " + this.pitch + ", seed: " + this.seed + ", dimension: " + this.dimension + ", generator: " + this.generator + ", worldGamemode: " + this.worldGamemode + ", difficulty: " + this.difficulty + ", spawnPosition: " + this.spawnPosition + ", loadedInCreative: " + this.loadedInCreative + ", time: " + this.time + ", edition: " + this.edition + ", rainLevel: " + this.rainLevel + ", lightningLevel: " + this.lightningLevel + ", commandsEnabled: " + this.commandsEnabled + ", textureRequired: " + this.textureRequired + ", levelId: " + this.levelId + ", worldName: " + this.worldName + ")";
 		}
 
 	},

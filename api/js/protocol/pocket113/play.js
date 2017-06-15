@@ -634,7 +634,7 @@ const Play = {
 		 * @param worldName
 		 *        World's name that will be displayed in the game's world settings. It can contain formatting codes.
 		 */
-		constructor(entityId=0, runtimeId=0, gamemode=0, position={x:0,y:0,z:0}, yaw=.0, pitch=.0, seed=0, dimension=0, generator=1, worldGamemode=0, difficulty=0, spawnPosition={x:0,y:0,z:0}, loadedInCreative=false, time=0, version=0, rainLevel=.0, lightingLevel=.0, commandsEnabled=false, textureRequired=false, gameRules=[], levelId="", worldName="", premiumWorldTemplate="", unknown23=false, worldTicks=0) {
+		constructor(entityId=0, runtimeId=0, gamemode=0, position={x:0,y:0,z:0}, yaw=.0, pitch=.0, seed=0, dimension=0, generator=1, worldGamemode=0, difficulty=0, spawnPosition={x:0,y:0,z:0}, loadedInCreative=false, time=0, version=0, rainLevel=.0, lightningLevel=.0, commandsEnabled=false, textureRequired=false, gameRules=[], levelId="", worldName="", premiumWorldTemplate="", unknown23=false, worldTicks=0) {
 			super();
 			this.entityId = entityId;
 			this.runtimeId = runtimeId;
@@ -652,7 +652,7 @@ const Play = {
 			this.time = time;
 			this.version = version;
 			this.rainLevel = rainLevel;
-			this.lightingLevel = lightingLevel;
+			this.lightningLevel = lightningLevel;
 			this.commandsEnabled = commandsEnabled;
 			this.textureRequired = textureRequired;
 			this.gameRules = gameRules;
@@ -683,7 +683,7 @@ const Play = {
 			this.writeVarint(this.time);
 			this.writeBigEndianByte(this.version);
 			this.writeLittleEndianFloat(this.rainLevel);
-			this.writeLittleEndianFloat(this.lightingLevel);
+			this.writeLittleEndianFloat(this.lightningLevel);
 			this.writeBigEndianByte(this.commandsEnabled?1:0);
 			this.writeBigEndianByte(this.textureRequired?1:0);
 			this.writeVaruint(this.gameRules.length); for(var dhc5y1uv in this.gameRules){ this.writeBytes(this.gameRules[dhc5y1uv].encode()); }
@@ -715,7 +715,7 @@ const Play = {
 			this.time=this.readVarint();
 			this.version=this.readBigEndianByte();
 			this.rainLevel=this.readLittleEndianFloat();
-			this.lightingLevel=this.readLittleEndianFloat();
+			this.lightningLevel=this.readLittleEndianFloat();
 			this.commandsEnabled=this.readBigEndianByte()!==0;
 			this.textureRequired=this.readBigEndianByte()!==0;
 			var aramzfzj=this.readVaruint(); this.gameRules=[]; for(var dhc5y1uv=0;dhc5y1uv<aramzfzj;dhc5y1uv++){ this.gameRules[dhc5y1uv]=Types.Rule.fromBuffer(this._buffer); this._buffer=this.gameRules[dhc5y1uv]._buffer; }
@@ -734,7 +734,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "StartGame(entityId: " + this.entityId + ", runtimeId: " + this.runtimeId + ", gamemode: " + this.gamemode + ", position: " + this.position + ", yaw: " + this.yaw + ", pitch: " + this.pitch + ", seed: " + this.seed + ", dimension: " + this.dimension + ", generator: " + this.generator + ", worldGamemode: " + this.worldGamemode + ", difficulty: " + this.difficulty + ", spawnPosition: " + this.spawnPosition + ", loadedInCreative: " + this.loadedInCreative + ", time: " + this.time + ", version: " + this.version + ", rainLevel: " + this.rainLevel + ", lightingLevel: " + this.lightingLevel + ", commandsEnabled: " + this.commandsEnabled + ", textureRequired: " + this.textureRequired + ", gameRules: " + this.gameRules + ", levelId: " + this.levelId + ", worldName: " + this.worldName + ", premiumWorldTemplate: " + this.premiumWorldTemplate + ", unknown23: " + this.unknown23 + ", worldTicks: " + this.worldTicks + ")";
+			return "StartGame(entityId: " + this.entityId + ", runtimeId: " + this.runtimeId + ", gamemode: " + this.gamemode + ", position: " + this.position + ", yaw: " + this.yaw + ", pitch: " + this.pitch + ", seed: " + this.seed + ", dimension: " + this.dimension + ", generator: " + this.generator + ", worldGamemode: " + this.worldGamemode + ", difficulty: " + this.difficulty + ", spawnPosition: " + this.spawnPosition + ", loadedInCreative: " + this.loadedInCreative + ", time: " + this.time + ", version: " + this.version + ", rainLevel: " + this.rainLevel + ", lightningLevel: " + this.lightningLevel + ", commandsEnabled: " + this.commandsEnabled + ", textureRequired: " + this.textureRequired + ", gameRules: " + this.gameRules + ", levelId: " + this.levelId + ", worldName: " + this.worldName + ", premiumWorldTemplate: " + this.premiumWorldTemplate + ", unknown23: " + this.unknown23 + ", worldTicks: " + this.worldTicks + ")";
 		}
 
 	},
