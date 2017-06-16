@@ -471,6 +471,7 @@
 
 		"skeleton": {
 			"object": false,
+			"minecraft": 51,
 			"pocket": 34,
 			"size": {
 				"width": 0.6,
