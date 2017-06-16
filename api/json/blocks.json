@@ -12613,7 +12613,7 @@
 			},
 			"pocket": {
 				"id": 44,
-				"meta": 6
+				"meta": 7
 			},
 			"solid": true,
 			"hardness": 2,
@@ -12645,7 +12645,7 @@
 			},
 			"pocket": {
 				"id": 44,
-				"meta": 7
+				"meta": 6
 			},
 			"solid": true,
 			"hardness": 2,
@@ -13113,7 +13113,7 @@
 			},
 			"pocket": {
 				"id": 44,
-				"meta": 14
+				"meta": 15
 			},
 			"solid": true,
 			"hardness": 2,
@@ -13145,7 +13145,7 @@
 			},
 			"pocket": {
 				"id": 44,
-				"meta": 15
+				"meta": 14
 			},
 			"solid": true,
 			"hardness": 2,
@@ -13625,7 +13625,7 @@
 			},
 			"pocket": {
 				"id": 43,
-				"meta": 6
+				"meta": 7
 			},
 			"solid": true,
 			"hardness": 2,
@@ -13657,7 +13657,7 @@
 			},
 			"pocket": {
 				"id": 43,
-				"meta": 7
+				"meta": 6
 			},
 			"solid": true,
 			"hardness": 2,
@@ -25140,7 +25140,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 1
+				"meta": 5
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25172,7 +25172,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 2
+				"meta": 4
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25236,7 +25236,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 4
+				"meta": 2
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25268,7 +25268,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 5
+				"meta": 1
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25332,7 +25332,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 9
+				"meta": 13
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25364,7 +25364,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 10
+				"meta": 12
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25428,7 +25428,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 12
+				"meta": 10
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25460,7 +25460,7 @@
 			},
 			"pocket": {
 				"id": 77,
-				"meta": 13
+				"meta": 9
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25524,7 +25524,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 1
+				"meta": 5
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25556,7 +25556,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 2
+				"meta": 4
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25620,7 +25620,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 4
+				"meta": 2
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25652,7 +25652,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 5
+				"meta": 1
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25716,7 +25716,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 9
+				"meta": 13
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25748,7 +25748,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 10
+				"meta": 12
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25812,7 +25812,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 12
+				"meta": 10
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -25844,7 +25844,7 @@
 			},
 			"pocket": {
 				"id": 143,
-				"meta": 13
+				"meta": 9
 			},
 			"solid": false,
 			"hardness": 0.5,
@@ -29577,7 +29577,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 0
+				"meta": 3
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29609,7 +29609,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 1
+				"meta": 2
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29641,7 +29641,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 2
+				"meta": 1
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29673,7 +29673,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 3
+				"meta": 0
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29705,7 +29705,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 4
+				"meta": 11
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29737,7 +29737,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 5
+				"meta": 10
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29769,7 +29769,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 6
+				"meta": 9
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29801,7 +29801,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 7
+				"meta": 8
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29833,7 +29833,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 8
+				"meta": 7
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29865,7 +29865,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 9
+				"meta": 6
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29897,7 +29897,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 10
+				"meta": 5
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29929,7 +29929,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 11
+				"meta": 4
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29961,7 +29961,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 12
+				"meta": 15
 			},
 			"solid": true,
 			"hardness": 3,
@@ -29993,7 +29993,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 13
+				"meta": 14
 			},
 			"solid": true,
 			"hardness": 3,
@@ -30025,7 +30025,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 14
+				"meta": 13
 			},
 			"solid": true,
 			"hardness": 3,
@@ -30057,7 +30057,7 @@
 			},
 			"pocket": {
 				"id": 96,
-				"meta": 15
+				"meta": 12
 			},
 			"solid": true,
 			"hardness": 3,
@@ -30089,7 +30089,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 0
+				"meta": 3
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30121,7 +30121,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 1
+				"meta": 2
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30153,7 +30153,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 2
+				"meta": 1
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30185,7 +30185,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 3
+				"meta": 0
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30217,7 +30217,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 4
+				"meta": 11
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30249,7 +30249,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 5
+				"meta": 10
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30281,7 +30281,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 6
+				"meta": 9
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30313,7 +30313,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 7
+				"meta": 8
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30345,7 +30345,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 8
+				"meta": 7
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30377,7 +30377,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 9
+				"meta": 6
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30409,7 +30409,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 10
+				"meta": 5
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30441,7 +30441,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 11
+				"meta": 4
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30473,7 +30473,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 12
+				"meta": 15
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30505,7 +30505,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 13
+				"meta": 14
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30537,7 +30537,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 14
+				"meta": 13
 			},
 			"solid": true,
 			"hardness": 5,
@@ -30569,7 +30569,7 @@
 			},
 			"pocket": {
 				"id": 167,
-				"meta": 15
+				"meta": 12
 			},
 			"solid": true,
 			"hardness": 5,
