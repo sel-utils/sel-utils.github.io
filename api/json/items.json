@@ -3909,25 +3909,29 @@
 		"iron_shovel": {
 			"minecraft": 256,
 			"pocket": 256,
-			"stack": 1
+			"stack": 1,
+			"durability": 251
 		},
 
 		"iron_pickaxe": {
 			"minecraft": 257,
 			"pocket": 257,
-			"stack": 1
+			"stack": 1,
+			"durability": 251
 		},
 
 		"iron_axe": {
 			"minecraft": 258,
 			"pocket": 258,
-			"stack": 1
+			"stack": 1,
+			"durability": 251
 		},
 
 		"flint_and_steel": {
 			"minecraft": 259,
 			"pocket": 259,
-			"stack": 1
+			"stack": 1,
+			"durability": 65
 		},
 
 		"apple": {
@@ -3939,7 +3943,8 @@
 		"bow": {
 			"minecraft": 261,
 			"pocket": 261,
-			"stack": 1
+			"stack": 1,
+			"durability": 385
 		},
 
 		"arrow": {
@@ -3987,79 +3992,92 @@
 		"iron_sword": {
 			"minecraft": 267,
 			"pocket": 267,
-			"stack": 1
+			"stack": 1,
+			"durability": 251
 		},
 
 		"wooden_sword": {
 			"minecraft": 268,
 			"pocket": 268,
-			"stack": 1
+			"stack": 1,
+			"durability": 60
 		},
 
 		"wooden_shovel": {
 			"minecraft": 269,
 			"pocket": 269,
-			"stack": 1
+			"stack": 1,
+			"durability": 60
 		},
 
 		"wooden_pickaxe": {
 			"minecraft": 270,
 			"pocket": 270,
-			"stack": 1
+			"stack": 1,
+			"durability": 60
 		},
 
 		"wooden_axe": {
 			"minecraft": 271,
 			"pocket": 271,
-			"stack": 1
+			"stack": 1,
+			"durability": 60
 		},
 
 		"stone_sword": {
 			"minecraft": 272,
 			"pocket": 272,
-			"stack": 1
+			"stack": 1,
+			"durability": 132
 		},
 
 		"stone_shovel": {
 			"minecraft": 273,
 			"pocket": 273,
-			"stack": 1
+			"stack": 1,
+			"durability": 132
 		},
 
 		"stone_pickaxe": {
 			"minecraft": 274,
 			"pocket": 274,
-			"stack": 1
+			"stack": 1,
+			"durability": 132
 		},
 
 		"stone_axe": {
 			"minecraft": 275,
 			"pocket": 275,
-			"stack": 1
+			"stack": 1,
+			"durability": 132
 		},
 
 		"diamond_sword": {
 			"minecraft": 276,
 			"pocket": 276,
-			"stack": 1
+			"stack": 1,
+			"durability": 1562
 		},
 
 		"diamond_shovel": {
 			"minecraft": 277,
 			"pocket": 277,
-			"stack": 1
+			"stack": 1,
+			"durability": 1562
 		},
 
 		"diamond_pickaxe": {
 			"minecraft": 278,
 			"pocket": 278,
-			"stack": 1
+			"stack": 1,
+			"durability": 1562
 		},
 
 		"diamond_axe": {
 			"minecraft": 279,
 			"pocket": 279,
-			"stack": 1
+			"stack": 1,
+			"durability": 1562
 		},
 
 		"stick": {
@@ -4083,25 +4101,29 @@
 		"golden_sword": {
 			"minecraft": 283,
 			"pocket": 283,
-			"stack": 1
+			"stack": 1,
+			"durability": 33
 		},
 
 		"golden_shovel": {
 			"minecraft": 284,
 			"pocket": 284,
-			"stack": 1
+			"stack": 1,
+			"durability": 33
 		},
 
 		"golden_pickaxe": {
 			"minecraft": 285,
 			"pocket": 285,
-			"stack": 1
+			"stack": 1,
+			"durability": 33
 		},
 
 		"golden_axe": {
 			"minecraft": 286,
 			"pocket": 286,
-			"stack": 1
+			"stack": 1,
+			"durability": 33
 		},
 
 		"string": {
@@ -4125,31 +4147,36 @@
 		"wooden_hoe": {
 			"minecraft": 290,
 			"pocket": 290,
-			"stack": 1
+			"stack": 1,
+			"durability": 60
 		},
 
 		"stone_hoe": {
 			"minecraft": 291,
 			"pocket": 291,
-			"stack": 1
+			"stack": 1,
+			"durability": 132
 		},
 
 		"iron_hoe": {
 			"minecraft": 292,
 			"pocket": 292,
-			"stack": 1
+			"stack": 1,
+			"durability": 251
 		},
 
 		"diamond_hoe": {
 			"minecraft": 293,
 			"pocket": 293,
-			"stack": 1
+			"stack": 1,
+			"durability": 1562
 		},
 
 		"golden_hoe": {
 			"minecraft": 294,
 			"pocket": 294,
-			"stack": 1
+			"stack": 1,
+			"durability": 33
 		},
 
 		"seeds": {
@@ -4173,121 +4200,141 @@
 		"leather_cap": {
 			"minecraft": 298,
 			"pocket": 298,
-			"stack": 1
+			"stack": 1,
+			"durability": 56
 		},
 
 		"leather_tunic": {
 			"minecraft": 299,
 			"pocket": 299,
-			"stack": 1
+			"stack": 1,
+			"durability": 81
 		},
 
 		"leather_pants": {
 			"minecraft": 300,
 			"pocket": 300,
-			"stack": 1
+			"stack": 1,
+			"durability": 76
 		},
 
 		"leather_boots": {
 			"minecraft": 301,
 			"pocket": 301,
-			"stack": 1
+			"stack": 1,
+			"durability": 66
 		},
 
 		"chain_helmet": {
 			"minecraft": 302,
 			"pocket": 302,
-			"stack": 1
+			"stack": 1,
+			"durability": 166
 		},
 
 		"chain_chestplate": {
 			"minecraft": 303,
 			"pocket": 303,
-			"stack": 1
+			"stack": 1,
+			"durability": 241
 		},
 
 		"chain_leggings": {
 			"minecraft": 304,
 			"pocket": 304,
-			"stack": 1
+			"stack": 1,
+			"durability": 226
 		},
 
 		"chain_boots": {
 			"minecraft": 305,
 			"pocket": 305,
-			"stack": 1
+			"stack": 1,
+			"durability": 196
 		},
 
 		"iron_helmet": {
 			"minecraft": 306,
 			"pocket": 306,
-			"stack": 1
+			"stack": 1,
+			"durability": 166
 		},
 
 		"iron_chestplate": {
 			"minecraft": 307,
 			"pocket": 307,
-			"stack": 1
+			"stack": 1,
+			"durability": 241
 		},
 
 		"iron_leggings": {
 			"minecraft": 308,
 			"pocket": 308,
-			"stack": 1
+			"stack": 1,
+			"durability": 226
 		},
 
 		"iron_boots": {
 			"minecraft": 309,
 			"pocket": 309,
-			"stack": 1
+			"stack": 1,
+			"durability": 196
 		},
 
 		"diamond_helmet": {
 			"minecraft": 310,
 			"pocket": 310,
-			"stack": 1
+			"stack": 1,
+			"durability": 364
 		},
 
 		"diamond_chestplate": {
 			"minecraft": 311,
 			"pocket": 311,
-			"stack": 1
+			"stack": 1,
+			"durability": 529
 		},
 
 		"diamond_leggings": {
 			"minecraft": 312,
 			"pocket": 312,
-			"stack": 1
+			"stack": 1,
+			"durability": 496
 		},
 
 		"diamond_boots": {
 			"minecraft": 313,
 			"pocket": 313,
-			"stack": 1
+			"stack": 1,
+			"durability": 430
 		},
 
 		"golden_helmet": {
 			"minecraft": 314,
 			"pocket": 314,
-			"stack": 1
+			"stack": 1,
+			"durability": 78
 		},
 
 		"golden_chestplate": {
 			"minecraft": 315,
 			"pocket": 315,
-			"stack": 1
+			"stack": 1,
+			"durability": 113
 		},
 
 		"golden_leggings": {
 			"minecraft": 316,
 			"pocket": 316,
-			"stack": 1
+			"stack": 1,
+			"durability": 106
 		},
 
 		"golden_boots": {
 			"minecraft": 317,
 			"pocket": 317,
-			"stack": 1
+			"stack": 1,
+			"durability": 92
 		},
 
 		"flint": {
@@ -4478,7 +4525,8 @@
 		"fishing_rod": {
 			"minecraft": 346,
 			"pocket": 346,
-			"stack": 1
+			"stack": 1,
+			"durability": 65
 		},
 
 		"clock": {
@@ -4970,7 +5018,8 @@
 		"shears": {
 			"minecraft": 359,
 			"pocket": 359,
-			"stack": 1
+			"stack": 1,
+			"durability": 238
 		},
 
 		"melon": {
@@ -5790,7 +5839,8 @@
 		"carrot_on_a_stick": {
 			"minecraft": 398,
 			"pocket": 398,
-			"stack": 1
+			"stack": 1,
+			"durability": 26
 		},
 
 		"nether_star": {
@@ -6053,13 +6103,15 @@
 
 		"shield": {
 			"minecraft": 442,
-			"stack": 1
+			"stack": 1,
+			"durability": 337
 		},
 
 		"elytra": {
 			"minecraft": 443,
 			"pocket": 444,
-			"stack": 64
+			"stack": 64,
+			"durability": 432
 		},
 
 		"spruce_boat": {
