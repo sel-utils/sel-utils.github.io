@@ -42146,6 +42146,34 @@
 					"z": 16
 				}
 			}
+		},
+
+		"smooth_stone_slab": {
+			"id": 1424,
+			"minecraft": {
+				"id": 43,
+				"meta": 8
+			},
+			"solid": true,
+			"hardness": 2,
+			"blast_resistance": 30,
+			"opacity": 15,
+			"luminance": 0,
+			"encouragement": 0,
+			"flammability": 0,
+			"replaceable": false,
+			"bounding_box": {
+				"min": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"max": {
+					"x": 16,
+					"y": 16,
+					"z": 16
+				}
+			}
 		}
 
 	}
