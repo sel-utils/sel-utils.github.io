@@ -1394,8 +1394,8 @@
 						"name": "action",
 						"type": "ubyte",
 						"constants": {
-							"attack": 1,
-							"interact": 2,
+							"interact": 1,
+							"attack": 2,
 							"leave_vehicle": 3,
 							"hover": 4
 						}

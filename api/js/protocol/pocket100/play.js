@@ -1898,8 +1898,8 @@ const Play = {
 		static get SERVERBOUND(){ return true; }
 
 		// action
-		static get ATTACK(){ return 1; }
-		static get INTERACT(){ return 2; }
+		static get INTERACT(){ return 1; }
+		static get ATTACK(){ return 2; }
 		static get LEAVE_VEHICLE(){ return 3; }
 		static get HOVER(){ return 4; }
 
