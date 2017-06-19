@@ -17,7 +17,6 @@
 		"dropped_item": {
 			"object": true,
 			"minecraft": 2,
-			"pocket": 64,
 			"size": {
 				"width": 0.25,
 				"height": 0.25
@@ -26,7 +25,6 @@
 
 		"experience_orb": {
 			"object": true,
-			"minecraft": 2,
 			"pocket": 69,
 			"size": {
 				"width": 0.25,
@@ -320,7 +318,6 @@
 
 		"painting": {
 			"object": true,
-			"pocket": 83,
 			"size": null
 		},
 
