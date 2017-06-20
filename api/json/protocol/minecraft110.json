@@ -2970,7 +2970,7 @@
 					{
 						"name": "hand",
 						"type": "varuint",
-						"when": "type==2",
+						"when": "type==0||type==2",
 						"constants": {
 							"main_hand": 0,
 							"off_hand": 1
@@ -3181,8 +3181,7 @@
 					},
 					{
 						"name": "jump_boost",
-						"type": "varuint",
-						"when": "action==5"
+						"type": "varuint"
 					}
 				]
 			},

@@ -517,7 +517,7 @@ const Serverbound = {
 			this.writeVaruint(this.target);
 			this.writeVaruint(this.type);
 			if(type==2){ this.writeBigEndianFloat(this.targetPosition.x); this.writeBigEndianFloat(this.targetPosition.y); this.writeBigEndianFloat(this.targetPosition.z); }
-			if(type==2){ this.writeVaruint(this.hand); }
+			if(type==0||type==2){ this.writeVaruint(this.hand); }
 			return new Uint8Array(this._buffer);
 		}
 
@@ -528,7 +528,7 @@ const Serverbound = {
 			this.target=this.readVaruint();
 			this.type=this.readVaruint();
 			if(type==2){ this.targetPosition={}; this.targetPosition.x=this.readBigEndianFloat(); this.targetPosition.y=this.readBigEndianFloat(); this.targetPosition.z=this.readBigEndianFloat(); }
-			if(type==2){ this.hand=this.readVaruint(); }
+			if(type==0||type==2){ this.hand=this.readVaruint(); }
 			return this;
 		}
 
@@ -990,7 +990,7 @@ const Serverbound = {
 			this.writeVaruint(20);
 			this.writeVaruint(this.entityId);
 			this.writeVaruint(this.action);
-			if(action==5){ this.writeVaruint(this.jumpBoost); }
+			this.writeVaruint(this.jumpBoost);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -1000,7 +1000,7 @@ const Serverbound = {
 			var _id=this.readVaruint();
 			this.entityId=this.readVaruint();
 			this.action=this.readVaruint();
-			if(action==5){ this.jumpBoost=this.readVaruint(); }
+			this.jumpBoost=this.readVaruint();
 			return this;
 		}
 
