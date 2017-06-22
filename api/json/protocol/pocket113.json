@@ -2184,7 +2184,7 @@
 			},
 
 			"simple_event": {
-				"id": 63,
+				"id": 64,
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
@@ -2193,7 +2193,7 @@
 			},
 
 			"telemetry_event": {
-				"id": 64,
+				"id": 65,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
@@ -2530,12 +2530,13 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "?",
+						"name": "window",
 						"type": "ubyte"
 					},
 					{
-						"name": "?",
-						"type": "ubyte"
+						"name": "window_type",
+						"type": "ubyte",
+						"default": 15
 					},
 					{
 						"name": "?",
@@ -2546,7 +2547,7 @@
 						"type": "varint"
 					},
 					{
-						"name": "?",
+						"name": "willing",
 						"type": "bool"
 					},
 					{
@@ -2558,7 +2559,7 @@
 						"type": "varlong"
 					},
 					{
-						"name": "?",
+						"name": "display_name",
 						"type": "string"
 					},
 					{

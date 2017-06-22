@@ -3595,7 +3595,7 @@ const Play = {
 
 	SimpleEvent: class extends Buffer {
 
-		static get ID(){ return 63; }
+		static get ID(){ return 64; }
 
 		static get CLIENTBOUND(){ return true; }
 		static get SERVERBOUND(){ return true; }
@@ -3607,7 +3607,7 @@ const Play = {
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
-			this.writeBigEndianByte(63);
+			this.writeBigEndianByte(64);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -3632,7 +3632,7 @@ const Play = {
 
 	TelemetryEvent: class extends Buffer {
 
-		static get ID(){ return 64; }
+		static get ID(){ return 65; }
 
 		static get CLIENTBOUND(){ return true; }
 		static get SERVERBOUND(){ return false; }
@@ -3646,7 +3646,7 @@ const Play = {
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
-			this.writeBigEndianByte(64);
+			this.writeBigEndianByte(65);
 			this.writeVarlong(this.entityId);
 			this.writeVarint(this.eventId);
 			return new Uint8Array(this._buffer);
@@ -4418,16 +4418,16 @@ const Play = {
 		static get CLIENTBOUND(){ return true; }
 		static get SERVERBOUND(){ return false; }
 
-		constructor(unknown0=0, unknown1=0, unknown2=0, unknown3=0, unknown4=false, trader=0, player=0, unknown7="", offers=null) {
+		constructor(window=0, windowType=15, unknown2=0, unknown3=0, willing=false, trader=0, player=0, displayName="", offers=null) {
 			super();
-			this.unknown0 = unknown0;
-			this.unknown1 = unknown1;
+			this.window = window;
+			this.windowType = windowType;
 			this.unknown2 = unknown2;
 			this.unknown3 = unknown3;
-			this.unknown4 = unknown4;
+			this.willing = willing;
 			this.trader = trader;
 			this.player = player;
-			this.unknown7 = unknown7;
+			this.displayName = displayName;
 			this.offers = offers;
 		}
 
@@ -4435,14 +4435,14 @@ const Play = {
 		encode() {
 			this._buffer = [];
 			this.writeBigEndianByte(81);
-			this.writeBigEndianByte(this.unknown0);
-			this.writeBigEndianByte(this.unknown1);
+			this.writeBigEndianByte(this.window);
+			this.writeBigEndianByte(this.windowType);
 			this.writeVarint(this.unknown2);
 			this.writeVarint(this.unknown3);
-			this.writeBigEndianByte(this.unknown4?1:0);
+			this.writeBigEndianByte(this.willing?1:0);
 			this.writeVarlong(this.trader);
 			this.writeVarlong(this.player);
-			var dhc5btbd=this.encodeString(this.unknown7); this.writeVaruint(dhc5btbd.length); this.writeBytes(dhc5btbd);
+			var dhc5anbf=this.encodeString(this.displayName); this.writeVaruint(dhc5anbf.length); this.writeBytes(dhc5anbf);
 			this.writeBytes(this.offers);
 			return new Uint8Array(this._buffer);
 		}
@@ -4451,14 +4451,14 @@ const Play = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readBigEndianByte();
-			this.unknown0=this.readBigEndianByte();
-			this.unknown1=this.readBigEndianByte();
+			this.window=this.readBigEndianByte();
+			this.windowType=this.readBigEndianByte();
 			this.unknown2=this.readVarint();
 			this.unknown3=this.readVarint();
-			this.unknown4=this.readBigEndianByte()!==0;
+			this.willing=this.readBigEndianByte()!==0;
 			this.trader=this.readVarlong();
 			this.player=this.readVarlong();
-			this.unknown7=this.decodeString(this.readBytes(this.readVaruint()));
+			this.displayName=this.decodeString(this.readBytes(this.readVaruint()));
 			this.offers=Array.from(this._buffer); this._buffer=[];
 			return this;
 		}
@@ -4470,7 +4470,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "UpdateTrade(unknown0: " + this.unknown0 + ", unknown1: " + this.unknown1 + ", unknown2: " + this.unknown2 + ", unknown3: " + this.unknown3 + ", unknown4: " + this.unknown4 + ", trader: " + this.trader + ", player: " + this.player + ", unknown7: " + this.unknown7 + ", offers: " + this.offers + ")";
+			return "UpdateTrade(window: " + this.window + ", windowType: " + this.windowType + ", unknown2: " + this.unknown2 + ", unknown3: " + this.unknown3 + ", willing: " + this.willing + ", trader: " + this.trader + ", player: " + this.player + ", displayName: " + this.displayName + ", offers: " + this.offers + ")";
 		}
 
 	},
