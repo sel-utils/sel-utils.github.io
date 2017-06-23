@@ -9676,7 +9676,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 2
+				"meta": 3
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9708,7 +9708,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 3
+				"meta": 2
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9740,7 +9740,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 4
+				"meta": 5
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9772,7 +9772,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 5
+				"meta": 4
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9796,15 +9796,15 @@
 			}
 		},
 
-		"piston_facing_everywhere": {
+		"sticky_piston_head_facing_down": {
 			"id": 319,
 			"minecraft": {
-				"id": 33,
-				"meta": 6
+				"id": 34,
+				"meta": 8
 			},
 			"pocket": {
-				"id": 33,
-				"meta": 6
+				"id": 34,
+				"meta": 8
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9828,15 +9828,15 @@
 			}
 		},
 
-		"piston_facing_everywhere_1": {
+		"sticky_piston_head_facing_up": {
 			"id": 320,
 			"minecraft": {
-				"id": 33,
-				"meta": 7
+				"id": 34,
+				"meta": 9
 			},
 			"pocket": {
-				"id": 33,
-				"meta": 7
+				"id": 34,
+				"meta": 9
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9932,7 +9932,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 10
+				"meta": 11
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9964,7 +9964,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 11
+				"meta": 12
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -9996,7 +9996,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 12
+				"meta": 13
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10028,7 +10028,7 @@
 			},
 			"pocket": {
 				"id": 33,
-				"meta": 13
+				"meta": 12
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10052,15 +10052,15 @@
 			}
 		},
 
-		"extended_piston_facing_everywhere": {
+		"sticky_piston_head_facing_north": {
 			"id": 327,
 			"minecraft": {
-				"id": 33,
-				"meta": 14
+				"id": 34,
+				"meta": 10
 			},
 			"pocket": {
-				"id": 33,
-				"meta": 14
+				"id": 34,
+				"meta": 11
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10084,15 +10084,15 @@
 			}
 		},
 
-		"extended_piston_facing_everywhere_1": {
+		"sticky_piston_head_facing_south": {
 			"id": 328,
 			"minecraft": {
-				"id": 33,
-				"meta": 15
+				"id": 34,
+				"meta": 11
 			},
 			"pocket": {
-				"id": 33,
-				"meta": 15
+				"id": 34,
+				"meta": 10
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10188,7 +10188,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 2
+				"meta": 3
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10220,7 +10220,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 3
+				"meta": 2
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10252,7 +10252,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 4
+				"meta": 5
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10284,7 +10284,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 5
+				"meta": 4
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10308,15 +10308,15 @@
 			}
 		},
 
-		"sticky_piston_facing_everywhere": {
+		"sticky_piston_head_facing_west": {
 			"id": 335,
 			"minecraft": {
-				"id": 29,
-				"meta": 6
+				"id": 34,
+				"meta": 12
 			},
 			"pocket": {
-				"id": 29,
-				"meta": 6
+				"id": 34,
+				"meta": 13
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10340,15 +10340,15 @@
 			}
 		},
 
-		"sticky_piston_facing_everywhere_1": {
+		"sticky_piston_head_facing_east": {
 			"id": 336,
 			"minecraft": {
-				"id": 29,
-				"meta": 7
+				"id": 34,
+				"meta": 13
 			},
 			"pocket": {
-				"id": 29,
-				"meta": 7
+				"id": 34,
+				"meta": 12
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10444,7 +10444,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 10
+				"meta": 11
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10476,7 +10476,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 11
+				"meta": 10
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10508,7 +10508,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 12
+				"meta": 13
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10540,7 +10540,7 @@
 			},
 			"pocket": {
 				"id": 29,
-				"meta": 13
+				"meta": 12
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10564,19 +10564,15 @@
 			}
 		},
 
-		"extended_sticky_piston_facing_everywhere": {
+		"smooth_stone_slab": {
 			"id": 343,
 			"minecraft": {
-				"id": 29,
-				"meta": 14
-			},
-			"pocket": {
-				"id": 29,
-				"meta": 14
+				"id": 43,
+				"meta": 8
 			},
 			"solid": true,
-			"hardness": 0.5,
-			"blast_resistance": 2.5,
+			"hardness": 2,
+			"blast_resistance": 30,
 			"opacity": 15,
 			"luminance": 0,
 			"encouragement": 0,
@@ -10596,21 +10592,21 @@
 			}
 		},
 
-		"extended_sticky_piston_facing_everywhere_1": {
+		"fire_15": {
 			"id": 344,
 			"minecraft": {
-				"id": 29,
+				"id": 51,
 				"meta": 15
 			},
 			"pocket": {
-				"id": 29,
+				"id": 51,
 				"meta": 15
 			},
-			"solid": true,
-			"hardness": 0.5,
-			"blast_resistance": 2.5,
-			"opacity": 15,
-			"luminance": 0,
+			"solid": false,
+			"hardness": -1,
+			"blast_resistance": 0,
+			"opacity": 0,
+			"luminance": 15,
 			"encouragement": 0,
 			"flammability": 0,
 			"replaceable": false,
@@ -10700,7 +10696,7 @@
 			},
 			"pocket": {
 				"id": 34,
-				"meta": 2
+				"meta": 3
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10732,7 +10728,7 @@
 			},
 			"pocket": {
 				"id": 34,
-				"meta": 3
+				"meta": 2
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10764,7 +10760,7 @@
 			},
 			"pocket": {
 				"id": 34,
-				"meta": 4
+				"meta": 5
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -10796,7 +10792,7 @@
 			},
 			"pocket": {
 				"id": 34,
-				"meta": 5
+				"meta": 4
 			},
 			"solid": true,
 			"hardness": 0.5,
@@ -42099,66 +42095,6 @@
 			"blast_resistance": 0,
 			"opacity": 0,
 			"luminance": 15,
-			"encouragement": 0,
-			"flammability": 0,
-			"replaceable": false,
-			"bounding_box": {
-				"min": {
-					"x": 0,
-					"y": 0,
-					"z": 0
-				},
-				"max": {
-					"x": 16,
-					"y": 16,
-					"z": 16
-				}
-			}
-		},
-
-		"fire_15": {
-			"id": 1423,
-			"minecraft": {
-				"id": 51,
-				"meta": 15
-			},
-			"pocket": {
-				"id": 51,
-				"meta": 15
-			},
-			"solid": false,
-			"hardness": -1,
-			"blast_resistance": 0,
-			"opacity": 0,
-			"luminance": 15,
-			"encouragement": 0,
-			"flammability": 0,
-			"replaceable": false,
-			"bounding_box": {
-				"min": {
-					"x": 0,
-					"y": 0,
-					"z": 0
-				},
-				"max": {
-					"x": 16,
-					"y": 16,
-					"z": 16
-				}
-			}
-		},
-
-		"smooth_stone_slab": {
-			"id": 1424,
-			"minecraft": {
-				"id": 43,
-				"meta": 8
-			},
-			"solid": true,
-			"hardness": 2,
-			"blast_resistance": 30,
-			"opacity": 15,
-			"luminance": 0,
 			"encouragement": 0,
 			"flammability": 0,
 			"replaceable": false,
