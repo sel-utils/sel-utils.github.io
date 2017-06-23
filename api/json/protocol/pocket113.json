@@ -2046,12 +2046,16 @@
 				"serverbound": true,
 				"fields": [
 					{
-						"name": "motion",
-						"type": "float<xyz>"
+						"name": "sideways",
+						"type": "float"
 					},
 					{
-						"name": "flags",
-						"type": "ubyte"
+						"name": "forward",
+						"type": "float"
+					},
+					{
+						"name": "?",
+						"type": "bool"
 					},
 					{
 						"name": "?",

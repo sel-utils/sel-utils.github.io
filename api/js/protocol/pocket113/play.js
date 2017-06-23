@@ -3244,20 +3244,22 @@ const Play = {
 		static get CLIENTBOUND(){ return false; }
 		static get SERVERBOUND(){ return true; }
 
-		constructor(motion={x:0,y:0,z:0}, flags=0, unknown2=false) {
+		constructor(sideways=.0, forward=.0, unknown2=false, unknown3=false) {
 			super();
-			this.motion = motion;
-			this.flags = flags;
+			this.sideways = sideways;
+			this.forward = forward;
 			this.unknown2 = unknown2;
+			this.unknown3 = unknown3;
 		}
 
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
 			this.writeBigEndianByte(57);
-			this.writeLittleEndianFloat(this.motion.x); this.writeLittleEndianFloat(this.motion.y); this.writeLittleEndianFloat(this.motion.z);
-			this.writeBigEndianByte(this.flags);
+			this.writeLittleEndianFloat(this.sideways);
+			this.writeLittleEndianFloat(this.forward);
 			this.writeBigEndianByte(this.unknown2?1:0);
+			this.writeBigEndianByte(this.unknown3?1:0);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -3265,9 +3267,10 @@ const Play = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readBigEndianByte();
-			this.motion={}; this.motion.x=this.readLittleEndianFloat(); this.motion.y=this.readLittleEndianFloat(); this.motion.z=this.readLittleEndianFloat();
-			this.flags=this.readBigEndianByte();
+			this.sideways=this.readLittleEndianFloat();
+			this.forward=this.readLittleEndianFloat();
 			this.unknown2=this.readBigEndianByte()!==0;
+			this.unknown3=this.readBigEndianByte()!==0;
 			return this;
 		}
 
@@ -3278,7 +3281,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "PlayerInput(motion: " + this.motion + ", flags: " + this.flags + ", unknown2: " + this.unknown2 + ")";
+			return "PlayerInput(sideways: " + this.sideways + ", forward: " + this.forward + ", unknown2: " + this.unknown2 + ", unknown3: " + this.unknown3 + ")";
 		}
 
 	},

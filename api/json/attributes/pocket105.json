@@ -12,7 +12,7 @@
 	},
 
 	"absorption": {
-		"name": "minecraft:generic.absorption",
+		"name": "minecraft:absorption",
 		"min": 0,
 		"max": 4,
 		"default": 0

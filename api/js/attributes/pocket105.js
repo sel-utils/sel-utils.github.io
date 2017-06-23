@@ -10,7 +10,7 @@ const Attributes = {
 
 	MINECRAFT:HEALTH: {name: "health", min: 0, max: 20, default: 20},
 
-	MINECRAFT:GENERIC.ABSORPTION: {name: "absorption", min: 0, max: 4, default: 0},
+	MINECRAFT:ABSORPTION: {name: "absorption", min: 0, max: 4, default: 0},
 
 	MINECRAFT:PLAYER.HUNGER: {name: "hunger", min: 0, max: 20, default: 20},
 
