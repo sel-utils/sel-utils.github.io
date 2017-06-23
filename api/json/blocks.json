@@ -26210,6 +26210,10 @@
 				"id": 212,
 				"meta": 0
 			},
+			"pocket": {
+				"id": 212,
+				"meta": 0
+			},
 			"solid": true,
 			"hardness": 0.5,
 			"blast_resistance": 2.5,
@@ -26235,6 +26239,10 @@
 		"frosted_ice_1": {
 			"id": 891,
 			"minecraft": {
+				"id": 212,
+				"meta": 1
+			},
+			"pocket": {
 				"id": 212,
 				"meta": 1
 			},
@@ -26266,6 +26274,10 @@
 				"id": 212,
 				"meta": 2
 			},
+			"pocket": {
+				"id": 212,
+				"meta": 2
+			},
 			"solid": true,
 			"hardness": 0.5,
 			"blast_resistance": 2.5,
@@ -26291,6 +26303,10 @@
 		"frosted_ice_3": {
 			"id": 893,
 			"minecraft": {
+				"id": 212,
+				"meta": 3
+			},
+			"pocket": {
 				"id": 212,
 				"meta": 3
 			},
