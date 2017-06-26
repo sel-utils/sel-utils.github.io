@@ -3196,21 +3196,25 @@
 
 		"magma_block": {
 			"minecraft": 213,
+			"pocket": 213,
 			"stack": 64
 		},
 
 		"nether_wart_block": {
 			"minecraft": 214,
+			"pocket": 214,
 			"stack": 64
 		},
 
 		"red_nether_brick": {
 			"minecraft": 215,
+			"pocket": 215,
 			"stack": 64
 		},
 
 		"bone_block": {
 			"minecraft": 216,
+			"pocket": 216,
 			"stack": 64
 		},
 

@@ -28253,6 +28253,7 @@
 		"red_nether_brick": {
 			"id": 956,
 			"minecraft": 215,
+			"pocket": 215,
 			"solid": true,
 			"hardness": 2,
 			"blast_resistance": 30,
@@ -39949,6 +39950,7 @@
 		"magma_block": {
 			"id": 1349,
 			"minecraft": 213,
+			"pocket": 213,
 			"solid": true,
 			"hardness": 0.5,
 			"blast_resistance": 2.5,
@@ -39974,6 +39976,7 @@
 		"nether_wart_block": {
 			"id": 1350,
 			"minecraft": 214,
+			"pocket": 214,
 			"solid": true,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39999,6 +40002,10 @@
 		"bone_block_vertical": {
 			"id": 1351,
 			"minecraft": {
+				"id": 216,
+				"meta": 0
+			},
+			"pocket": {
 				"id": 216,
 				"meta": 0
 			},
@@ -40030,6 +40037,10 @@
 				"id": 216,
 				"meta": 4
 			},
+			"pocket": {
+				"id": 216,
+				"meta": 4
+			},
 			"solid": true,
 			"hardness": 2,
 			"blast_resistance": 10,
@@ -40055,6 +40066,10 @@
 		"bone_block_north_south": {
 			"id": 1353,
 			"minecraft": {
+				"id": 216,
+				"meta": 8
+			},
+			"pocket": {
 				"id": 216,
 				"meta": 8
 			},
