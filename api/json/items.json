@@ -5104,9 +5104,339 @@
 			"stack": 64
 		},
 
-		"potion": {
+		"uncraftable_potion": {
 			"minecraft": 373,
-			"pocket": 373,
+			"stack": 1
+		},
+
+		"water_bottle": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 0
+			},
+			"stack": 1
+		},
+
+		"mundane_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 1
+			},
+			"stack": 1
+		},
+
+		"mundane_potion_extended": {
+			"pocket": {
+				"id": 373,
+				"meta": 2
+			},
+			"stack": 1
+		},
+
+		"thick_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 3
+			},
+			"stack": 1
+		},
+
+		"awkward_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 4
+			},
+			"stack": 1
+		},
+
+		"night_vision_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 5
+			},
+			"stack": 1
+		},
+
+		"night_vision_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 6
+			},
+			"stack": 1
+		},
+
+		"invisibility_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 7
+			},
+			"stack": 1
+		},
+
+		"invisibility_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 8
+			},
+			"stack": 1
+		},
+
+		"leaping_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 9
+			},
+			"stack": 1
+		},
+
+		"leaping_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 10
+			},
+			"stack": 1
+		},
+
+		"leaping_potion_plus": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 11
+			},
+			"stack": 1
+		},
+
+		"fire_resistance_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 12
+			},
+			"stack": 1
+		},
+
+		"fire_resistance_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 13
+			},
+			"stack": 1
+		},
+
+		"swiftness_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 14
+			},
+			"stack": 1
+		},
+
+		"swiftness_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 15
+			},
+			"stack": 1
+		},
+
+		"swiftness_potion_plus": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 16
+			},
+			"stack": 1
+		},
+
+		"slowness_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 17
+			},
+			"stack": 1
+		},
+
+		"slowness_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 18
+			},
+			"stack": 1
+		},
+
+		"water_breathing_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 19
+			},
+			"stack": 1
+		},
+
+		"water_breathing_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 20
+			},
+			"stack": 1
+		},
+
+		"healing_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 21
+			},
+			"stack": 1
+		},
+
+		"healing_potion_plus": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 22
+			},
+			"stack": 1
+		},
+
+		"harming_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 23
+			},
+			"stack": 1
+		},
+
+		"harming_potion_plus": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 24
+			},
+			"stack": 1
+		},
+
+		"poison_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 25
+			},
+			"stack": 1
+		},
+
+		"poison_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 26
+			},
+			"stack": 1
+		},
+
+		"poison_potion_plus": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 27
+			},
+			"stack": 1
+		},
+
+		"regeneration_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 28
+			},
+			"stack": 1
+		},
+
+		"regeneration_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 29
+			},
+			"stack": 1
+		},
+
+		"regeneration_potion_plus": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 30
+			},
+			"stack": 1
+		},
+
+		"strength_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 31
+			},
+			"stack": 1
+		},
+
+		"strength_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 32
+			},
+			"stack": 1
+		},
+
+		"strength_potion_plus": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 33
+			},
+			"stack": 1
+		},
+
+		"weakness_potion": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 34
+			},
+			"stack": 1
+		},
+
+		"weakness_potion_extended": {
+			"minecraft": 373,
+			"pocket": {
+				"id": 373,
+				"meta": 35
+			},
+			"stack": 1
+		},
+
+		"decay_potion": {
+			"pocket": {
+				"id": 373,
+				"meta": 36
+			},
 			"stack": 1
 		},
 
@@ -5165,10 +5495,7 @@
 		},
 
 		"spawn_elder_guardian": {
-			"minecraft": {
-				"id": 383,
-				"meta": 4
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 50
@@ -5177,10 +5504,7 @@
 		},
 
 		"spawn_wither_skeleton": {
-			"minecraft": {
-				"id": 383,
-				"meta": 5
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 48
@@ -5189,10 +5513,7 @@
 		},
 
 		"spawn_stray": {
-			"minecraft": {
-				"id": 383,
-				"meta": 6
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 46
@@ -5201,10 +5522,7 @@
 		},
 
 		"spawn_husk": {
-			"minecraft": {
-				"id": 383,
-				"meta": 23
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 47
@@ -5213,10 +5531,7 @@
 		},
 
 		"spawn_zombie_villager": {
-			"minecraft": {
-				"id": 383,
-				"meta": 27
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 44
@@ -5225,10 +5540,7 @@
 		},
 
 		"spawn_skeleton_horse": {
-			"minecraft": {
-				"id": 383,
-				"meta": 28
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 26
@@ -5237,10 +5549,7 @@
 		},
 
 		"spawn_zombie_horse": {
-			"minecraft": {
-				"id": 383,
-				"meta": 29
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 27
@@ -5249,10 +5558,7 @@
 		},
 
 		"spawn_donkey": {
-			"minecraft": {
-				"id": 383,
-				"meta": 31
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 24
@@ -5261,10 +5567,7 @@
 		},
 
 		"spawn_mule": {
-			"minecraft": {
-				"id": 383,
-				"meta": 32
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 25
@@ -5273,10 +5576,7 @@
 		},
 
 		"spawn_evoker": {
-			"minecraft": {
-				"id": 383,
-				"meta": 34
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 104
@@ -5285,10 +5585,7 @@
 		},
 
 		"spawn_vex": {
-			"minecraft": {
-				"id": 383,
-				"meta": 35
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 105
@@ -5297,10 +5594,7 @@
 		},
 
 		"spawn_vindicator": {
-			"minecraft": {
-				"id": 383,
-				"meta": 36
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 56
@@ -5309,10 +5603,7 @@
 		},
 
 		"spawn_creeper": {
-			"minecraft": {
-				"id": 383,
-				"meta": 50
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 33
@@ -5321,10 +5612,7 @@
 		},
 
 		"spawn_skeleton": {
-			"minecraft": {
-				"id": 383,
-				"meta": 51
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 34
@@ -5333,10 +5621,7 @@
 		},
 
 		"spawn_spider": {
-			"minecraft": {
-				"id": 383,
-				"meta": 52
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 35
@@ -5345,10 +5630,7 @@
 		},
 
 		"spawn_zombie": {
-			"minecraft": {
-				"id": 383,
-				"meta": 54
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 32
@@ -5357,10 +5639,7 @@
 		},
 
 		"spawn_slime": {
-			"minecraft": {
-				"id": 383,
-				"meta": 55
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 37
@@ -5369,10 +5648,7 @@
 		},
 
 		"spawn_ghast": {
-			"minecraft": {
-				"id": 383,
-				"meta": 56
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 41
@@ -5381,10 +5657,7 @@
 		},
 
 		"spawn_zombie_pigman": {
-			"minecraft": {
-				"id": 383,
-				"meta": 57
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 36
@@ -5393,10 +5666,7 @@
 		},
 
 		"spawn_enderman": {
-			"minecraft": {
-				"id": 383,
-				"meta": 58
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 38
@@ -5405,10 +5675,7 @@
 		},
 
 		"spawn_cave_spider": {
-			"minecraft": {
-				"id": 383,
-				"meta": 59
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 40
@@ -5417,10 +5684,7 @@
 		},
 
 		"spawn_silverfish": {
-			"minecraft": {
-				"id": 383,
-				"meta": 60
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 39
@@ -5429,10 +5693,7 @@
 		},
 
 		"spawn_blaze": {
-			"minecraft": {
-				"id": 383,
-				"meta": 61
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 43
@@ -5441,10 +5702,7 @@
 		},
 
 		"spawn_magma_cube": {
-			"minecraft": {
-				"id": 383,
-				"meta": 62
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 42
@@ -5453,10 +5711,7 @@
 		},
 
 		"spawn_bat": {
-			"minecraft": {
-				"id": 383,
-				"meta": 65
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 19
@@ -5465,10 +5720,7 @@
 		},
 
 		"spawn_witch": {
-			"minecraft": {
-				"id": 383,
-				"meta": 66
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 45
@@ -5477,10 +5729,7 @@
 		},
 
 		"spawn_endermite": {
-			"minecraft": {
-				"id": 383,
-				"meta": 67
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 55
@@ -5489,10 +5738,7 @@
 		},
 
 		"spawn_guardian": {
-			"minecraft": {
-				"id": 383,
-				"meta": 68
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 49
@@ -5501,10 +5747,7 @@
 		},
 
 		"spawn_shulker": {
-			"minecraft": {
-				"id": 383,
-				"meta": 69
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 54
@@ -5513,10 +5756,7 @@
 		},
 
 		"spawn_pig": {
-			"minecraft": {
-				"id": 383,
-				"meta": 90
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 12
@@ -5525,10 +5765,7 @@
 		},
 
 		"spawn_sheep": {
-			"minecraft": {
-				"id": 383,
-				"meta": 91
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 13
@@ -5537,10 +5774,7 @@
 		},
 
 		"spawn_cow": {
-			"minecraft": {
-				"id": 383,
-				"meta": 92
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 11
@@ -5549,10 +5783,7 @@
 		},
 
 		"spawn_chicken": {
-			"minecraft": {
-				"id": 383,
-				"meta": 93
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 10
@@ -5561,10 +5792,7 @@
 		},
 
 		"spawn_squid": {
-			"minecraft": {
-				"id": 383,
-				"meta": 94
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 17
@@ -5573,10 +5801,7 @@
 		},
 
 		"spawn_wolf": {
-			"minecraft": {
-				"id": 383,
-				"meta": 95
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 14
@@ -5585,10 +5810,7 @@
 		},
 
 		"spawn_mooshroom": {
-			"minecraft": {
-				"id": 383,
-				"meta": 96
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 16
@@ -5597,10 +5819,7 @@
 		},
 
 		"spawn_ocelot": {
-			"minecraft": {
-				"id": 383,
-				"meta": 98
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 22
@@ -5609,10 +5828,7 @@
 		},
 
 		"spawn_horse": {
-			"minecraft": {
-				"id": 383,
-				"meta": 100
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 23
@@ -5621,10 +5837,7 @@
 		},
 
 		"spawn_rabbit": {
-			"minecraft": {
-				"id": 383,
-				"meta": 101
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 18
@@ -5633,10 +5846,7 @@
 		},
 
 		"spawn_polar_bear": {
-			"minecraft": {
-				"id": 383,
-				"meta": 102
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 28
@@ -5645,10 +5855,7 @@
 		},
 
 		"spawn_llama": {
-			"minecraft": {
-				"id": 383,
-				"meta": 103
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 29
@@ -5657,18 +5864,12 @@
 		},
 
 		"spawn_parrot": {
-			"minecraft": {
-				"id": 383,
-				"meta": 105
-			},
+			"minecraft": 383,
 			"stack": 64
 		},
 
 		"spawn_villager": {
-			"minecraft": {
-				"id": 383,
-				"meta": 120
-			},
+			"minecraft": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 15
@@ -6082,9 +6283,339 @@
 			"stack": 64
 		},
 
+		"uncraftable_splash_potion": {
+			"minecraft": 438,
+			"stack": 1
+		},
+
 		"splash_potion": {
 			"minecraft": 438,
-			"pocket": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 0
+			},
+			"stack": 1
+		},
+
+		"mundane_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 1
+			},
+			"stack": 1
+		},
+
+		"mundane_splash_potion_extended": {
+			"pocket": {
+				"id": 438,
+				"meta": 2
+			},
+			"stack": 1
+		},
+
+		"thick_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 3
+			},
+			"stack": 1
+		},
+
+		"awkward_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 4
+			},
+			"stack": 1
+		},
+
+		"night_vision_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 5
+			},
+			"stack": 1
+		},
+
+		"night_vision_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 6
+			},
+			"stack": 1
+		},
+
+		"invisibility_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 7
+			},
+			"stack": 1
+		},
+
+		"invisibility_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 8
+			},
+			"stack": 1
+		},
+
+		"leaping_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 9
+			},
+			"stack": 1
+		},
+
+		"leaping_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 10
+			},
+			"stack": 1
+		},
+
+		"leaping_splash_potion_plus": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 11
+			},
+			"stack": 1
+		},
+
+		"fire_resistance_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 12
+			},
+			"stack": 1
+		},
+
+		"fire_resistance_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 13
+			},
+			"stack": 1
+		},
+
+		"swiftness_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 14
+			},
+			"stack": 1
+		},
+
+		"swiftness_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 15
+			},
+			"stack": 1
+		},
+
+		"swiftness_splash_potion_plus": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 16
+			},
+			"stack": 1
+		},
+
+		"slowness_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 17
+			},
+			"stack": 1
+		},
+
+		"slowness_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 18
+			},
+			"stack": 1
+		},
+
+		"water_breathing_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 19
+			},
+			"stack": 1
+		},
+
+		"water_breathing_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 20
+			},
+			"stack": 1
+		},
+
+		"healing_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 21
+			},
+			"stack": 1
+		},
+
+		"healing_splash_potion_plus": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 22
+			},
+			"stack": 1
+		},
+
+		"harming_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 23
+			},
+			"stack": 1
+		},
+
+		"harming_splash_potion_plus": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 24
+			},
+			"stack": 1
+		},
+
+		"poison_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 25
+			},
+			"stack": 1
+		},
+
+		"poison_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 26
+			},
+			"stack": 1
+		},
+
+		"poison_splash_potion_plus": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 27
+			},
+			"stack": 1
+		},
+
+		"regeneration_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 28
+			},
+			"stack": 1
+		},
+
+		"regeneration_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 29
+			},
+			"stack": 1
+		},
+
+		"regeneration_splash_potion_plus": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 30
+			},
+			"stack": 1
+		},
+
+		"strength_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 31
+			},
+			"stack": 1
+		},
+
+		"strength_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 32
+			},
+			"stack": 1
+		},
+
+		"strength_splash_potion_plus": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 33
+			},
+			"stack": 1
+		},
+
+		"weakness_splash_potion": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 34
+			},
+			"stack": 1
+		},
+
+		"weakness_splash_potion_extended": {
+			"minecraft": 438,
+			"pocket": {
+				"id": 438,
+				"meta": 35
+			},
+			"stack": 1
+		},
+
+		"decay_splash_potion": {
+			"pocket": {
+				"id": 438,
+				"meta": 36
+			},
 			"stack": 1
 		},
 
@@ -6093,15 +6624,675 @@
 			"stack": 64
 		},
 
+		"uncraftable_tipped_arrow": {
+			"minecraft": 440,
+			"stack": 64
+		},
+
 		"tipped_arrow": {
 			"minecraft": 440,
-			"pocket": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 0
+			},
 			"stack": 64
+		},
+
+		"mundane_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 1
+			},
+			"stack": 64
+		},
+
+		"mundane_tipped_arrow_extended": {
+			"pocket": {
+				"id": 440,
+				"meta": 2
+			},
+			"stack": 64
+		},
+
+		"thick_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 3
+			},
+			"stack": 64
+		},
+
+		"awkward_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 4
+			},
+			"stack": 64
+		},
+
+		"night_vision_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 5
+			},
+			"stack": 64
+		},
+
+		"night_vision_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 6
+			},
+			"stack": 64
+		},
+
+		"invisibility_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 7
+			},
+			"stack": 64
+		},
+
+		"invisibility_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 8
+			},
+			"stack": 64
+		},
+
+		"leaping_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 9
+			},
+			"stack": 64
+		},
+
+		"leaping_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 10
+			},
+			"stack": 64
+		},
+
+		"leaping_tipped_arrow_plus": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 11
+			},
+			"stack": 64
+		},
+
+		"fire_resistance_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 12
+			},
+			"stack": 64
+		},
+
+		"fire_resistance_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 13
+			},
+			"stack": 64
+		},
+
+		"swiftness_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 14
+			},
+			"stack": 64
+		},
+
+		"swiftness_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 15
+			},
+			"stack": 64
+		},
+
+		"swiftness_tipped_arrow_plus": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 16
+			},
+			"stack": 64
+		},
+
+		"slowness_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 17
+			},
+			"stack": 64
+		},
+
+		"slowness_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 18
+			},
+			"stack": 64
+		},
+
+		"water_breathing_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 19
+			},
+			"stack": 64
+		},
+
+		"water_breathing_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 20
+			},
+			"stack": 64
+		},
+
+		"healing_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 21
+			},
+			"stack": 64
+		},
+
+		"healing_tipped_arrow_plus": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 22
+			},
+			"stack": 64
+		},
+
+		"harming_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 23
+			},
+			"stack": 64
+		},
+
+		"harming_tipped_arrow_plus": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 24
+			},
+			"stack": 64
+		},
+
+		"poison_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 25
+			},
+			"stack": 64
+		},
+
+		"poison_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 26
+			},
+			"stack": 64
+		},
+
+		"poison_tipped_arrow_plus": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 27
+			},
+			"stack": 64
+		},
+
+		"regeneration_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 28
+			},
+			"stack": 64
+		},
+
+		"regeneration_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 29
+			},
+			"stack": 64
+		},
+
+		"regeneration_tipped_arrow_plus": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 30
+			},
+			"stack": 64
+		},
+
+		"strength_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 31
+			},
+			"stack": 64
+		},
+
+		"strength_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 32
+			},
+			"stack": 64
+		},
+
+		"strength_tipped_arrow_plus": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 33
+			},
+			"stack": 64
+		},
+
+		"weakness_tipped_arrow": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 34
+			},
+			"stack": 64
+		},
+
+		"weakness_tipped_arrow_extended": {
+			"minecraft": 440,
+			"pocket": {
+				"id": 440,
+				"meta": 35
+			},
+			"stack": 64
+		},
+
+		"decay_tipped_arrow": {
+			"pocket": {
+				"id": 440,
+				"meta": 36
+			},
+			"stack": 64
+		},
+
+		"uncraftable_lingering_potion": {
+			"minecraft": 441,
+			"stack": 1
 		},
 
 		"lingering_potion": {
 			"minecraft": 441,
-			"pocket": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 0
+			},
+			"stack": 1
+		},
+
+		"mundane_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 1
+			},
+			"stack": 1
+		},
+
+		"mundane_lingering_potion_extended": {
+			"pocket": {
+				"id": 441,
+				"meta": 2
+			},
+			"stack": 1
+		},
+
+		"thick_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 3
+			},
+			"stack": 1
+		},
+
+		"awkward_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 4
+			},
+			"stack": 1
+		},
+
+		"night_vision_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 5
+			},
+			"stack": 1
+		},
+
+		"night_vision_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 6
+			},
+			"stack": 1
+		},
+
+		"invisibility_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 7
+			},
+			"stack": 1
+		},
+
+		"invisibility_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 8
+			},
+			"stack": 1
+		},
+
+		"leaping_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 9
+			},
+			"stack": 1
+		},
+
+		"leaping_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 10
+			},
+			"stack": 1
+		},
+
+		"leaping_lingering_potion_plus": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 11
+			},
+			"stack": 1
+		},
+
+		"fire_resistance_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 12
+			},
+			"stack": 1
+		},
+
+		"fire_resistance_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 13
+			},
+			"stack": 1
+		},
+
+		"swiftness_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 14
+			},
+			"stack": 1
+		},
+
+		"swiftness_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 15
+			},
+			"stack": 1
+		},
+
+		"swiftness_lingering_potion_plus": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 16
+			},
+			"stack": 1
+		},
+
+		"slowness_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 17
+			},
+			"stack": 1
+		},
+
+		"slowness_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 18
+			},
+			"stack": 1
+		},
+
+		"water_breathing_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 19
+			},
+			"stack": 1
+		},
+
+		"water_breathing_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 20
+			},
+			"stack": 1
+		},
+
+		"healing_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 21
+			},
+			"stack": 1
+		},
+
+		"healing_lingering_potion_plus": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 22
+			},
+			"stack": 1
+		},
+
+		"harming_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 23
+			},
+			"stack": 1
+		},
+
+		"harming_lingering_potion_plus": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 24
+			},
+			"stack": 1
+		},
+
+		"poison_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 25
+			},
+			"stack": 1
+		},
+
+		"poison_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 26
+			},
+			"stack": 1
+		},
+
+		"poison_lingering_potion_plus": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 27
+			},
+			"stack": 1
+		},
+
+		"regeneration_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 28
+			},
+			"stack": 1
+		},
+
+		"regeneration_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 29
+			},
+			"stack": 1
+		},
+
+		"regeneration_lingering_potion_plus": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 30
+			},
+			"stack": 1
+		},
+
+		"strength_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 31
+			},
+			"stack": 1
+		},
+
+		"strength_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 32
+			},
+			"stack": 1
+		},
+
+		"strength_lingering_potion_plus": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 33
+			},
+			"stack": 1
+		},
+
+		"weakness_lingering_potion": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 34
+			},
+			"stack": 1
+		},
+
+		"weakness_lingering_potion_extended": {
+			"minecraft": 441,
+			"pocket": {
+				"id": 441,
+				"meta": 35
+			},
+			"stack": 1
+		},
+
+		"decay_lingering_potion": {
+			"pocket": {
+				"id": 441,
+				"meta": 36
+			},
 			"stack": 1
 		},
 
