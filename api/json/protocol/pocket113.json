@@ -1706,20 +1706,19 @@
 				"serverbound": false,
 				"fields": [
 					{
-						"name": "from",
+						"name": "vehicle",
 						"type": "varlong"
 					},
 					{
-						"name": "to",
+						"name": "passenger",
 						"type": "varlong"
 					},
 					{
 						"name": "action",
 						"type": "ubyte",
 						"constants": {
-							"add": 0,
-							"ride": 1,
-							"remove": 2
+							"remove": 0,
+							"add": 1
 						}
 					}
 				]

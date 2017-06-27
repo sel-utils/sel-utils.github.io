@@ -420,7 +420,7 @@
 			"required": false
 		},
 
-		"shuker_direction": {
+		"shulker_direction": {
 			"type": "byte",
 			"id": 65,
 			"required": false

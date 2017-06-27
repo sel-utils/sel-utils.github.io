@@ -2465,14 +2465,13 @@ const Play = {
 		static get SERVERBOUND(){ return false; }
 
 		// action
-		static get ADD(){ return 0; }
-		static get RIDE(){ return 1; }
-		static get REMOVE(){ return 2; }
+		static get REMOVE(){ return 0; }
+		static get ADD(){ return 1; }
 
-		constructor(from=0, to=0, action=0) {
+		constructor(vehicle=0, passenger=0, action=0) {
 			super();
-			this.from = from;
-			this.to = to;
+			this.vehicle = vehicle;
+			this.passenger = passenger;
 			this.action = action;
 		}
 
@@ -2480,8 +2479,8 @@ const Play = {
 		encode() {
 			this._buffer = [];
 			this.writeBigEndianByte(41);
-			this.writeVarlong(this.from);
-			this.writeVarlong(this.to);
+			this.writeVarlong(this.vehicle);
+			this.writeVarlong(this.passenger);
 			this.writeBigEndianByte(this.action);
 			return new Uint8Array(this._buffer);
 		}
@@ -2490,8 +2489,8 @@ const Play = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readBigEndianByte();
-			this.from=this.readVarlong();
-			this.to=this.readVarlong();
+			this.vehicle=this.readVarlong();
+			this.passenger=this.readVarlong();
 			this.action=this.readBigEndianByte();
 			return this;
 		}
@@ -2503,7 +2502,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "SetEntityLink(from: " + this.from + ", to: " + this.to + ", action: " + this.action + ")";
+			return "SetEntityLink(vehicle: " + this.vehicle + ", passenger: " + this.passenger + ", action: " + this.action + ")";
 		}
 
 	},
