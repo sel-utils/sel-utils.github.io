@@ -1794,6 +1794,7 @@ const Play = {
 		static get SQUID_INK_CLOUD(){ return 15; }
 		static get AMBIENT_SOUND(){ return 16; }
 		static get RESPAWN(){ return 17; }
+		static get UNLEASH(){ return 63; }
 
 		constructor(entityId=0, eventId=0, unknown2=0) {
 			super();

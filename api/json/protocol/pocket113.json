@@ -1415,7 +1415,8 @@
 							"fish_hook_tease": 14,
 							"squid_ink_cloud": 15,
 							"ambient_sound": 16,
-							"respawn": 17
+							"respawn": 17,
+							"unleash": 63
 						}
 					},
 					{
