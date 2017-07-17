@@ -62,6 +62,7 @@ class Metadata extends Buffer {
 		this._areaEffectCloudRadius = undefined;
 		this._areaEffectCloudWaiting = undefined;
 		this._areaEffectCloudParticle = undefined;
+		this._shulkerPeakHeight = undefined;
 		this._shulkerDirection = undefined;
 		this._shulkerAttachment = undefined;
 		this._tradingPlayer = undefined;
@@ -913,6 +914,14 @@ class Metadata extends Buffer {
 		return this._areaEffectCloudParticle = value;
 	}
 
+	get shulkerPeakHeight() {
+		return this._shulkerPeakHeight;
+	}
+
+	set shulkerPeakHeight(value) {
+		return this._shulkerPeakHeight = value;
+	}
+
 	get shulkerDirection() {
 		return this._shulkerDirection;
 	}
@@ -1284,6 +1293,12 @@ class Metadata extends Buffer {
 			this.writeVaruint(63);
 			this.writeVaruint(2);
 			this.writeVarint(this._areaEffectCloudParticle);
+		}
+		if(this._shulkerPeakHeight !== undefined) {
+			length++;
+			this.writeVaruint(64);
+			this.writeVaruint(2);
+			this.writeVarint(this._shulkerPeakHeight);
 		}
 		if(this._shulkerDirection !== undefined) {
 			length++;

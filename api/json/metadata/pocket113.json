@@ -420,6 +420,12 @@
 			"required": false
 		},
 
+		"shulker_peak_height": {
+			"type": "int",
+			"id": 64,
+			"required": false
+		},
+
 		"shulker_direction": {
 			"type": "byte",
 			"id": 65,
