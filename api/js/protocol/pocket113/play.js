@@ -3180,13 +3180,14 @@ const Play = {
 	 * Sets a block entity's nbt tag, block's additional data that cannot be indicated
 	 * in the block's meta. More informations about block entities and their tag format
 	 * can be found on Minecraft Wiki.
+	 * The client sends this packet when it writes a sign.
 	 */
 	BlockEntityData: class extends Buffer {
 
 		static get ID(){ return 56; }
 
 		static get CLIENTBOUND(){ return true; }
-		static get SERVERBOUND(){ return false; }
+		static get SERVERBOUND(){ return true; }
 
 		/**
 		 * @param position

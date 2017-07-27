@@ -2934,7 +2934,7 @@ const Play = {
 		static get ID(){ return 56; }
 
 		static get CLIENTBOUND(){ return true; }
-		static get SERVERBOUND(){ return false; }
+		static get SERVERBOUND(){ return true; }
 
 		constructor(position=null, nbt=null) {
 			super();

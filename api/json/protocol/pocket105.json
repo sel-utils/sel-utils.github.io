@@ -1870,7 +1870,7 @@
 			"block_entity_data": {
 				"id": 57,
 				"clientbound": true,
-				"serverbound": false,
+				"serverbound": true,
 				"fields": [
 					{
 						"name": "position",
