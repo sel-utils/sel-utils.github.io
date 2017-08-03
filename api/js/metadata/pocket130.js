@@ -502,6 +502,16 @@ class Metadata extends Buffer {
 		return value;
 	}
 
+	get isWASDcontrolled() {
+		return ((this.entityFlags >>> 42) & 1) === 1;
+	}
+
+	set isWASDcontrolled(value) {
+		if(value) this._entityFlags |= true << 42;
+		else this._entityFlags &= ~(true << 42);
+		return value;
+	}
+
 	get linger() {
 		return ((this.entityFlags >>> 45) & 1) === 1;
 	}
@@ -509,6 +519,26 @@ class Metadata extends Buffer {
 	set linger(value) {
 		if(value) this._entityFlags |= true << 45;
 		else this._entityFlags &= ~(true << 45);
+		return value;
+	}
+
+	get gravity() {
+		return ((this.entityFlags >>> 46) & 1) === 1;
+	}
+
+	set gravity(value) {
+		if(value) this._entityFlags |= true << 46;
+		else this._entityFlags &= ~(true << 46);
+		return value;
+	}
+
+	get dancing() {
+		return ((this.entityFlags >>> 48) & 1) === 1;
+	}
+
+	set dancing(value) {
+		if(value) this._entityFlags |= true << 48;
+		else this._entityFlags &= ~(true << 48);
 		return value;
 	}
 

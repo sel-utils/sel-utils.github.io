@@ -114,7 +114,10 @@
 				"idling": 39,
 				"evoker_spell": 40,
 				"charge_attack": 41,
-				"linger": 45
+				"isWASDcontrolled": 42,
+				"linger": 45,
+				"gravity": 46,
+				"dancing": 48
 			}
 		},
 
