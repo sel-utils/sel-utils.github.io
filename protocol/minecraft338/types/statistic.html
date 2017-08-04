@@ -13,7 +13,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<meta name="theme-color" content="#1E2327" />
 		<link rel="icon" type="image/png" href="/favicon.png" />
-		<link rel="canonical" href="https://sel-utils.github.io/protocol/minecraft338" />
+		<link rel="canonical" href="https://sel-utils.github.io/protocol/minecraft338/types/statistic" />
 		<link rel="stylesheet" href="/style.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css" />
 		<script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -26,51 +26,20 @@
 		<div class="nav"><a href="/protocol/">Index</a>  <a href="https://github.com/sel-project/sel-utils/blob/master/README.md">About</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/TYPES.md">Types</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/CONTRIBUTING.md">Contribute</a>    <a href="https://github.com/sel-project/sel-utils/blob/master/xml/protocol/minecraft338.xml">XML</a>    <a href="https://github.com/sel-project/sel-utils">Github</a></div></div>
 		</div>
 		<div class="logo" onclick="if(document.body.classList.contains('dark')){document.body.classList.remove('dark');}else{document.body.classList.add('dark');}"></div>
-		<h1>Minecraft 338</h1>
-		<a href="https://twitter.com/__selproject" class="twitter-follow-button" data-lang="en" data-show-count="true">Follow @__selproject</a>
-		<div style="height:4px"></div>
-		<div class="g-plusone" data-size="medium"></div>
-		<p>Other protocols: <a href="./minecraft210">210</a>, <a href="./minecraft315">315</a>, <a href="./minecraft316">316</a>, <a href="./minecraft335">335</a></p>
-		<p><strong>Jump to</strong>: <a href="#encoding">Encoding</a>, <a href="#packets">Packets</a>, <a href="minecraft338/arrays">Arrays</a>, <a href="minecraft338/metadata">Metadata</a>, <a href="minecraft338/attributes">Attributes</a></p>
-		<p><strong>Released</strong>: August 3rd, 2017</p>
-		<p>In use since version <strong>1.12.1</strong></p>
-		<hr>
-		<h2 id="encoding">Encoding</h2>
-		<p><strong>Endianness</strong>:</p>
+		<h2>Statistic</h2>
+		<p><strong>Fields</strong>:</p>
 		<table>
 			<tr>
-				<td>big endian</td>
-				<td>short, ushort, int, uint, long, ulong, float, double</td>
+				<th>Name</th>
+				<th>Type</th>
 			</tr>
 			<tr>
-				<td>little endian</td>
-				<td></td>
-			</tr>
-		</table>
-		<p><strong>Ids</strong>: varuint</p>
-		<p><strong>Array's length</strong>: varuint</p>
-		<hr>
-		<h2 id="packets">Packets</h2>
-		<table>
-			<tr>
-				<th>Section</th>
-				<th>Packets</th>
+				<td>name</td>
+				<td>string</td>
 			</tr>
 			<tr>
-				<td><a href="minecraft338/status">Status</a></td>
-				<td class="center">4</td>
-			</tr>
-			<tr>
-				<td><a href="minecraft338/login">Login</a></td>
-				<td class="center">6</td>
-			</tr>
-			<tr>
-				<td><a href="minecraft338/clientbound">Clientbound</a></td>
-				<td class="center">80</td>
-			</tr>
-			<tr>
-				<td><a href="minecraft338/serverbound">Serverbound</a></td>
-				<td class="center">33</td>
+				<td>value</td>
+				<td>varuint</td>
 			</tr>
 		</table>
 	</body>
