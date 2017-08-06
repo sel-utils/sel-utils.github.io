@@ -39010,6 +39010,10 @@
 				"id": 176,
 				"meta": 0
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 0
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39024,6 +39028,10 @@
 		"banner_facing_south_southwest": {
 			"id": 1309,
 			"minecraft": {
+				"id": 176,
+				"meta": 1
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 1
 			},
@@ -39044,6 +39052,10 @@
 				"id": 176,
 				"meta": 2
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 2
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39058,6 +39070,10 @@
 		"banner_facing_west_westsouth": {
 			"id": 1311,
 			"minecraft": {
+				"id": 176,
+				"meta": 3
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 3
 			},
@@ -39078,6 +39094,10 @@
 				"id": 176,
 				"meta": 4
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 4
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39092,6 +39112,10 @@
 		"banner_facing_west_northwest": {
 			"id": 1313,
 			"minecraft": {
+				"id": 176,
+				"meta": 5
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 5
 			},
@@ -39112,6 +39136,10 @@
 				"id": 176,
 				"meta": 6
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 6
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39126,6 +39154,10 @@
 		"banner_facing_north_northwest": {
 			"id": 1315,
 			"minecraft": {
+				"id": 176,
+				"meta": 7
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 7
 			},
@@ -39146,6 +39178,10 @@
 				"id": 176,
 				"meta": 8
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 8
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39160,6 +39196,10 @@
 		"banner_facing_north_northeast": {
 			"id": 1317,
 			"minecraft": {
+				"id": 176,
+				"meta": 9
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 9
 			},
@@ -39180,6 +39220,10 @@
 				"id": 176,
 				"meta": 10
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 10
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39194,6 +39238,10 @@
 		"banner_facing_east_northeast": {
 			"id": 1319,
 			"minecraft": {
+				"id": 176,
+				"meta": 11
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 11
 			},
@@ -39214,6 +39262,10 @@
 				"id": 176,
 				"meta": 12
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 12
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39228,6 +39280,10 @@
 		"banner_facing_east_southeast": {
 			"id": 1321,
 			"minecraft": {
+				"id": 176,
+				"meta": 13
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 13
 			},
@@ -39248,6 +39304,10 @@
 				"id": 176,
 				"meta": 14
 			},
+			"pocket": {
+				"id": 176,
+				"meta": 14
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39262,6 +39322,10 @@
 		"banner_facing_south_southeast": {
 			"id": 1323,
 			"minecraft": {
+				"id": 176,
+				"meta": 15
+			},
+			"pocket": {
 				"id": 176,
 				"meta": 15
 			},
@@ -39282,6 +39346,10 @@
 				"id": 177,
 				"meta": 2
 			},
+			"pocket": {
+				"id": 177,
+				"meta": 2
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39296,6 +39364,10 @@
 		"wall_banner_facing_south": {
 			"id": 1325,
 			"minecraft": {
+				"id": 177,
+				"meta": 3
+			},
+			"pocket": {
 				"id": 177,
 				"meta": 3
 			},
@@ -39316,6 +39388,10 @@
 				"id": 177,
 				"meta": 4
 			},
+			"pocket": {
+				"id": 177,
+				"meta": 4
+			},
 			"solid": false,
 			"hardness": 1,
 			"blast_resistance": 5,
@@ -39330,6 +39406,10 @@
 		"wall_banner_facing_east": {
 			"id": 1327,
 			"minecraft": {
+				"id": 177,
+				"meta": 5
+			},
+			"pocket": {
 				"id": 177,
 				"meta": 5
 			},
@@ -40565,6 +40645,10 @@
 				"id": 255,
 				"meta": 0
 			},
+			"pocket": {
+				"id": 252,
+				"meta": 0
+			},
 			"solid": true,
 			"hardness": -1,
 			"blast_resistance": 1.8e+07,
@@ -40591,6 +40675,10 @@
 			"id": 1374,
 			"minecraft": {
 				"id": 255,
+				"meta": 1
+			},
+			"pocket": {
+				"id": 252,
 				"meta": 1
 			},
 			"solid": true,
@@ -40621,6 +40709,10 @@
 				"id": 255,
 				"meta": 2
 			},
+			"pocket": {
+				"id": 252,
+				"meta": 2
+			},
 			"solid": true,
 			"hardness": -1,
 			"blast_resistance": 1.8e+07,
@@ -40647,6 +40739,10 @@
 			"id": 1376,
 			"minecraft": {
 				"id": 255,
+				"meta": 3
+			},
+			"pocket": {
+				"id": 252,
 				"meta": 3
 			},
 			"solid": true,

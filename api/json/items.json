@@ -3883,12 +3883,20 @@
 				"id": 255,
 				"meta": 0
 			},
+			"pocket": {
+				"id": 252,
+				"meta": 0
+			},
 			"stack": 64
 		},
 
 		"structure_load": {
 			"minecraft": {
 				"id": 255,
+				"meta": 1
+			},
+			"pocket": {
+				"id": 252,
 				"meta": 1
 			},
 			"stack": 64
@@ -3899,12 +3907,20 @@
 				"id": 255,
 				"meta": 2
 			},
+			"pocket": {
+				"id": 252,
+				"meta": 2
+			},
 			"stack": 64
 		},
 
 		"structure_data": {
 			"minecraft": {
 				"id": 255,
+				"meta": 3
+			},
+			"pocket": {
+				"id": 252,
 				"meta": 3
 			},
 			"stack": 64
@@ -5899,11 +5915,13 @@
 
 		"book_and_quill": {
 			"minecraft": 386,
+			"pocket": 386,
 			"stack": 1
 		},
 
 		"written_book": {
 			"minecraft": 387,
+			"pocket": 387,
 			"stack": 1
 		},
 
@@ -6062,11 +6080,13 @@
 
 		"firework_rocket": {
 			"minecraft": 401,
+			"pocket": 401,
 			"stack": 64
 		},
 
 		"firework_star": {
 			"minecraft": 402,
+			"pocket": 402,
 			"stack": 64
 		},
 
@@ -6150,6 +6170,7 @@
 
 		"armor_stand": {
 			"minecraft": 416,
+			"pocket": 425,
 			"stack": 16
 		},
 
@@ -6208,6 +6229,7 @@
 
 		"banner": {
 			"minecraft": 425,
+			"pocket": 446,
 			"stack": 64
 		},
 
@@ -7379,61 +7401,73 @@
 
 		"disc_13": {
 			"minecraft": 2256,
+			"pocket": 500,
 			"stack": 1
 		},
 
 		"disc_cat": {
 			"minecraft": 2257,
+			"pocket": 501,
 			"stack": 1
 		},
 
 		"disc_blocks": {
 			"minecraft": 2258,
+			"pocket": 502,
 			"stack": 1
 		},
 
 		"disc_chirp": {
 			"minecraft": 2259,
+			"pocket": 503,
 			"stack": 1
 		},
 
 		"disc_far": {
 			"minecraft": 2260,
+			"pocket": 504,
 			"stack": 1
 		},
 
 		"disc_mall": {
 			"minecraft": 2261,
+			"pocket": 505,
 			"stack": 1
 		},
 
 		"disc_mellohi": {
 			"minecraft": 2262,
+			"pocket": 506,
 			"stack": 1
 		},
 
 		"disc_stal": {
 			"minecraft": 2263,
+			"pocket": 507,
 			"stack": 1
 		},
 
 		"disc_strad": {
 			"minecraft": 2264,
+			"pocket": 508,
 			"stack": 1
 		},
 
 		"disc_ward": {
 			"minecraft": 2265,
+			"pocket": 509,
 			"stack": 1
 		},
 
 		"disc_11": {
 			"minecraft": 2266,
+			"pocket": 510,
 			"stack": 1
 		},
 
 		"disc_wait": {
 			"minecraft": 2267,
+			"pocket": 511,
 			"stack": 1
 		}
 

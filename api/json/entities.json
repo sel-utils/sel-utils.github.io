@@ -247,6 +247,7 @@
 		"firework_rocket": {
 			"object": true,
 			"minecraft": 76,
+			"pocket": 72,
 			"size": {
 				"width": 0.25,
 				"height": 0.25
@@ -266,6 +267,7 @@
 		"armor_stand": {
 			"object": true,
 			"minecraft": 78,
+			"pocket": 61,
 			"size": {
 				"width": 0.5,
 				"height": 1.975
@@ -788,6 +790,7 @@
 		"parrot": {
 			"object": false,
 			"minecraft": 105,
+			"pocket": 30,
 			"size": {
 				"width": 0.5,
 				"height": 1
