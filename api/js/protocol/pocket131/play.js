@@ -276,8 +276,8 @@ const Play = {
 			this._buffer = [];
 			this.writeVaruint(6);
 			this.writeBigEndianByte(this.mustAccept?1:0);
-			this.writeLittleEndianShort(this.behaviourPacks.length); for(var dhc5zhdl in this.behaviourPacks){ this.writeBytes(this.behaviourPacks[dhc5zhdl].encode()); }
-			this.writeLittleEndianShort(this.resourcePacks.length); for(var dhc5zndj in this.resourcePacks){ this.writeBytes(this.resourcePacks[dhc5zndj].encode()); }
+			this.writeBigEndianShort(this.behaviourPacks.length); for(var dhc5zhdl in this.behaviourPacks){ this.writeBytes(this.behaviourPacks[dhc5zhdl].encode()); }
+			this.writeBigEndianShort(this.resourcePacks.length); for(var dhc5zndj in this.resourcePacks){ this.writeBytes(this.resourcePacks[dhc5zndj].encode()); }
 			return new Uint8Array(this._buffer);
 		}
 
@@ -286,8 +286,8 @@ const Play = {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readVaruint();
 			this.mustAccept=this.readBigEndianByte()!==0;
-			var aramyvyz=this.readLittleEndianShort(); this.behaviourPacks=[]; for(var dhc5zhdl=0;dhc5zhdl<aramyvyz;dhc5zhdl++){ this.behaviourPacks[dhc5zhdl]=Types.PackWithSize.fromBuffer(this._buffer); this._buffer=this.behaviourPacks[dhc5zhdl]._buffer; }
-			var aramcvbv=this.readLittleEndianShort(); this.resourcePacks=[]; for(var dhc5zndj=0;dhc5zndj<aramcvbv;dhc5zndj++){ this.resourcePacks[dhc5zndj]=Types.PackWithSize.fromBuffer(this._buffer); this._buffer=this.resourcePacks[dhc5zndj]._buffer; }
+			var aramyvyz=this.readBigEndianShort(); this.behaviourPacks=[]; for(var dhc5zhdl=0;dhc5zhdl<aramyvyz;dhc5zhdl++){ this.behaviourPacks[dhc5zhdl]=Types.PackWithSize.fromBuffer(this._buffer); this._buffer=this.behaviourPacks[dhc5zhdl]._buffer; }
+			var aramcvbv=this.readBigEndianShort(); this.resourcePacks=[]; for(var dhc5zndj=0;dhc5zndj<aramcvbv;dhc5zndj++){ this.resourcePacks[dhc5zndj]=Types.PackWithSize.fromBuffer(this._buffer); this._buffer=this.resourcePacks[dhc5zndj]._buffer; }
 			return this;
 		}
 
@@ -3243,11 +3243,11 @@ const Play = {
 		static get MUTED(){ return 1024; }
 
 		// permission level
-		static get USER(){ return 0; }
-		static get OPERATOR(){ return 1; }
-		static get HOST(){ return 2; }
-		static get AUTOMATION(){ return 3; }
-		static get ADMIN(){ return 4; }
+		static get LEVEL_USER(){ return 0; }
+		static get LEVEL_OPERATOR(){ return 1; }
+		static get LEVEL_HOST(){ return 2; }
+		static get LEVEL_AUTOMATION(){ return 3; }
+		static get LEVEL_ADMIN(){ return 4; }
 
 		// abilities
 		static get BUILD_AND_MINE(){ return 1; }

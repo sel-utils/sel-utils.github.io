@@ -428,7 +428,8 @@
 
 			"pack_with_size_array": {
 				"base": "pack_with_size",
-				"length": "ushort"
+				"length": "ushort",
+				"endianness": "big_endian"
 			},
 
 			"uint_le_bytes": {
@@ -2257,11 +2258,11 @@
 						"name": "permission_level",
 						"type": "varuint",
 						"constants": {
-							"user": 0,
-							"operator": 1,
-							"host": 2,
-							"automation": 3,
-							"admin": 4
+							"level_user": 0,
+							"level_operator": 1,
+							"level_host": 2,
+							"level_automation": 3,
+							"level_admin": 4
 						}
 					},
 					{
