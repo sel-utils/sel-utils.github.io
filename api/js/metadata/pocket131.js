@@ -513,10 +513,20 @@ class Metadata extends Buffer {
 	}
 
 	get linger() {
-		return ((this.entityFlags >>> 45) & 1) === 1;
+		return ((this.entityFlags >>> 44) & 1) === 1;
 	}
 
 	set linger(value) {
+		if(value) this._entityFlags |= true << 44;
+		else this._entityFlags &= ~(true << 44);
+		return value;
+	}
+
+	get collide() {
+		return ((this.entityFlags >>> 45) & 1) === 1;
+	}
+
+	set collide(value) {
 		if(value) this._entityFlags |= true << 45;
 		else this._entityFlags &= ~(true << 45);
 		return value;
@@ -1048,7 +1058,7 @@ class Metadata extends Buffer {
 			length++;
 			this.writeVaruint(3);
 			this.writeVaruint(0);
-			this.writeBigEndianByte(this._color);
+			this.writeLittleEndianByte(this._color);
 		}
 		if(this._nametag !== undefined) {
 			length++;
@@ -1083,7 +1093,7 @@ class Metadata extends Buffer {
 			length++;
 			this.writeVaruint(9);
 			this.writeVaruint(0);
-			this.writeBigEndianByte(this._potionAmbient);
+			this.writeLittleEndianByte(this._potionAmbient);
 		}
 		if(this._hurtTime !== undefined) {
 			length++;
@@ -1131,7 +1141,7 @@ class Metadata extends Buffer {
 			length++;
 			this.writeVaruint(18);
 			this.writeVaruint(0);
-			this.writeBigEndianByte(this._minecartHasBlock);
+			this.writeLittleEndianByte(this._minecartHasBlock);
 		}
 		if(this._endermanItemId !== undefined) {
 			length++;
@@ -1155,7 +1165,7 @@ class Metadata extends Buffer {
 			length++;
 			this.writeVaruint(27);
 			this.writeVaruint(0);
-			this.writeBigEndianByte(this._playerFlags);
+			this.writeLittleEndianByte(this._playerFlags);
 		}
 		if(this._playerIndex !== undefined) {
 			length++;
@@ -1292,7 +1302,7 @@ class Metadata extends Buffer {
 			length++;
 			this.writeVaruint(58);
 			this.writeVaruint(0);
-			this.writeBigEndianByte(this._riderRotationLocked);
+			this.writeLittleEndianByte(this._riderRotationLocked);
 		}
 		if(this._riderMaxRotation !== undefined) {
 			length++;
@@ -1334,7 +1344,7 @@ class Metadata extends Buffer {
 			length++;
 			this.writeVaruint(65);
 			this.writeVaruint(0);
-			this.writeBigEndianByte(this._shulkerDirection);
+			this.writeLittleEndianByte(this._shulkerDirection);
 		}
 		if(this._shulkerAttachment !== undefined) {
 			length++;
@@ -1370,7 +1380,7 @@ class Metadata extends Buffer {
 			length++;
 			this.writeVaruint(74);
 			this.writeVaruint(0);
-			this.writeBigEndianByte(this._controllingRiderSeatNumber);
+			this.writeLittleEndianByte(this._controllingRiderSeatNumber);
 		}
 		if(this._strength !== undefined) {
 			length++;
@@ -1397,11 +1407,11 @@ class Metadata extends Buffer {
 		var metadata;
 		var length=this.readVaruint();
 		while(length-- > 0) {
-			metadata=this.readBigEndianByte();
-			switch(this.readBigEndianByte()) {
+			metadata=this.readLittleEndianByte();
+			switch(this.readLittleEndianByte()) {
 				case 0:
 					var _0;
-					_0=this.readBigEndianByte();
+					_0=this.readLittleEndianByte();
 					result.push({id:0,value:_0});
 					break;
 				case 1:

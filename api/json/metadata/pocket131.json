@@ -23,8 +23,7 @@
 
 		"short": {
 			"type": "short",
-			"id": 1,
-			"endianness": "little_endian"
+			"id": 1
 		},
 
 		"int": {
@@ -115,7 +114,8 @@
 				"evoker_spell": 40,
 				"charge_attack": 41,
 				"is_wasd_controlled": 42,
-				"linger": 45,
+				"linger": 44,
+				"collide": 45,
 				"gravity": 46,
 				"dancing": 48
 			}

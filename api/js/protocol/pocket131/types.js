@@ -431,7 +431,7 @@ const Types = {
 			this._buffer = [];
 			this.writeVarlong(this.from);
 			this.writeVarlong(this.to);
-			this.writeBigEndianByte(this.action);
+			this.writeLittleEndianByte(this.action);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -440,7 +440,7 @@ const Types = {
 			this._buffer = Array.from(_buffer);
 			this.from=this.readVarlong();
 			this.to=this.readVarlong();
-			this.action=this.readBigEndianByte();
+			this.action=this.readLittleEndianByte();
 			return this;
 		}
 
@@ -499,6 +499,59 @@ const Types = {
 
 	},
 
+	InventoryAction: class extends Buffer {
+
+		// source
+		static get CONTAINER(){ return 0; }
+		static get WORLD(){ return 2; }
+		static get CREATIVE(){ return 3; }
+
+		constructor(source=0, container=-1, unknown2=0, slot=0, oldItem=null, newItem=null) {
+			super();
+			this.source = source;
+			this.container = container;
+			this.unknown2 = unknown2;
+			this.slot = slot;
+			this.oldItem = oldItem;
+			this.newItem = newItem;
+		}
+
+		/** @return {Uint8Array} */
+		encode() {
+			this._buffer = [];
+			this.writeVaruint(this.source);
+			if(source==0){ this.writeVarint(this.container); }
+			if(source==2){ this.writeVaruint(this.unknown2); }
+			this.writeVaruint(this.slot);
+			this.writeBytes(this.oldItem.encode());
+			this.writeBytes(this.newItem.encode());
+			return new Uint8Array(this._buffer);
+		}
+
+		/** @param {(Uint8Array|Array)} buffer */
+		decode(_buffer) {
+			this._buffer = Array.from(_buffer);
+			this.source=this.readVaruint();
+			if(source==0){ this.container=this.readVarint(); }
+			if(source==2){ this.unknown2=this.readVaruint(); }
+			this.slot=this.readVaruint();
+			this.oldItem=Types.Slot.fromBuffer(this._buffer); this._buffer=this.oldItem._buffer;
+			this.newItem=Types.Slot.fromBuffer(this._buffer); this._buffer=this.newItem._buffer;
+			return this;
+		}
+
+		/** @param {(Uint8Array|Array)} buffer */
+		static fromBuffer(buffer) {
+			return new Types.InventoryAction().decode(buffer);
+		}
+
+		/** @return {string} */
+		toString() {
+			return "InventoryAction(source: " + this.source + ", container: " + this.container + ", unknown2: " + this.unknown2 + ", slot: " + this.slot + ", oldItem: " + this.oldItem + ", newItem: " + this.newItem + ")";
+		}
+
+	},
+
 	ChunkData: class extends Buffer {
 
 		/**
@@ -506,9 +559,6 @@ const Types = {
 		 *        16x16x16 section of the chunk. The array's keys also indicate the section's height (the 3rd element
 		 *        of the array will be the 3rd section from bottom, starting at `y=24`).
 		 *        The amount of sections should be in a range from 0 (empty chunk) to 16.
-		 * @param heights
-		 *        Coordinates of the highest block in the column that receives sky light (order `xz`). It is used to
-		 *        increase the speed when calculating the block's light level.
 		 * @param biomes
 		 *        [Biomes](http://minecraft.gamepedia.com/Biome) in order `xz`.
 		 * @param borders
@@ -534,7 +584,7 @@ const Types = {
 		encode() {
 			this._buffer = [];
 			this.writeVaruint(this.sections.length); for(var dhc5zna9 in this.sections){ this.writeBytes(this.sections[dhc5zna9].encode()); }
-			for(var dhc5zlar in this.heights){ this.writeBigEndianShort(this.heights[dhc5zlar]); }
+			for(var dhc5zlar in this.heights){ this.writeLittleEndianShort(this.heights[dhc5zlar]); }
 			this.writeBytes(this.biomes);
 			this.writeVaruint(this.borders.length); this.writeBytes(this.borders);
 			this.writeVaruint(this.extraData.length); for(var dhc5eryr in this.extraData){ this.writeBytes(this.extraData[dhc5eryr].encode()); }
@@ -554,7 +604,7 @@ const Types = {
 			_buffer = this._buffer.slice(_length);
 			if(this._buffer.length > _length) this._buffer.length = _length;
 			var aramcvdl=this.readVaruint(); this.sections=[]; for(var dhc5zna9=0;dhc5zna9<aramcvdl;dhc5zna9++){ this.sections[dhc5zna9]=Types.Section.fromBuffer(this._buffer); this._buffer=this.sections[dhc5zna9]._buffer; }
-			var aramavzh=256; this.heights=[]; for(var dhc5zlar=0;dhc5zlar<aramavzh;dhc5zlar++){ this.heights[dhc5zlar]=this.readBigEndianShort(); }
+			var aramavzh=256; this.heights=[]; for(var dhc5zlar=0;dhc5zlar<aramavzh;dhc5zlar++){ this.heights[dhc5zlar]=this.readLittleEndianShort(); }
 			var aramylbv=256; this.biomes=this.readBytes(aramylbv);
 			var aramy9zv=this.readVaruint(); this.borders=this.readBytes(aramy9zv);
 			var aramzhcf=this.readVaruint(); this.extraData=[]; for(var dhc5eryr=0;dhc5eryr<aramzhcf;dhc5eryr++){ this.extraData[dhc5eryr]=Types.ExtraData.fromBuffer(this._buffer); this._buffer=this.extraData[dhc5eryr]._buffer; }
@@ -587,7 +637,7 @@ const Types = {
 		/** @return {Uint8Array} */
 		encode() {
 			this._buffer = [];
-			this.writeBigEndianByte(this.storageVersion);
+			this.writeLittleEndianByte(this.storageVersion);
 			this.writeBytes(this.blockIds);
 			this.writeBytes(this.blockMetas);
 			return new Uint8Array(this._buffer);
@@ -596,7 +646,7 @@ const Types = {
 		/** @param {(Uint8Array|Array)} buffer */
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
-			this.storageVersion=this.readBigEndianByte();
+			this.storageVersion=this.readLittleEndianByte();
 			var aramyxyt=4096; this.blockIds=this.readBytes(aramyxyt);
 			var aramyxyt=2048; this.blockMetas=this.readBytes(aramyxyt);
 			return this;
@@ -668,7 +718,7 @@ const Types = {
 		encode() {
 			this._buffer = [];
 			this.writeVarint(this.rotationAndIcon);
-			this.writeBigEndianByte(this.position.x); this.writeBigEndianByte(this.position.z);
+			this.writeLittleEndianByte(this.position.x); this.writeLittleEndianByte(this.position.z);
 			var dhc5yjb=this.encodeString(this.label); this.writeVaruint(dhc5yjb.length); this.writeBytes(dhc5yjb);
 			this.writeLittleEndianInt(this.color);
 			return new Uint8Array(this._buffer);
@@ -678,7 +728,7 @@ const Types = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			this.rotationAndIcon=this.readVarint();
-			this.position={}; this.position.x=this.readBigEndianByte(); this.position.z=this.readBigEndianByte();
+			this.position={}; this.position.x=this.readLittleEndianByte(); this.position.z=this.readLittleEndianByte();
 			this.label=this.decodeString(this.readBytes(this.readVaruint()));
 			this.color=this.readLittleEndianInt();
 			return this;
@@ -738,9 +788,9 @@ const Types = {
 		encode() {
 			this._buffer = [];
 			var dhc5y1=this.encodeString(this.name); this.writeVaruint(dhc5y1.length); this.writeBytes(dhc5y1);
-			this.writeBigEndianByte(this.type);
+			this.writeLittleEndianByte(this.type);
 			if(type==1){ this.writeBigEndianByte(this.booleanValue?1:0); }
-			if(type==2){ this.writeBigEndianInt(this.integerValue); }
+			if(type==2){ this.writeVaruint(this.integerValue); }
 			if(type==3){ this.writeLittleEndianFloat(this.floatingValue); }
 			return new Uint8Array(this._buffer);
 		}
@@ -749,9 +799,9 @@ const Types = {
 		decode(_buffer) {
 			this._buffer = Array.from(_buffer);
 			this.name=this.decodeString(this.readBytes(this.readVaruint()));
-			this.type=this.readBigEndianByte();
+			this.type=this.readLittleEndianByte();
 			if(type==1){ this.booleanValue=this.readBigEndianByte()!==0; }
-			if(type==2){ this.integerValue=this.readBigEndianInt(); }
+			if(type==2){ this.integerValue=this.readVaruint(); }
 			if(type==3){ this.floatingValue=this.readLittleEndianFloat(); }
 			return this;
 		}
@@ -785,8 +835,8 @@ const Types = {
 			this._buffer = [];
 			var dhc5y1=this.encodeString(this.name); this.writeVaruint(dhc5y1.length); this.writeBytes(dhc5y1);
 			var dhc5zncl=this.encodeString(this.description); this.writeVaruint(dhc5zncl.length); this.writeBytes(dhc5zncl);
-			this.writeBigEndianByte(this.unknown2);
-			this.writeBigEndianByte(this.permissionLevel);
+			this.writeLittleEndianByte(this.unknown2);
+			this.writeLittleEndianByte(this.permissionLevel);
 			this.writeLittleEndianInt(this.aliasesId);
 			this.writeVaruint(this.overloads.length); for(var dhc5dvb9 in this.overloads){ this.writeBytes(this.overloads[dhc5dvb9].encode()); }
 			return new Uint8Array(this._buffer);
@@ -797,8 +847,8 @@ const Types = {
 			this._buffer = Array.from(_buffer);
 			this.name=this.decodeString(this.readBytes(this.readVaruint()));
 			this.description=this.decodeString(this.readBytes(this.readVaruint()));
-			this.unknown2=this.readBigEndianByte();
-			this.permissionLevel=this.readBigEndianByte();
+			this.unknown2=this.readLittleEndianByte();
+			this.permissionLevel=this.readLittleEndianByte();
 			this.aliasesId=this.readLittleEndianInt();
 			var arambzcx=this.readVaruint(); this.overloads=[]; for(var dhc5dvb9=0;dhc5dvb9<arambzcx;dhc5dvb9++){ this.overloads[dhc5dvb9]=Types.Overload.fromBuffer(this._buffer); this._buffer=this.overloads[dhc5dvb9]._buffer; }
 			return this;

@@ -40,7 +40,7 @@
 				<td><a href="/protocol/pocket131/types/section">section</a>[]</td>
 			</tr>
 			<tr>
-				<td><a href="#heights">heights</a></td>
+				<td>heights</td>
 				<td>ushort[256]</td>
 			</tr>
 			<tr>
@@ -65,10 +65,6 @@
 				<strong id="sections">sections</strong>
 				<p>16x16x16 section of the chunk. The array's keys also indicate the section's height (the 3rd element of the array will be the 3rd section from bottom, starting at <code>y=24</code>).</p>
 				<p>The amount of sections should be in a range from 0 (empty chunk) to 16.</p>
-			</li>
-			<li>
-				<strong id="heights">heights</strong>
-				<p>Coordinates of the highest block in the column that receives sky light (order <code>xz</code>). It is used to increase the speed when calculating the block's light level.</p>
 			</li>
 			<li>
 				<strong id="biomes">biomes</strong>

@@ -7,11 +7,10 @@
 	"encoding": {
 
 		"endianness": {
-			"*": "big_endian",
-			"float": "little_endian"
+			"*": "little_endian"
 		},
 
-		"id": "ubyte",
+		"id": "varuint",
 
 		"array_length": "varuint",
 
@@ -39,8 +38,7 @@
 				},
 				{
 					"name": "size",
-					"type": "ulong",
-					"endianness": "little_endian"
+					"type": "ulong"
 				}
 			],
 
@@ -121,13 +119,11 @@
 			"mcpe_uuid": [
 				{
 					"name": "most_significant_bits",
-					"type": "long",
-					"endianness": "little_endian"
+					"type": "long"
 				},
 				{
 					"name": "least_significant_bits",
-					"type": "long",
-					"endianness": "little_endian"
+					"type": "long"
 				}
 			],
 
@@ -215,6 +211,41 @@
 				}
 			],
 
+			"inventory_action": [
+				{
+					"name": "source",
+					"type": "varuint",
+					"constants": {
+						"container": 0,
+						"world": 2,
+						"creative": 3
+					}
+				},
+				{
+					"name": "container",
+					"type": "varint",
+					"default": -1,
+					"when": "source==0"
+				},
+				{
+					"name": "?",
+					"type": "varuint",
+					"when": "source==2"
+				},
+				{
+					"name": "slot",
+					"type": "varuint"
+				},
+				{
+					"name": "old_item",
+					"type": "slot"
+				},
+				{
+					"name": "new_item",
+					"type": "slot"
+				}
+			],
+
 			"chunk_data": [
 				{
 					"name": "sections",
@@ -265,8 +296,7 @@
 				},
 				{
 					"name": "value",
-					"type": "ushort",
-					"endianness": "little_endian"
+					"type": "ushort"
 				}
 			],
 
@@ -285,8 +315,7 @@
 				},
 				{
 					"name": "color",
-					"type": "uint",
-					"endianness": "little_endian"
+					"type": "uint"
 				}
 			],
 
@@ -328,7 +357,7 @@
 				},
 				{
 					"name": "integer_value",
-					"type": "int",
+					"type": "varuint",
 					"when": "type==2"
 				},
 				{
@@ -358,7 +387,6 @@
 				{
 					"name": "aliases_id",
 					"type": "int",
-					"endianness": "little_endian",
 					"default": -1
 				},
 				{
@@ -381,8 +409,7 @@
 				},
 				{
 					"name": "type",
-					"type": "uint",
-					"endianness": "little_endian"
+					"type": "uint"
 				},
 				{
 					"name": "optional",
@@ -394,39 +421,30 @@
 
 		"arrays": {
 
+			"nbt": {
+				"base": "ubyte",
+				"length": "ushort"
+			},
+
+			"pack_with_size_array": {
+				"base": "pack_with_size",
+				"length": "ushort"
+			},
+
 			"uint_le_bytes": {
 				"base": "ubyte",
 				"length": "uint",
 				"endianness": "little_endian"
 			},
 
-			"nbt": {
-				"base": "ubyte",
-				"length": "ushort",
-				"endianness": "little_endian"
-			},
-
-			"pack_with_size_array": {
-				"base": "pack_with_size",
-				"length": "ushort",
-				"endianness": "little_endian"
-			},
-
-			"rules": {
-				"base": "rule",
-				"length": "uint"
-			},
-
 			"pack_ids": {
 				"base": "string",
-				"length": "ushort",
-				"endianness": "little_endian"
+				"length": "ushort"
 			},
 
 			"login_payload": {
 				"base": "ubyte",
-				"length": "uint",
-				"endianness": "little_endian"
+				"length": "uint"
 			}
 
 		}
@@ -445,6 +463,7 @@
 					{
 						"name": "protocol",
 						"type": "uint",
+						"endianness": "big_endian",
 						"default": 131
 					},
 					{
@@ -462,6 +481,7 @@
 					{
 						"name": "status",
 						"type": "uint",
+						"endianness": "big_endian",
 						"constants": {
 							"ok": 0,
 							"outdated_client": 1,
@@ -863,8 +883,11 @@
 					},
 					{
 						"name": "world_ticks",
-						"type": "ulong",
-						"endianness": "little_endian"
+						"type": "ulong"
+					},
+					{
+						"name": "?",
+						"type": "varint"
 					}
 				]
 			},
@@ -917,6 +940,26 @@
 					{
 						"name": "metadata",
 						"type": "metadata"
+					},
+					{
+						"name": "?",
+						"type": "varuint"
+					},
+					{
+						"name": "?",
+						"type": "varuint"
+					},
+					{
+						"name": "?",
+						"type": "varuint"
+					},
+					{
+						"name": "?",
+						"type": "varuint"
+					},
+					{
+						"name": "?",
+						"type": "long"
 					}
 				]
 			},
@@ -1135,13 +1178,11 @@
 					{
 						"name": "?",
 						"type": "int",
-						"endianness": "little_endian",
 						"when": "animation==3"
 					},
 					{
 						"name": "?",
 						"type": "int",
-						"endianness": "little_endian",
 						"when": "animation==3"
 					}
 				]
@@ -1245,111 +1286,164 @@
 							"item_use_on": 0,
 							"hit": 1,
 							"step": 2,
-							"jump": 3,
-							"break": 4,
-							"place": 5,
-							"heavy_step": 6,
-							"gallop": 7,
-							"fall": 8,
-							"ambient": 9,
-							"ambient_baby": 10,
-							"ambient_in_water": 11,
-							"breathe": 12,
-							"death": 13,
-							"death_in_water": 14,
-							"death_to_zombie": 15,
-							"hurt": 16,
-							"hurt_in_water": 17,
-							"mad": 18,
-							"boost": 19,
-							"bow": 20,
-							"squish_big": 21,
-							"squish_small": 22,
-							"fall_big": 23,
-							"fall_small": 24,
-							"splash": 25,
-							"fizz": 26,
-							"flap": 27,
-							"swim": 28,
-							"drink": 29,
-							"eat": 30,
-							"takeoff": 31,
-							"shake": 32,
-							"plop": 33,
-							"land": 34,
-							"saddle": 35,
-							"armor": 36,
-							"add_chest": 37,
-							"throw": 38,
-							"attack": 39,
-							"attack_nodamage": 40,
-							"warn": 41,
-							"shear": 42,
-							"milk": 43,
-							"thunder": 44,
-							"explode": 45,
-							"fire": 46,
-							"ignite": 47,
-							"fuse": 48,
-							"stare": 49,
-							"spawn": 50,
-							"shoot": 51,
-							"break_block": 52,
-							"remedy": 53,
-							"unfect": 54,
-							"levelup": 55,
-							"bow_hit": 56,
-							"bullet_hit": 57,
-							"extinguish_fire": 58,
-							"item_fizz": 59,
-							"chest_open": 60,
-							"chest_closed": 61,
-							"shulker_box_open": 62,
-							"shulker_box_close": 63,
-							"power_on": 64,
-							"power_off": 65,
-							"attach": 66,
-							"detach": 67,
-							"deny": 68,
-							"tripod": 69,
-							"pop": 70,
-							"drop_slot": 71,
-							"note": 72,
-							"thorns": 73,
-							"piston_in": 74,
-							"piston_out": 75,
-							"portal": 76,
-							"water": 77,
-							"lava_pop": 78,
-							"lava": 79,
-							"burp": 80,
-							"bucket_fill_water": 81,
-							"bucket_fill_lava": 82,
-							"bucket_empty_water": 83,
-							"bucket_empty_lava": 84,
-							"guardian_flop": 85,
-							"elderguardian_curse": 86,
-							"mob_warning": 87,
-							"mob_warning_baby": 88,
-							"teleport": 89,
-							"shulker_open": 90,
-							"shulker_close": 91,
-							"haggle": 92,
-							"haggle_yes": 93,
-							"haggle_no": 94,
-							"haggle_idle": 95,
-							"chorus_grow": 96,
-							"chorus_death": 97,
-							"glass": 98,
-							"cast_spell": 99,
-							"prepare_attack": 100,
-							"prepare_summon": 101,
-							"prepare_wololo": 102,
-							"fang": 103,
-							"charge": 104,
-							"take_picture": 105,
-							"default": 106,
-							"undefined": 107
+							"fly": 3,
+							"jump": 4,
+							"break": 5,
+							"place": 6,
+							"heavy_step": 7,
+							"gallop": 8,
+							"fall": 9,
+							"ambient": 10,
+							"ambient_baby": 11,
+							"ambient_in_water": 12,
+							"breathe": 13,
+							"death": 14,
+							"death_in_water": 15,
+							"death_to_zombie": 16,
+							"hurt": 17,
+							"hurt_in_water": 18,
+							"mad": 19,
+							"boost": 20,
+							"bow": 21,
+							"squish_big": 22,
+							"squish_small": 23,
+							"fall_big": 24,
+							"fall_small": 25,
+							"splash": 26,
+							"fizz": 27,
+							"flap": 28,
+							"swim": 29,
+							"drink": 30,
+							"eat": 31,
+							"takeoff": 32,
+							"shake": 33,
+							"plop": 34,
+							"land": 35,
+							"saddle": 36,
+							"armor": 37,
+							"add_chest": 38,
+							"throw": 39,
+							"attack": 40,
+							"attack_nodamage": 41,
+							"warn": 42,
+							"shear": 43,
+							"milk": 44,
+							"thunder": 45,
+							"explode": 46,
+							"fire": 47,
+							"ignite": 48,
+							"fuse": 49,
+							"stare": 50,
+							"spawn": 51,
+							"shoot": 52,
+							"break_block": 53,
+							"launch": 54,
+							"blast": 55,
+							"large_blast": 56,
+							"twinkle": 57,
+							"remedy": 58,
+							"unfect": 59,
+							"levelup": 60,
+							"bow_hit": 61,
+							"bullet_hit": 62,
+							"extinguish_fire": 63,
+							"item_fizz": 64,
+							"chest_open": 65,
+							"chest_closed": 66,
+							"shulker_box_open": 67,
+							"shulker_box_close": 68,
+							"power_on": 69,
+							"power_off": 70,
+							"attach": 71,
+							"detach": 72,
+							"deny": 73,
+							"tripod": 74,
+							"pop": 75,
+							"drop_slot": 76,
+							"note": 77,
+							"thorns": 78,
+							"piston_in": 79,
+							"piston_out": 80,
+							"portal": 81,
+							"water": 82,
+							"lava_pop": 83,
+							"lava": 84,
+							"burp": 85,
+							"bucket_fill_water": 86,
+							"bucket_fill_lava": 87,
+							"bucket_empty_water": 88,
+							"bucket_empty_lava": 89,
+							"record_13": 90,
+							"record_cat": 91,
+							"record_blocks": 92,
+							"record_chirp": 93,
+							"record_far": 94,
+							"record_mall": 95,
+							"record_mellohi": 96,
+							"record_stal": 97,
+							"record_strad": 98,
+							"record_ward": 99,
+							"record_11": 100,
+							"record_wait": 101,
+							"guardian_flop": 103,
+							"elderguardian_curse": 104,
+							"mob_warning": 105,
+							"mob_warning_baby": 106,
+							"teleport": 107,
+							"shulker_open": 108,
+							"shulker_close": 109,
+							"haggle": 110,
+							"haggle_yes": 111,
+							"haggle_no": 112,
+							"haggle_idle": 113,
+							"chorus_grow": 114,
+							"chorus_death": 115,
+							"glass": 116,
+							"cast_spell": 117,
+							"prepare_attack": 118,
+							"prepare_summon": 119,
+							"prepare_wololo": 120,
+							"fang": 121,
+							"charge": 122,
+							"camera_take_picture": 123,
+							"leashknot_place": 124,
+							"leashknot_break": 125,
+							"growl": 126,
+							"whine": 127,
+							"pant": 128,
+							"purr": 129,
+							"purreow": 130,
+							"death_min_volume": 131,
+							"death_mid_volume": 132,
+							"initiate_blaze": 133,
+							"initiate_cave_spider": 134,
+							"initiate_creeper": 135,
+							"initiate_elder_guardian": 136,
+							"initiate_ender_dragon": 137,
+							"initiate_enderman": 138,
+							"initiate_evocation_illager": 140,
+							"initiate_ghast": 141,
+							"initiate_husk": 142,
+							"initiate_illusion_illager": 143,
+							"initiate_magma_cube": 144,
+							"initiate_polar_bear": 145,
+							"initiate_shulker": 146,
+							"initiate_silverfish": 147,
+							"initiate_skeleton": 148,
+							"initiate_slime": 149,
+							"initiate_spider": 150,
+							"initiate_stray": 151,
+							"initiate_vex": 152,
+							"initiate_vindication_illager": 153,
+							"initiate_witch": 154,
+							"initiate_wither": 155,
+							"initiate_wither_skeleton": 156,
+							"initiate_wolf": 157,
+							"initiate_zombie": 158,
+							"initiate_zombie_pigman": 159,
+							"initiate_zombie_villager": 160,
+							"default": 161,
+							"undefined": 162
 						}
 					},
 					{
@@ -1366,6 +1460,10 @@
 					},
 					{
 						"name": "?",
+						"type": "bool"
+					},
+					{
+						"name": "disable_relative_volume",
 						"type": "bool"
 					}
 				]
@@ -1557,8 +1655,128 @@
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
+					{
+						"name": "type",
+						"type": "varuint"
+					},
+					{
+						"name": "actions",
+						"type": "inventory_action[]"
+					}
+				],
+				"variants": {
+					"field": "type",
+					"values": {
+						"normal_0": {
+							"value": 0,
+							"fields": [
 
-				]
+							]
+						},
+						"normal_1": {
+							"value": 1,
+							"fields": [
+
+							]
+						},
+						"use_item": {
+							"value": 2,
+							"fields": [
+								{
+									"name": "action_type",
+									"type": "varuint",
+									"constants": {
+										"click_block": 0,
+										"click_air": 1,
+										"break_block": 2
+									}
+								},
+								{
+									"name": "block_position",
+									"type": "block_position"
+								},
+								{
+									"name": "face",
+									"type": "varint"
+								},
+								{
+									"name": "hotbar_slot",
+									"type": "varint"
+								},
+								{
+									"name": "item",
+									"type": "slot"
+								},
+								{
+									"name": "player_position",
+									"type": "float<xyz>"
+								},
+								{
+									"name": "click_position",
+									"type": "float<xyz>"
+								}
+							]
+						},
+						"use_item_on_entity": {
+							"value": 3,
+							"fields": [
+								{
+									"name": "entity_id",
+									"type": "varlong"
+								},
+								{
+									"name": "action_type",
+									"type": "varuint",
+									"constants": {
+										"interact": 0,
+										"attack": 1
+									}
+								},
+								{
+									"name": "hotbar_slot",
+									"type": "varint"
+								},
+								{
+									"name": "item",
+									"type": "slot"
+								},
+								{
+									"name": "?",
+									"type": "float<xyz>"
+								},
+								{
+									"name": "?",
+									"type": "float<xyz>"
+								}
+							]
+						},
+						"release_item": {
+							"value": 4,
+							"fields": [
+								{
+									"name": "action_type",
+									"type": "varuint",
+									"constants": {
+										"shoot_bow": 0,
+										"consume": 1
+									}
+								},
+								{
+									"name": "hotbar_slot",
+									"type": "varint"
+								},
+								{
+									"name": "item",
+									"type": "slot"
+								},
+								{
+									"name": "head_position",
+									"type": "float<xyz>"
+								}
+							]
+						}
+					}
+				}
 			},
 
 			"mob_equipment": {
@@ -1614,15 +1832,19 @@
 						"name": "action",
 						"type": "ubyte",
 						"constants": {
-							"interact": 1,
-							"attack": 2,
 							"leave_vehicle": 3,
-							"hover": 4
+							"hover": 4,
+							"open_inventory": 6
 						}
 					},
 					{
 						"name": "target",
 						"type": "varlong"
+					},
+					{
+						"name": "target_position",
+						"type": "float<xyz>",
+						"when": "action==4"
 					}
 				]
 			},
@@ -1637,6 +1859,10 @@
 						"type": "varint<xyz>"
 					},
 					{
+						"name": "?",
+						"type": "bool"
+					},
+					{
 						"name": "slot",
 						"type": "ubyte"
 					}
@@ -1649,32 +1875,12 @@
 				"serverbound": true,
 				"fields": [
 					{
-						"name": "block_position",
-						"type": "block_position"
-					},
-					{
-						"name": "hotbar_slot",
-						"type": "varuint"
-					},
-					{
-						"name": "face",
-						"type": "varint"
-					},
-					{
-						"name": "face_position",
-						"type": "float<xyz>"
-					},
-					{
-						"name": "position",
-						"type": "float<xyz>"
+						"name": "entity_type",
+						"type": "long"
 					},
 					{
 						"name": "slot",
-						"type": "varint"
-					},
-					{
-						"name": "item",
-						"type": "slot"
+						"type": "ubyte"
 					}
 				]
 			},
@@ -1695,7 +1901,8 @@
 							"start_break": 0,
 							"abort_break": 1,
 							"stop_break": 2,
-							"release_item": 4,
+							"get_updated_block": 3,
+							"drop_item": 4,
 							"stop_sleeping": 5,
 							"respawn": 6,
 							"jump": 7,
@@ -1705,7 +1912,9 @@
 							"stop_sneak": 11,
 							"start_gliding": 14,
 							"stop_gliding": 15,
-							"continue_break": 17
+							"build_denied": 16,
+							"continue_break": 17,
+							"set_enchantment_seed": 18
 						}
 					},
 					{
@@ -2015,7 +2224,11 @@
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
-
+					{
+						"name": "slot",
+						"type": "uint",
+						"endianness": "little_endian"
+					}
 				]
 			},
 
@@ -2041,11 +2254,18 @@
 						}
 					},
 					{
-						"name": "?",
-						"type": "varuint"
+						"name": "permission_level",
+						"type": "varuint",
+						"constants": {
+							"user": 0,
+							"operator": 1,
+							"host": 2,
+							"automation": 3,
+							"admin": 4
+						}
 					},
 					{
-						"name": "permissions",
+						"name": "abilities",
 						"type": "varuint",
 						"constants": {
 							"build_and_mine": 1,
@@ -2058,19 +2278,18 @@
 						}
 					},
 					{
-						"name": "permission_level",
+						"name": "player_rank",
 						"type": "varuint",
 						"constants": {
-							"user": 0,
-							"operator": 1,
-							"host": 2,
-							"automation": 3,
-							"admin": 4
+							"visitor": 0,
+							"member": 1,
+							"operator": 2,
+							"custom": 3
 						}
 					},
 					{
-						"name": "entity_id",
-						"type": "varlong"
+						"name": "?",
+						"type": "long"
 					}
 				]
 			},
@@ -2384,7 +2603,7 @@
 				"fields": [
 					{
 						"name": "rules",
-						"type": "rules"
+						"type": "rule[]"
 					}
 				]
 			},
@@ -2615,18 +2834,15 @@
 					},
 					{
 						"name": "max_chunk_size",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "uint"
 					},
 					{
 						"name": "chunk_count",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "uint"
 					},
 					{
 						"name": "compressed_pack_size",
-						"type": "ulong",
-						"endianness": "little_endian"
+						"type": "ulong"
 					},
 					{
 						"name": "sha256",
@@ -2646,13 +2862,11 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "uint"
 					},
 					{
 						"name": "progress",
-						"type": "ulong",
-						"endianness": "little_endian"
+						"type": "ulong"
 					},
 					{
 						"name": "data",
@@ -2672,8 +2886,7 @@
 					},
 					{
 						"name": "chunk_index",
-						"type": "uint",
-						"endianness": "little_endian"
+						"type": "uint"
 					}
 				]
 			},
@@ -2690,7 +2903,6 @@
 					{
 						"name": "port",
 						"type": "ushort",
-						"endianness": "little_endian",
 						"default": 19132
 					}
 				]
@@ -2777,7 +2989,10 @@
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
-
+					{
+						"name": "?",
+						"type": "string"
+					}
 				]
 			},
 
@@ -2795,7 +3010,10 @@
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
-
+					{
+						"name": "?",
+						"type": "string"
+					}
 				]
 			},
 
@@ -2804,7 +3022,10 @@
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
-
+					{
+						"name": "?",
+						"type": "string[]"
+					}
 				]
 			},
 
@@ -2813,7 +3034,38 @@
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
-
+					{
+						"name": "uuid",
+						"type": "mcpe_uuid"
+					},
+					{
+						"name": "skin_id",
+						"type": "string"
+					},
+					{
+						"name": "skin_name",
+						"type": "string"
+					},
+					{
+						"name": "?",
+						"type": "string"
+					},
+					{
+						"name": "skin_data",
+						"type": "ubyte[]"
+					},
+					{
+						"name": "cape_data",
+						"type": "ubyte[]"
+					},
+					{
+						"name": "geometry_model",
+						"type": "string"
+					},
+					{
+						"name": "geometry_data",
+						"type": "ubyte[]"
+					}
 				]
 			},
 
@@ -2831,16 +3083,22 @@
 				"clientbound": false,
 				"serverbound": false,
 				"fields": [
-
+					{
+						"name": "?",
+						"type": "string"
+					}
 				]
 			},
 
-			"set_last_hurt": {
+			"set_last_hurt_by": {
 				"id": 96,
 				"clientbound": true,
 				"serverbound": false,
 				"fields": [
-
+					{
+						"name": "?",
+						"type": "varint"
+					}
 				]
 			},
 
@@ -2849,8 +3107,89 @@
 				"clientbound": true,
 				"serverbound": true,
 				"fields": [
-
-				]
+					{
+						"name": "type",
+						"type": "ubyte"
+					},
+					{
+						"name": "slot",
+						"type": "ubyte"
+					}
+				],
+				"variants": {
+					"field": "type",
+					"values": {
+						"replace_page": {
+							"value": 0,
+							"fields": [
+								{
+									"name": "page_number",
+									"type": "ubyte"
+								},
+								{
+									"name": "?",
+									"type": "string"
+								},
+								{
+									"name": "?",
+									"type": "string"
+								}
+							]
+						},
+						"add_page": {
+							"value": 1,
+							"fields": [
+								{
+									"name": "page_number",
+									"type": "ubyte"
+								},
+								{
+									"name": "?",
+									"type": "string"
+								},
+								{
+									"name": "?",
+									"type": "string"
+								}
+							]
+						},
+						"delete_page": {
+							"value": 2,
+							"fields": [
+								{
+									"name": "page_number",
+									"type": "ubyte"
+								}
+							]
+						},
+						"swap_pages": {
+							"value": 3,
+							"fields": [
+								{
+									"name": "page_1",
+									"type": "ubyte"
+								},
+								{
+									"name": "page_2",
+									"type": "ubyte"
+								}
+							]
+						},
+						"sign": {
+							"value": 4,
+							"fields": [
+								{
+									"name": "title",
+									"type": "string"
+								},
+								{
+									"name": "author",
+									"type": "string"
+								}
+							]
+						}
+					}
+				}
 			},
 
 			"npc_request": {
@@ -2858,7 +3197,22 @@
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
-
+					{
+						"name": "entity_id",
+						"type": "varlong"
+					},
+					{
+						"name": "request_type",
+						"type": "ubyte"
+					},
+					{
+						"name": "command",
+						"type": "string"
+					},
+					{
+						"name": "action_type",
+						"type": "ubyte"
+					}
 				]
 			},
 
@@ -2867,7 +3221,18 @@
 				"clientbound": false,
 				"serverbound": true,
 				"fields": [
-
+					{
+						"name": "?",
+						"type": "string"
+					},
+					{
+						"name": "?",
+						"type": "string"
+					},
+					{
+						"name": "?",
+						"type": "string"
+					}
 				]
 			},
 
@@ -2925,6 +3290,15 @@
 						"name": "data",
 						"type": "string"
 					}
+				]
+			},
+
+			"show_profile": {
+				"id": 104,
+				"clientbound": true,
+				"serverbound": false,
+				"fields": [
+
 				]
 			}
 

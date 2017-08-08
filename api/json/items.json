@@ -3180,17 +3180,34 @@
 
 		"repeating_command_block": {
 			"minecraft": 210,
+			"pocket": 188,
 			"stack": 64
 		},
 
 		"chain_command_block": {
 			"minecraft": 211,
+			"pocket": 189,
 			"stack": 64
 		},
 
 		"frosted_ice": {
 			"minecraft": 212,
 			"pocket": 207,
+			"stack": 64
+		},
+
+		"allow": {
+			"pocket": 210,
+			"stack": 64
+		},
+
+		"deny": {
+			"pocket": 211,
+			"stack": 64
+		},
+
+		"border_block": {
+			"pocket": 212,
 			"stack": 64
 		},
 
@@ -3850,6 +3867,16 @@
 				"id": 237,
 				"meta": 15
 			},
+			"stack": 64
+		},
+
+		"chalkboard": {
+			"pocket": 230,
+			"stack": 64
+		},
+
+		"camera": {
+			"pocket": 242,
 			"stack": 64
 		},
 

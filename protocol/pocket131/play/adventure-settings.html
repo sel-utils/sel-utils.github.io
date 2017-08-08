@@ -46,20 +46,20 @@
 						<td>varuint</td>
 					</tr>
 					<tr>
-						<td>?</td>
-						<td>varuint</td>
-					</tr>
-					<tr>
-						<td><a href="#permissions">permissions</a></td>
-						<td>varuint</td>
-					</tr>
-					<tr>
 						<td><a href="#permission-level">permission level</a></td>
 						<td>varuint</td>
 					</tr>
 					<tr>
-						<td>entity id</td>
-						<td>varlong</td>
+						<td><a href="#abilities">abilities</a></td>
+						<td>varuint</td>
+					</tr>
+					<tr>
+						<td><a href="#player-rank">player rank</a></td>
+						<td>varuint</td>
+					</tr>
+					<tr>
+						<td>?</td>
+						<td>long</td>
 					</tr>
 				</table>
 				<ul>
@@ -111,41 +111,6 @@
 						</table>
 					</li>
 					<li>
-						<strong id="permissions">permissions</strong>
-						<p><strong>Constants</strong>:</p>
-						<table>
-							<tr><th>Name</th><th>Value</th></tr>
-							<tr>
-								<td id="permissions_build-and-mine">build and mine</td>
-								<td class="center">1</td>
-							</tr>
-							<tr>
-								<td id="permissions_doors-and-switches">doors and switches</td>
-								<td class="center">2</td>
-							</tr>
-							<tr>
-								<td id="permissions_open-containers">open containers</td>
-								<td class="center">4</td>
-							</tr>
-							<tr>
-								<td id="permissions_attack-players">attack players</td>
-								<td class="center">8</td>
-							</tr>
-							<tr>
-								<td id="permissions_attack-mobs">attack mobs</td>
-								<td class="center">16</td>
-							</tr>
-							<tr>
-								<td id="permissions_op">op</td>
-								<td class="center">32</td>
-							</tr>
-							<tr>
-								<td id="permissions_teleport">teleport</td>
-								<td class="center">64</td>
-							</tr>
-						</table>
-					</li>
-					<li>
 						<strong id="permission-level">permission level</strong>
 						<p><strong>Constants</strong>:</p>
 						<table>
@@ -169,6 +134,64 @@
 							<tr>
 								<td id="permission-level_admin">admin</td>
 								<td class="center">4</td>
+							</tr>
+						</table>
+					</li>
+					<li>
+						<strong id="abilities">abilities</strong>
+						<p><strong>Constants</strong>:</p>
+						<table>
+							<tr><th>Name</th><th>Value</th></tr>
+							<tr>
+								<td id="abilities_build-and-mine">build and mine</td>
+								<td class="center">1</td>
+							</tr>
+							<tr>
+								<td id="abilities_doors-and-switches">doors and switches</td>
+								<td class="center">2</td>
+							</tr>
+							<tr>
+								<td id="abilities_open-containers">open containers</td>
+								<td class="center">4</td>
+							</tr>
+							<tr>
+								<td id="abilities_attack-players">attack players</td>
+								<td class="center">8</td>
+							</tr>
+							<tr>
+								<td id="abilities_attack-mobs">attack mobs</td>
+								<td class="center">16</td>
+							</tr>
+							<tr>
+								<td id="abilities_op">op</td>
+								<td class="center">32</td>
+							</tr>
+							<tr>
+								<td id="abilities_teleport">teleport</td>
+								<td class="center">64</td>
+							</tr>
+						</table>
+					</li>
+					<li>
+						<strong id="player-rank">player rank</strong>
+						<p><strong>Constants</strong>:</p>
+						<table>
+							<tr><th>Name</th><th>Value</th></tr>
+							<tr>
+								<td id="player-rank_visitor">visitor</td>
+								<td class="center">0</td>
+							</tr>
+							<tr>
+								<td id="player-rank_member">member</td>
+								<td class="center">1</td>
+							</tr>
+							<tr>
+								<td id="player-rank_operator">operator</td>
+								<td class="center">2</td>
+							</tr>
+							<tr>
+								<td id="player-rank_custom">custom</td>
+								<td class="center">3</td>
 							</tr>
 						</table>
 					</li>
