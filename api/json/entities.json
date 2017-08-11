@@ -6,7 +6,7 @@
 
 		"boat": {
 			"object": true,
-			"minecraft": 1,
+			"java": 1,
 			"pocket": 90,
 			"size": {
 				"width": 1.5,
@@ -16,7 +16,7 @@
 
 		"dropped_item": {
 			"object": true,
-			"minecraft": 2,
+			"java": 2,
 			"size": {
 				"width": 0.25,
 				"height": 0.25
@@ -34,7 +34,7 @@
 
 		"area_effect_cloud": {
 			"object": true,
-			"minecraft": 3,
+			"java": 3,
 			"pocket": 95,
 			"size": {
 				"width": 2,
@@ -44,7 +44,7 @@
 
 		"minecart": {
 			"object": true,
-			"minecraft": 10,
+			"java": 10,
 			"pocket": 84,
 			"size": {
 				"width": 0.98,
@@ -90,7 +90,7 @@
 
 		"activated_tnt": {
 			"object": true,
-			"minecraft": 50,
+			"java": 50,
 			"pocket": 65,
 			"size": {
 				"width": 0.98,
@@ -100,7 +100,7 @@
 
 		"ender_crystal": {
 			"object": true,
-			"minecraft": 51,
+			"java": 51,
 			"pocket": 71,
 			"size": {
 				"width": 2,
@@ -110,7 +110,7 @@
 
 		"arrow": {
 			"object": true,
-			"minecraft": 60,
+			"java": 60,
 			"pocket": 80,
 			"size": {
 				"width": 0.5,
@@ -120,7 +120,7 @@
 
 		"snowball": {
 			"object": true,
-			"minecraft": 61,
+			"java": 61,
 			"pocket": 81,
 			"size": {
 				"width": 0.25,
@@ -130,7 +130,7 @@
 
 		"egg": {
 			"object": true,
-			"minecraft": 62,
+			"java": 62,
 			"pocket": 82,
 			"size": {
 				"width": 0.25,
@@ -140,7 +140,7 @@
 
 		"ghast_fireball": {
 			"object": true,
-			"minecraft": 63,
+			"java": 63,
 			"pocket": 85,
 			"size": {
 				"width": 1,
@@ -150,7 +150,7 @@
 
 		"blaze_fireball": {
 			"object": true,
-			"minecraft": 64,
+			"java": 64,
 			"pocket": 94,
 			"size": {
 				"width": 0.3125,
@@ -160,7 +160,7 @@
 
 		"enderpearl": {
 			"object": true,
-			"minecraft": 65,
+			"java": 65,
 			"pocket": 87,
 			"size": {
 				"width": 0.25,
@@ -170,7 +170,7 @@
 
 		"wither_skull": {
 			"object": true,
-			"minecraft": 66,
+			"java": 66,
 			"pocket": 89,
 			"size": {
 				"width": 0.3125,
@@ -180,7 +180,7 @@
 
 		"shulker_bullet": {
 			"object": true,
-			"minecraft": 67,
+			"java": 67,
 			"pocket": 76,
 			"size": {
 				"width": 0.3125,
@@ -190,7 +190,7 @@
 
 		"llama_spit": {
 			"object": true,
-			"minecraft": 68,
+			"java": 68,
 			"pocket": 102,
 			"size": {
 				"width": 0.25,
@@ -200,7 +200,7 @@
 
 		"falling_block": {
 			"object": true,
-			"minecraft": 70,
+			"java": 70,
 			"pocket": 66,
 			"size": {
 				"width": 0.98,
@@ -210,13 +210,13 @@
 
 		"item_frame": {
 			"object": true,
-			"minecraft": 71,
+			"java": 71,
 			"size": null
 		},
 
 		"eye_of_ender": {
 			"object": true,
-			"minecraft": 72,
+			"java": 72,
 			"pocket": 70,
 			"size": {
 				"width": 0.25,
@@ -226,7 +226,7 @@
 
 		"splash_potion": {
 			"object": true,
-			"minecraft": 73,
+			"java": 73,
 			"pocket": 86,
 			"size": {
 				"width": 0.25,
@@ -236,7 +236,7 @@
 
 		"exp_bottle": {
 			"object": true,
-			"minecraft": 75,
+			"java": 75,
 			"pocket": 68,
 			"size": {
 				"width": 0.25,
@@ -246,7 +246,7 @@
 
 		"firework_rocket": {
 			"object": true,
-			"minecraft": 76,
+			"java": 76,
 			"pocket": 72,
 			"size": {
 				"width": 0.25,
@@ -256,7 +256,7 @@
 
 		"leash_knot": {
 			"object": true,
-			"minecraft": 77,
+			"java": 77,
 			"pocket": 88,
 			"size": {
 				"width": 0.375,
@@ -266,7 +266,7 @@
 
 		"armor_stand": {
 			"object": true,
-			"minecraft": 78,
+			"java": 78,
 			"pocket": 61,
 			"size": {
 				"width": 0.5,
@@ -276,7 +276,7 @@
 
 		"evocation_fangs": {
 			"object": true,
-			"minecraft": 79,
+			"java": 79,
 			"pocket": 103,
 			"size": {
 				"width": 0.5,
@@ -295,7 +295,7 @@
 
 		"spectral_arrow": {
 			"object": true,
-			"minecraft": 91,
+			"java": 91,
 			"size": {
 				"width": 0.5,
 				"height": 0.5
@@ -304,7 +304,7 @@
 
 		"dragon_fireball": {
 			"object": true,
-			"minecraft": 93,
+			"java": 93,
 			"pocket": 79,
 			"size": {
 				"width": 1,
@@ -331,7 +331,7 @@
 
 		"elder_guardian": {
 			"object": false,
-			"minecraft": 4,
+			"java": 4,
 			"pocket": 50,
 			"size": {
 				"width": 1.9975,
@@ -341,7 +341,7 @@
 
 		"wither_skeleton": {
 			"object": false,
-			"minecraft": 5,
+			"java": 5,
 			"pocket": 48,
 			"size": {
 				"width": 0.7,
@@ -351,7 +351,7 @@
 
 		"stray": {
 			"object": false,
-			"minecraft": 6,
+			"java": 6,
 			"pocket": 46,
 			"size": {
 				"width": 0.6,
@@ -361,7 +361,7 @@
 
 		"husk": {
 			"object": false,
-			"minecraft": 23,
+			"java": 23,
 			"pocket": 47,
 			"size": {
 				"width": 0.6,
@@ -371,7 +371,7 @@
 
 		"zombie_villager": {
 			"object": false,
-			"minecraft": 27,
+			"java": 27,
 			"pocket": 44,
 			"size": {
 				"width": 0.6,
@@ -381,7 +381,7 @@
 
 		"skeleton_horse": {
 			"object": false,
-			"minecraft": 28,
+			"java": 28,
 			"pocket": 26,
 			"size": {
 				"width": 1.39648,
@@ -391,7 +391,7 @@
 
 		"zombie_horse": {
 			"object": false,
-			"minecraft": 29,
+			"java": 29,
 			"pocket": 27,
 			"size": {
 				"width": 1.39648,
@@ -401,7 +401,7 @@
 
 		"donkey": {
 			"object": false,
-			"minecraft": 31,
+			"java": 31,
 			"pocket": 24,
 			"size": {
 				"width": 1.39648,
@@ -411,7 +411,7 @@
 
 		"mule": {
 			"object": false,
-			"minecraft": 32,
+			"java": 32,
 			"pocket": 25,
 			"size": {
 				"width": 1.39648,
@@ -421,7 +421,7 @@
 
 		"evoker": {
 			"object": false,
-			"minecraft": 34,
+			"java": 34,
 			"pocket": 104,
 			"size": {
 				"width": 0.6,
@@ -431,7 +431,7 @@
 
 		"vex": {
 			"object": false,
-			"minecraft": 35,
+			"java": 35,
 			"pocket": 105,
 			"size": {
 				"width": 0.4,
@@ -441,7 +441,7 @@
 
 		"vindicator": {
 			"object": false,
-			"minecraft": 36,
+			"java": 36,
 			"pocket": 56,
 			"size": {
 				"width": 0.6,
@@ -451,7 +451,7 @@
 
 		"illusioner": {
 			"object": false,
-			"minecraft": 37,
+			"java": 37,
 			"size": {
 				"width": 0.6,
 				"height": 1.95
@@ -460,7 +460,7 @@
 
 		"creeper": {
 			"object": false,
-			"minecraft": 50,
+			"java": 50,
 			"pocket": 33,
 			"size": {
 				"width": 0.6,
@@ -470,7 +470,7 @@
 
 		"skeleton": {
 			"object": false,
-			"minecraft": 51,
+			"java": 51,
 			"pocket": 34,
 			"size": {
 				"width": 0.6,
@@ -480,7 +480,7 @@
 
 		"spider": {
 			"object": false,
-			"minecraft": 52,
+			"java": 52,
 			"pocket": 35,
 			"size": {
 				"width": 1.4,
@@ -490,7 +490,7 @@
 
 		"giant": {
 			"object": false,
-			"minecraft": 53,
+			"java": 53,
 			"size": {
 				"width": 3.6,
 				"height": 11.7
@@ -499,7 +499,7 @@
 
 		"zombie": {
 			"object": false,
-			"minecraft": 54,
+			"java": 54,
 			"pocket": 32,
 			"size": {
 				"width": 0.6,
@@ -509,7 +509,7 @@
 
 		"slime": {
 			"object": false,
-			"minecraft": 55,
+			"java": 55,
 			"pocket": 37,
 			"size": {
 				"width": 0.51,
@@ -519,7 +519,7 @@
 
 		"ghast": {
 			"object": false,
-			"minecraft": 56,
+			"java": 56,
 			"pocket": 41,
 			"size": {
 				"width": 4,
@@ -529,7 +529,7 @@
 
 		"enderman": {
 			"object": false,
-			"minecraft": 58,
+			"java": 58,
 			"pocket": 38,
 			"size": {
 				"width": 0.6,
@@ -539,7 +539,7 @@
 
 		"cave_spider": {
 			"object": false,
-			"minecraft": 59,
+			"java": 59,
 			"pocket": 40,
 			"size": {
 				"width": 0.7,
@@ -549,7 +549,7 @@
 
 		"silverfish": {
 			"object": false,
-			"minecraft": 60,
+			"java": 60,
 			"pocket": 39,
 			"size": {
 				"width": 0.4,
@@ -559,7 +559,7 @@
 
 		"blaze": {
 			"object": false,
-			"minecraft": 61,
+			"java": 61,
 			"pocket": 43,
 			"size": {
 				"width": 0.6,
@@ -569,7 +569,7 @@
 
 		"magma_cube": {
 			"object": false,
-			"minecraft": 62,
+			"java": 62,
 			"pocket": 42,
 			"size": {
 				"width": 0.51,
@@ -579,7 +579,7 @@
 
 		"ender_dragon": {
 			"object": false,
-			"minecraft": 63,
+			"java": 63,
 			"pocket": 53,
 			"size": {
 				"width": 16,
@@ -589,7 +589,7 @@
 
 		"wither_boss": {
 			"object": false,
-			"minecraft": 64,
+			"java": 64,
 			"pocket": 52,
 			"size": {
 				"width": 0.9,
@@ -599,7 +599,7 @@
 
 		"bat": {
 			"object": false,
-			"minecraft": 65,
+			"java": 65,
 			"pocket": 19,
 			"size": {
 				"width": 0.5,
@@ -609,7 +609,7 @@
 
 		"witch": {
 			"object": false,
-			"minecraft": 66,
+			"java": 66,
 			"pocket": 45,
 			"size": {
 				"width": 0.6,
@@ -619,7 +619,7 @@
 
 		"endermite": {
 			"object": false,
-			"minecraft": 67,
+			"java": 67,
 			"pocket": 55,
 			"size": {
 				"width": 0.4,
@@ -629,7 +629,7 @@
 
 		"guardian": {
 			"object": false,
-			"minecraft": 68,
+			"java": 68,
 			"pocket": 49,
 			"size": {
 				"width": 0.85,
@@ -639,7 +639,7 @@
 
 		"shulker": {
 			"object": false,
-			"minecraft": 69,
+			"java": 69,
 			"pocket": 54,
 			"size": {
 				"width": 1,
@@ -649,7 +649,7 @@
 
 		"pig": {
 			"object": false,
-			"minecraft": 90,
+			"java": 90,
 			"pocket": 12,
 			"size": {
 				"width": 0.9,
@@ -659,7 +659,7 @@
 
 		"sheep": {
 			"object": false,
-			"minecraft": 91,
+			"java": 91,
 			"pocket": 13,
 			"size": {
 				"width": 0.9,
@@ -669,7 +669,7 @@
 
 		"cow": {
 			"object": false,
-			"minecraft": 92,
+			"java": 92,
 			"pocket": 11,
 			"size": {
 				"width": 0.9,
@@ -679,7 +679,7 @@
 
 		"chicken": {
 			"object": false,
-			"minecraft": 93,
+			"java": 93,
 			"pocket": 10,
 			"size": {
 				"width": 0.4,
@@ -689,7 +689,7 @@
 
 		"squid": {
 			"object": false,
-			"minecraft": 94,
+			"java": 94,
 			"pocket": 17,
 			"size": {
 				"width": 0.8,
@@ -699,7 +699,7 @@
 
 		"wolf": {
 			"object": false,
-			"minecraft": 95,
+			"java": 95,
 			"pocket": 14,
 			"size": {
 				"width": 0.6,
@@ -709,7 +709,7 @@
 
 		"mooshroom": {
 			"object": false,
-			"minecraft": 96,
+			"java": 96,
 			"pocket": 16,
 			"size": {
 				"width": 0.9,
@@ -719,7 +719,7 @@
 
 		"snow_golem": {
 			"object": false,
-			"minecraft": 97,
+			"java": 97,
 			"pocket": 21,
 			"size": {
 				"width": 0.7,
@@ -729,7 +729,7 @@
 
 		"ocelot": {
 			"object": false,
-			"minecraft": 98,
+			"java": 98,
 			"pocket": 22,
 			"size": {
 				"width": 0.6,
@@ -739,7 +739,7 @@
 
 		"iron_golem": {
 			"object": false,
-			"minecraft": 99,
+			"java": 99,
 			"pocket": 20,
 			"size": {
 				"width": 1.4,
@@ -749,7 +749,7 @@
 
 		"horse": {
 			"object": false,
-			"minecraft": 100,
+			"java": 100,
 			"pocket": 23,
 			"size": {
 				"width": 1.39648,
@@ -759,7 +759,7 @@
 
 		"rabbit": {
 			"object": false,
-			"minecraft": 101,
+			"java": 101,
 			"pocket": 18,
 			"size": {
 				"width": 0.4,
@@ -769,7 +769,7 @@
 
 		"polar_bear": {
 			"object": false,
-			"minecraft": 102,
+			"java": 102,
 			"pocket": 28,
 			"size": {
 				"width": 1.3,
@@ -779,7 +779,7 @@
 
 		"llama": {
 			"object": false,
-			"minecraft": 103,
+			"java": 103,
 			"pocket": 29,
 			"size": {
 				"width": 0.9,
@@ -789,7 +789,7 @@
 
 		"parrot": {
 			"object": false,
-			"minecraft": 105,
+			"java": 105,
 			"pocket": 30,
 			"size": {
 				"width": 0.5,
@@ -799,7 +799,7 @@
 
 		"villager": {
 			"object": false,
-			"minecraft": 120,
+			"java": 120,
 			"pocket": 15,
 			"size": {
 				"width": 0.6,

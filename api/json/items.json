@@ -5,19 +5,19 @@
 	"items": {
 
 		"air": {
-			"minecraft": 0,
+			"java": 0,
 			"pocket": 0,
 			"stack": 64
 		},
 
 		"stone": {
-			"minecraft": 1,
+			"java": 1,
 			"pocket": 1,
 			"stack": 64
 		},
 
 		"granite": {
-			"minecraft": {
+			"java": {
 				"id": 1,
 				"meta": 1
 			},
@@ -29,7 +29,7 @@
 		},
 
 		"polished_granite": {
-			"minecraft": {
+			"java": {
 				"id": 1,
 				"meta": 2
 			},
@@ -41,7 +41,7 @@
 		},
 
 		"diorite": {
-			"minecraft": {
+			"java": {
 				"id": 1,
 				"meta": 3
 			},
@@ -53,7 +53,7 @@
 		},
 
 		"polished_diorite": {
-			"minecraft": {
+			"java": {
 				"id": 1,
 				"meta": 4
 			},
@@ -65,7 +65,7 @@
 		},
 
 		"andesite": {
-			"minecraft": {
+			"java": {
 				"id": 1,
 				"meta": 5
 			},
@@ -77,7 +77,7 @@
 		},
 
 		"polished_andesite": {
-			"minecraft": {
+			"java": {
 				"id": 1,
 				"meta": 6
 			},
@@ -89,19 +89,19 @@
 		},
 
 		"grass": {
-			"minecraft": 2,
+			"java": 2,
 			"pocket": 2,
 			"stack": 64
 		},
 
 		"dirt": {
-			"minecraft": 3,
+			"java": 3,
 			"pocket": 3,
 			"stack": 64
 		},
 
 		"coarse_dirt": {
-			"minecraft": {
+			"java": {
 				"id": 3,
 				"meta": 1
 			},
@@ -109,7 +109,7 @@
 		},
 
 		"podzol": {
-			"minecraft": {
+			"java": {
 				"id": 3,
 				"meta": 2
 			},
@@ -118,13 +118,13 @@
 		},
 
 		"cobblestone": {
-			"minecraft": 4,
+			"java": 4,
 			"pocket": 4,
 			"stack": 64
 		},
 
 		"oak_wood_planks": {
-			"minecraft": {
+			"java": {
 				"id": 5,
 				"meta": 0
 			},
@@ -136,7 +136,7 @@
 		},
 
 		"spruce_wood_planks": {
-			"minecraft": {
+			"java": {
 				"id": 5,
 				"meta": 1
 			},
@@ -148,7 +148,7 @@
 		},
 
 		"birch_wood_planks": {
-			"minecraft": {
+			"java": {
 				"id": 5,
 				"meta": 2
 			},
@@ -160,7 +160,7 @@
 		},
 
 		"jungle_wood_planks": {
-			"minecraft": {
+			"java": {
 				"id": 5,
 				"meta": 3
 			},
@@ -172,7 +172,7 @@
 		},
 
 		"acacia_wood_planks": {
-			"minecraft": {
+			"java": {
 				"id": 5,
 				"meta": 4
 			},
@@ -184,7 +184,7 @@
 		},
 
 		"dark_oak_wood_planks": {
-			"minecraft": {
+			"java": {
 				"id": 5,
 				"meta": 5
 			},
@@ -196,7 +196,7 @@
 		},
 
 		"oak_sapling": {
-			"minecraft": {
+			"java": {
 				"id": 6,
 				"meta": 0
 			},
@@ -208,7 +208,7 @@
 		},
 
 		"spruce_sapling": {
-			"minecraft": {
+			"java": {
 				"id": 6,
 				"meta": 1
 			},
@@ -220,7 +220,7 @@
 		},
 
 		"birch_sapling": {
-			"minecraft": {
+			"java": {
 				"id": 6,
 				"meta": 2
 			},
@@ -232,7 +232,7 @@
 		},
 
 		"jungle_sapling": {
-			"minecraft": {
+			"java": {
 				"id": 6,
 				"meta": 3
 			},
@@ -244,7 +244,7 @@
 		},
 
 		"acacia_sapling": {
-			"minecraft": {
+			"java": {
 				"id": 6,
 				"meta": 4
 			},
@@ -256,7 +256,7 @@
 		},
 
 		"dark_oak_sapling": {
-			"minecraft": {
+			"java": {
 				"id": 6,
 				"meta": 5
 			},
@@ -268,43 +268,43 @@
 		},
 
 		"bedrock": {
-			"minecraft": 7,
+			"java": 7,
 			"pocket": 7,
 			"stack": 64
 		},
 
 		"flowing_water": {
-			"minecraft": 8,
+			"java": 8,
 			"pocket": 8,
 			"stack": 64
 		},
 
 		"still_water": {
-			"minecraft": 9,
+			"java": 9,
 			"pocket": 9,
 			"stack": 64
 		},
 
 		"flowing_lava": {
-			"minecraft": 10,
+			"java": 10,
 			"pocket": 10,
 			"stack": 64
 		},
 
 		"still_lava": {
-			"minecraft": 11,
+			"java": 11,
 			"pocket": 11,
 			"stack": 64
 		},
 
 		"sand": {
-			"minecraft": 12,
+			"java": 12,
 			"pocket": 12,
 			"stack": 64
 		},
 
 		"red_sand": {
-			"minecraft": {
+			"java": {
 				"id": 12,
 				"meta": 1
 			},
@@ -316,31 +316,31 @@
 		},
 
 		"gravel": {
-			"minecraft": 13,
+			"java": 13,
 			"pocket": 13,
 			"stack": 64
 		},
 
 		"gold_ore": {
-			"minecraft": 14,
+			"java": 14,
 			"pocket": 14,
 			"stack": 64
 		},
 
 		"iron_ore": {
-			"minecraft": 15,
+			"java": 15,
 			"pocket": 15,
 			"stack": 64
 		},
 
 		"coal_ore": {
-			"minecraft": 16,
+			"java": 16,
 			"pocket": 16,
 			"stack": 64
 		},
 
 		"oak_wood": {
-			"minecraft": {
+			"java": {
 				"id": 17,
 				"meta": 0
 			},
@@ -352,7 +352,7 @@
 		},
 
 		"spruce_wood": {
-			"minecraft": {
+			"java": {
 				"id": 17,
 				"meta": 1
 			},
@@ -364,7 +364,7 @@
 		},
 
 		"birch_wood": {
-			"minecraft": {
+			"java": {
 				"id": 17,
 				"meta": 2
 			},
@@ -376,7 +376,7 @@
 		},
 
 		"jungle_wood": {
-			"minecraft": {
+			"java": {
 				"id": 17,
 				"meta": 3
 			},
@@ -388,7 +388,7 @@
 		},
 
 		"oak_leaves": {
-			"minecraft": {
+			"java": {
 				"id": 18,
 				"meta": 0
 			},
@@ -400,7 +400,7 @@
 		},
 
 		"spruce_leaves": {
-			"minecraft": {
+			"java": {
 				"id": 18,
 				"meta": 1
 			},
@@ -412,7 +412,7 @@
 		},
 
 		"birch_leaves": {
-			"minecraft": {
+			"java": {
 				"id": 18,
 				"meta": 2
 			},
@@ -424,7 +424,7 @@
 		},
 
 		"jungle_leaves": {
-			"minecraft": {
+			"java": {
 				"id": 18,
 				"meta": 3
 			},
@@ -436,13 +436,13 @@
 		},
 
 		"sponge": {
-			"minecraft": 19,
+			"java": 19,
 			"pocket": 19,
 			"stack": 64
 		},
 
 		"wet_sponge": {
-			"minecraft": {
+			"java": {
 				"id": 19,
 				"meta": 1
 			},
@@ -454,37 +454,37 @@
 		},
 
 		"glass": {
-			"minecraft": 20,
+			"java": 20,
 			"pocket": 20,
 			"stack": 64
 		},
 
 		"lapis_lazuli_ore": {
-			"minecraft": 21,
+			"java": 21,
 			"pocket": 21,
 			"stack": 64
 		},
 
 		"lapis_lazuli_block": {
-			"minecraft": 22,
+			"java": 22,
 			"pocket": 22,
 			"stack": 64
 		},
 
 		"dispenser": {
-			"minecraft": 23,
+			"java": 23,
 			"pocket": 23,
 			"stack": 64
 		},
 
 		"sandstone": {
-			"minecraft": 24,
+			"java": 24,
 			"pocket": 24,
 			"stack": 64
 		},
 
 		"chiseled_sandstone": {
-			"minecraft": {
+			"java": {
 				"id": 24,
 				"meta": 1
 			},
@@ -496,7 +496,7 @@
 		},
 
 		"smooth_sandstone": {
-			"minecraft": {
+			"java": {
 				"id": 24,
 				"meta": 2
 			},
@@ -508,43 +508,43 @@
 		},
 
 		"note_block": {
-			"minecraft": 25,
+			"java": 25,
 			"pocket": 25,
 			"stack": 64
 		},
 
 		"bed_block": {
-			"minecraft": 26,
+			"java": 26,
 			"pocket": 26,
 			"stack": 64
 		},
 
 		"powered_rail": {
-			"minecraft": 27,
+			"java": 27,
 			"pocket": 27,
 			"stack": 64
 		},
 
 		"detector_rail": {
-			"minecraft": 28,
+			"java": 28,
 			"pocket": 28,
 			"stack": 64
 		},
 
 		"sticky_piston": {
-			"minecraft": 29,
+			"java": 29,
 			"pocket": 29,
 			"stack": 64
 		},
 
 		"cobweb": {
-			"minecraft": 30,
+			"java": 30,
 			"pocket": 30,
 			"stack": 64
 		},
 
 		"dead_shrub": {
-			"minecraft": {
+			"java": {
 				"id": 31,
 				"meta": 0
 			},
@@ -552,7 +552,7 @@
 		},
 
 		"tall_grass": {
-			"minecraft": {
+			"java": {
 				"id": 31,
 				"meta": 1
 			},
@@ -564,7 +564,7 @@
 		},
 
 		"fern": {
-			"minecraft": {
+			"java": {
 				"id": 31,
 				"meta": 2
 			},
@@ -576,25 +576,25 @@
 		},
 
 		"dead_bush": {
-			"minecraft": 32,
+			"java": 32,
 			"pocket": 32,
 			"stack": 64
 		},
 
 		"piston": {
-			"minecraft": 33,
+			"java": 33,
 			"pocket": 33,
 			"stack": 64
 		},
 
 		"piston_head": {
-			"minecraft": 34,
+			"java": 34,
 			"pocket": 34,
 			"stack": 64
 		},
 
 		"white_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 0
 			},
@@ -606,7 +606,7 @@
 		},
 
 		"orange_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 1
 			},
@@ -618,7 +618,7 @@
 		},
 
 		"magenta_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 2
 			},
@@ -630,7 +630,7 @@
 		},
 
 		"light_blue_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 3
 			},
@@ -642,7 +642,7 @@
 		},
 
 		"yellow_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 4
 			},
@@ -654,7 +654,7 @@
 		},
 
 		"lime_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 5
 			},
@@ -666,7 +666,7 @@
 		},
 
 		"pink_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 6
 			},
@@ -678,7 +678,7 @@
 		},
 
 		"gray_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 7
 			},
@@ -690,7 +690,7 @@
 		},
 
 		"light_gray_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 8
 			},
@@ -702,7 +702,7 @@
 		},
 
 		"cyan_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 9
 			},
@@ -714,7 +714,7 @@
 		},
 
 		"purple_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 10
 			},
@@ -726,7 +726,7 @@
 		},
 
 		"blue_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 11
 			},
@@ -738,7 +738,7 @@
 		},
 
 		"brown_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 12
 			},
@@ -750,7 +750,7 @@
 		},
 
 		"green_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 13
 			},
@@ -762,7 +762,7 @@
 		},
 
 		"red_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 14
 			},
@@ -774,7 +774,7 @@
 		},
 
 		"black_wool": {
-			"minecraft": {
+			"java": {
 				"id": 35,
 				"meta": 15
 			},
@@ -786,19 +786,19 @@
 		},
 
 		"piston_extension": {
-			"minecraft": 36,
+			"java": 36,
 			"pocket": 250,
 			"stack": 64
 		},
 
 		"dandelion": {
-			"minecraft": 37,
+			"java": 37,
 			"pocket": 37,
 			"stack": 64
 		},
 
 		"poppy": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 0
 			},
@@ -810,7 +810,7 @@
 		},
 
 		"blue_orchid": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 1
 			},
@@ -822,7 +822,7 @@
 		},
 
 		"allium": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 2
 			},
@@ -834,7 +834,7 @@
 		},
 
 		"azure_bluet": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 3
 			},
@@ -846,7 +846,7 @@
 		},
 
 		"red_tulip": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 4
 			},
@@ -858,7 +858,7 @@
 		},
 
 		"orange_tulip": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 5
 			},
@@ -870,7 +870,7 @@
 		},
 
 		"white_tulip": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 6
 			},
@@ -882,7 +882,7 @@
 		},
 
 		"pink_tulip": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 7
 			},
@@ -894,7 +894,7 @@
 		},
 
 		"oxeye_daisy": {
-			"minecraft": {
+			"java": {
 				"id": 38,
 				"meta": 8
 			},
@@ -906,31 +906,31 @@
 		},
 
 		"brown_mushroom": {
-			"minecraft": 39,
+			"java": 39,
 			"pocket": 39,
 			"stack": 64
 		},
 
 		"red_mushroom": {
-			"minecraft": 40,
+			"java": 40,
 			"pocket": 40,
 			"stack": 64
 		},
 
 		"gold_block": {
-			"minecraft": 41,
+			"java": 41,
 			"pocket": 41,
 			"stack": 64
 		},
 
 		"iron_block": {
-			"minecraft": 42,
+			"java": 42,
 			"pocket": 42,
 			"stack": 64
 		},
 
 		"double_stone_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 0
 			},
@@ -942,7 +942,7 @@
 		},
 
 		"double_sandstone_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 1
 			},
@@ -954,7 +954,7 @@
 		},
 
 		"double_stone_wooden_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 2
 			},
@@ -966,7 +966,7 @@
 		},
 
 		"double_cobblestone_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 3
 			},
@@ -978,7 +978,7 @@
 		},
 
 		"double_brick_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 4
 			},
@@ -990,7 +990,7 @@
 		},
 
 		"double_stone_brick_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 5
 			},
@@ -1002,7 +1002,7 @@
 		},
 
 		"double_nether_brick_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 6
 			},
@@ -1014,7 +1014,7 @@
 		},
 
 		"double_quartz_slab": {
-			"minecraft": {
+			"java": {
 				"id": 43,
 				"meta": 7
 			},
@@ -1026,7 +1026,7 @@
 		},
 
 		"stone_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 0
 			},
@@ -1038,7 +1038,7 @@
 		},
 
 		"sandstone_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 1
 			},
@@ -1050,7 +1050,7 @@
 		},
 
 		"stone_wooden_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 2
 			},
@@ -1062,7 +1062,7 @@
 		},
 
 		"cobblestone_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 3
 			},
@@ -1074,7 +1074,7 @@
 		},
 
 		"bricks_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 4
 			},
@@ -1086,7 +1086,7 @@
 		},
 
 		"stone_brick_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 5
 			},
@@ -1098,7 +1098,7 @@
 		},
 
 		"nether_brick_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 6
 			},
@@ -1110,7 +1110,7 @@
 		},
 
 		"quartz_slab": {
-			"minecraft": {
+			"java": {
 				"id": 44,
 				"meta": 7
 			},
@@ -1122,307 +1122,307 @@
 		},
 
 		"bricks": {
-			"minecraft": 45,
+			"java": 45,
 			"pocket": 45,
 			"stack": 64
 		},
 
 		"tnt": {
-			"minecraft": 46,
+			"java": 46,
 			"pocket": 46,
 			"stack": 64
 		},
 
 		"bookshelf": {
-			"minecraft": 47,
+			"java": 47,
 			"pocket": 47,
 			"stack": 64
 		},
 
 		"moss_stone": {
-			"minecraft": 48,
+			"java": 48,
 			"pocket": 48,
 			"stack": 64
 		},
 
 		"obsidian": {
-			"minecraft": 49,
+			"java": 49,
 			"pocket": 49,
 			"stack": 64
 		},
 
 		"torch": {
-			"minecraft": 50,
+			"java": 50,
 			"pocket": 50,
 			"stack": 64
 		},
 
 		"fire": {
-			"minecraft": 51,
+			"java": 51,
 			"pocket": 51,
 			"stack": 64
 		},
 
 		"monster_spawner": {
-			"minecraft": 52,
+			"java": 52,
 			"pocket": 52,
 			"stack": 64
 		},
 
 		"oak_wood_stairs": {
-			"minecraft": 53,
+			"java": 53,
 			"pocket": 53,
 			"stack": 64
 		},
 
 		"chest": {
-			"minecraft": 54,
+			"java": 54,
 			"pocket": 54,
 			"stack": 64
 		},
 
 		"redstone_wire": {
-			"minecraft": 55,
+			"java": 55,
 			"pocket": 55,
 			"stack": 64
 		},
 
 		"diamond_ore": {
-			"minecraft": 56,
+			"java": 56,
 			"pocket": 56,
 			"stack": 64
 		},
 
 		"diamond_block": {
-			"minecraft": 57,
+			"java": 57,
 			"pocket": 57,
 			"stack": 64
 		},
 
 		"crafting_table": {
-			"minecraft": 58,
+			"java": 58,
 			"pocket": 58,
 			"stack": 64
 		},
 
 		"wheat_crops": {
-			"minecraft": 59,
+			"java": 59,
 			"pocket": 59,
 			"stack": 64
 		},
 
 		"farmland": {
-			"minecraft": 60,
+			"java": 60,
 			"pocket": 60,
 			"stack": 64
 		},
 
 		"furnace": {
-			"minecraft": 61,
+			"java": 61,
 			"pocket": 61,
 			"stack": 64
 		},
 
 		"burning_furnace": {
-			"minecraft": 62,
+			"java": 62,
 			"pocket": 62,
 			"stack": 64
 		},
 
 		"sign_block": {
-			"minecraft": 63,
+			"java": 63,
 			"pocket": 63,
 			"stack": 64
 		},
 
 		"oak_door_block": {
-			"minecraft": 64,
+			"java": 64,
 			"pocket": 64,
 			"stack": 64
 		},
 
 		"ladder": {
-			"minecraft": 65,
+			"java": 65,
 			"pocket": 65,
 			"stack": 64
 		},
 
 		"rail": {
-			"minecraft": 66,
+			"java": 66,
 			"pocket": 66,
 			"stack": 64
 		},
 
 		"cobblestone_stairs": {
-			"minecraft": 67,
+			"java": 67,
 			"pocket": 67,
 			"stack": 64
 		},
 
 		"wall_sign": {
-			"minecraft": 68,
+			"java": 68,
 			"pocket": 68,
 			"stack": 64
 		},
 
 		"lever": {
-			"minecraft": 69,
+			"java": 69,
 			"pocket": 69,
 			"stack": 64
 		},
 
 		"stone_pressure_plate": {
-			"minecraft": 70,
+			"java": 70,
 			"pocket": 70,
 			"stack": 64
 		},
 
 		"iron_door_block": {
-			"minecraft": 71,
+			"java": 71,
 			"pocket": 71,
 			"stack": 64
 		},
 
 		"wooden_pressure_plate": {
-			"minecraft": 72,
+			"java": 72,
 			"pocket": 72,
 			"stack": 64
 		},
 
 		"redstone_ore": {
-			"minecraft": 73,
+			"java": 73,
 			"pocket": 73,
 			"stack": 64
 		},
 
 		"lit_redstone_ore": {
-			"minecraft": 74,
+			"java": 74,
 			"pocket": 74,
 			"stack": 64
 		},
 
 		"redstone_torch": {
-			"minecraft": 75,
+			"java": 75,
 			"pocket": 75,
 			"stack": 64
 		},
 
 		"active_redstone_torch": {
-			"minecraft": 76,
+			"java": 76,
 			"pocket": 76,
 			"stack": 64
 		},
 
 		"stone_button": {
-			"minecraft": 77,
+			"java": 77,
 			"pocket": 77,
 			"stack": 64
 		},
 
 		"snow_layer": {
-			"minecraft": 78,
+			"java": 78,
 			"pocket": 78,
 			"stack": 64
 		},
 
 		"ice": {
-			"minecraft": 79,
+			"java": 79,
 			"pocket": 79,
 			"stack": 64
 		},
 
 		"snow_block": {
-			"minecraft": 80,
+			"java": 80,
 			"pocket": 80,
 			"stack": 64
 		},
 
 		"cactus": {
-			"minecraft": 81,
+			"java": 81,
 			"pocket": 81,
 			"stack": 64
 		},
 
 		"clay_block": {
-			"minecraft": 82,
+			"java": 82,
 			"pocket": 82,
 			"stack": 64
 		},
 
 		"sugar_canes_block": {
-			"minecraft": 83,
+			"java": 83,
 			"pocket": 83,
 			"stack": 64
 		},
 
 		"jukebox": {
-			"minecraft": 84,
+			"java": 84,
 			"pocket": 84,
 			"stack": 64
 		},
 
 		"oak_fence": {
-			"minecraft": 85,
+			"java": 85,
 			"pocket": 85,
 			"stack": 64
 		},
 
 		"pumpkin": {
-			"minecraft": 86,
+			"java": 86,
 			"pocket": 86,
 			"stack": 64
 		},
 
 		"netherrack": {
-			"minecraft": 87,
+			"java": 87,
 			"pocket": 87,
 			"stack": 64
 		},
 
 		"soul_sand": {
-			"minecraft": 88,
+			"java": 88,
 			"pocket": 88,
 			"stack": 64
 		},
 
 		"glowstone": {
-			"minecraft": 89,
+			"java": 89,
 			"pocket": 89,
 			"stack": 64
 		},
 
 		"nether_portal": {
-			"minecraft": 90,
+			"java": 90,
 			"pocket": 90,
 			"stack": 64
 		},
 
 		"jack_o_lantern": {
-			"minecraft": 91,
+			"java": 91,
 			"pocket": 91,
 			"stack": 64
 		},
 
 		"cake_block": {
-			"minecraft": 92,
+			"java": 92,
 			"pocket": 92,
 			"stack": 64
 		},
 
 		"inactive_redstone_repeater": {
-			"minecraft": 93,
+			"java": 93,
 			"pocket": 93,
 			"stack": 64
 		},
 
 		"active_redstone_repeater": {
-			"minecraft": 94,
+			"java": 94,
 			"pocket": 94,
 			"stack": 64
 		},
 
 		"white_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 0
 			},
@@ -1430,7 +1430,7 @@
 		},
 
 		"orange_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 1
 			},
@@ -1438,7 +1438,7 @@
 		},
 
 		"magenta_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 2
 			},
@@ -1446,7 +1446,7 @@
 		},
 
 		"light_blue_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 3
 			},
@@ -1454,7 +1454,7 @@
 		},
 
 		"yellow_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 4
 			},
@@ -1462,7 +1462,7 @@
 		},
 
 		"lime_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 5
 			},
@@ -1470,7 +1470,7 @@
 		},
 
 		"pink_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 6
 			},
@@ -1478,7 +1478,7 @@
 		},
 
 		"gray_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 7
 			},
@@ -1486,7 +1486,7 @@
 		},
 
 		"light_gray_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 8
 			},
@@ -1494,7 +1494,7 @@
 		},
 
 		"cyan_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 9
 			},
@@ -1502,7 +1502,7 @@
 		},
 
 		"purple_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 10
 			},
@@ -1510,7 +1510,7 @@
 		},
 
 		"blue_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 11
 			},
@@ -1518,7 +1518,7 @@
 		},
 
 		"brown_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 12
 			},
@@ -1526,7 +1526,7 @@
 		},
 
 		"green_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 13
 			},
@@ -1534,7 +1534,7 @@
 		},
 
 		"red_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 14
 			},
@@ -1542,7 +1542,7 @@
 		},
 
 		"black_stained_glass": {
-			"minecraft": {
+			"java": {
 				"id": 95,
 				"meta": 15
 			},
@@ -1550,13 +1550,13 @@
 		},
 
 		"wooden_trapdoor": {
-			"minecraft": 96,
+			"java": 96,
 			"pocket": 96,
 			"stack": 64
 		},
 
 		"stone_monster_egg": {
-			"minecraft": {
+			"java": {
 				"id": 97,
 				"meta": 0
 			},
@@ -1568,7 +1568,7 @@
 		},
 
 		"cobblestone_monster_egg": {
-			"minecraft": {
+			"java": {
 				"id": 97,
 				"meta": 1
 			},
@@ -1580,7 +1580,7 @@
 		},
 
 		"stone_brick_monster_egg": {
-			"minecraft": {
+			"java": {
 				"id": 97,
 				"meta": 2
 			},
@@ -1592,7 +1592,7 @@
 		},
 
 		"mossy_stone_brick_monster_egg": {
-			"minecraft": {
+			"java": {
 				"id": 97,
 				"meta": 3
 			},
@@ -1604,7 +1604,7 @@
 		},
 
 		"cracked_stone_brick_monster_egg": {
-			"minecraft": {
+			"java": {
 				"id": 97,
 				"meta": 4
 			},
@@ -1616,7 +1616,7 @@
 		},
 
 		"chiseled_stone_brick_monster_egg": {
-			"minecraft": {
+			"java": {
 				"id": 97,
 				"meta": 5
 			},
@@ -1628,7 +1628,7 @@
 		},
 
 		"stone_bricks": {
-			"minecraft": {
+			"java": {
 				"id": 98,
 				"meta": 0
 			},
@@ -1640,7 +1640,7 @@
 		},
 
 		"mossy_stone_bricks": {
-			"minecraft": {
+			"java": {
 				"id": 98,
 				"meta": 1
 			},
@@ -1652,7 +1652,7 @@
 		},
 
 		"cracked_stone_bricks": {
-			"minecraft": {
+			"java": {
 				"id": 98,
 				"meta": 2
 			},
@@ -1664,7 +1664,7 @@
 		},
 
 		"chiseled_stone_bricks": {
-			"minecraft": {
+			"java": {
 				"id": 98,
 				"meta": 3
 			},
@@ -1676,163 +1676,163 @@
 		},
 
 		"brown_mushroom_block": {
-			"minecraft": 99,
+			"java": 99,
 			"pocket": 99,
 			"stack": 64
 		},
 
 		"red_mushroom_block": {
-			"minecraft": 100,
+			"java": 100,
 			"pocket": 100,
 			"stack": 64
 		},
 
 		"iron_bars": {
-			"minecraft": 101,
+			"java": 101,
 			"pocket": 101,
 			"stack": 64
 		},
 
 		"glass_pane": {
-			"minecraft": 102,
+			"java": 102,
 			"pocket": 102,
 			"stack": 64
 		},
 
 		"melon_block": {
-			"minecraft": 103,
+			"java": 103,
 			"pocket": 103,
 			"stack": 64
 		},
 
 		"pumpkin_stem": {
-			"minecraft": 104,
+			"java": 104,
 			"pocket": 104,
 			"stack": 64
 		},
 
 		"melon_stem": {
-			"minecraft": 105,
+			"java": 105,
 			"pocket": 105,
 			"stack": 64
 		},
 
 		"vines": {
-			"minecraft": 106,
+			"java": 106,
 			"pocket": 106,
 			"stack": 64
 		},
 
 		"oak_fence_gate": {
-			"minecraft": 107,
+			"java": 107,
 			"pocket": 107,
 			"stack": 64
 		},
 
 		"brick_stairs": {
-			"minecraft": 108,
+			"java": 108,
 			"pocket": 108,
 			"stack": 64
 		},
 
 		"stone_brick_stairs": {
-			"minecraft": 109,
+			"java": 109,
 			"pocket": 109,
 			"stack": 64
 		},
 
 		"mycelium": {
-			"minecraft": 110,
+			"java": 110,
 			"pocket": 110,
 			"stack": 64
 		},
 
 		"lily_pad": {
-			"minecraft": 111,
+			"java": 111,
 			"pocket": 111,
 			"stack": 64
 		},
 
 		"nether_brick_block": {
-			"minecraft": 112,
+			"java": 112,
 			"pocket": 112,
 			"stack": 64
 		},
 
 		"nether_brick_fence": {
-			"minecraft": 113,
+			"java": 113,
 			"pocket": 113,
 			"stack": 64
 		},
 
 		"nether_brick_stairs": {
-			"minecraft": 114,
+			"java": 114,
 			"pocket": 114,
 			"stack": 64
 		},
 
 		"nether_wart_plant": {
-			"minecraft": 115,
+			"java": 115,
 			"pocket": 115,
 			"stack": 64
 		},
 
 		"enchantment_table": {
-			"minecraft": 116,
+			"java": 116,
 			"pocket": 116,
 			"stack": 64
 		},
 
 		"brewing_stand_block": {
-			"minecraft": 117,
+			"java": 117,
 			"pocket": 117,
 			"stack": 64
 		},
 
 		"cauldron_block": {
-			"minecraft": 118,
+			"java": 118,
 			"pocket": 118,
 			"stack": 64
 		},
 
 		"end_portal": {
-			"minecraft": 119,
+			"java": 119,
 			"pocket": 119,
 			"stack": 64
 		},
 
 		"end_portal_frame": {
-			"minecraft": 120,
+			"java": 120,
 			"pocket": 120,
 			"stack": 64
 		},
 
 		"end_stone": {
-			"minecraft": 121,
+			"java": 121,
 			"pocket": 121,
 			"stack": 64
 		},
 
 		"dragon_egg": {
-			"minecraft": 122,
+			"java": 122,
 			"pocket": 122,
 			"stack": 64
 		},
 
 		"redstone_lamp": {
-			"minecraft": 123,
+			"java": 123,
 			"pocket": 123,
 			"stack": 64
 		},
 
 		"active_redstone_lamp": {
-			"minecraft": 124,
+			"java": 124,
 			"pocket": 124,
 			"stack": 64
 		},
 
 		"double_oak_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 125,
 				"meta": 0
 			},
@@ -1844,7 +1844,7 @@
 		},
 
 		"double_spruce_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 125,
 				"meta": 1
 			},
@@ -1856,7 +1856,7 @@
 		},
 
 		"double_birch_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 125,
 				"meta": 2
 			},
@@ -1868,7 +1868,7 @@
 		},
 
 		"double_jungle_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 125,
 				"meta": 3
 			},
@@ -1880,7 +1880,7 @@
 		},
 
 		"double_acacia_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 125,
 				"meta": 4
 			},
@@ -1892,7 +1892,7 @@
 		},
 
 		"double_dark_oak_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 125,
 				"meta": 5
 			},
@@ -1904,7 +1904,7 @@
 		},
 
 		"oak_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 126,
 				"meta": 0
 			},
@@ -1916,7 +1916,7 @@
 		},
 
 		"spruce_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 126,
 				"meta": 1
 			},
@@ -1928,7 +1928,7 @@
 		},
 
 		"birch_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 126,
 				"meta": 2
 			},
@@ -1940,7 +1940,7 @@
 		},
 
 		"jungle_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 126,
 				"meta": 3
 			},
@@ -1952,7 +1952,7 @@
 		},
 
 		"acacia_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 126,
 				"meta": 4
 			},
@@ -1964,7 +1964,7 @@
 		},
 
 		"dark_oak_wood_slab": {
-			"minecraft": {
+			"java": {
 				"id": 126,
 				"meta": 5
 			},
@@ -1976,84 +1976,84 @@
 		},
 
 		"cocoa_block": {
-			"minecraft": 127,
+			"java": 127,
 			"pocket": 127,
 			"stack": 64
 		},
 
 		"sandstone_stairs": {
-			"minecraft": 128,
+			"java": 128,
 			"pocket": 128,
 			"stack": 64
 		},
 
 		"emerald_ore": {
-			"minecraft": 129,
+			"java": 129,
 			"pocket": 129,
 			"stack": 64
 		},
 
 		"ender_chest": {
-			"minecraft": 130,
+			"java": 130,
 			"pocket": 130,
 			"stack": 64
 		},
 
 		"tripwire_hook": {
-			"minecraft": 131,
+			"java": 131,
 			"pocket": 131,
 			"stack": 64
 		},
 
 		"tripwire": {
-			"minecraft": 132,
+			"java": 132,
 			"pocket": 132,
 			"stack": 64
 		},
 
 		"emerald_block": {
-			"minecraft": 133,
+			"java": 133,
 			"pocket": 133,
 			"stack": 64
 		},
 
 		"spruce_wood_stairs": {
-			"minecraft": 134,
+			"java": 134,
 			"pocket": 134,
 			"stack": 64
 		},
 
 		"birch_wood_stairs": {
-			"minecraft": 135,
+			"java": 135,
 			"pocket": 135,
 			"stack": 64
 		},
 
 		"jungle_wood_stairs": {
-			"minecraft": 136,
+			"java": 136,
 			"pocket": 136,
 			"stack": 64
 		},
 
 		"command_block": {
-			"minecraft": 137,
+			"java": 137,
 			"stack": 64
 		},
 
 		"beacon": {
-			"minecraft": 138,
+			"java": 138,
 			"pocket": 138,
 			"stack": 64
 		},
 
 		"cobblestone_wall": {
-			"minecraft": 139,
+			"java": 139,
 			"pocket": 139,
 			"stack": 64
 		},
 
 		"mossy_cobblestone_wall": {
-			"minecraft": {
+			"java": {
 				"id": 139,
 				"meta": 1
 			},
@@ -2065,103 +2065,103 @@
 		},
 
 		"flower_pot_block": {
-			"minecraft": 140,
+			"java": 140,
 			"pocket": 140,
 			"stack": 64
 		},
 
 		"carrots_block": {
-			"minecraft": 141,
+			"java": 141,
 			"pocket": 141,
 			"stack": 64
 		},
 
 		"potatoes_block": {
-			"minecraft": 142,
+			"java": 142,
 			"pocket": 142,
 			"stack": 64
 		},
 
 		"wooden_button": {
-			"minecraft": 143,
+			"java": 143,
 			"pocket": 143,
 			"stack": 64
 		},
 
 		"mob_head": {
-			"minecraft": 144,
+			"java": 144,
 			"pocket": 144,
 			"stack": 64
 		},
 
 		"anvil": {
-			"minecraft": 145,
+			"java": 145,
 			"pocket": 145,
 			"stack": 64
 		},
 
 		"trapped_chest": {
-			"minecraft": 146,
+			"java": 146,
 			"pocket": 146,
 			"stack": 64
 		},
 
 		"light_weighted_pressure_plate": {
-			"minecraft": 147,
+			"java": 147,
 			"pocket": 147,
 			"stack": 64
 		},
 
 		"heavy_weighted_pressure_plate": {
-			"minecraft": 148,
+			"java": 148,
 			"pocket": 148,
 			"stack": 64
 		},
 
 		"inactive_redstone_comparator": {
-			"minecraft": 149,
+			"java": 149,
 			"pocket": 149,
 			"stack": 64
 		},
 
 		"active_redstone_comparator": {
-			"minecraft": 150,
+			"java": 150,
 			"pocket": 150,
 			"stack": 64
 		},
 
 		"daylight_sensor": {
-			"minecraft": 151,
+			"java": 151,
 			"pocket": 151,
 			"stack": 64
 		},
 
 		"redstone_block": {
-			"minecraft": 152,
+			"java": 152,
 			"pocket": 152,
 			"stack": 64
 		},
 
 		"nether_quartz_ore": {
-			"minecraft": 153,
+			"java": 153,
 			"pocket": 153,
 			"stack": 64
 		},
 
 		"hopper": {
-			"minecraft": 154,
+			"java": 154,
 			"pocket": 154,
 			"stack": 64
 		},
 
 		"quartz_block": {
-			"minecraft": 155,
+			"java": 155,
 			"pocket": 155,
 			"stack": 64
 		},
 
 		"chiseled_quartz_block": {
-			"minecraft": {
+			"java": {
 				"id": 155,
 				"meta": 1
 			},
@@ -2173,7 +2173,7 @@
 		},
 
 		"pillar_quartz_block": {
-			"minecraft": {
+			"java": {
 				"id": 155,
 				"meta": 2
 			},
@@ -2185,25 +2185,25 @@
 		},
 
 		"quartz_stairs": {
-			"minecraft": 156,
+			"java": 156,
 			"pocket": 156,
 			"stack": 64
 		},
 
 		"activator_rail": {
-			"minecraft": 157,
+			"java": 157,
 			"pocket": 126,
 			"stack": 64
 		},
 
 		"dropper": {
-			"minecraft": 158,
+			"java": 158,
 			"pocket": 125,
 			"stack": 64
 		},
 
 		"white_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 0
 			},
@@ -2215,7 +2215,7 @@
 		},
 
 		"orange_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 1
 			},
@@ -2227,7 +2227,7 @@
 		},
 
 		"magenta_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 2
 			},
@@ -2239,7 +2239,7 @@
 		},
 
 		"light_blue_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 3
 			},
@@ -2251,7 +2251,7 @@
 		},
 
 		"yellow_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 4
 			},
@@ -2263,7 +2263,7 @@
 		},
 
 		"lime_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 5
 			},
@@ -2275,7 +2275,7 @@
 		},
 
 		"pink_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 6
 			},
@@ -2287,7 +2287,7 @@
 		},
 
 		"gray_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 7
 			},
@@ -2299,7 +2299,7 @@
 		},
 
 		"light_gray_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 8
 			},
@@ -2311,7 +2311,7 @@
 		},
 
 		"cyan_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 9
 			},
@@ -2323,7 +2323,7 @@
 		},
 
 		"purple_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 10
 			},
@@ -2335,7 +2335,7 @@
 		},
 
 		"blue_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 11
 			},
@@ -2347,7 +2347,7 @@
 		},
 
 		"brown_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 12
 			},
@@ -2359,7 +2359,7 @@
 		},
 
 		"green_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 13
 			},
@@ -2371,7 +2371,7 @@
 		},
 
 		"red_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 14
 			},
@@ -2383,7 +2383,7 @@
 		},
 
 		"black_stained_clay": {
-			"minecraft": {
+			"java": {
 				"id": 159,
 				"meta": 15
 			},
@@ -2395,7 +2395,7 @@
 		},
 
 		"white_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 0
 			},
@@ -2403,7 +2403,7 @@
 		},
 
 		"orange_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 1
 			},
@@ -2411,7 +2411,7 @@
 		},
 
 		"magenta_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 2
 			},
@@ -2419,7 +2419,7 @@
 		},
 
 		"light_blue_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 3
 			},
@@ -2427,7 +2427,7 @@
 		},
 
 		"yellow_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 4
 			},
@@ -2435,7 +2435,7 @@
 		},
 
 		"lime_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 5
 			},
@@ -2443,7 +2443,7 @@
 		},
 
 		"pink_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 6
 			},
@@ -2451,7 +2451,7 @@
 		},
 
 		"gray_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 7
 			},
@@ -2459,7 +2459,7 @@
 		},
 
 		"light_gray_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 8
 			},
@@ -2467,7 +2467,7 @@
 		},
 
 		"cyan_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 9
 			},
@@ -2475,7 +2475,7 @@
 		},
 
 		"purple_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 10
 			},
@@ -2483,7 +2483,7 @@
 		},
 
 		"blue_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 11
 			},
@@ -2491,7 +2491,7 @@
 		},
 
 		"brown_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 12
 			},
@@ -2499,7 +2499,7 @@
 		},
 
 		"green_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 13
 			},
@@ -2507,7 +2507,7 @@
 		},
 
 		"red_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 14
 			},
@@ -2515,7 +2515,7 @@
 		},
 
 		"black_stained_glass_pane": {
-			"minecraft": {
+			"java": {
 				"id": 160,
 				"meta": 15
 			},
@@ -2523,7 +2523,7 @@
 		},
 
 		"acacia_leaves": {
-			"minecraft": {
+			"java": {
 				"id": 161,
 				"meta": 0
 			},
@@ -2535,7 +2535,7 @@
 		},
 
 		"dark_oak_leaves": {
-			"minecraft": {
+			"java": {
 				"id": 161,
 				"meta": 1
 			},
@@ -2547,7 +2547,7 @@
 		},
 
 		"acacia_wood": {
-			"minecraft": {
+			"java": {
 				"id": 162,
 				"meta": 0
 			},
@@ -2559,7 +2559,7 @@
 		},
 
 		"dark_oak_wood": {
-			"minecraft": {
+			"java": {
 				"id": 162,
 				"meta": 1
 			},
@@ -2571,43 +2571,43 @@
 		},
 
 		"acacia_wood_stairs": {
-			"minecraft": 163,
+			"java": 163,
 			"pocket": 163,
 			"stack": 64
 		},
 
 		"dark_oak_wood_stairs": {
-			"minecraft": 164,
+			"java": 164,
 			"pocket": 164,
 			"stack": 64
 		},
 
 		"slime_block": {
-			"minecraft": 165,
+			"java": 165,
 			"pocket": 165,
 			"stack": 64
 		},
 
 		"barrier": {
-			"minecraft": 166,
+			"java": 166,
 			"pocket": 95,
 			"stack": 64
 		},
 
 		"iron_trapdoor": {
-			"minecraft": 167,
+			"java": 167,
 			"pocket": 167,
 			"stack": 64
 		},
 
 		"prismarine": {
-			"minecraft": 168,
+			"java": 168,
 			"pocket": 168,
 			"stack": 64
 		},
 
 		"prismarine_bricks": {
-			"minecraft": {
+			"java": {
 				"id": 168,
 				"meta": 1
 			},
@@ -2619,7 +2619,7 @@
 		},
 
 		"dark_prismarine": {
-			"minecraft": {
+			"java": {
 				"id": 168,
 				"meta": 2
 			},
@@ -2631,19 +2631,19 @@
 		},
 
 		"sea_lantern": {
-			"minecraft": 169,
+			"java": 169,
 			"pocket": 169,
 			"stack": 64
 		},
 
 		"hay_bale": {
-			"minecraft": 170,
+			"java": 170,
 			"pocket": 170,
 			"stack": 64
 		},
 
 		"white_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 0
 			},
@@ -2655,7 +2655,7 @@
 		},
 
 		"orange_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 1
 			},
@@ -2667,7 +2667,7 @@
 		},
 
 		"magenta_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 2
 			},
@@ -2679,7 +2679,7 @@
 		},
 
 		"light_blue_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 3
 			},
@@ -2691,7 +2691,7 @@
 		},
 
 		"yellow_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 4
 			},
@@ -2703,7 +2703,7 @@
 		},
 
 		"lime_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 5
 			},
@@ -2715,7 +2715,7 @@
 		},
 
 		"pink_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 6
 			},
@@ -2727,7 +2727,7 @@
 		},
 
 		"gray_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 7
 			},
@@ -2739,7 +2739,7 @@
 		},
 
 		"light_gray_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 8
 			},
@@ -2751,7 +2751,7 @@
 		},
 
 		"cyan_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 9
 			},
@@ -2763,7 +2763,7 @@
 		},
 
 		"purple_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 10
 			},
@@ -2775,7 +2775,7 @@
 		},
 
 		"blue_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 11
 			},
@@ -2787,7 +2787,7 @@
 		},
 
 		"brown_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 12
 			},
@@ -2799,7 +2799,7 @@
 		},
 
 		"green_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 13
 			},
@@ -2811,7 +2811,7 @@
 		},
 
 		"red_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 14
 			},
@@ -2823,7 +2823,7 @@
 		},
 
 		"black_carpet": {
-			"minecraft": {
+			"java": {
 				"id": 171,
 				"meta": 15
 			},
@@ -2835,25 +2835,25 @@
 		},
 
 		"hardened_clay": {
-			"minecraft": 172,
+			"java": 172,
 			"pocket": 172,
 			"stack": 64
 		},
 
 		"coal_block": {
-			"minecraft": 173,
+			"java": 173,
 			"pocket": 173,
 			"stack": 64
 		},
 
 		"packed_ice": {
-			"minecraft": 174,
+			"java": 174,
 			"pocket": 174,
 			"stack": 64
 		},
 
 		"sunflower": {
-			"minecraft": {
+			"java": {
 				"id": 175,
 				"meta": 0
 			},
@@ -2865,7 +2865,7 @@
 		},
 
 		"liliac": {
-			"minecraft": {
+			"java": {
 				"id": 175,
 				"meta": 1
 			},
@@ -2877,7 +2877,7 @@
 		},
 
 		"double_tallgrass": {
-			"minecraft": {
+			"java": {
 				"id": 175,
 				"meta": 2
 			},
@@ -2889,7 +2889,7 @@
 		},
 
 		"large_fern": {
-			"minecraft": {
+			"java": {
 				"id": 175,
 				"meta": 3
 			},
@@ -2901,7 +2901,7 @@
 		},
 
 		"rose_bush": {
-			"minecraft": {
+			"java": {
 				"id": 175,
 				"meta": 4
 			},
@@ -2913,7 +2913,7 @@
 		},
 
 		"peony": {
-			"minecraft": {
+			"java": {
 				"id": 175,
 				"meta": 5
 			},
@@ -2925,25 +2925,25 @@
 		},
 
 		"planted_banner": {
-			"minecraft": 176,
+			"java": 176,
 			"pocket": 176,
 			"stack": 64
 		},
 
 		"wall_banner": {
-			"minecraft": 177,
+			"java": 177,
 			"pocket": 177,
 			"stack": 64
 		},
 
 		"inverted_daylight_sensor": {
-			"minecraft": 178,
+			"java": 178,
 			"pocket": 178,
 			"stack": 64
 		},
 
 		"red_sandstone": {
-			"minecraft": {
+			"java": {
 				"id": 179,
 				"meta": 0
 			},
@@ -2955,7 +2955,7 @@
 		},
 
 		"chiseled_red_sandstone": {
-			"minecraft": {
+			"java": {
 				"id": 179,
 				"meta": 1
 			},
@@ -2967,7 +2967,7 @@
 		},
 
 		"smooth_red_sandstone": {
-			"minecraft": {
+			"java": {
 				"id": 179,
 				"meta": 2
 			},
@@ -2979,55 +2979,55 @@
 		},
 
 		"red_sandstone_stairs": {
-			"minecraft": 180,
+			"java": 180,
 			"pocket": 180,
 			"stack": 64
 		},
 
 		"double_red_sandstone_slab": {
-			"minecraft": 181,
+			"java": 181,
 			"pocket": 181,
 			"stack": 64
 		},
 
 		"red_sandstone_slab": {
-			"minecraft": 182,
+			"java": 182,
 			"pocket": 182,
 			"stack": 64
 		},
 
 		"spruce_fence_gate": {
-			"minecraft": 183,
+			"java": 183,
 			"pocket": 183,
 			"stack": 64
 		},
 
 		"birch_fence_gate": {
-			"minecraft": 184,
+			"java": 184,
 			"pocket": 184,
 			"stack": 64
 		},
 
 		"jungle_fence_gate": {
-			"minecraft": 185,
+			"java": 185,
 			"pocket": 185,
 			"stack": 64
 		},
 
 		"dark_oak_fence_gate": {
-			"minecraft": 186,
+			"java": 186,
 			"pocket": 186,
 			"stack": 64
 		},
 
 		"acacia_fence_gate": {
-			"minecraft": 187,
+			"java": 187,
 			"pocket": 187,
 			"stack": 64
 		},
 
 		"spruce_fence": {
-			"minecraft": 188,
+			"java": 188,
 			"pocket": {
 				"id": 85,
 				"meta": 1
@@ -3036,7 +3036,7 @@
 		},
 
 		"birch_fence": {
-			"minecraft": 189,
+			"java": 189,
 			"pocket": {
 				"id": 85,
 				"meta": 2
@@ -3045,7 +3045,7 @@
 		},
 
 		"jungle_fence": {
-			"minecraft": 190,
+			"java": 190,
 			"pocket": {
 				"id": 85,
 				"meta": 3
@@ -3054,7 +3054,7 @@
 		},
 
 		"dark_oak_fence": {
-			"minecraft": 191,
+			"java": 191,
 			"pocket": {
 				"id": 85,
 				"meta": 5
@@ -3063,7 +3063,7 @@
 		},
 
 		"acacia_fence": {
-			"minecraft": 192,
+			"java": 192,
 			"pocket": {
 				"id": 85,
 				"meta": 4
@@ -3072,37 +3072,37 @@
 		},
 
 		"spruce_door_block": {
-			"minecraft": 193,
+			"java": 193,
 			"pocket": 193,
 			"stack": 64
 		},
 
 		"birch_door_block": {
-			"minecraft": 194,
+			"java": 194,
 			"pocket": 194,
 			"stack": 64
 		},
 
 		"jungle_door_block": {
-			"minecraft": 195,
+			"java": 195,
 			"pocket": 195,
 			"stack": 64
 		},
 
 		"acacia_door_block": {
-			"minecraft": 196,
+			"java": 196,
 			"pocket": 196,
 			"stack": 64
 		},
 
 		"dark_oak_door_block": {
-			"minecraft": 197,
+			"java": 197,
 			"pocket": 197,
 			"stack": 64
 		},
 
 		"end_rod": {
-			"minecraft": 198,
+			"java": 198,
 			"pocket": 208,
 			"stack": 64
 		},
@@ -3113,85 +3113,85 @@
 		},
 
 		"chorus_plant": {
-			"minecraft": 199,
+			"java": 199,
 			"pocket": 240,
 			"stack": 64
 		},
 
 		"chorus_flower": {
-			"minecraft": 200,
+			"java": 200,
 			"pocket": 200,
 			"stack": 64
 		},
 
 		"purpur_block": {
-			"minecraft": 201,
+			"java": 201,
 			"pocket": 201,
 			"stack": 64
 		},
 
 		"purpur_pillar": {
-			"minecraft": 202,
+			"java": 202,
 			"pocket": 202,
 			"stack": 64
 		},
 
 		"purpur_stairs": {
-			"minecraft": 203,
+			"java": 203,
 			"pocket": 203,
 			"stack": 64
 		},
 
 		"purpur_double_slab": {
-			"minecraft": 204,
+			"java": 204,
 			"pocket": 204,
 			"stack": 64
 		},
 
 		"purpur_slab": {
-			"minecraft": 205,
+			"java": 205,
 			"pocket": 205,
 			"stack": 64
 		},
 
 		"end_stone_bricks": {
-			"minecraft": 206,
+			"java": 206,
 			"pocket": 206,
 			"stack": 64
 		},
 
 		"beetroot_block": {
-			"minecraft": 207,
+			"java": 207,
 			"pocket": 244,
 			"stack": 64
 		},
 
 		"grass_path": {
-			"minecraft": 208,
+			"java": 208,
 			"pocket": 198,
 			"stack": 64
 		},
 
 		"end_gateway": {
-			"minecraft": 209,
+			"java": 209,
 			"pocket": 209,
 			"stack": 64
 		},
 
 		"repeating_command_block": {
-			"minecraft": 210,
+			"java": 210,
 			"pocket": 188,
 			"stack": 64
 		},
 
 		"chain_command_block": {
-			"minecraft": 211,
+			"java": 211,
 			"pocket": 189,
 			"stack": 64
 		},
 
 		"frosted_ice": {
-			"minecraft": 212,
+			"java": 212,
 			"pocket": 207,
 			"stack": 64
 		},
@@ -3212,42 +3212,42 @@
 		},
 
 		"magma_block": {
-			"minecraft": 213,
+			"java": 213,
 			"pocket": 213,
 			"stack": 64
 		},
 
 		"nether_wart_block": {
-			"minecraft": 214,
+			"java": 214,
 			"pocket": 214,
 			"stack": 64
 		},
 
 		"red_nether_brick": {
-			"minecraft": 215,
+			"java": 215,
 			"pocket": 215,
 			"stack": 64
 		},
 
 		"bone_block": {
-			"minecraft": 216,
+			"java": 216,
 			"pocket": 216,
 			"stack": 64
 		},
 
 		"structure_void": {
-			"minecraft": 217,
+			"java": 217,
 			"stack": 64
 		},
 
 		"observer": {
-			"minecraft": 218,
+			"java": 218,
 			"pocket": 251,
 			"stack": 64
 		},
 
 		"white_shulker_box": {
-			"minecraft": 219,
+			"java": 219,
 			"pocket": {
 				"id": 218,
 				"meta": 0
@@ -3256,7 +3256,7 @@
 		},
 
 		"orange_shulker_box": {
-			"minecraft": 220,
+			"java": 220,
 			"pocket": {
 				"id": 218,
 				"meta": 1
@@ -3265,7 +3265,7 @@
 		},
 
 		"magenta_shulker_box": {
-			"minecraft": 221,
+			"java": 221,
 			"pocket": {
 				"id": 218,
 				"meta": 2
@@ -3274,7 +3274,7 @@
 		},
 
 		"light_blue_shulker_box": {
-			"minecraft": 222,
+			"java": 222,
 			"pocket": {
 				"id": 218,
 				"meta": 3
@@ -3283,7 +3283,7 @@
 		},
 
 		"yellow_shulker_box": {
-			"minecraft": 223,
+			"java": 223,
 			"pocket": {
 				"id": 218,
 				"meta": 4
@@ -3292,7 +3292,7 @@
 		},
 
 		"lime_shulker_box": {
-			"minecraft": 224,
+			"java": 224,
 			"pocket": {
 				"id": 218,
 				"meta": 5
@@ -3301,7 +3301,7 @@
 		},
 
 		"pink_shulker_box": {
-			"minecraft": 225,
+			"java": 225,
 			"pocket": {
 				"id": 218,
 				"meta": 6
@@ -3310,7 +3310,7 @@
 		},
 
 		"gray_shulker_box": {
-			"minecraft": 226,
+			"java": 226,
 			"pocket": {
 				"id": 218,
 				"meta": 7
@@ -3319,7 +3319,7 @@
 		},
 
 		"light_gray_shulker_box": {
-			"minecraft": 227,
+			"java": 227,
 			"pocket": {
 				"id": 218,
 				"meta": 8
@@ -3328,7 +3328,7 @@
 		},
 
 		"cyan_shulker_box": {
-			"minecraft": 228,
+			"java": 228,
 			"pocket": {
 				"id": 218,
 				"meta": 9
@@ -3337,7 +3337,7 @@
 		},
 
 		"purple_shulker_box": {
-			"minecraft": 229,
+			"java": 229,
 			"pocket": {
 				"id": 218,
 				"meta": 10
@@ -3346,7 +3346,7 @@
 		},
 
 		"blue_shulker_box": {
-			"minecraft": 230,
+			"java": 230,
 			"pocket": {
 				"id": 218,
 				"meta": 11
@@ -3355,7 +3355,7 @@
 		},
 
 		"brown_shulker_box": {
-			"minecraft": 231,
+			"java": 231,
 			"pocket": {
 				"id": 218,
 				"meta": 12
@@ -3364,7 +3364,7 @@
 		},
 
 		"green_shulker_box": {
-			"minecraft": 232,
+			"java": 232,
 			"pocket": {
 				"id": 218,
 				"meta": 13
@@ -3373,7 +3373,7 @@
 		},
 
 		"red_shulker_box": {
-			"minecraft": 233,
+			"java": 233,
 			"pocket": {
 				"id": 218,
 				"meta": 14
@@ -3382,7 +3382,7 @@
 		},
 
 		"black_shulker_box": {
-			"minecraft": 234,
+			"java": 234,
 			"pocket": {
 				"id": 218,
 				"meta": 15
@@ -3391,103 +3391,103 @@
 		},
 
 		"white_glazed_terracotta": {
-			"minecraft": 235,
+			"java": 235,
 			"pocket": 220,
 			"stack": 64
 		},
 
 		"orange_glazed_terracotta": {
-			"minecraft": 236,
+			"java": 236,
 			"pocket": 221,
 			"stack": 64
 		},
 
 		"magenta_glazed_terracotta": {
-			"minecraft": 237,
+			"java": 237,
 			"pocket": 222,
 			"stack": 64
 		},
 
 		"light_blue_glazed_terracotta": {
-			"minecraft": 238,
+			"java": 238,
 			"pocket": 223,
 			"stack": 64
 		},
 
 		"yellow_glazed_terracotta": {
-			"minecraft": 239,
+			"java": 239,
 			"pocket": 224,
 			"stack": 64
 		},
 
 		"lime_glazed_terracotta": {
-			"minecraft": 240,
+			"java": 240,
 			"pocket": 225,
 			"stack": 64
 		},
 
 		"pink_glazed_terracotta": {
-			"minecraft": 241,
+			"java": 241,
 			"pocket": 226,
 			"stack": 64
 		},
 
 		"gray_glazed_terracotta": {
-			"minecraft": 242,
+			"java": 242,
 			"pocket": 227,
 			"stack": 64
 		},
 
 		"light_gray_glazed_terracotta": {
-			"minecraft": 243,
+			"java": 243,
 			"pocket": 228,
 			"stack": 64
 		},
 
 		"cyan_glazed_terracotta": {
-			"minecraft": 244,
+			"java": 244,
 			"pocket": 229,
 			"stack": 64
 		},
 
 		"purple_glazed_terracotta": {
-			"minecraft": 245,
+			"java": 245,
 			"pocket": 219,
 			"stack": 64
 		},
 
 		"blue_glazed_terracotta": {
-			"minecraft": 246,
+			"java": 246,
 			"pocket": 231,
 			"stack": 64
 		},
 
 		"brown_glazed_terracotta": {
-			"minecraft": 247,
+			"java": 247,
 			"pocket": 232,
 			"stack": 64
 		},
 
 		"green_glazed_terracotta": {
-			"minecraft": 248,
+			"java": 248,
 			"pocket": 233,
 			"stack": 64
 		},
 
 		"red_glazed_terracotta": {
-			"minecraft": 249,
+			"java": 249,
 			"pocket": 234,
 			"stack": 64
 		},
 
 		"black_glazed_terracotta": {
-			"minecraft": 250,
+			"java": 250,
 			"pocket": 235,
 			"stack": 64
 		},
 
 		"white_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 0
 			},
@@ -3499,7 +3499,7 @@
 		},
 
 		"orange_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 1
 			},
@@ -3511,7 +3511,7 @@
 		},
 
 		"magenta_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 2
 			},
@@ -3523,7 +3523,7 @@
 		},
 
 		"light_blue_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 3
 			},
@@ -3535,7 +3535,7 @@
 		},
 
 		"yellow_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 4
 			},
@@ -3547,7 +3547,7 @@
 		},
 
 		"lime_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 5
 			},
@@ -3559,7 +3559,7 @@
 		},
 
 		"pink_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 6
 			},
@@ -3571,7 +3571,7 @@
 		},
 
 		"gray_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 7
 			},
@@ -3583,7 +3583,7 @@
 		},
 
 		"light_gray_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 8
 			},
@@ -3595,7 +3595,7 @@
 		},
 
 		"cyan_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 9
 			},
@@ -3607,7 +3607,7 @@
 		},
 
 		"purple_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 10
 			},
@@ -3619,7 +3619,7 @@
 		},
 
 		"blue_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 11
 			},
@@ -3631,7 +3631,7 @@
 		},
 
 		"brown_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 12
 			},
@@ -3643,7 +3643,7 @@
 		},
 
 		"green_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 13
 			},
@@ -3655,7 +3655,7 @@
 		},
 
 		"red_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 14
 			},
@@ -3667,7 +3667,7 @@
 		},
 
 		"black_concrete": {
-			"minecraft": {
+			"java": {
 				"id": 251,
 				"meta": 15
 			},
@@ -3679,7 +3679,7 @@
 		},
 
 		"white_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 0
 			},
@@ -3691,7 +3691,7 @@
 		},
 
 		"orange_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 1
 			},
@@ -3703,7 +3703,7 @@
 		},
 
 		"magenta_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 2
 			},
@@ -3715,7 +3715,7 @@
 		},
 
 		"light_blue_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 3
 			},
@@ -3727,7 +3727,7 @@
 		},
 
 		"yellow_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 4
 			},
@@ -3739,7 +3739,7 @@
 		},
 
 		"lime_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 5
 			},
@@ -3751,7 +3751,7 @@
 		},
 
 		"pink_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 6
 			},
@@ -3763,7 +3763,7 @@
 		},
 
 		"gray_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 7
 			},
@@ -3775,7 +3775,7 @@
 		},
 
 		"light_gray_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 8
 			},
@@ -3787,7 +3787,7 @@
 		},
 
 		"cyan_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 9
 			},
@@ -3799,7 +3799,7 @@
 		},
 
 		"purple_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 10
 			},
@@ -3811,7 +3811,7 @@
 		},
 
 		"blue_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 11
 			},
@@ -3823,7 +3823,7 @@
 		},
 
 		"brown_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 12
 			},
@@ -3835,7 +3835,7 @@
 		},
 
 		"green_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 13
 			},
@@ -3847,7 +3847,7 @@
 		},
 
 		"red_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 14
 			},
@@ -3859,7 +3859,7 @@
 		},
 
 		"black_concrete_powder": {
-			"minecraft": {
+			"java": {
 				"id": 252,
 				"meta": 15
 			},
@@ -3906,7 +3906,7 @@
 		},
 
 		"structure_save": {
-			"minecraft": {
+			"java": {
 				"id": 255,
 				"meta": 0
 			},
@@ -3918,7 +3918,7 @@
 		},
 
 		"structure_load": {
-			"minecraft": {
+			"java": {
 				"id": 255,
 				"meta": 1
 			},
@@ -3930,7 +3930,7 @@
 		},
 
 		"structure_corner": {
-			"minecraft": {
+			"java": {
 				"id": 255,
 				"meta": 2
 			},
@@ -3942,7 +3942,7 @@
 		},
 
 		"structure_data": {
-			"minecraft": {
+			"java": {
 				"id": 255,
 				"meta": 3
 			},
@@ -3954,60 +3954,60 @@
 		},
 
 		"iron_shovel": {
-			"minecraft": 256,
+			"java": 256,
 			"pocket": 256,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"iron_pickaxe": {
-			"minecraft": 257,
+			"java": 257,
 			"pocket": 257,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"iron_axe": {
-			"minecraft": 258,
+			"java": 258,
 			"pocket": 258,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"flint_and_steel": {
-			"minecraft": 259,
+			"java": 259,
 			"pocket": 259,
 			"stack": 1,
 			"durability": 65
 		},
 
 		"apple": {
-			"minecraft": 260,
+			"java": 260,
 			"pocket": 260,
 			"stack": 64
 		},
 
 		"bow": {
-			"minecraft": 261,
+			"java": 261,
 			"pocket": 261,
 			"stack": 1,
 			"durability": 385
 		},
 
 		"arrow": {
-			"minecraft": 262,
+			"java": 262,
 			"pocket": 262,
 			"stack": 64
 		},
 
 		"coal": {
-			"minecraft": 263,
+			"java": 263,
 			"pocket": 263,
 			"stack": 64
 		},
 
 		"charcoal": {
-			"minecraft": {
+			"java": {
 				"id": 263,
 				"meta": 1
 			},
@@ -4019,403 +4019,403 @@
 		},
 
 		"diamond": {
-			"minecraft": 264,
+			"java": 264,
 			"pocket": 264,
 			"stack": 64
 		},
 
 		"iron_ingot": {
-			"minecraft": 265,
+			"java": 265,
 			"pocket": 265,
 			"stack": 64
 		},
 
 		"gold_ingot": {
-			"minecraft": 266,
+			"java": 266,
 			"pocket": 266,
 			"stack": 64
 		},
 
 		"iron_sword": {
-			"minecraft": 267,
+			"java": 267,
 			"pocket": 267,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"wooden_sword": {
-			"minecraft": 268,
+			"java": 268,
 			"pocket": 268,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"wooden_shovel": {
-			"minecraft": 269,
+			"java": 269,
 			"pocket": 269,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"wooden_pickaxe": {
-			"minecraft": 270,
+			"java": 270,
 			"pocket": 270,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"wooden_axe": {
-			"minecraft": 271,
+			"java": 271,
 			"pocket": 271,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"stone_sword": {
-			"minecraft": 272,
+			"java": 272,
 			"pocket": 272,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"stone_shovel": {
-			"minecraft": 273,
+			"java": 273,
 			"pocket": 273,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"stone_pickaxe": {
-			"minecraft": 274,
+			"java": 274,
 			"pocket": 274,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"stone_axe": {
-			"minecraft": 275,
+			"java": 275,
 			"pocket": 275,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"diamond_sword": {
-			"minecraft": 276,
+			"java": 276,
 			"pocket": 276,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"diamond_shovel": {
-			"minecraft": 277,
+			"java": 277,
 			"pocket": 277,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"diamond_pickaxe": {
-			"minecraft": 278,
+			"java": 278,
 			"pocket": 278,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"diamond_axe": {
-			"minecraft": 279,
+			"java": 279,
 			"pocket": 279,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"stick": {
-			"minecraft": 280,
+			"java": 280,
 			"pocket": 280,
 			"stack": 64
 		},
 
 		"bowl": {
-			"minecraft": 281,
+			"java": 281,
 			"pocket": 281,
 			"stack": 64
 		},
 
 		"mushroom_stew": {
-			"minecraft": 282,
+			"java": 282,
 			"pocket": 282,
 			"stack": 1
 		},
 
 		"golden_sword": {
-			"minecraft": 283,
+			"java": 283,
 			"pocket": 283,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"golden_shovel": {
-			"minecraft": 284,
+			"java": 284,
 			"pocket": 284,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"golden_pickaxe": {
-			"minecraft": 285,
+			"java": 285,
 			"pocket": 285,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"golden_axe": {
-			"minecraft": 286,
+			"java": 286,
 			"pocket": 286,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"string": {
-			"minecraft": 287,
+			"java": 287,
 			"pocket": 287,
 			"stack": 64
 		},
 
 		"feather": {
-			"minecraft": 288,
+			"java": 288,
 			"pocket": 288,
 			"stack": 64
 		},
 
 		"gunpowder": {
-			"minecraft": 289,
+			"java": 289,
 			"pocket": 289,
 			"stack": 64
 		},
 
 		"wooden_hoe": {
-			"minecraft": 290,
+			"java": 290,
 			"pocket": 290,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"stone_hoe": {
-			"minecraft": 291,
+			"java": 291,
 			"pocket": 291,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"iron_hoe": {
-			"minecraft": 292,
+			"java": 292,
 			"pocket": 292,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"diamond_hoe": {
-			"minecraft": 293,
+			"java": 293,
 			"pocket": 293,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"golden_hoe": {
-			"minecraft": 294,
+			"java": 294,
 			"pocket": 294,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"seeds": {
-			"minecraft": 295,
+			"java": 295,
 			"pocket": 295,
 			"stack": 64
 		},
 
 		"wheat": {
-			"minecraft": 296,
+			"java": 296,
 			"pocket": 296,
 			"stack": 64
 		},
 
 		"bread": {
-			"minecraft": 297,
+			"java": 297,
 			"pocket": 297,
 			"stack": 64
 		},
 
 		"leather_cap": {
-			"minecraft": 298,
+			"java": 298,
 			"pocket": 298,
 			"stack": 1,
 			"durability": 56
 		},
 
 		"leather_tunic": {
-			"minecraft": 299,
+			"java": 299,
 			"pocket": 299,
 			"stack": 1,
 			"durability": 81
 		},
 
 		"leather_pants": {
-			"minecraft": 300,
+			"java": 300,
 			"pocket": 300,
 			"stack": 1,
 			"durability": 76
 		},
 
 		"leather_boots": {
-			"minecraft": 301,
+			"java": 301,
 			"pocket": 301,
 			"stack": 1,
 			"durability": 66
 		},
 
 		"chain_helmet": {
-			"minecraft": 302,
+			"java": 302,
 			"pocket": 302,
 			"stack": 1,
 			"durability": 166
 		},
 
 		"chain_chestplate": {
-			"minecraft": 303,
+			"java": 303,
 			"pocket": 303,
 			"stack": 1,
 			"durability": 241
 		},
 
 		"chain_leggings": {
-			"minecraft": 304,
+			"java": 304,
 			"pocket": 304,
 			"stack": 1,
 			"durability": 226
 		},
 
 		"chain_boots": {
-			"minecraft": 305,
+			"java": 305,
 			"pocket": 305,
 			"stack": 1,
 			"durability": 196
 		},
 
 		"iron_helmet": {
-			"minecraft": 306,
+			"java": 306,
 			"pocket": 306,
 			"stack": 1,
 			"durability": 166
 		},
 
 		"iron_chestplate": {
-			"minecraft": 307,
+			"java": 307,
 			"pocket": 307,
 			"stack": 1,
 			"durability": 241
 		},
 
 		"iron_leggings": {
-			"minecraft": 308,
+			"java": 308,
 			"pocket": 308,
 			"stack": 1,
 			"durability": 226
 		},
 
 		"iron_boots": {
-			"minecraft": 309,
+			"java": 309,
 			"pocket": 309,
 			"stack": 1,
 			"durability": 196
 		},
 
 		"diamond_helmet": {
-			"minecraft": 310,
+			"java": 310,
 			"pocket": 310,
 			"stack": 1,
 			"durability": 364
 		},
 
 		"diamond_chestplate": {
-			"minecraft": 311,
+			"java": 311,
 			"pocket": 311,
 			"stack": 1,
 			"durability": 529
 		},
 
 		"diamond_leggings": {
-			"minecraft": 312,
+			"java": 312,
 			"pocket": 312,
 			"stack": 1,
 			"durability": 496
 		},
 
 		"diamond_boots": {
-			"minecraft": 313,
+			"java": 313,
 			"pocket": 313,
 			"stack": 1,
 			"durability": 430
 		},
 
 		"golden_helmet": {
-			"minecraft": 314,
+			"java": 314,
 			"pocket": 314,
 			"stack": 1,
 			"durability": 78
 		},
 
 		"golden_chestplate": {
-			"minecraft": 315,
+			"java": 315,
 			"pocket": 315,
 			"stack": 1,
 			"durability": 113
 		},
 
 		"golden_leggings": {
-			"minecraft": 316,
+			"java": 316,
 			"pocket": 316,
 			"stack": 1,
 			"durability": 106
 		},
 
 		"golden_boots": {
-			"minecraft": 317,
+			"java": 317,
 			"pocket": 317,
 			"stack": 1,
 			"durability": 92
 		},
 
 		"flint": {
-			"minecraft": 318,
+			"java": 318,
 			"pocket": 318,
 			"stack": 64
 		},
 
 		"raw_porkchop": {
-			"minecraft": 319,
+			"java": 319,
 			"pocket": 319,
 			"stack": 64
 		},
 
 		"cooked_porkchop": {
-			"minecraft": 320,
+			"java": 320,
 			"pocket": 320,
 			"stack": 64
 		},
 
 		"painting": {
-			"minecraft": 321,
+			"java": 321,
 			"pocket": 321,
 			"stack": 64
 		},
 
 		"golden_apple": {
-			"minecraft": 322,
+			"java": 322,
 			"pocket": 322,
 			"stack": 64
 		},
 
 		"enchanted_golden_apple": {
-			"minecraft": {
+			"java": {
 				"id": 322,
 				"meta": 1
 			},
@@ -4424,25 +4424,25 @@
 		},
 
 		"sign": {
-			"minecraft": 323,
+			"java": 323,
 			"pocket": 323,
 			"stack": 64
 		},
 
 		"oak_door": {
-			"minecraft": 324,
+			"java": 324,
 			"pocket": 324,
 			"stack": 64
 		},
 
 		"bucket": {
-			"minecraft": 325,
+			"java": 325,
 			"pocket": 325,
 			"stack": 16
 		},
 
 		"water_bucket": {
-			"minecraft": 326,
+			"java": 326,
 			"pocket": {
 				"id": 325,
 				"meta": 8
@@ -4451,7 +4451,7 @@
 		},
 
 		"lava_bucket": {
-			"minecraft": 327,
+			"java": 327,
 			"pocket": {
 				"id": 325,
 				"meta": 10
@@ -4460,49 +4460,49 @@
 		},
 
 		"minecart": {
-			"minecraft": 328,
+			"java": 328,
 			"pocket": 328,
 			"stack": 1
 		},
 
 		"saddle": {
-			"minecraft": 329,
+			"java": 329,
 			"pocket": 329,
 			"stack": 1
 		},
 
 		"iron_door": {
-			"minecraft": 330,
+			"java": 330,
 			"pocket": 330,
 			"stack": 64
 		},
 
 		"redstone_dust": {
-			"minecraft": 331,
+			"java": 331,
 			"pocket": 331,
 			"stack": 64
 		},
 
 		"snowball": {
-			"minecraft": 332,
+			"java": 332,
 			"pocket": 332,
 			"stack": 16
 		},
 
 		"oak_boat": {
-			"minecraft": 333,
+			"java": 333,
 			"pocket": 333,
 			"stack": 1
 		},
 
 		"leather": {
-			"minecraft": 334,
+			"java": 334,
 			"pocket": 334,
 			"stack": 64
 		},
 
 		"milk_bucket": {
-			"minecraft": 335,
+			"java": 335,
 			"pocket": {
 				"id": 325,
 				"meta": 1
@@ -4511,85 +4511,85 @@
 		},
 
 		"brick": {
-			"minecraft": 336,
+			"java": 336,
 			"pocket": 336,
 			"stack": 64
 		},
 
 		"clay": {
-			"minecraft": 337,
+			"java": 337,
 			"pocket": 337,
 			"stack": 64
 		},
 
 		"sugar_canes": {
-			"minecraft": 338,
+			"java": 338,
 			"pocket": 338,
 			"stack": 64
 		},
 
 		"paper": {
-			"minecraft": 339,
+			"java": 339,
 			"pocket": 339,
 			"stack": 64
 		},
 
 		"book": {
-			"minecraft": 340,
+			"java": 340,
 			"pocket": 340,
 			"stack": 64
 		},
 
 		"slimeball": {
-			"minecraft": 341,
+			"java": 341,
 			"pocket": 341,
 			"stack": 64
 		},
 
 		"minecart_with_chest": {
-			"minecraft": 342,
+			"java": 342,
 			"pocket": 342,
 			"stack": 1
 		},
 
 		"minecart_with_furnace": {
-			"minecraft": 343,
+			"java": 343,
 			"stack": 1
 		},
 
 		"egg": {
-			"minecraft": 344,
+			"java": 344,
 			"pocket": 344,
 			"stack": 16
 		},
 
 		"compass": {
-			"minecraft": 345,
+			"java": 345,
 			"pocket": 345,
 			"stack": 64
 		},
 
 		"fishing_rod": {
-			"minecraft": 346,
+			"java": 346,
 			"pocket": 346,
 			"stack": 1,
 			"durability": 65
 		},
 
 		"clock": {
-			"minecraft": 347,
+			"java": 347,
 			"pocket": 347,
 			"stack": 64
 		},
 
 		"glowstone_dust": {
-			"minecraft": 348,
+			"java": 348,
 			"pocket": 348,
 			"stack": 64
 		},
 
 		"raw_fish": {
-			"minecraft": {
+			"java": {
 				"id": 349,
 				"meta": 0
 			},
@@ -4598,7 +4598,7 @@
 		},
 
 		"raw_salmon": {
-			"minecraft": {
+			"java": {
 				"id": 349,
 				"meta": 1
 			},
@@ -4607,7 +4607,7 @@
 		},
 
 		"clownfish": {
-			"minecraft": {
+			"java": {
 				"id": 349,
 				"meta": 2
 			},
@@ -4616,7 +4616,7 @@
 		},
 
 		"pufferfish": {
-			"minecraft": {
+			"java": {
 				"id": 349,
 				"meta": 3
 			},
@@ -4625,7 +4625,7 @@
 		},
 
 		"cooked_fish": {
-			"minecraft": {
+			"java": {
 				"id": 350,
 				"meta": 0
 			},
@@ -4634,7 +4634,7 @@
 		},
 
 		"cooked_salmon": {
-			"minecraft": {
+			"java": {
 				"id": 350,
 				"meta": 1
 			},
@@ -4643,7 +4643,7 @@
 		},
 
 		"ink_sac": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 0
 			},
@@ -4655,7 +4655,7 @@
 		},
 
 		"rose_red": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 1
 			},
@@ -4667,7 +4667,7 @@
 		},
 
 		"cactus_green": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 2
 			},
@@ -4679,7 +4679,7 @@
 		},
 
 		"cocoa_beans": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 3
 			},
@@ -4691,7 +4691,7 @@
 		},
 
 		"lapis_lazuli": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 4
 			},
@@ -4703,7 +4703,7 @@
 		},
 
 		"purple_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 5
 			},
@@ -4715,7 +4715,7 @@
 		},
 
 		"cyan_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 6
 			},
@@ -4727,7 +4727,7 @@
 		},
 
 		"light_gray_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 7
 			},
@@ -4739,7 +4739,7 @@
 		},
 
 		"gray_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 8
 			},
@@ -4751,7 +4751,7 @@
 		},
 
 		"pink_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 9
 			},
@@ -4763,7 +4763,7 @@
 		},
 
 		"lime_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 10
 			},
@@ -4775,7 +4775,7 @@
 		},
 
 		"dandelion_yellow": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 11
 			},
@@ -4787,7 +4787,7 @@
 		},
 
 		"light_blue_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 12
 			},
@@ -4799,7 +4799,7 @@
 		},
 
 		"magenta_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 13
 			},
@@ -4811,7 +4811,7 @@
 		},
 
 		"orange_dye": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 14
 			},
@@ -4823,7 +4823,7 @@
 		},
 
 		"bone_meal": {
-			"minecraft": {
+			"java": {
 				"id": 351,
 				"meta": 15
 			},
@@ -4835,25 +4835,25 @@
 		},
 
 		"bone": {
-			"minecraft": 352,
+			"java": 352,
 			"pocket": 352,
 			"stack": 64
 		},
 
 		"sugar": {
-			"minecraft": 353,
+			"java": 353,
 			"pocket": 353,
 			"stack": 64
 		},
 
 		"cake": {
-			"minecraft": 354,
+			"java": 354,
 			"pocket": 354,
 			"stack": 1
 		},
 
 		"white_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 0
 			},
@@ -4865,7 +4865,7 @@
 		},
 
 		"orange_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 1
 			},
@@ -4877,7 +4877,7 @@
 		},
 
 		"magenta_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 2
 			},
@@ -4889,7 +4889,7 @@
 		},
 
 		"light_blue_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 3
 			},
@@ -4901,7 +4901,7 @@
 		},
 
 		"yellow_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 4
 			},
@@ -4913,7 +4913,7 @@
 		},
 
 		"lime_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 5
 			},
@@ -4925,7 +4925,7 @@
 		},
 
 		"pink_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 6
 			},
@@ -4937,7 +4937,7 @@
 		},
 
 		"gray_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 7
 			},
@@ -4949,7 +4949,7 @@
 		},
 
 		"light_gray_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 8
 			},
@@ -4961,7 +4961,7 @@
 		},
 
 		"cyan_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 9
 			},
@@ -4973,7 +4973,7 @@
 		},
 
 		"purple_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 10
 			},
@@ -4985,7 +4985,7 @@
 		},
 
 		"blue_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 11
 			},
@@ -4997,7 +4997,7 @@
 		},
 
 		"brown_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 12
 			},
@@ -5009,7 +5009,7 @@
 		},
 
 		"green_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 13
 			},
@@ -5021,7 +5021,7 @@
 		},
 
 		"red_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 14
 			},
@@ -5033,7 +5033,7 @@
 		},
 
 		"black_bed": {
-			"minecraft": {
+			"java": {
 				"id": 355,
 				"meta": 15
 			},
@@ -5045,115 +5045,115 @@
 		},
 
 		"redstone_repeater": {
-			"minecraft": 356,
+			"java": 356,
 			"pocket": 356,
 			"stack": 64
 		},
 
 		"cookie": {
-			"minecraft": 357,
+			"java": 357,
 			"pocket": 357,
 			"stack": 64
 		},
 
 		"map": {
-			"minecraft": 358,
+			"java": 358,
 			"pocket": 358,
 			"stack": 64
 		},
 
 		"shears": {
-			"minecraft": 359,
+			"java": 359,
 			"pocket": 359,
 			"stack": 1,
 			"durability": 238
 		},
 
 		"melon": {
-			"minecraft": 360,
+			"java": 360,
 			"pocket": 360,
 			"stack": 64
 		},
 
 		"pumpkin_seeds": {
-			"minecraft": 361,
+			"java": 361,
 			"pocket": 361,
 			"stack": 64
 		},
 
 		"melon_seeds": {
-			"minecraft": 362,
+			"java": 362,
 			"pocket": 362,
 			"stack": 64
 		},
 
 		"raw_beef": {
-			"minecraft": 363,
+			"java": 363,
 			"pocket": 363,
 			"stack": 64
 		},
 
 		"steak": {
-			"minecraft": 364,
+			"java": 364,
 			"pocket": 364,
 			"stack": 64
 		},
 
 		"raw_chicken": {
-			"minecraft": 365,
+			"java": 365,
 			"pocket": 365,
 			"stack": 64
 		},
 
 		"cooked_chicken": {
-			"minecraft": 366,
+			"java": 366,
 			"pocket": 366,
 			"stack": 64
 		},
 
 		"rotten_flesh": {
-			"minecraft": 367,
+			"java": 367,
 			"pocket": 367,
 			"stack": 64
 		},
 
 		"ender_pearl": {
-			"minecraft": 368,
+			"java": 368,
 			"pocket": 368,
 			"stack": 16
 		},
 
 		"blaze_rod": {
-			"minecraft": 369,
+			"java": 369,
 			"pocket": 369,
 			"stack": 64
 		},
 
 		"ghast_tear": {
-			"minecraft": 370,
+			"java": 370,
 			"pocket": 370,
 			"stack": 64
 		},
 
 		"gold_nugget": {
-			"minecraft": 371,
+			"java": 371,
 			"pocket": 371,
 			"stack": 64
 		},
 
 		"nether_wart": {
-			"minecraft": 372,
+			"java": 372,
 			"pocket": 372,
 			"stack": 64
 		},
 
 		"uncraftable_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"stack": 1
 		},
 
 		"water_bottle": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 0
@@ -5162,7 +5162,7 @@
 		},
 
 		"mundane_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 1
@@ -5179,7 +5179,7 @@
 		},
 
 		"thick_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 3
@@ -5188,7 +5188,7 @@
 		},
 
 		"awkward_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 4
@@ -5197,7 +5197,7 @@
 		},
 
 		"night_vision_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 5
@@ -5206,7 +5206,7 @@
 		},
 
 		"night_vision_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 6
@@ -5215,7 +5215,7 @@
 		},
 
 		"invisibility_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 7
@@ -5224,7 +5224,7 @@
 		},
 
 		"invisibility_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 8
@@ -5233,7 +5233,7 @@
 		},
 
 		"leaping_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 9
@@ -5242,7 +5242,7 @@
 		},
 
 		"leaping_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 10
@@ -5251,7 +5251,7 @@
 		},
 
 		"leaping_potion_plus": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 11
@@ -5260,7 +5260,7 @@
 		},
 
 		"fire_resistance_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 12
@@ -5269,7 +5269,7 @@
 		},
 
 		"fire_resistance_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 13
@@ -5278,7 +5278,7 @@
 		},
 
 		"swiftness_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 14
@@ -5287,7 +5287,7 @@
 		},
 
 		"swiftness_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 15
@@ -5296,7 +5296,7 @@
 		},
 
 		"swiftness_potion_plus": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 16
@@ -5305,7 +5305,7 @@
 		},
 
 		"slowness_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 17
@@ -5314,7 +5314,7 @@
 		},
 
 		"slowness_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 18
@@ -5323,7 +5323,7 @@
 		},
 
 		"water_breathing_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 19
@@ -5332,7 +5332,7 @@
 		},
 
 		"water_breathing_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 20
@@ -5341,7 +5341,7 @@
 		},
 
 		"healing_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 21
@@ -5350,7 +5350,7 @@
 		},
 
 		"healing_potion_plus": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 22
@@ -5359,7 +5359,7 @@
 		},
 
 		"harming_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 23
@@ -5368,7 +5368,7 @@
 		},
 
 		"harming_potion_plus": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 24
@@ -5377,7 +5377,7 @@
 		},
 
 		"poison_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 25
@@ -5386,7 +5386,7 @@
 		},
 
 		"poison_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 26
@@ -5395,7 +5395,7 @@
 		},
 
 		"poison_potion_plus": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 27
@@ -5404,7 +5404,7 @@
 		},
 
 		"regeneration_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 28
@@ -5413,7 +5413,7 @@
 		},
 
 		"regeneration_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 29
@@ -5422,7 +5422,7 @@
 		},
 
 		"regeneration_potion_plus": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 30
@@ -5431,7 +5431,7 @@
 		},
 
 		"strength_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 31
@@ -5440,7 +5440,7 @@
 		},
 
 		"strength_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 32
@@ -5449,7 +5449,7 @@
 		},
 
 		"strength_potion_plus": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 33
@@ -5458,7 +5458,7 @@
 		},
 
 		"weakness_potion": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 34
@@ -5467,7 +5467,7 @@
 		},
 
 		"weakness_potion_extended": {
-			"minecraft": 373,
+			"java": 373,
 			"pocket": {
 				"id": 373,
 				"meta": 35
@@ -5484,61 +5484,61 @@
 		},
 
 		"glass_bottle": {
-			"minecraft": 374,
+			"java": 374,
 			"pocket": 374,
 			"stack": 64
 		},
 
 		"spider_eye": {
-			"minecraft": 375,
+			"java": 375,
 			"pocket": 375,
 			"stack": 64
 		},
 
 		"fermented_spider_eye": {
-			"minecraft": 376,
+			"java": 376,
 			"pocket": 376,
 			"stack": 64
 		},
 
 		"blaze_powder": {
-			"minecraft": 377,
+			"java": 377,
 			"pocket": 377,
 			"stack": 64
 		},
 
 		"magma_cream": {
-			"minecraft": 378,
+			"java": 378,
 			"pocket": 378,
 			"stack": 64
 		},
 
 		"brewing_stand": {
-			"minecraft": 379,
+			"java": 379,
 			"pocket": 379,
 			"stack": 64
 		},
 
 		"cauldron": {
-			"minecraft": 380,
+			"java": 380,
 			"pocket": 380,
 			"stack": 64
 		},
 
 		"eye_of_ender": {
-			"minecraft": 381,
+			"java": 381,
 			"pocket": 381,
 			"stack": 16
 		},
 
 		"glistering_melon": {
-			"minecraft": 382,
+			"java": 382,
 			"pocket": 382,
 			"stack": 64
 		},
 
 		"spawn_elder_guardian": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 50
@@ -5547,7 +5547,7 @@
 		},
 
 		"spawn_wither_skeleton": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 48
@@ -5556,7 +5556,7 @@
 		},
 
 		"spawn_stray": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 46
@@ -5565,7 +5565,7 @@
 		},
 
 		"spawn_husk": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 47
@@ -5574,7 +5574,7 @@
 		},
 
 		"spawn_zombie_villager": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 44
@@ -5583,7 +5583,7 @@
 		},
 
 		"spawn_skeleton_horse": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 26
@@ -5592,7 +5592,7 @@
 		},
 
 		"spawn_zombie_horse": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 27
@@ -5601,7 +5601,7 @@
 		},
 
 		"spawn_donkey": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 24
@@ -5610,7 +5610,7 @@
 		},
 
 		"spawn_mule": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 25
@@ -5619,7 +5619,7 @@
 		},
 
 		"spawn_evoker": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 104
@@ -5628,7 +5628,7 @@
 		},
 
 		"spawn_vex": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 105
@@ -5637,7 +5637,7 @@
 		},
 
 		"spawn_vindicator": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 56
@@ -5646,7 +5646,7 @@
 		},
 
 		"spawn_creeper": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 33
@@ -5655,7 +5655,7 @@
 		},
 
 		"spawn_skeleton": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 34
@@ -5664,7 +5664,7 @@
 		},
 
 		"spawn_spider": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 35
@@ -5673,7 +5673,7 @@
 		},
 
 		"spawn_zombie": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 32
@@ -5682,7 +5682,7 @@
 		},
 
 		"spawn_slime": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 37
@@ -5691,7 +5691,7 @@
 		},
 
 		"spawn_ghast": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 41
@@ -5700,7 +5700,7 @@
 		},
 
 		"spawn_zombie_pigman": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 36
@@ -5709,7 +5709,7 @@
 		},
 
 		"spawn_enderman": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 38
@@ -5718,7 +5718,7 @@
 		},
 
 		"spawn_cave_spider": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 40
@@ -5727,7 +5727,7 @@
 		},
 
 		"spawn_silverfish": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 39
@@ -5736,7 +5736,7 @@
 		},
 
 		"spawn_blaze": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 43
@@ -5745,7 +5745,7 @@
 		},
 
 		"spawn_magma_cube": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 42
@@ -5754,7 +5754,7 @@
 		},
 
 		"spawn_bat": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 19
@@ -5763,7 +5763,7 @@
 		},
 
 		"spawn_witch": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 45
@@ -5772,7 +5772,7 @@
 		},
 
 		"spawn_endermite": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 55
@@ -5781,7 +5781,7 @@
 		},
 
 		"spawn_guardian": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 49
@@ -5790,7 +5790,7 @@
 		},
 
 		"spawn_shulker": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 54
@@ -5799,7 +5799,7 @@
 		},
 
 		"spawn_pig": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 12
@@ -5808,7 +5808,7 @@
 		},
 
 		"spawn_sheep": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 13
@@ -5817,7 +5817,7 @@
 		},
 
 		"spawn_cow": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 11
@@ -5826,7 +5826,7 @@
 		},
 
 		"spawn_chicken": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 10
@@ -5835,7 +5835,7 @@
 		},
 
 		"spawn_squid": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 17
@@ -5844,7 +5844,7 @@
 		},
 
 		"spawn_wolf": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 14
@@ -5853,7 +5853,7 @@
 		},
 
 		"spawn_mooshroom": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 16
@@ -5862,7 +5862,7 @@
 		},
 
 		"spawn_ocelot": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 22
@@ -5871,7 +5871,7 @@
 		},
 
 		"spawn_horse": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 23
@@ -5880,7 +5880,7 @@
 		},
 
 		"spawn_rabbit": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 18
@@ -5889,7 +5889,7 @@
 		},
 
 		"spawn_polar_bear": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 28
@@ -5898,7 +5898,7 @@
 		},
 
 		"spawn_llama": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 29
@@ -5907,12 +5907,12 @@
 		},
 
 		"spawn_parrot": {
-			"minecraft": 383,
+			"java": 383,
 			"stack": 64
 		},
 
 		"spawn_villager": {
-			"minecraft": 383,
+			"java": 383,
 			"pocket": {
 				"id": 383,
 				"meta": 15
@@ -5929,73 +5929,73 @@
 		},
 
 		"bottle_o_enchanting": {
-			"minecraft": 384,
+			"java": 384,
 			"pocket": 384,
 			"stack": 64
 		},
 
 		"fire_charge": {
-			"minecraft": 385,
+			"java": 385,
 			"pocket": 385,
 			"stack": 64
 		},
 
 		"book_and_quill": {
-			"minecraft": 386,
+			"java": 386,
 			"pocket": 386,
 			"stack": 1
 		},
 
 		"written_book": {
-			"minecraft": 387,
+			"java": 387,
 			"pocket": 387,
 			"stack": 1
 		},
 
 		"emerald": {
-			"minecraft": 388,
+			"java": 388,
 			"pocket": 388,
 			"stack": 64
 		},
 
 		"item_frame": {
-			"minecraft": 389,
+			"java": 389,
 			"pocket": 389,
 			"stack": 64
 		},
 
 		"flower_pot": {
-			"minecraft": 390,
+			"java": 390,
 			"pocket": 390,
 			"stack": 64
 		},
 
 		"carrot": {
-			"minecraft": 391,
+			"java": 391,
 			"pocket": 391,
 			"stack": 64
 		},
 
 		"potato": {
-			"minecraft": 392,
+			"java": 392,
 			"pocket": 392,
 			"stack": 64
 		},
 
 		"baked_potato": {
-			"minecraft": 393,
+			"java": 393,
 			"pocket": 393,
 			"stack": 64
 		},
 
 		"poisonous_potato": {
-			"minecraft": 394,
+			"java": 394,
 			"pocket": 394,
 			"stack": 64
 		},
 
 		"empty_map": {
-			"minecraft": 395,
+			"java": 395,
 			"pocket": 395,
 			"stack": 64
 		},
@@ -6009,13 +6009,13 @@
 		},
 
 		"golden_carrot": {
-			"minecraft": 396,
+			"java": 396,
 			"pocket": 396,
 			"stack": 64
 		},
 
 		"skeleton_skull": {
-			"minecraft": {
+			"java": {
 				"id": 397,
 				"meta": 0
 			},
@@ -6027,7 +6027,7 @@
 		},
 
 		"wither_skeleton_skull": {
-			"minecraft": {
+			"java": {
 				"id": 397,
 				"meta": 1
 			},
@@ -6039,7 +6039,7 @@
 		},
 
 		"zombie_head": {
-			"minecraft": {
+			"java": {
 				"id": 397,
 				"meta": 2
 			},
@@ -6051,7 +6051,7 @@
 		},
 
 		"human_head": {
-			"minecraft": {
+			"java": {
 				"id": 397,
 				"meta": 3
 			},
@@ -6063,7 +6063,7 @@
 		},
 
 		"creeper_head": {
-			"minecraft": {
+			"java": {
 				"id": 397,
 				"meta": 4
 			},
@@ -6075,7 +6075,7 @@
 		},
 
 		"dragon_head": {
-			"minecraft": {
+			"java": {
 				"id": 397,
 				"meta": 5
 			},
@@ -6087,116 +6087,116 @@
 		},
 
 		"carrot_on_a_stick": {
-			"minecraft": 398,
+			"java": 398,
 			"pocket": 398,
 			"stack": 1,
 			"durability": 26
 		},
 
 		"nether_star": {
-			"minecraft": 399,
+			"java": 399,
 			"pocket": 399,
 			"stack": 64
 		},
 
 		"pumpkin_pie": {
-			"minecraft": 400,
+			"java": 400,
 			"pocket": 400,
 			"stack": 64
 		},
 
 		"firework_rocket": {
-			"minecraft": 401,
+			"java": 401,
 			"pocket": 401,
 			"stack": 64
 		},
 
 		"firework_star": {
-			"minecraft": 402,
+			"java": 402,
 			"pocket": 402,
 			"stack": 64
 		},
 
 		"enchanted_book": {
-			"minecraft": 403,
+			"java": 403,
 			"pocket": 403,
 			"stack": 1
 		},
 
 		"redstone_comparator": {
-			"minecraft": 404,
+			"java": 404,
 			"pocket": 404,
 			"stack": 64
 		},
 
 		"nether_brick": {
-			"minecraft": 405,
+			"java": 405,
 			"pocket": 405,
 			"stack": 64
 		},
 
 		"nether_quartz": {
-			"minecraft": 406,
+			"java": 406,
 			"pocket": 406,
 			"stack": 64
 		},
 
 		"minecart_with_tnt": {
-			"minecraft": 407,
+			"java": 407,
 			"pocket": 407,
 			"stack": 1
 		},
 
 		"minecart_with_hopper": {
-			"minecraft": 408,
+			"java": 408,
 			"pocket": 408,
 			"stack": 1
 		},
 
 		"prismarine_shard": {
-			"minecraft": 409,
+			"java": 409,
 			"pocket": 409,
 			"stack": 64
 		},
 
 		"prismarine_crystals": {
-			"minecraft": 410,
+			"java": 410,
 			"pocket": 422,
 			"stack": 64
 		},
 
 		"raw_rabbit": {
-			"minecraft": 411,
+			"java": 411,
 			"pocket": 411,
 			"stack": 64
 		},
 
 		"cooked_rabbit": {
-			"minecraft": 412,
+			"java": 412,
 			"pocket": 412,
 			"stack": 64
 		},
 
 		"rabbit_stew": {
-			"minecraft": 413,
+			"java": 413,
 			"pocket": 413,
 			"stack": 1
 		},
 
 		"rabbit_foot": {
-			"minecraft": 414,
+			"java": 414,
 			"pocket": 414,
 			"stack": 64
 		},
 
 		"rabbit_hide": {
-			"minecraft": 415,
+			"java": 415,
 			"pocket": 415,
 			"stack": 64
 		},
 
 		"armor_stand": {
-			"minecraft": 416,
+			"java": 416,
 			"pocket": 425,
 			"stack": 16
 		},
@@ -6207,138 +6207,138 @@
 		},
 
 		"iron_horse_armor": {
-			"minecraft": 417,
+			"java": 417,
 			"pocket": 417,
 			"stack": 1
 		},
 
 		"golden_horse_armor": {
-			"minecraft": 418,
+			"java": 418,
 			"pocket": 418,
 			"stack": 1
 		},
 
 		"diamond_horse_armor": {
-			"minecraft": 419,
+			"java": 419,
 			"pocket": 419,
 			"stack": 1
 		},
 
 		"lead": {
-			"minecraft": 420,
+			"java": 420,
 			"pocket": 420,
 			"stack": 64
 		},
 
 		"name_tag": {
-			"minecraft": 421,
+			"java": 421,
 			"pocket": 421,
 			"stack": 64
 		},
 
 		"minecart_with_command_block": {
-			"minecraft": 422,
+			"java": 422,
 			"pocket": 443,
 			"stack": 1
 		},
 
 		"raw_mutton": {
-			"minecraft": 423,
+			"java": 423,
 			"pocket": 423,
 			"stack": 64
 		},
 
 		"cooked_mutton": {
-			"minecraft": 424,
+			"java": 424,
 			"pocket": 424,
 			"stack": 64
 		},
 
 		"banner": {
-			"minecraft": 425,
+			"java": 425,
 			"pocket": 446,
 			"stack": 64
 		},
 
 		"end_crystal": {
-			"minecraft": 426,
+			"java": 426,
 			"pocket": 426,
 			"stack": 64
 		},
 
 		"spruce_door": {
-			"minecraft": 427,
+			"java": 427,
 			"pocket": 427,
 			"stack": 64
 		},
 
 		"birch_door": {
-			"minecraft": 428,
+			"java": 428,
 			"pocket": 428,
 			"stack": 64
 		},
 
 		"jungle_door": {
-			"minecraft": 429,
+			"java": 429,
 			"pocket": 429,
 			"stack": 64
 		},
 
 		"acacia_door": {
-			"minecraft": 430,
+			"java": 430,
 			"pocket": 430,
 			"stack": 64
 		},
 
 		"dark_oak_door": {
-			"minecraft": 431,
+			"java": 431,
 			"pocket": 431,
 			"stack": 64
 		},
 
 		"chorus_fruit": {
-			"minecraft": 432,
+			"java": 432,
 			"pocket": 432,
 			"stack": 64
 		},
 
 		"popped_chorus_fruit": {
-			"minecraft": 433,
+			"java": 433,
 			"pocket": 433,
 			"stack": 64
 		},
 
 		"beetroot": {
-			"minecraft": 434,
+			"java": 434,
 			"pocket": 457,
 			"stack": 64
 		},
 
 		"beetroot_seeds": {
-			"minecraft": 435,
+			"java": 435,
 			"pocket": 458,
 			"stack": 64
 		},
 
 		"beetroot_soup": {
-			"minecraft": 436,
+			"java": 436,
 			"pocket": 459,
 			"stack": 1
 		},
 
 		"dragons_breath": {
-			"minecraft": 437,
+			"java": 437,
 			"pocket": 437,
 			"stack": 64
 		},
 
 		"uncraftable_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"stack": 1
 		},
 
 		"splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 0
@@ -6347,7 +6347,7 @@
 		},
 
 		"mundane_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 1
@@ -6364,7 +6364,7 @@
 		},
 
 		"thick_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 3
@@ -6373,7 +6373,7 @@
 		},
 
 		"awkward_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 4
@@ -6382,7 +6382,7 @@
 		},
 
 		"night_vision_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 5
@@ -6391,7 +6391,7 @@
 		},
 
 		"night_vision_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 6
@@ -6400,7 +6400,7 @@
 		},
 
 		"invisibility_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 7
@@ -6409,7 +6409,7 @@
 		},
 
 		"invisibility_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 8
@@ -6418,7 +6418,7 @@
 		},
 
 		"leaping_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 9
@@ -6427,7 +6427,7 @@
 		},
 
 		"leaping_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 10
@@ -6436,7 +6436,7 @@
 		},
 
 		"leaping_splash_potion_plus": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 11
@@ -6445,7 +6445,7 @@
 		},
 
 		"fire_resistance_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 12
@@ -6454,7 +6454,7 @@
 		},
 
 		"fire_resistance_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 13
@@ -6463,7 +6463,7 @@
 		},
 
 		"swiftness_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 14
@@ -6472,7 +6472,7 @@
 		},
 
 		"swiftness_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 15
@@ -6481,7 +6481,7 @@
 		},
 
 		"swiftness_splash_potion_plus": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 16
@@ -6490,7 +6490,7 @@
 		},
 
 		"slowness_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 17
@@ -6499,7 +6499,7 @@
 		},
 
 		"slowness_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 18
@@ -6508,7 +6508,7 @@
 		},
 
 		"water_breathing_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 19
@@ -6517,7 +6517,7 @@
 		},
 
 		"water_breathing_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 20
@@ -6526,7 +6526,7 @@
 		},
 
 		"healing_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 21
@@ -6535,7 +6535,7 @@
 		},
 
 		"healing_splash_potion_plus": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 22
@@ -6544,7 +6544,7 @@
 		},
 
 		"harming_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 23
@@ -6553,7 +6553,7 @@
 		},
 
 		"harming_splash_potion_plus": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 24
@@ -6562,7 +6562,7 @@
 		},
 
 		"poison_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 25
@@ -6571,7 +6571,7 @@
 		},
 
 		"poison_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 26
@@ -6580,7 +6580,7 @@
 		},
 
 		"poison_splash_potion_plus": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 27
@@ -6589,7 +6589,7 @@
 		},
 
 		"regeneration_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 28
@@ -6598,7 +6598,7 @@
 		},
 
 		"regeneration_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 29
@@ -6607,7 +6607,7 @@
 		},
 
 		"regeneration_splash_potion_plus": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 30
@@ -6616,7 +6616,7 @@
 		},
 
 		"strength_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 31
@@ -6625,7 +6625,7 @@
 		},
 
 		"strength_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 32
@@ -6634,7 +6634,7 @@
 		},
 
 		"strength_splash_potion_plus": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 33
@@ -6643,7 +6643,7 @@
 		},
 
 		"weakness_splash_potion": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 34
@@ -6652,7 +6652,7 @@
 		},
 
 		"weakness_splash_potion_extended": {
-			"minecraft": 438,
+			"java": 438,
 			"pocket": {
 				"id": 438,
 				"meta": 35
@@ -6669,17 +6669,17 @@
 		},
 
 		"spectral_arrow": {
-			"minecraft": 439,
+			"java": 439,
 			"stack": 64
 		},
 
 		"uncraftable_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"stack": 64
 		},
 
 		"tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 0
@@ -6688,7 +6688,7 @@
 		},
 
 		"mundane_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 1
@@ -6705,7 +6705,7 @@
 		},
 
 		"thick_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 3
@@ -6714,7 +6714,7 @@
 		},
 
 		"awkward_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 4
@@ -6723,7 +6723,7 @@
 		},
 
 		"night_vision_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 5
@@ -6732,7 +6732,7 @@
 		},
 
 		"night_vision_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 6
@@ -6741,7 +6741,7 @@
 		},
 
 		"invisibility_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 7
@@ -6750,7 +6750,7 @@
 		},
 
 		"invisibility_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 8
@@ -6759,7 +6759,7 @@
 		},
 
 		"leaping_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 9
@@ -6768,7 +6768,7 @@
 		},
 
 		"leaping_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 10
@@ -6777,7 +6777,7 @@
 		},
 
 		"leaping_tipped_arrow_plus": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 11
@@ -6786,7 +6786,7 @@
 		},
 
 		"fire_resistance_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 12
@@ -6795,7 +6795,7 @@
 		},
 
 		"fire_resistance_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 13
@@ -6804,7 +6804,7 @@
 		},
 
 		"swiftness_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 14
@@ -6813,7 +6813,7 @@
 		},
 
 		"swiftness_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 15
@@ -6822,7 +6822,7 @@
 		},
 
 		"swiftness_tipped_arrow_plus": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 16
@@ -6831,7 +6831,7 @@
 		},
 
 		"slowness_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 17
@@ -6840,7 +6840,7 @@
 		},
 
 		"slowness_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 18
@@ -6849,7 +6849,7 @@
 		},
 
 		"water_breathing_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 19
@@ -6858,7 +6858,7 @@
 		},
 
 		"water_breathing_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 20
@@ -6867,7 +6867,7 @@
 		},
 
 		"healing_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 21
@@ -6876,7 +6876,7 @@
 		},
 
 		"healing_tipped_arrow_plus": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 22
@@ -6885,7 +6885,7 @@
 		},
 
 		"harming_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 23
@@ -6894,7 +6894,7 @@
 		},
 
 		"harming_tipped_arrow_plus": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 24
@@ -6903,7 +6903,7 @@
 		},
 
 		"poison_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 25
@@ -6912,7 +6912,7 @@
 		},
 
 		"poison_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 26
@@ -6921,7 +6921,7 @@
 		},
 
 		"poison_tipped_arrow_plus": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 27
@@ -6930,7 +6930,7 @@
 		},
 
 		"regeneration_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 28
@@ -6939,7 +6939,7 @@
 		},
 
 		"regeneration_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 29
@@ -6948,7 +6948,7 @@
 		},
 
 		"regeneration_tipped_arrow_plus": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 30
@@ -6957,7 +6957,7 @@
 		},
 
 		"strength_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 31
@@ -6966,7 +6966,7 @@
 		},
 
 		"strength_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 32
@@ -6975,7 +6975,7 @@
 		},
 
 		"strength_tipped_arrow_plus": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 33
@@ -6984,7 +6984,7 @@
 		},
 
 		"weakness_tipped_arrow": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 34
@@ -6993,7 +6993,7 @@
 		},
 
 		"weakness_tipped_arrow_extended": {
-			"minecraft": 440,
+			"java": 440,
 			"pocket": {
 				"id": 440,
 				"meta": 35
@@ -7010,12 +7010,12 @@
 		},
 
 		"uncraftable_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"stack": 1
 		},
 
 		"lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 0
@@ -7024,7 +7024,7 @@
 		},
 
 		"mundane_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 1
@@ -7041,7 +7041,7 @@
 		},
 
 		"thick_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 3
@@ -7050,7 +7050,7 @@
 		},
 
 		"awkward_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 4
@@ -7059,7 +7059,7 @@
 		},
 
 		"night_vision_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 5
@@ -7068,7 +7068,7 @@
 		},
 
 		"night_vision_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 6
@@ -7077,7 +7077,7 @@
 		},
 
 		"invisibility_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 7
@@ -7086,7 +7086,7 @@
 		},
 
 		"invisibility_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 8
@@ -7095,7 +7095,7 @@
 		},
 
 		"leaping_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 9
@@ -7104,7 +7104,7 @@
 		},
 
 		"leaping_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 10
@@ -7113,7 +7113,7 @@
 		},
 
 		"leaping_lingering_potion_plus": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 11
@@ -7122,7 +7122,7 @@
 		},
 
 		"fire_resistance_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 12
@@ -7131,7 +7131,7 @@
 		},
 
 		"fire_resistance_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 13
@@ -7140,7 +7140,7 @@
 		},
 
 		"swiftness_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 14
@@ -7149,7 +7149,7 @@
 		},
 
 		"swiftness_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 15
@@ -7158,7 +7158,7 @@
 		},
 
 		"swiftness_lingering_potion_plus": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 16
@@ -7167,7 +7167,7 @@
 		},
 
 		"slowness_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 17
@@ -7176,7 +7176,7 @@
 		},
 
 		"slowness_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 18
@@ -7185,7 +7185,7 @@
 		},
 
 		"water_breathing_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 19
@@ -7194,7 +7194,7 @@
 		},
 
 		"water_breathing_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 20
@@ -7203,7 +7203,7 @@
 		},
 
 		"healing_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 21
@@ -7212,7 +7212,7 @@
 		},
 
 		"healing_lingering_potion_plus": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 22
@@ -7221,7 +7221,7 @@
 		},
 
 		"harming_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 23
@@ -7230,7 +7230,7 @@
 		},
 
 		"harming_lingering_potion_plus": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 24
@@ -7239,7 +7239,7 @@
 		},
 
 		"poison_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 25
@@ -7248,7 +7248,7 @@
 		},
 
 		"poison_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 26
@@ -7257,7 +7257,7 @@
 		},
 
 		"poison_lingering_potion_plus": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 27
@@ -7266,7 +7266,7 @@
 		},
 
 		"regeneration_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 28
@@ -7275,7 +7275,7 @@
 		},
 
 		"regeneration_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 29
@@ -7284,7 +7284,7 @@
 		},
 
 		"regeneration_lingering_potion_plus": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 30
@@ -7293,7 +7293,7 @@
 		},
 
 		"strength_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 31
@@ -7302,7 +7302,7 @@
 		},
 
 		"strength_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 32
@@ -7311,7 +7311,7 @@
 		},
 
 		"strength_lingering_potion_plus": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 33
@@ -7320,7 +7320,7 @@
 		},
 
 		"weakness_lingering_potion": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 34
@@ -7329,7 +7329,7 @@
 		},
 
 		"weakness_lingering_potion_extended": {
-			"minecraft": 441,
+			"java": 441,
 			"pocket": {
 				"id": 441,
 				"meta": 35
@@ -7346,20 +7346,20 @@
 		},
 
 		"shield": {
-			"minecraft": 442,
+			"java": 442,
 			"stack": 1,
 			"durability": 337
 		},
 
 		"elytra": {
-			"minecraft": 443,
+			"java": 443,
 			"pocket": 444,
 			"stack": 64,
 			"durability": 432
 		},
 
 		"spruce_boat": {
-			"minecraft": 444,
+			"java": 444,
 			"pocket": {
 				"id": 333,
 				"meta": 1
@@ -7368,7 +7368,7 @@
 		},
 
 		"birch_boat": {
-			"minecraft": 445,
+			"java": 445,
 			"pocket": {
 				"id": 333,
 				"meta": 2
@@ -7377,7 +7377,7 @@
 		},
 
 		"jungle_boat": {
-			"minecraft": 446,
+			"java": 446,
 			"pocket": {
 				"id": 333,
 				"meta": 3
@@ -7386,7 +7386,7 @@
 		},
 
 		"acacia_boat": {
-			"minecraft": 447,
+			"java": 447,
 			"pocket": {
 				"id": 333,
 				"meta": 4
@@ -7395,7 +7395,7 @@
 		},
 
 		"dark_oak_boat": {
-			"minecraft": 448,
+			"java": 448,
 			"pocket": {
 				"id": 333,
 				"meta": 5
@@ -7404,96 +7404,96 @@
 		},
 
 		"undying_totem": {
-			"minecraft": 449,
+			"java": 449,
 			"pocket": 450,
 			"stack": 1
 		},
 
 		"shulker_shell": {
-			"minecraft": 450,
+			"java": 450,
 			"pocket": 445,
 			"stack": 64
 		},
 
 		"iron_nugget": {
-			"minecraft": 452,
+			"java": 452,
 			"pocket": 452,
 			"stack": 64
 		},
 
 		"knowledge_book": {
-			"minecraft": 453,
+			"java": 453,
 			"stack": 1
 		},
 
 		"disc_13": {
-			"minecraft": 2256,
+			"java": 2256,
 			"pocket": 500,
 			"stack": 1
 		},
 
 		"disc_cat": {
-			"minecraft": 2257,
+			"java": 2257,
 			"pocket": 501,
 			"stack": 1
 		},
 
 		"disc_blocks": {
-			"minecraft": 2258,
+			"java": 2258,
 			"pocket": 502,
 			"stack": 1
 		},
 
 		"disc_chirp": {
-			"minecraft": 2259,
+			"java": 2259,
 			"pocket": 503,
 			"stack": 1
 		},
 
 		"disc_far": {
-			"minecraft": 2260,
+			"java": 2260,
 			"pocket": 504,
 			"stack": 1
 		},
 
 		"disc_mall": {
-			"minecraft": 2261,
+			"java": 2261,
 			"pocket": 505,
 			"stack": 1
 		},
 
 		"disc_mellohi": {
-			"minecraft": 2262,
+			"java": 2262,
 			"pocket": 506,
 			"stack": 1
 		},
 
 		"disc_stal": {
-			"minecraft": 2263,
+			"java": 2263,
 			"pocket": 507,
 			"stack": 1
 		},
 
 		"disc_strad": {
-			"minecraft": 2264,
+			"java": 2264,
 			"pocket": 508,
 			"stack": 1
 		},
 
 		"disc_ward": {
-			"minecraft": 2265,
+			"java": 2265,
 			"pocket": 509,
 			"stack": 1
 		},
 
 		"disc_11": {
-			"minecraft": 2266,
+			"java": 2266,
 			"pocket": 510,
 			"stack": 1
 		},
 
 		"disc_wait": {
-			"minecraft": 2267,
+			"java": 2267,
 			"pocket": 511,
 			"stack": 1
 		}
