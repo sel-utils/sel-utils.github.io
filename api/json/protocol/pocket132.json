@@ -371,6 +371,17 @@
 				}
 			],
 
+			"enum": [
+				{
+					"name": "name",
+					"type": "string"
+				},
+				{
+					"name": "values_indexes",
+					"type": "ushort[]"
+				}
+			],
+
 			"command": [
 				{
 					"name": "name",
@@ -389,7 +400,7 @@
 					"type": "ubyte"
 				},
 				{
-					"name": "aliases_id",
+					"name": "aliases_enum",
 					"type": "int",
 					"default": -1
 				},
@@ -413,7 +424,22 @@
 				},
 				{
 					"name": "type",
-					"type": "uint"
+					"type": "uint",
+					"constants": {
+						"valid": 1048576,
+						"int": 1,
+						"float": 2,
+						"mixed": 3,
+						"target": 4,
+						"string": 12,
+						"position": 13,
+						"rawtext": 16,
+						"text": 18,
+						"json": 21,
+						"command": 28,
+						"enum": 2097152,
+						"template": 16777216
+					}
 				},
 				{
 					"name": "optional",
@@ -2689,7 +2715,11 @@
 					},
 					{
 						"name": "?",
-						"type": "varuint"
+						"type": "string[]"
+					},
+					{
+						"name": "enums",
+						"type": "enum[]"
 					},
 					{
 						"name": "commands",

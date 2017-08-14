@@ -821,15 +821,51 @@ const Types = {
 
 	},
 
+	Enum: class extends Buffer {
+
+		constructor(name="", valuesIndexes=[]) {
+			super();
+			this.name = name;
+			this.valuesIndexes = valuesIndexes;
+		}
+
+		/** @return {Uint8Array} */
+		encode() {
+			this._buffer = [];
+			var dhc5y1=this.encodeString(this.name); this.writeVaruint(dhc5y1.length); this.writeBytes(dhc5y1);
+			this.writeVaruint(this.valuesIndexes.length); for(var dhc5yxzn in this.valuesIndexes){ this.writeLittleEndianShort(this.valuesIndexes[dhc5yxzn]); }
+			return new Uint8Array(this._buffer);
+		}
+
+		/** @param {(Uint8Array|Array)} buffer */
+		decode(_buffer) {
+			this._buffer = Array.from(_buffer);
+			this.name=this.decodeString(this.readBytes(this.readVaruint()));
+			var aramdfdv=this.readVaruint(); this.valuesIndexes=[]; for(var dhc5yxzn=0;dhc5yxzn<aramdfdv;dhc5yxzn++){ this.valuesIndexes[dhc5yxzn]=this.readLittleEndianShort(); }
+			return this;
+		}
+
+		/** @param {(Uint8Array|Array)} buffer */
+		static fromBuffer(buffer) {
+			return new Types.Enum().decode(buffer);
+		}
+
+		/** @return {string} */
+		toString() {
+			return "Enum(name: " + this.name + ", valuesIndexes: " + this.valuesIndexes + ")";
+		}
+
+	},
+
 	Command: class extends Buffer {
 
-		constructor(name="", description="", unknown2=0, permissionLevel=0, aliasesId=-1, overloads=[]) {
+		constructor(name="", description="", unknown2=0, permissionLevel=0, aliasesEnum=-1, overloads=[]) {
 			super();
 			this.name = name;
 			this.description = description;
 			this.unknown2 = unknown2;
 			this.permissionLevel = permissionLevel;
-			this.aliasesId = aliasesId;
+			this.aliasesEnum = aliasesEnum;
 			this.overloads = overloads;
 		}
 
@@ -840,7 +876,7 @@ const Types = {
 			var dhc5zncl=this.encodeString(this.description); this.writeVaruint(dhc5zncl.length); this.writeBytes(dhc5zncl);
 			this.writeLittleEndianByte(this.unknown2);
 			this.writeLittleEndianByte(this.permissionLevel);
-			this.writeLittleEndianInt(this.aliasesId);
+			this.writeLittleEndianInt(this.aliasesEnum);
 			this.writeVaruint(this.overloads.length); for(var dhc5dvb9 in this.overloads){ this.writeBytes(this.overloads[dhc5dvb9].encode()); }
 			return new Uint8Array(this._buffer);
 		}
@@ -852,7 +888,7 @@ const Types = {
 			this.description=this.decodeString(this.readBytes(this.readVaruint()));
 			this.unknown2=this.readLittleEndianByte();
 			this.permissionLevel=this.readLittleEndianByte();
-			this.aliasesId=this.readLittleEndianInt();
+			this.aliasesEnum=this.readLittleEndianInt();
 			var arambzcx=this.readVaruint(); this.overloads=[]; for(var dhc5dvb9=0;dhc5dvb9<arambzcx;dhc5dvb9++){ this.overloads[dhc5dvb9]=Types.Overload.fromBuffer(this._buffer); this._buffer=this.overloads[dhc5dvb9]._buffer; }
 			return this;
 		}
@@ -864,7 +900,7 @@ const Types = {
 
 		/** @return {string} */
 		toString() {
-			return "Command(name: " + this.name + ", description: " + this.description + ", unknown2: " + this.unknown2 + ", permissionLevel: " + this.permissionLevel + ", aliasesId: " + this.aliasesId + ", overloads: " + this.overloads + ")";
+			return "Command(name: " + this.name + ", description: " + this.description + ", unknown2: " + this.unknown2 + ", permissionLevel: " + this.permissionLevel + ", aliasesEnum: " + this.aliasesEnum + ", overloads: " + this.overloads + ")";
 		}
 
 	},
@@ -903,6 +939,21 @@ const Types = {
 	},
 
 	Parameter: class extends Buffer {
+
+		// type
+		static get VALID(){ return 1048576; }
+		static get INT(){ return 1; }
+		static get FLOAT(){ return 2; }
+		static get MIXED(){ return 3; }
+		static get TARGET(){ return 4; }
+		static get STRING(){ return 12; }
+		static get POSITION(){ return 13; }
+		static get RAWTEXT(){ return 16; }
+		static get TEXT(){ return 18; }
+		static get JSON(){ return 21; }
+		static get COMMAND(){ return 28; }
+		static get ENUM(){ return 2097152; }
+		static get TEMPLATE(){ return 16777216; }
 
 		constructor(name="", type=0, optional=false) {
 			super();

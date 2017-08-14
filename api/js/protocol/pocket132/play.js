@@ -4306,10 +4306,11 @@ const Play = {
 		static get CLIENTBOUND(){ return true; }
 		static get SERVERBOUND(){ return false; }
 
-		constructor(enumValues=[], unknown1=0, commands=[]) {
+		constructor(enumValues=[], unknown1=[], enums=[], commands=[]) {
 			super();
 			this.enumValues = enumValues;
 			this.unknown1 = unknown1;
+			this.enums = enums;
 			this.commands = commands;
 		}
 
@@ -4318,7 +4319,8 @@ const Play = {
 			this._buffer = [];
 			this.writeVaruint(76);
 			this.writeVaruint(this.enumValues.length); for(var dhc5bvvf in this.enumValues){ var dhc5bvvf=this.encodeString(this.enumValues[dhc5bvvf]); this.writeVaruint(dhc5bvvf.length); this.writeBytes(dhc5bvvf); }
-			this.writeVaruint(this.unknown1);
+			this.writeVaruint(this.unknown1.length); for(var dhc5btbd in this.unknown1){ var dhc5btbd=this.encodeString(this.unknown1[dhc5btbd]); this.writeVaruint(dhc5btbd.length); this.writeBytes(dhc5btbd); }
+			this.writeVaruint(this.enums.length); for(var dhc5bvc in this.enums){ this.writeBytes(this.enums[dhc5bvc].encode()); }
 			this.writeVaruint(this.commands.length); for(var dhc5b1y5 in this.commands){ this.writeBytes(this.commands[dhc5b1y5].encode()); }
 			return new Uint8Array(this._buffer);
 		}
@@ -4328,7 +4330,8 @@ const Play = {
 			this._buffer = Array.from(_buffer);
 			var _id=this.readVaruint();
 			var aramz5bz=this.readVaruint(); this.enumValues=[]; for(var dhc5bvvf=0;dhc5bvvf<aramz5bz;dhc5bvvf++){ this.enumValues[dhc5bvvf]=this.decodeString(this.readBytes(this.readVaruint())); }
-			this.unknown1=this.readVaruint();
+			var aramd5b9=this.readVaruint(); this.unknown1=[]; for(var dhc5btbd=0;dhc5btbd<aramd5b9;dhc5btbd++){ this.unknown1[dhc5btbd]=this.decodeString(this.readBytes(this.readVaruint())); }
+			var aramz5bm=this.readVaruint(); this.enums=[]; for(var dhc5bvc=0;dhc5bvc<aramz5bm;dhc5bvc++){ this.enums[dhc5bvc]=Types.Enum.fromBuffer(this._buffer); this._buffer=this.enums[dhc5bvc]._buffer; }
 			var aramy9bf=this.readVaruint(); this.commands=[]; for(var dhc5b1y5=0;dhc5b1y5<aramy9bf;dhc5b1y5++){ this.commands[dhc5b1y5]=Types.Command.fromBuffer(this._buffer); this._buffer=this.commands[dhc5b1y5]._buffer; }
 			return this;
 		}
@@ -4340,7 +4343,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "AvailableCommands(enumValues: " + this.enumValues + ", unknown1: " + this.unknown1 + ", commands: " + this.commands + ")";
+			return "AvailableCommands(enumValues: " + this.enumValues + ", unknown1: " + this.unknown1 + ", enums: " + this.enums + ", commands: " + this.commands + ")";
 		}
 
 	},
