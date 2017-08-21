@@ -1,0 +1,488 @@
+{
+
+	"__website": "https://github.com/sel-project/sel-utils",
+	"__software": "Minecraft (Bedrock Engine)",
+	"__protocol": "133",
+
+	"encoding": {
+
+		"types": "varuint",
+
+		"ids": "varuint",
+
+		"length": "varuint"
+
+	},
+
+	"types": {
+
+		"byte": {
+			"type": "byte",
+			"id": 0
+		},
+
+		"short": {
+			"type": "short",
+			"id": 1
+		},
+
+		"int": {
+			"type": "varint",
+			"id": 2
+		},
+
+		"float": {
+			"type": "float",
+			"id": 3
+		},
+
+		"string": {
+			"type": "string",
+			"id": 4
+		},
+
+		"slot": {
+			"type": "slot",
+			"id": 5
+		},
+
+		"block_position": {
+			"type": "varint<xyz>",
+			"id": 6
+		},
+
+		"long": {
+			"type": "varlong",
+			"id": 7
+		},
+
+		"entity_position": {
+			"type": "float<xyz>",
+			"id": 8
+		}
+
+	},
+
+	"metadata": {
+
+		"entity_flags": {
+			"type": "long",
+			"id": 0,
+			"required": true,
+			"default": 0,
+			"flags": {
+				"on_fire": 0,
+				"sneaking": 1,
+				"riding": 2,
+				"sprinting": 3,
+				"using_item": 4,
+				"invisible": 5,
+				"tempted": 6,
+				"in_love": 7,
+				"saddled": 8,
+				"powered": 9,
+				"ignited": 10,
+				"baby": 11,
+				"converting": 12,
+				"critical": 13,
+				"show_nametag": 14,
+				"always_show_nametag": 15,
+				"no_ai": 16,
+				"silent": 17,
+				"climbing": 18,
+				"can_climb": 19,
+				"can_swim": 20,
+				"can_fly": 21,
+				"resting": 22,
+				"sitting": 23,
+				"angry": 24,
+				"interested": 25,
+				"charged": 26,
+				"tamed": 27,
+				"leashed": 28,
+				"sheared": 29,
+				"gliding": 30,
+				"elder": 31,
+				"moving": 32,
+				"breathing": 33,
+				"chested": 34,
+				"stackable": 35,
+				"showbase": 36,
+				"rearing": 37,
+				"vibrating": 38,
+				"idling": 39,
+				"evoker_spell": 40,
+				"charge_attack": 41,
+				"is_wasd_controlled": 42,
+				"linger": 44,
+				"collide": 45,
+				"gravity": 46,
+				"dancing": 48
+			}
+		},
+
+		"health": {
+			"type": "int",
+			"id": 1,
+			"required": false
+		},
+
+		"variant": {
+			"type": "int",
+			"id": 2,
+			"required": false
+		},
+
+		"color": {
+			"type": "byte",
+			"id": 3,
+			"required": false
+		},
+
+		"nametag": {
+			"type": "string",
+			"id": 4,
+			"required": false
+		},
+
+		"owner": {
+			"type": "long",
+			"id": 5,
+			"required": false,
+			"default": -1
+		},
+
+		"target": {
+			"type": "long",
+			"id": 6,
+			"required": false
+		},
+
+		"air": {
+			"type": "short",
+			"id": 7,
+			"required": true,
+			"default": 0
+		},
+
+		"potion_color": {
+			"type": "int",
+			"id": 8,
+			"required": false
+		},
+
+		"potion_ambient": {
+			"type": "byte",
+			"id": 9,
+			"required": false
+		},
+
+		"hurt_time": {
+			"type": "int",
+			"id": 11,
+			"required": false
+		},
+
+		"hurt_direction": {
+			"type": "int",
+			"id": 12,
+			"required": false
+		},
+
+		"paddle_time_left": {
+			"type": "float",
+			"id": 13,
+			"required": false
+		},
+
+		"paddle_time_right": {
+			"type": "float",
+			"id": 14,
+			"required": false
+		},
+
+		"experience_count": {
+			"type": "int",
+			"id": 15,
+			"required": false
+		},
+
+		"minecart_block": {
+			"type": "int",
+			"id": 16,
+			"required": false
+		},
+
+		"minecart_offset": {
+			"type": "int",
+			"id": 17,
+			"required": false
+		},
+
+		"minecart_has_block": {
+			"type": "byte",
+			"id": 18,
+			"required": false
+		},
+
+		"enderman_item_id": {
+			"type": "short",
+			"id": 23,
+			"required": false
+		},
+
+		"enderman_item_damage": {
+			"type": "short",
+			"id": 24,
+			"required": false
+		},
+
+		"age": {
+			"type": "short",
+			"id": 25,
+			"required": false
+		},
+
+		"player_flags": {
+			"type": "byte",
+			"id": 27,
+			"required": false,
+			"flags": {
+				"asleep": 1
+			}
+		},
+
+		"player_index": {
+			"type": "int",
+			"id": 28,
+			"required": false
+		},
+
+		"bed_position": {
+			"type": "block_position",
+			"id": 29,
+			"required": false
+		},
+
+		"fireball_power_x": {
+			"type": "float",
+			"id": 30,
+			"required": false
+		},
+
+		"fireball_power_y": {
+			"type": "float",
+			"id": 31,
+			"required": false
+		},
+
+		"fireball_power_z": {
+			"type": "float",
+			"id": 32,
+			"required": false
+		},
+
+		"potion_aux_value": {
+			"type": "short",
+			"id": 37,
+			"required": false
+		},
+
+		"lead_holder": {
+			"type": "long",
+			"id": 38,
+			"required": true,
+			"default": -1
+		},
+
+		"scale": {
+			"type": "float",
+			"id": 39,
+			"required": false,
+			"default": 1
+		},
+
+		"interactive_tag": {
+			"type": "string",
+			"id": 40,
+			"required": false
+		},
+
+		"npc_id": {
+			"type": "string",
+			"id": 41,
+			"required": false
+		},
+
+		"interactive_tag_url": {
+			"type": "string",
+			"id": 42,
+			"required": false
+		},
+
+		"max_air": {
+			"type": "short",
+			"id": 43,
+			"required": false
+		},
+
+		"mark_variant": {
+			"type": "int",
+			"id": 44,
+			"required": false
+		},
+
+		"block_target": {
+			"type": "block_position",
+			"id": 48,
+			"required": false
+		},
+
+		"invulnerable_time": {
+			"type": "int",
+			"id": 49,
+			"required": false
+		},
+
+		"center_head_target": {
+			"type": "long",
+			"id": 50,
+			"required": false
+		},
+
+		"left_head_target": {
+			"type": "long",
+			"id": 51,
+			"required": false
+		},
+
+		"right_head_target": {
+			"type": "long",
+			"id": 52,
+			"required": false
+		},
+
+		"bounding_box_width": {
+			"type": "float",
+			"id": 54,
+			"required": false
+		},
+
+		"bounding_box_height": {
+			"type": "float",
+			"id": 55,
+			"required": false
+		},
+
+		"fuse_length": {
+			"type": "int",
+			"id": 56,
+			"required": false
+		},
+
+		"rider_seat_position": {
+			"type": "entity_position",
+			"id": 57,
+			"required": false
+		},
+
+		"rider_rotation_locked": {
+			"type": "byte",
+			"id": 58,
+			"required": false
+		},
+
+		"rider_max_rotation": {
+			"type": "float",
+			"id": 59,
+			"required": false
+		},
+
+		"rider_min_rotation": {
+			"type": "float",
+			"id": 60,
+			"required": false
+		},
+
+		"area_effect_cloud_radius": {
+			"type": "float",
+			"id": 61,
+			"required": false,
+			"default": 0.5
+		},
+
+		"area_effect_cloud_waiting": {
+			"type": "int",
+			"id": 62,
+			"required": false
+		},
+
+		"area_effect_cloud_particle": {
+			"type": "int",
+			"id": 63,
+			"required": false
+		},
+
+		"shulker_peak_height": {
+			"type": "int",
+			"id": 64,
+			"required": false
+		},
+
+		"shulker_direction": {
+			"type": "byte",
+			"id": 65,
+			"required": false
+		},
+
+		"shulker_attachment": {
+			"type": "block_position",
+			"id": 67,
+			"required": false
+		},
+
+		"trading_player": {
+			"type": "long",
+			"id": 68,
+			"required": false
+		},
+
+		"command_block_command": {
+			"type": "string",
+			"id": 71,
+			"required": false
+		},
+
+		"command_block_last_output": {
+			"type": "string",
+			"id": 72,
+			"required": false
+		},
+
+		"command_block_track_output": {
+			"type": "string",
+			"id": 73,
+			"required": false
+		},
+
+		"controlling_rider_seat_number": {
+			"type": "byte",
+			"id": 74,
+			"required": false
+		},
+
+		"strength": {
+			"type": "int",
+			"id": 75,
+			"required": false
+		},
+
+		"max_strength": {
+			"type": "int",
+			"id": 76,
+			"required": false
+		}
+
+	}
+
+}
