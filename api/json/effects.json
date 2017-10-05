@@ -6,139 +6,139 @@
 
 		"speed": {
 			"java": 1,
-			"pocket": 1,
+			"bedrock": 1,
 			"particles": "#7CAFC6"
 		},
 
 		"slowness": {
 			"java": 2,
-			"pocket": 2,
+			"bedrock": 2,
 			"particles": "#5A6C81"
 		},
 
 		"haste": {
 			"java": 3,
-			"pocket": 3,
+			"bedrock": 3,
 			"particles": "#D9C043"
 		},
 
 		"mining_fatigue": {
 			"java": 4,
-			"pocket": 4,
+			"bedrock": 4,
 			"particles": "#4A4217"
 		},
 
 		"strength": {
 			"java": 5,
-			"pocket": 5,
+			"bedrock": 5,
 			"particles": "#932423"
 		},
 
 		"instant_health": {
 			"java": 6,
-			"pocket": 6,
+			"bedrock": 6,
 			"particles": "#F82423"
 		},
 
 		"instant_damage": {
 			"java": 7,
-			"pocket": 7,
+			"bedrock": 7,
 			"particles": "#430A09"
 		},
 
 		"jump_boost": {
 			"java": 8,
-			"pocket": 8,
+			"bedrock": 8,
 			"particles": "#786297"
 		},
 
 		"nausea": {
 			"java": 9,
-			"pocket": 9,
+			"bedrock": 9,
 			"particles": "#551D4A"
 		},
 
 		"regeneration": {
 			"java": 10,
-			"pocket": 10,
+			"bedrock": 10,
 			"particles": "#CD5CAB"
 		},
 
 		"resistance": {
 			"java": 11,
-			"pocket": 11,
+			"bedrock": 11,
 			"particles": "#99453A"
 		},
 
 		"fire_resistance": {
 			"java": 12,
-			"pocket": 12,
+			"bedrock": 12,
 			"particles": "#E49A3A"
 		},
 
 		"water_breathing": {
 			"java": 13,
-			"pocket": 13,
+			"bedrock": 13,
 			"particles": "#2E5299"
 		},
 
 		"invisibility": {
 			"java": 14,
-			"pocket": 14,
+			"bedrock": 14,
 			"particles": "#7F8392"
 		},
 
 		"blindness": {
 			"java": 15,
-			"pocket": 15,
+			"bedrock": 15,
 			"particles": "#1F1F23"
 		},
 
 		"night_vision": {
 			"java": 16,
-			"pocket": 16,
+			"bedrock": 16,
 			"particles": "#1F1FA1"
 		},
 
 		"hunger": {
 			"java": 17,
-			"pocket": 17,
+			"bedrock": 17,
 			"particles": "#587653"
 		},
 
 		"weakness": {
 			"java": 18,
-			"pocket": 18,
+			"bedrock": 18,
 			"particles": "#484D48"
 		},
 
 		"poison": {
 			"java": 19,
-			"pocket": 19,
+			"bedrock": 19,
 			"particles": "#4E9331"
 		},
 
 		"wither": {
 			"java": 20,
-			"pocket": 20,
+			"bedrock": 20,
 			"particles": "#352A27"
 		},
 
 		"health_boost": {
 			"java": 21,
-			"pocket": 21,
+			"bedrock": 21,
 			"particles": "#F87D23"
 		},
 
 		"absorption": {
 			"java": 22,
-			"pocket": 22,
+			"bedrock": 22,
 			"particles": "#2552A5"
 		},
 
 		"saturation": {
 			"java": 23,
-			"pocket": 23,
+			"bedrock": 23,
 			"particles": "#F82423"
 		},
 
@@ -149,7 +149,7 @@
 
 		"levitation": {
 			"java": 25,
-			"pocket": 24,
+			"bedrock": 24,
 			"particles": "#CEFFFF"
 		},
 

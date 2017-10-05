@@ -6,13 +6,13 @@
 
 		"air": {
 			"java": 0,
-			"pocket": 0,
+			"bedrock": 0,
 			"stack": 64
 		},
 
 		"stone": {
 			"java": 1,
-			"pocket": 1,
+			"bedrock": 1,
 			"stack": 64
 		},
 
@@ -21,7 +21,7 @@
 				"id": 1,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 1,
 				"meta": 1
 			},
@@ -33,7 +33,7 @@
 				"id": 1,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 1,
 				"meta": 2
 			},
@@ -45,7 +45,7 @@
 				"id": 1,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 1,
 				"meta": 3
 			},
@@ -57,7 +57,7 @@
 				"id": 1,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 1,
 				"meta": 4
 			},
@@ -69,7 +69,7 @@
 				"id": 1,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 1,
 				"meta": 5
 			},
@@ -81,7 +81,7 @@
 				"id": 1,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 1,
 				"meta": 6
 			},
@@ -90,13 +90,13 @@
 
 		"grass": {
 			"java": 2,
-			"pocket": 2,
+			"bedrock": 2,
 			"stack": 64
 		},
 
 		"dirt": {
 			"java": 3,
-			"pocket": 3,
+			"bedrock": 3,
 			"stack": 64
 		},
 
@@ -113,13 +113,12 @@
 				"id": 3,
 				"meta": 2
 			},
-			"pocket": 243,
 			"stack": 64
 		},
 
 		"cobblestone": {
 			"java": 4,
-			"pocket": 4,
+			"bedrock": 4,
 			"stack": 64
 		},
 
@@ -128,7 +127,7 @@
 				"id": 5,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 5,
 				"meta": 0
 			},
@@ -140,7 +139,7 @@
 				"id": 5,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 5,
 				"meta": 1
 			},
@@ -152,7 +151,7 @@
 				"id": 5,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 5,
 				"meta": 2
 			},
@@ -164,7 +163,7 @@
 				"id": 5,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 5,
 				"meta": 3
 			},
@@ -176,7 +175,7 @@
 				"id": 5,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 5,
 				"meta": 4
 			},
@@ -188,7 +187,7 @@
 				"id": 5,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 5,
 				"meta": 5
 			},
@@ -200,7 +199,7 @@
 				"id": 6,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 6,
 				"meta": 0
 			},
@@ -212,7 +211,7 @@
 				"id": 6,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 6,
 				"meta": 1
 			},
@@ -224,7 +223,7 @@
 				"id": 6,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 6,
 				"meta": 2
 			},
@@ -236,7 +235,7 @@
 				"id": 6,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 6,
 				"meta": 3
 			},
@@ -248,7 +247,7 @@
 				"id": 6,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 6,
 				"meta": 4
 			},
@@ -260,7 +259,7 @@
 				"id": 6,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 6,
 				"meta": 5
 			},
@@ -269,37 +268,37 @@
 
 		"bedrock": {
 			"java": 7,
-			"pocket": 7,
+			"bedrock": 7,
 			"stack": 64
 		},
 
 		"flowing_water": {
 			"java": 8,
-			"pocket": 8,
+			"bedrock": 8,
 			"stack": 64
 		},
 
 		"still_water": {
 			"java": 9,
-			"pocket": 9,
+			"bedrock": 9,
 			"stack": 64
 		},
 
 		"flowing_lava": {
 			"java": 10,
-			"pocket": 10,
+			"bedrock": 10,
 			"stack": 64
 		},
 
 		"still_lava": {
 			"java": 11,
-			"pocket": 11,
+			"bedrock": 11,
 			"stack": 64
 		},
 
 		"sand": {
 			"java": 12,
-			"pocket": 12,
+			"bedrock": 12,
 			"stack": 64
 		},
 
@@ -308,7 +307,7 @@
 				"id": 12,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 12,
 				"meta": 1
 			},
@@ -317,25 +316,25 @@
 
 		"gravel": {
 			"java": 13,
-			"pocket": 13,
+			"bedrock": 13,
 			"stack": 64
 		},
 
 		"gold_ore": {
 			"java": 14,
-			"pocket": 14,
+			"bedrock": 14,
 			"stack": 64
 		},
 
 		"iron_ore": {
 			"java": 15,
-			"pocket": 15,
+			"bedrock": 15,
 			"stack": 64
 		},
 
 		"coal_ore": {
 			"java": 16,
-			"pocket": 16,
+			"bedrock": 16,
 			"stack": 64
 		},
 
@@ -344,7 +343,7 @@
 				"id": 17,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 17,
 				"meta": 0
 			},
@@ -356,7 +355,7 @@
 				"id": 17,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 17,
 				"meta": 1
 			},
@@ -368,7 +367,7 @@
 				"id": 17,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 17,
 				"meta": 2
 			},
@@ -380,7 +379,7 @@
 				"id": 17,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 17,
 				"meta": 3
 			},
@@ -392,7 +391,7 @@
 				"id": 18,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 18,
 				"meta": 0
 			},
@@ -404,7 +403,7 @@
 				"id": 18,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 18,
 				"meta": 1
 			},
@@ -416,7 +415,7 @@
 				"id": 18,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 18,
 				"meta": 2
 			},
@@ -428,7 +427,7 @@
 				"id": 18,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 18,
 				"meta": 3
 			},
@@ -437,7 +436,7 @@
 
 		"sponge": {
 			"java": 19,
-			"pocket": 19,
+			"bedrock": 19,
 			"stack": 64
 		},
 
@@ -446,7 +445,7 @@
 				"id": 19,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 19,
 				"meta": 1
 			},
@@ -455,31 +454,31 @@
 
 		"glass": {
 			"java": 20,
-			"pocket": 20,
+			"bedrock": 20,
 			"stack": 64
 		},
 
 		"lapis_lazuli_ore": {
 			"java": 21,
-			"pocket": 21,
+			"bedrock": 21,
 			"stack": 64
 		},
 
 		"lapis_lazuli_block": {
 			"java": 22,
-			"pocket": 22,
+			"bedrock": 22,
 			"stack": 64
 		},
 
 		"dispenser": {
 			"java": 23,
-			"pocket": 23,
+			"bedrock": 23,
 			"stack": 64
 		},
 
 		"sandstone": {
 			"java": 24,
-			"pocket": 24,
+			"bedrock": 24,
 			"stack": 64
 		},
 
@@ -488,7 +487,7 @@
 				"id": 24,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 24,
 				"meta": 1
 			},
@@ -500,7 +499,7 @@
 				"id": 24,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 24,
 				"meta": 2
 			},
@@ -509,37 +508,37 @@
 
 		"note_block": {
 			"java": 25,
-			"pocket": 25,
+			"bedrock": 25,
 			"stack": 64
 		},
 
 		"bed_block": {
 			"java": 26,
-			"pocket": 26,
+			"bedrock": 26,
 			"stack": 64
 		},
 
 		"powered_rail": {
 			"java": 27,
-			"pocket": 27,
+			"bedrock": 27,
 			"stack": 64
 		},
 
 		"detector_rail": {
 			"java": 28,
-			"pocket": 28,
+			"bedrock": 28,
 			"stack": 64
 		},
 
 		"sticky_piston": {
 			"java": 29,
-			"pocket": 29,
+			"bedrock": 29,
 			"stack": 64
 		},
 
 		"cobweb": {
 			"java": 30,
-			"pocket": 30,
+			"bedrock": 30,
 			"stack": 64
 		},
 
@@ -556,7 +555,7 @@
 				"id": 31,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 31,
 				"meta": 0
 			},
@@ -568,7 +567,7 @@
 				"id": 31,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 31,
 				"meta": 2
 			},
@@ -577,19 +576,19 @@
 
 		"dead_bush": {
 			"java": 32,
-			"pocket": 32,
+			"bedrock": 32,
 			"stack": 64
 		},
 
 		"piston": {
 			"java": 33,
-			"pocket": 33,
+			"bedrock": 33,
 			"stack": 64
 		},
 
 		"piston_head": {
 			"java": 34,
-			"pocket": 34,
+			"bedrock": 34,
 			"stack": 64
 		},
 
@@ -598,7 +597,7 @@
 				"id": 35,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 0
 			},
@@ -610,7 +609,7 @@
 				"id": 35,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 1
 			},
@@ -622,7 +621,7 @@
 				"id": 35,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 2
 			},
@@ -634,7 +633,7 @@
 				"id": 35,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 3
 			},
@@ -646,7 +645,7 @@
 				"id": 35,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 4
 			},
@@ -658,7 +657,7 @@
 				"id": 35,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 5
 			},
@@ -670,7 +669,7 @@
 				"id": 35,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 6
 			},
@@ -682,7 +681,7 @@
 				"id": 35,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 7
 			},
@@ -694,7 +693,7 @@
 				"id": 35,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 8
 			},
@@ -706,7 +705,7 @@
 				"id": 35,
 				"meta": 9
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 9
 			},
@@ -718,7 +717,7 @@
 				"id": 35,
 				"meta": 10
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 10
 			},
@@ -730,7 +729,7 @@
 				"id": 35,
 				"meta": 11
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 11
 			},
@@ -742,7 +741,7 @@
 				"id": 35,
 				"meta": 12
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 12
 			},
@@ -754,7 +753,7 @@
 				"id": 35,
 				"meta": 13
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 13
 			},
@@ -766,7 +765,7 @@
 				"id": 35,
 				"meta": 14
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 14
 			},
@@ -778,7 +777,7 @@
 				"id": 35,
 				"meta": 15
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 35,
 				"meta": 15
 			},
@@ -787,13 +786,13 @@
 
 		"piston_extension": {
 			"java": 36,
-			"pocket": 250,
+			"bedrock": 250,
 			"stack": 64
 		},
 
 		"dandelion": {
 			"java": 37,
-			"pocket": 37,
+			"bedrock": 37,
 			"stack": 64
 		},
 
@@ -802,7 +801,7 @@
 				"id": 38,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 0
 			},
@@ -814,7 +813,7 @@
 				"id": 38,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 1
 			},
@@ -826,7 +825,7 @@
 				"id": 38,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 2
 			},
@@ -838,7 +837,7 @@
 				"id": 38,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 3
 			},
@@ -850,7 +849,7 @@
 				"id": 38,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 4
 			},
@@ -862,7 +861,7 @@
 				"id": 38,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 5
 			},
@@ -874,7 +873,7 @@
 				"id": 38,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 6
 			},
@@ -886,7 +885,7 @@
 				"id": 38,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 7
 			},
@@ -898,7 +897,7 @@
 				"id": 38,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 38,
 				"meta": 8
 			},
@@ -907,25 +906,25 @@
 
 		"brown_mushroom": {
 			"java": 39,
-			"pocket": 39,
+			"bedrock": 39,
 			"stack": 64
 		},
 
 		"red_mushroom": {
 			"java": 40,
-			"pocket": 40,
+			"bedrock": 40,
 			"stack": 64
 		},
 
 		"gold_block": {
 			"java": 41,
-			"pocket": 41,
+			"bedrock": 41,
 			"stack": 64
 		},
 
 		"iron_block": {
 			"java": 42,
-			"pocket": 42,
+			"bedrock": 42,
 			"stack": 64
 		},
 
@@ -934,7 +933,7 @@
 				"id": 43,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 0
 			},
@@ -946,7 +945,7 @@
 				"id": 43,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 1
 			},
@@ -958,7 +957,7 @@
 				"id": 43,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 2
 			},
@@ -970,7 +969,7 @@
 				"id": 43,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 3
 			},
@@ -982,7 +981,7 @@
 				"id": 43,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 4
 			},
@@ -994,7 +993,7 @@
 				"id": 43,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 5
 			},
@@ -1006,7 +1005,7 @@
 				"id": 43,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 6
 			},
@@ -1018,7 +1017,7 @@
 				"id": 43,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 43,
 				"meta": 7
 			},
@@ -1030,7 +1029,7 @@
 				"id": 44,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 0
 			},
@@ -1042,7 +1041,7 @@
 				"id": 44,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 1
 			},
@@ -1054,7 +1053,7 @@
 				"id": 44,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 2
 			},
@@ -1066,7 +1065,7 @@
 				"id": 44,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 3
 			},
@@ -1078,7 +1077,7 @@
 				"id": 44,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 4
 			},
@@ -1090,7 +1089,7 @@
 				"id": 44,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 5
 			},
@@ -1102,7 +1101,7 @@
 				"id": 44,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 6
 			},
@@ -1114,7 +1113,7 @@
 				"id": 44,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 44,
 				"meta": 7
 			},
@@ -1123,301 +1122,301 @@
 
 		"bricks": {
 			"java": 45,
-			"pocket": 45,
+			"bedrock": 45,
 			"stack": 64
 		},
 
 		"tnt": {
 			"java": 46,
-			"pocket": 46,
+			"bedrock": 46,
 			"stack": 64
 		},
 
 		"bookshelf": {
 			"java": 47,
-			"pocket": 47,
+			"bedrock": 47,
 			"stack": 64
 		},
 
 		"moss_stone": {
 			"java": 48,
-			"pocket": 48,
+			"bedrock": 48,
 			"stack": 64
 		},
 
 		"obsidian": {
 			"java": 49,
-			"pocket": 49,
+			"bedrock": 49,
 			"stack": 64
 		},
 
 		"torch": {
 			"java": 50,
-			"pocket": 50,
+			"bedrock": 50,
 			"stack": 64
 		},
 
 		"fire": {
 			"java": 51,
-			"pocket": 51,
+			"bedrock": 51,
 			"stack": 64
 		},
 
 		"monster_spawner": {
 			"java": 52,
-			"pocket": 52,
+			"bedrock": 52,
 			"stack": 64
 		},
 
 		"oak_wood_stairs": {
 			"java": 53,
-			"pocket": 53,
+			"bedrock": 53,
 			"stack": 64
 		},
 
 		"chest": {
 			"java": 54,
-			"pocket": 54,
+			"bedrock": 54,
 			"stack": 64
 		},
 
 		"redstone_wire": {
 			"java": 55,
-			"pocket": 55,
+			"bedrock": 55,
 			"stack": 64
 		},
 
 		"diamond_ore": {
 			"java": 56,
-			"pocket": 56,
+			"bedrock": 56,
 			"stack": 64
 		},
 
 		"diamond_block": {
 			"java": 57,
-			"pocket": 57,
+			"bedrock": 57,
 			"stack": 64
 		},
 
 		"crafting_table": {
 			"java": 58,
-			"pocket": 58,
+			"bedrock": 58,
 			"stack": 64
 		},
 
 		"wheat_crops": {
 			"java": 59,
-			"pocket": 59,
+			"bedrock": 59,
 			"stack": 64
 		},
 
 		"farmland": {
 			"java": 60,
-			"pocket": 60,
+			"bedrock": 60,
 			"stack": 64
 		},
 
 		"furnace": {
 			"java": 61,
-			"pocket": 61,
+			"bedrock": 61,
 			"stack": 64
 		},
 
 		"burning_furnace": {
 			"java": 62,
-			"pocket": 62,
+			"bedrock": 62,
 			"stack": 64
 		},
 
 		"sign_block": {
 			"java": 63,
-			"pocket": 63,
+			"bedrock": 63,
 			"stack": 64
 		},
 
 		"oak_door_block": {
 			"java": 64,
-			"pocket": 64,
+			"bedrock": 64,
 			"stack": 64
 		},
 
 		"ladder": {
 			"java": 65,
-			"pocket": 65,
+			"bedrock": 65,
 			"stack": 64
 		},
 
 		"rail": {
 			"java": 66,
-			"pocket": 66,
+			"bedrock": 66,
 			"stack": 64
 		},
 
 		"cobblestone_stairs": {
 			"java": 67,
-			"pocket": 67,
+			"bedrock": 67,
 			"stack": 64
 		},
 
 		"wall_sign": {
 			"java": 68,
-			"pocket": 68,
+			"bedrock": 68,
 			"stack": 64
 		},
 
 		"lever": {
 			"java": 69,
-			"pocket": 69,
+			"bedrock": 69,
 			"stack": 64
 		},
 
 		"stone_pressure_plate": {
 			"java": 70,
-			"pocket": 70,
+			"bedrock": 70,
 			"stack": 64
 		},
 
 		"iron_door_block": {
 			"java": 71,
-			"pocket": 71,
+			"bedrock": 71,
 			"stack": 64
 		},
 
 		"wooden_pressure_plate": {
 			"java": 72,
-			"pocket": 72,
+			"bedrock": 72,
 			"stack": 64
 		},
 
 		"redstone_ore": {
 			"java": 73,
-			"pocket": 73,
+			"bedrock": 73,
 			"stack": 64
 		},
 
 		"lit_redstone_ore": {
 			"java": 74,
-			"pocket": 74,
+			"bedrock": 74,
 			"stack": 64
 		},
 
 		"redstone_torch": {
 			"java": 75,
-			"pocket": 75,
+			"bedrock": 75,
 			"stack": 64
 		},
 
 		"active_redstone_torch": {
 			"java": 76,
-			"pocket": 76,
+			"bedrock": 76,
 			"stack": 64
 		},
 
 		"stone_button": {
 			"java": 77,
-			"pocket": 77,
+			"bedrock": 77,
 			"stack": 64
 		},
 
 		"snow_layer": {
 			"java": 78,
-			"pocket": 78,
+			"bedrock": 78,
 			"stack": 64
 		},
 
 		"ice": {
 			"java": 79,
-			"pocket": 79,
+			"bedrock": 79,
 			"stack": 64
 		},
 
 		"snow_block": {
 			"java": 80,
-			"pocket": 80,
+			"bedrock": 80,
 			"stack": 64
 		},
 
 		"cactus": {
 			"java": 81,
-			"pocket": 81,
+			"bedrock": 81,
 			"stack": 64
 		},
 
 		"clay_block": {
 			"java": 82,
-			"pocket": 82,
+			"bedrock": 82,
 			"stack": 64
 		},
 
 		"sugar_canes_block": {
 			"java": 83,
-			"pocket": 83,
+			"bedrock": 83,
 			"stack": 64
 		},
 
 		"jukebox": {
 			"java": 84,
-			"pocket": 84,
+			"bedrock": 84,
 			"stack": 64
 		},
 
 		"oak_fence": {
 			"java": 85,
-			"pocket": 85,
+			"bedrock": 85,
 			"stack": 64
 		},
 
 		"pumpkin": {
 			"java": 86,
-			"pocket": 86,
+			"bedrock": 86,
 			"stack": 64
 		},
 
 		"netherrack": {
 			"java": 87,
-			"pocket": 87,
+			"bedrock": 87,
 			"stack": 64
 		},
 
 		"soul_sand": {
 			"java": 88,
-			"pocket": 88,
+			"bedrock": 88,
 			"stack": 64
 		},
 
 		"glowstone": {
 			"java": 89,
-			"pocket": 89,
+			"bedrock": 89,
 			"stack": 64
 		},
 
 		"nether_portal": {
 			"java": 90,
-			"pocket": 90,
+			"bedrock": 90,
 			"stack": 64
 		},
 
 		"jack_o_lantern": {
 			"java": 91,
-			"pocket": 91,
+			"bedrock": 91,
 			"stack": 64
 		},
 
 		"cake_block": {
 			"java": 92,
-			"pocket": 92,
+			"bedrock": 92,
 			"stack": 64
 		},
 
 		"inactive_redstone_repeater": {
 			"java": 93,
-			"pocket": 93,
+			"bedrock": 93,
 			"stack": 64
 		},
 
 		"active_redstone_repeater": {
 			"java": 94,
-			"pocket": 94,
+			"bedrock": 94,
 			"stack": 64
 		},
 
@@ -1551,7 +1550,7 @@
 
 		"wooden_trapdoor": {
 			"java": 96,
-			"pocket": 96,
+			"bedrock": 96,
 			"stack": 64
 		},
 
@@ -1560,7 +1559,7 @@
 				"id": 97,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 97,
 				"meta": 0
 			},
@@ -1572,7 +1571,7 @@
 				"id": 97,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 97,
 				"meta": 1
 			},
@@ -1584,7 +1583,7 @@
 				"id": 97,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 97,
 				"meta": 2
 			},
@@ -1596,7 +1595,7 @@
 				"id": 97,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 97,
 				"meta": 3
 			},
@@ -1608,7 +1607,7 @@
 				"id": 97,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 97,
 				"meta": 4
 			},
@@ -1620,7 +1619,7 @@
 				"id": 97,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 97,
 				"meta": 5
 			},
@@ -1632,7 +1631,7 @@
 				"id": 98,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 98,
 				"meta": 0
 			},
@@ -1644,7 +1643,7 @@
 				"id": 98,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 98,
 				"meta": 1
 			},
@@ -1656,7 +1655,7 @@
 				"id": 98,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 98,
 				"meta": 2
 			},
@@ -1668,7 +1667,7 @@
 				"id": 98,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 98,
 				"meta": 3
 			},
@@ -1677,157 +1676,157 @@
 
 		"brown_mushroom_block": {
 			"java": 99,
-			"pocket": 99,
+			"bedrock": 99,
 			"stack": 64
 		},
 
 		"red_mushroom_block": {
 			"java": 100,
-			"pocket": 100,
+			"bedrock": 100,
 			"stack": 64
 		},
 
 		"iron_bars": {
 			"java": 101,
-			"pocket": 101,
+			"bedrock": 101,
 			"stack": 64
 		},
 
 		"glass_pane": {
 			"java": 102,
-			"pocket": 102,
+			"bedrock": 102,
 			"stack": 64
 		},
 
 		"melon_block": {
 			"java": 103,
-			"pocket": 103,
+			"bedrock": 103,
 			"stack": 64
 		},
 
 		"pumpkin_stem": {
 			"java": 104,
-			"pocket": 104,
+			"bedrock": 104,
 			"stack": 64
 		},
 
 		"melon_stem": {
 			"java": 105,
-			"pocket": 105,
+			"bedrock": 105,
 			"stack": 64
 		},
 
 		"vines": {
 			"java": 106,
-			"pocket": 106,
+			"bedrock": 106,
 			"stack": 64
 		},
 
 		"oak_fence_gate": {
 			"java": 107,
-			"pocket": 107,
+			"bedrock": 107,
 			"stack": 64
 		},
 
 		"brick_stairs": {
 			"java": 108,
-			"pocket": 108,
+			"bedrock": 108,
 			"stack": 64
 		},
 
 		"stone_brick_stairs": {
 			"java": 109,
-			"pocket": 109,
+			"bedrock": 109,
 			"stack": 64
 		},
 
 		"mycelium": {
 			"java": 110,
-			"pocket": 110,
+			"bedrock": 110,
 			"stack": 64
 		},
 
 		"lily_pad": {
 			"java": 111,
-			"pocket": 111,
+			"bedrock": 111,
 			"stack": 64
 		},
 
 		"nether_brick_block": {
 			"java": 112,
-			"pocket": 112,
+			"bedrock": 112,
 			"stack": 64
 		},
 
 		"nether_brick_fence": {
 			"java": 113,
-			"pocket": 113,
+			"bedrock": 113,
 			"stack": 64
 		},
 
 		"nether_brick_stairs": {
 			"java": 114,
-			"pocket": 114,
+			"bedrock": 114,
 			"stack": 64
 		},
 
 		"nether_wart_plant": {
 			"java": 115,
-			"pocket": 115,
+			"bedrock": 115,
 			"stack": 64
 		},
 
 		"enchantment_table": {
 			"java": 116,
-			"pocket": 116,
+			"bedrock": 116,
 			"stack": 64
 		},
 
 		"brewing_stand_block": {
 			"java": 117,
-			"pocket": 117,
+			"bedrock": 117,
 			"stack": 64
 		},
 
 		"cauldron_block": {
 			"java": 118,
-			"pocket": 118,
+			"bedrock": 118,
 			"stack": 64
 		},
 
 		"end_portal": {
 			"java": 119,
-			"pocket": 119,
+			"bedrock": 119,
 			"stack": 64
 		},
 
 		"end_portal_frame": {
 			"java": 120,
-			"pocket": 120,
+			"bedrock": 120,
 			"stack": 64
 		},
 
 		"end_stone": {
 			"java": 121,
-			"pocket": 121,
+			"bedrock": 121,
 			"stack": 64
 		},
 
 		"dragon_egg": {
 			"java": 122,
-			"pocket": 122,
+			"bedrock": 122,
 			"stack": 64
 		},
 
 		"redstone_lamp": {
 			"java": 123,
-			"pocket": 123,
+			"bedrock": 123,
 			"stack": 64
 		},
 
 		"active_redstone_lamp": {
 			"java": 124,
-			"pocket": 124,
+			"bedrock": 124,
 			"stack": 64
 		},
 
@@ -1836,7 +1835,7 @@
 				"id": 125,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 157,
 				"meta": 0
 			},
@@ -1848,7 +1847,7 @@
 				"id": 125,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 157,
 				"meta": 1
 			},
@@ -1860,7 +1859,7 @@
 				"id": 125,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 157,
 				"meta": 2
 			},
@@ -1872,7 +1871,7 @@
 				"id": 125,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 157,
 				"meta": 3
 			},
@@ -1884,7 +1883,7 @@
 				"id": 125,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 157,
 				"meta": 4
 			},
@@ -1896,7 +1895,7 @@
 				"id": 125,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 157,
 				"meta": 5
 			},
@@ -1908,7 +1907,7 @@
 				"id": 126,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 158,
 				"meta": 0
 			},
@@ -1920,7 +1919,7 @@
 				"id": 126,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 158,
 				"meta": 1
 			},
@@ -1932,7 +1931,7 @@
 				"id": 126,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 158,
 				"meta": 2
 			},
@@ -1944,7 +1943,7 @@
 				"id": 126,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 158,
 				"meta": 3
 			},
@@ -1956,7 +1955,7 @@
 				"id": 126,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 158,
 				"meta": 4
 			},
@@ -1968,7 +1967,7 @@
 				"id": 126,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 158,
 				"meta": 5
 			},
@@ -1977,61 +1976,61 @@
 
 		"cocoa_block": {
 			"java": 127,
-			"pocket": 127,
+			"bedrock": 127,
 			"stack": 64
 		},
 
 		"sandstone_stairs": {
 			"java": 128,
-			"pocket": 128,
+			"bedrock": 128,
 			"stack": 64
 		},
 
 		"emerald_ore": {
 			"java": 129,
-			"pocket": 129,
+			"bedrock": 129,
 			"stack": 64
 		},
 
 		"ender_chest": {
 			"java": 130,
-			"pocket": 130,
+			"bedrock": 130,
 			"stack": 64
 		},
 
 		"tripwire_hook": {
 			"java": 131,
-			"pocket": 131,
+			"bedrock": 131,
 			"stack": 64
 		},
 
 		"tripwire": {
 			"java": 132,
-			"pocket": 132,
+			"bedrock": 132,
 			"stack": 64
 		},
 
 		"emerald_block": {
 			"java": 133,
-			"pocket": 133,
+			"bedrock": 133,
 			"stack": 64
 		},
 
 		"spruce_wood_stairs": {
 			"java": 134,
-			"pocket": 134,
+			"bedrock": 134,
 			"stack": 64
 		},
 
 		"birch_wood_stairs": {
 			"java": 135,
-			"pocket": 135,
+			"bedrock": 135,
 			"stack": 64
 		},
 
 		"jungle_wood_stairs": {
 			"java": 136,
-			"pocket": 136,
+			"bedrock": 136,
 			"stack": 64
 		},
 
@@ -2042,13 +2041,13 @@
 
 		"beacon": {
 			"java": 138,
-			"pocket": 138,
+			"bedrock": 138,
 			"stack": 64
 		},
 
 		"cobblestone_wall": {
 			"java": 139,
-			"pocket": 139,
+			"bedrock": 139,
 			"stack": 64
 		},
 
@@ -2057,7 +2056,7 @@
 				"id": 139,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 139,
 				"meta": 1
 			},
@@ -2066,97 +2065,97 @@
 
 		"flower_pot_block": {
 			"java": 140,
-			"pocket": 140,
+			"bedrock": 140,
 			"stack": 64
 		},
 
 		"carrots_block": {
 			"java": 141,
-			"pocket": 141,
+			"bedrock": 141,
 			"stack": 64
 		},
 
 		"potatoes_block": {
 			"java": 142,
-			"pocket": 142,
+			"bedrock": 142,
 			"stack": 64
 		},
 
 		"wooden_button": {
 			"java": 143,
-			"pocket": 143,
+			"bedrock": 143,
 			"stack": 64
 		},
 
 		"mob_head": {
 			"java": 144,
-			"pocket": 144,
+			"bedrock": 144,
 			"stack": 64
 		},
 
 		"anvil": {
 			"java": 145,
-			"pocket": 145,
+			"bedrock": 145,
 			"stack": 64
 		},
 
 		"trapped_chest": {
 			"java": 146,
-			"pocket": 146,
+			"bedrock": 146,
 			"stack": 64
 		},
 
 		"light_weighted_pressure_plate": {
 			"java": 147,
-			"pocket": 147,
+			"bedrock": 147,
 			"stack": 64
 		},
 
 		"heavy_weighted_pressure_plate": {
 			"java": 148,
-			"pocket": 148,
+			"bedrock": 148,
 			"stack": 64
 		},
 
 		"inactive_redstone_comparator": {
 			"java": 149,
-			"pocket": 149,
+			"bedrock": 149,
 			"stack": 64
 		},
 
 		"active_redstone_comparator": {
 			"java": 150,
-			"pocket": 150,
+			"bedrock": 150,
 			"stack": 64
 		},
 
 		"daylight_sensor": {
 			"java": 151,
-			"pocket": 151,
+			"bedrock": 151,
 			"stack": 64
 		},
 
 		"redstone_block": {
 			"java": 152,
-			"pocket": 152,
+			"bedrock": 152,
 			"stack": 64
 		},
 
 		"nether_quartz_ore": {
 			"java": 153,
-			"pocket": 153,
+			"bedrock": 153,
 			"stack": 64
 		},
 
 		"hopper": {
 			"java": 154,
-			"pocket": 154,
+			"bedrock": 154,
 			"stack": 64
 		},
 
 		"quartz_block": {
 			"java": 155,
-			"pocket": 155,
+			"bedrock": 155,
 			"stack": 64
 		},
 
@@ -2165,7 +2164,7 @@
 				"id": 155,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 155,
 				"meta": 1
 			},
@@ -2177,7 +2176,7 @@
 				"id": 155,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 155,
 				"meta": 2
 			},
@@ -2186,19 +2185,19 @@
 
 		"quartz_stairs": {
 			"java": 156,
-			"pocket": 156,
+			"bedrock": 156,
 			"stack": 64
 		},
 
 		"activator_rail": {
 			"java": 157,
-			"pocket": 126,
+			"bedrock": 126,
 			"stack": 64
 		},
 
 		"dropper": {
 			"java": 158,
-			"pocket": 125,
+			"bedrock": 125,
 			"stack": 64
 		},
 
@@ -2207,7 +2206,7 @@
 				"id": 159,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 0
 			},
@@ -2219,7 +2218,7 @@
 				"id": 159,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 1
 			},
@@ -2231,7 +2230,7 @@
 				"id": 159,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 2
 			},
@@ -2243,7 +2242,7 @@
 				"id": 159,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 3
 			},
@@ -2255,7 +2254,7 @@
 				"id": 159,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 4
 			},
@@ -2267,7 +2266,7 @@
 				"id": 159,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 5
 			},
@@ -2279,7 +2278,7 @@
 				"id": 159,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 6
 			},
@@ -2291,7 +2290,7 @@
 				"id": 159,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 7
 			},
@@ -2303,7 +2302,7 @@
 				"id": 159,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 8
 			},
@@ -2315,7 +2314,7 @@
 				"id": 159,
 				"meta": 9
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 9
 			},
@@ -2327,7 +2326,7 @@
 				"id": 159,
 				"meta": 10
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 10
 			},
@@ -2339,7 +2338,7 @@
 				"id": 159,
 				"meta": 11
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 11
 			},
@@ -2351,7 +2350,7 @@
 				"id": 159,
 				"meta": 12
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 12
 			},
@@ -2363,7 +2362,7 @@
 				"id": 159,
 				"meta": 13
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 13
 			},
@@ -2375,7 +2374,7 @@
 				"id": 159,
 				"meta": 14
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 14
 			},
@@ -2387,7 +2386,7 @@
 				"id": 159,
 				"meta": 15
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 159,
 				"meta": 15
 			},
@@ -2527,7 +2526,7 @@
 				"id": 161,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 161,
 				"meta": 0
 			},
@@ -2539,7 +2538,7 @@
 				"id": 161,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 161,
 				"meta": 1
 			},
@@ -2551,7 +2550,7 @@
 				"id": 162,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 162,
 				"meta": 0
 			},
@@ -2563,7 +2562,7 @@
 				"id": 162,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 162,
 				"meta": 1
 			},
@@ -2572,37 +2571,37 @@
 
 		"acacia_wood_stairs": {
 			"java": 163,
-			"pocket": 163,
+			"bedrock": 163,
 			"stack": 64
 		},
 
 		"dark_oak_wood_stairs": {
 			"java": 164,
-			"pocket": 164,
+			"bedrock": 164,
 			"stack": 64
 		},
 
 		"slime_block": {
 			"java": 165,
-			"pocket": 165,
+			"bedrock": 165,
 			"stack": 64
 		},
 
 		"barrier": {
 			"java": 166,
-			"pocket": 95,
+			"bedrock": 95,
 			"stack": 64
 		},
 
 		"iron_trapdoor": {
 			"java": 167,
-			"pocket": 167,
+			"bedrock": 167,
 			"stack": 64
 		},
 
 		"prismarine": {
 			"java": 168,
-			"pocket": 168,
+			"bedrock": 168,
 			"stack": 64
 		},
 
@@ -2611,7 +2610,7 @@
 				"id": 168,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 168,
 				"meta": 1
 			},
@@ -2623,7 +2622,7 @@
 				"id": 168,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 168,
 				"meta": 2
 			},
@@ -2632,13 +2631,13 @@
 
 		"sea_lantern": {
 			"java": 169,
-			"pocket": 169,
+			"bedrock": 169,
 			"stack": 64
 		},
 
 		"hay_bale": {
 			"java": 170,
-			"pocket": 170,
+			"bedrock": 170,
 			"stack": 64
 		},
 
@@ -2647,7 +2646,7 @@
 				"id": 171,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 0
 			},
@@ -2659,7 +2658,7 @@
 				"id": 171,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 1
 			},
@@ -2671,7 +2670,7 @@
 				"id": 171,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 2
 			},
@@ -2683,7 +2682,7 @@
 				"id": 171,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 3
 			},
@@ -2695,7 +2694,7 @@
 				"id": 171,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 4
 			},
@@ -2707,7 +2706,7 @@
 				"id": 171,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 5
 			},
@@ -2719,7 +2718,7 @@
 				"id": 171,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 6
 			},
@@ -2731,7 +2730,7 @@
 				"id": 171,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 7
 			},
@@ -2743,7 +2742,7 @@
 				"id": 171,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 8
 			},
@@ -2755,7 +2754,7 @@
 				"id": 171,
 				"meta": 9
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 9
 			},
@@ -2767,7 +2766,7 @@
 				"id": 171,
 				"meta": 10
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 10
 			},
@@ -2779,7 +2778,7 @@
 				"id": 171,
 				"meta": 11
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 11
 			},
@@ -2791,7 +2790,7 @@
 				"id": 171,
 				"meta": 12
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 12
 			},
@@ -2803,7 +2802,7 @@
 				"id": 171,
 				"meta": 13
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 13
 			},
@@ -2815,7 +2814,7 @@
 				"id": 171,
 				"meta": 14
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 14
 			},
@@ -2827,7 +2826,7 @@
 				"id": 171,
 				"meta": 15
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 171,
 				"meta": 15
 			},
@@ -2836,19 +2835,19 @@
 
 		"hardened_clay": {
 			"java": 172,
-			"pocket": 172,
+			"bedrock": 172,
 			"stack": 64
 		},
 
 		"coal_block": {
 			"java": 173,
-			"pocket": 173,
+			"bedrock": 173,
 			"stack": 64
 		},
 
 		"packed_ice": {
 			"java": 174,
-			"pocket": 174,
+			"bedrock": 174,
 			"stack": 64
 		},
 
@@ -2857,7 +2856,7 @@
 				"id": 175,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 175,
 				"meta": 0
 			},
@@ -2869,7 +2868,7 @@
 				"id": 175,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 175,
 				"meta": 1
 			},
@@ -2881,7 +2880,7 @@
 				"id": 175,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 175,
 				"meta": 2
 			},
@@ -2893,7 +2892,7 @@
 				"id": 175,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 175,
 				"meta": 3
 			},
@@ -2905,7 +2904,7 @@
 				"id": 175,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 175,
 				"meta": 4
 			},
@@ -2917,7 +2916,7 @@
 				"id": 175,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 175,
 				"meta": 5
 			},
@@ -2926,19 +2925,19 @@
 
 		"planted_banner": {
 			"java": 176,
-			"pocket": 176,
+			"bedrock": 176,
 			"stack": 64
 		},
 
 		"wall_banner": {
 			"java": 177,
-			"pocket": 177,
+			"bedrock": 177,
 			"stack": 64
 		},
 
 		"inverted_daylight_sensor": {
 			"java": 178,
-			"pocket": 178,
+			"bedrock": 178,
 			"stack": 64
 		},
 
@@ -2947,7 +2946,7 @@
 				"id": 179,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 179,
 				"meta": 0
 			},
@@ -2959,7 +2958,7 @@
 				"id": 179,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 179,
 				"meta": 1
 			},
@@ -2971,7 +2970,7 @@
 				"id": 179,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 179,
 				"meta": 2
 			},
@@ -2980,55 +2979,55 @@
 
 		"red_sandstone_stairs": {
 			"java": 180,
-			"pocket": 180,
+			"bedrock": 180,
 			"stack": 64
 		},
 
 		"double_red_sandstone_slab": {
 			"java": 181,
-			"pocket": 181,
+			"bedrock": 181,
 			"stack": 64
 		},
 
 		"red_sandstone_slab": {
 			"java": 182,
-			"pocket": 182,
+			"bedrock": 182,
 			"stack": 64
 		},
 
 		"spruce_fence_gate": {
 			"java": 183,
-			"pocket": 183,
+			"bedrock": 183,
 			"stack": 64
 		},
 
 		"birch_fence_gate": {
 			"java": 184,
-			"pocket": 184,
+			"bedrock": 184,
 			"stack": 64
 		},
 
 		"jungle_fence_gate": {
 			"java": 185,
-			"pocket": 185,
+			"bedrock": 185,
 			"stack": 64
 		},
 
 		"dark_oak_fence_gate": {
 			"java": 186,
-			"pocket": 186,
+			"bedrock": 186,
 			"stack": 64
 		},
 
 		"acacia_fence_gate": {
 			"java": 187,
-			"pocket": 187,
+			"bedrock": 187,
 			"stack": 64
 		},
 
 		"spruce_fence": {
 			"java": 188,
-			"pocket": {
+			"bedrock": {
 				"id": 85,
 				"meta": 1
 			},
@@ -3037,7 +3036,7 @@
 
 		"birch_fence": {
 			"java": 189,
-			"pocket": {
+			"bedrock": {
 				"id": 85,
 				"meta": 2
 			},
@@ -3046,7 +3045,7 @@
 
 		"jungle_fence": {
 			"java": 190,
-			"pocket": {
+			"bedrock": {
 				"id": 85,
 				"meta": 3
 			},
@@ -3055,7 +3054,7 @@
 
 		"dark_oak_fence": {
 			"java": 191,
-			"pocket": {
+			"bedrock": {
 				"id": 85,
 				"meta": 5
 			},
@@ -3064,7 +3063,7 @@
 
 		"acacia_fence": {
 			"java": 192,
-			"pocket": {
+			"bedrock": {
 				"id": 85,
 				"meta": 4
 			},
@@ -3073,165 +3072,165 @@
 
 		"spruce_door_block": {
 			"java": 193,
-			"pocket": 193,
+			"bedrock": 193,
 			"stack": 64
 		},
 
 		"birch_door_block": {
 			"java": 194,
-			"pocket": 194,
+			"bedrock": 194,
 			"stack": 64
 		},
 
 		"jungle_door_block": {
 			"java": 195,
-			"pocket": 195,
+			"bedrock": 195,
 			"stack": 64
 		},
 
 		"acacia_door_block": {
 			"java": 196,
-			"pocket": 196,
+			"bedrock": 196,
 			"stack": 64
 		},
 
 		"dark_oak_door_block": {
 			"java": 197,
-			"pocket": 197,
+			"bedrock": 197,
 			"stack": 64
 		},
 
 		"end_rod": {
 			"java": 198,
-			"pocket": 208,
+			"bedrock": 208,
 			"stack": 64
 		},
 
 		"item_frame_block": {
-			"pocket": 199,
+			"bedrock": 199,
 			"stack": 64
 		},
 
 		"chorus_plant": {
 			"java": 199,
-			"pocket": 240,
+			"bedrock": 240,
 			"stack": 64
 		},
 
 		"chorus_flower": {
 			"java": 200,
-			"pocket": 200,
+			"bedrock": 200,
 			"stack": 64
 		},
 
 		"purpur_block": {
 			"java": 201,
-			"pocket": 201,
+			"bedrock": 201,
 			"stack": 64
 		},
 
 		"purpur_pillar": {
 			"java": 202,
-			"pocket": 202,
+			"bedrock": 202,
 			"stack": 64
 		},
 
 		"purpur_stairs": {
 			"java": 203,
-			"pocket": 203,
+			"bedrock": 203,
 			"stack": 64
 		},
 
 		"purpur_double_slab": {
 			"java": 204,
-			"pocket": 204,
+			"bedrock": 204,
 			"stack": 64
 		},
 
 		"purpur_slab": {
 			"java": 205,
-			"pocket": 205,
+			"bedrock": 205,
 			"stack": 64
 		},
 
 		"end_stone_bricks": {
 			"java": 206,
-			"pocket": 206,
+			"bedrock": 206,
 			"stack": 64
 		},
 
 		"beetroot_block": {
 			"java": 207,
-			"pocket": 244,
+			"bedrock": 244,
 			"stack": 64
 		},
 
 		"grass_path": {
 			"java": 208,
-			"pocket": 198,
+			"bedrock": 198,
 			"stack": 64
 		},
 
 		"end_gateway": {
 			"java": 209,
-			"pocket": 209,
+			"bedrock": 209,
 			"stack": 64
 		},
 
 		"repeating_command_block": {
 			"java": 210,
-			"pocket": 188,
+			"bedrock": 188,
 			"stack": 64
 		},
 
 		"chain_command_block": {
 			"java": 211,
-			"pocket": 189,
+			"bedrock": 189,
 			"stack": 64
 		},
 
 		"frosted_ice": {
 			"java": 212,
-			"pocket": 207,
+			"bedrock": 207,
 			"stack": 64
 		},
 
 		"allow": {
-			"pocket": 210,
+			"bedrock": 210,
 			"stack": 64
 		},
 
 		"deny": {
-			"pocket": 211,
+			"bedrock": 211,
 			"stack": 64
 		},
 
 		"border_block": {
-			"pocket": 212,
+			"bedrock": 212,
 			"stack": 64
 		},
 
 		"magma_block": {
 			"java": 213,
-			"pocket": 213,
+			"bedrock": 213,
 			"stack": 64
 		},
 
 		"nether_wart_block": {
 			"java": 214,
-			"pocket": 214,
+			"bedrock": 214,
 			"stack": 64
 		},
 
 		"red_nether_brick": {
 			"java": 215,
-			"pocket": 215,
+			"bedrock": 215,
 			"stack": 64
 		},
 
 		"bone_block": {
 			"java": 216,
-			"pocket": 216,
+			"bedrock": 216,
 			"stack": 64
 		},
 
@@ -3242,13 +3241,13 @@
 
 		"observer": {
 			"java": 218,
-			"pocket": 251,
+			"bedrock": 251,
 			"stack": 64
 		},
 
 		"white_shulker_box": {
 			"java": 219,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 0
 			},
@@ -3257,7 +3256,7 @@
 
 		"orange_shulker_box": {
 			"java": 220,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 1
 			},
@@ -3266,7 +3265,7 @@
 
 		"magenta_shulker_box": {
 			"java": 221,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 2
 			},
@@ -3275,7 +3274,7 @@
 
 		"light_blue_shulker_box": {
 			"java": 222,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 3
 			},
@@ -3284,7 +3283,7 @@
 
 		"yellow_shulker_box": {
 			"java": 223,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 4
 			},
@@ -3293,7 +3292,7 @@
 
 		"lime_shulker_box": {
 			"java": 224,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 5
 			},
@@ -3302,7 +3301,7 @@
 
 		"pink_shulker_box": {
 			"java": 225,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 6
 			},
@@ -3311,7 +3310,7 @@
 
 		"gray_shulker_box": {
 			"java": 226,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 7
 			},
@@ -3320,7 +3319,7 @@
 
 		"light_gray_shulker_box": {
 			"java": 227,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 8
 			},
@@ -3329,7 +3328,7 @@
 
 		"cyan_shulker_box": {
 			"java": 228,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 9
 			},
@@ -3338,7 +3337,7 @@
 
 		"purple_shulker_box": {
 			"java": 229,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 10
 			},
@@ -3347,7 +3346,7 @@
 
 		"blue_shulker_box": {
 			"java": 230,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 11
 			},
@@ -3356,7 +3355,7 @@
 
 		"brown_shulker_box": {
 			"java": 231,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 12
 			},
@@ -3365,7 +3364,7 @@
 
 		"green_shulker_box": {
 			"java": 232,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 13
 			},
@@ -3374,7 +3373,7 @@
 
 		"red_shulker_box": {
 			"java": 233,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 14
 			},
@@ -3383,7 +3382,7 @@
 
 		"black_shulker_box": {
 			"java": 234,
-			"pocket": {
+			"bedrock": {
 				"id": 218,
 				"meta": 15
 			},
@@ -3392,97 +3391,97 @@
 
 		"white_glazed_terracotta": {
 			"java": 235,
-			"pocket": 220,
+			"bedrock": 220,
 			"stack": 64
 		},
 
 		"orange_glazed_terracotta": {
 			"java": 236,
-			"pocket": 221,
+			"bedrock": 221,
 			"stack": 64
 		},
 
 		"magenta_glazed_terracotta": {
 			"java": 237,
-			"pocket": 222,
+			"bedrock": 222,
 			"stack": 64
 		},
 
 		"light_blue_glazed_terracotta": {
 			"java": 238,
-			"pocket": 223,
+			"bedrock": 223,
 			"stack": 64
 		},
 
 		"yellow_glazed_terracotta": {
 			"java": 239,
-			"pocket": 224,
+			"bedrock": 224,
 			"stack": 64
 		},
 
 		"lime_glazed_terracotta": {
 			"java": 240,
-			"pocket": 225,
+			"bedrock": 225,
 			"stack": 64
 		},
 
 		"pink_glazed_terracotta": {
 			"java": 241,
-			"pocket": 226,
+			"bedrock": 226,
 			"stack": 64
 		},
 
 		"gray_glazed_terracotta": {
 			"java": 242,
-			"pocket": 227,
+			"bedrock": 227,
 			"stack": 64
 		},
 
 		"light_gray_glazed_terracotta": {
 			"java": 243,
-			"pocket": 228,
+			"bedrock": 228,
 			"stack": 64
 		},
 
 		"cyan_glazed_terracotta": {
 			"java": 244,
-			"pocket": 229,
+			"bedrock": 229,
 			"stack": 64
 		},
 
 		"purple_glazed_terracotta": {
 			"java": 245,
-			"pocket": 219,
+			"bedrock": 219,
 			"stack": 64
 		},
 
 		"blue_glazed_terracotta": {
 			"java": 246,
-			"pocket": 231,
+			"bedrock": 231,
 			"stack": 64
 		},
 
 		"brown_glazed_terracotta": {
 			"java": 247,
-			"pocket": 232,
+			"bedrock": 232,
 			"stack": 64
 		},
 
 		"green_glazed_terracotta": {
 			"java": 248,
-			"pocket": 233,
+			"bedrock": 233,
 			"stack": 64
 		},
 
 		"red_glazed_terracotta": {
 			"java": 249,
-			"pocket": 234,
+			"bedrock": 234,
 			"stack": 64
 		},
 
 		"black_glazed_terracotta": {
 			"java": 250,
-			"pocket": 235,
+			"bedrock": 235,
 			"stack": 64
 		},
 
@@ -3491,7 +3490,7 @@
 				"id": 251,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 0
 			},
@@ -3503,7 +3502,7 @@
 				"id": 251,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 1
 			},
@@ -3515,7 +3514,7 @@
 				"id": 251,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 2
 			},
@@ -3527,7 +3526,7 @@
 				"id": 251,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 3
 			},
@@ -3539,7 +3538,7 @@
 				"id": 251,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 4
 			},
@@ -3551,7 +3550,7 @@
 				"id": 251,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 5
 			},
@@ -3563,7 +3562,7 @@
 				"id": 251,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 6
 			},
@@ -3575,7 +3574,7 @@
 				"id": 251,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 7
 			},
@@ -3587,7 +3586,7 @@
 				"id": 251,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 8
 			},
@@ -3599,7 +3598,7 @@
 				"id": 251,
 				"meta": 9
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 9
 			},
@@ -3611,7 +3610,7 @@
 				"id": 251,
 				"meta": 10
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 10
 			},
@@ -3623,7 +3622,7 @@
 				"id": 251,
 				"meta": 11
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 11
 			},
@@ -3635,7 +3634,7 @@
 				"id": 251,
 				"meta": 12
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 12
 			},
@@ -3647,7 +3646,7 @@
 				"id": 251,
 				"meta": 13
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 13
 			},
@@ -3659,7 +3658,7 @@
 				"id": 251,
 				"meta": 14
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 14
 			},
@@ -3671,7 +3670,7 @@
 				"id": 251,
 				"meta": 15
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 236,
 				"meta": 15
 			},
@@ -3683,7 +3682,7 @@
 				"id": 252,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 0
 			},
@@ -3695,7 +3694,7 @@
 				"id": 252,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 1
 			},
@@ -3707,7 +3706,7 @@
 				"id": 252,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 2
 			},
@@ -3719,7 +3718,7 @@
 				"id": 252,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 3
 			},
@@ -3731,7 +3730,7 @@
 				"id": 252,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 4
 			},
@@ -3743,7 +3742,7 @@
 				"id": 252,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 5
 			},
@@ -3755,7 +3754,7 @@
 				"id": 252,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 6
 			},
@@ -3767,7 +3766,7 @@
 				"id": 252,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 7
 			},
@@ -3779,7 +3778,7 @@
 				"id": 252,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 8
 			},
@@ -3791,7 +3790,7 @@
 				"id": 252,
 				"meta": 9
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 9
 			},
@@ -3803,7 +3802,7 @@
 				"id": 252,
 				"meta": 10
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 10
 			},
@@ -3815,7 +3814,7 @@
 				"id": 252,
 				"meta": 11
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 11
 			},
@@ -3827,7 +3826,7 @@
 				"id": 252,
 				"meta": 12
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 12
 			},
@@ -3839,7 +3838,7 @@
 				"id": 252,
 				"meta": 13
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 13
 			},
@@ -3851,7 +3850,7 @@
 				"id": 252,
 				"meta": 14
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 14
 			},
@@ -3863,7 +3862,7 @@
 				"id": 252,
 				"meta": 15
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 237,
 				"meta": 15
 			},
@@ -3871,37 +3870,37 @@
 		},
 
 		"chalkboard": {
-			"pocket": 230,
+			"bedrock": 230,
 			"stack": 64
 		},
 
 		"camera": {
-			"pocket": 242,
+			"bedrock": 242,
 			"stack": 64
 		},
 
 		"stonecutter": {
-			"pocket": 245,
+			"bedrock": 245,
 			"stack": 64
 		},
 
 		"glowing_obsidian": {
-			"pocket": 246,
+			"bedrock": 246,
 			"stack": 64
 		},
 
 		"nether_reactor_core": {
-			"pocket": 247,
+			"bedrock": 247,
 			"stack": 64
 		},
 
 		"update_block": {
-			"pocket": 248,
+			"bedrock": 248,
 			"stack": 64
 		},
 
 		"ateupd_block": {
-			"pocket": 249,
+			"bedrock": 249,
 			"stack": 64
 		},
 
@@ -3910,7 +3909,7 @@
 				"id": 255,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 252,
 				"meta": 0
 			},
@@ -3922,7 +3921,7 @@
 				"id": 255,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 252,
 				"meta": 1
 			},
@@ -3934,7 +3933,7 @@
 				"id": 255,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 252,
 				"meta": 2
 			},
@@ -3946,7 +3945,7 @@
 				"id": 255,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 252,
 				"meta": 3
 			},
@@ -3955,54 +3954,54 @@
 
 		"iron_shovel": {
 			"java": 256,
-			"pocket": 256,
+			"bedrock": 256,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"iron_pickaxe": {
 			"java": 257,
-			"pocket": 257,
+			"bedrock": 257,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"iron_axe": {
 			"java": 258,
-			"pocket": 258,
+			"bedrock": 258,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"flint_and_steel": {
 			"java": 259,
-			"pocket": 259,
+			"bedrock": 259,
 			"stack": 1,
 			"durability": 65
 		},
 
 		"apple": {
 			"java": 260,
-			"pocket": 260,
+			"bedrock": 260,
 			"stack": 64
 		},
 
 		"bow": {
 			"java": 261,
-			"pocket": 261,
+			"bedrock": 261,
 			"stack": 1,
 			"durability": 385
 		},
 
 		"arrow": {
 			"java": 262,
-			"pocket": 262,
+			"bedrock": 262,
 			"stack": 64
 		},
 
 		"coal": {
 			"java": 263,
-			"pocket": 263,
+			"bedrock": 263,
 			"stack": 64
 		},
 
@@ -4011,7 +4010,7 @@
 				"id": 263,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 263,
 				"meta": 1
 			},
@@ -4020,397 +4019,397 @@
 
 		"diamond": {
 			"java": 264,
-			"pocket": 264,
+			"bedrock": 264,
 			"stack": 64
 		},
 
 		"iron_ingot": {
 			"java": 265,
-			"pocket": 265,
+			"bedrock": 265,
 			"stack": 64
 		},
 
 		"gold_ingot": {
 			"java": 266,
-			"pocket": 266,
+			"bedrock": 266,
 			"stack": 64
 		},
 
 		"iron_sword": {
 			"java": 267,
-			"pocket": 267,
+			"bedrock": 267,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"wooden_sword": {
 			"java": 268,
-			"pocket": 268,
+			"bedrock": 268,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"wooden_shovel": {
 			"java": 269,
-			"pocket": 269,
+			"bedrock": 269,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"wooden_pickaxe": {
 			"java": 270,
-			"pocket": 270,
+			"bedrock": 270,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"wooden_axe": {
 			"java": 271,
-			"pocket": 271,
+			"bedrock": 271,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"stone_sword": {
 			"java": 272,
-			"pocket": 272,
+			"bedrock": 272,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"stone_shovel": {
 			"java": 273,
-			"pocket": 273,
+			"bedrock": 273,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"stone_pickaxe": {
 			"java": 274,
-			"pocket": 274,
+			"bedrock": 274,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"stone_axe": {
 			"java": 275,
-			"pocket": 275,
+			"bedrock": 275,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"diamond_sword": {
 			"java": 276,
-			"pocket": 276,
+			"bedrock": 276,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"diamond_shovel": {
 			"java": 277,
-			"pocket": 277,
+			"bedrock": 277,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"diamond_pickaxe": {
 			"java": 278,
-			"pocket": 278,
+			"bedrock": 278,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"diamond_axe": {
 			"java": 279,
-			"pocket": 279,
+			"bedrock": 279,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"stick": {
 			"java": 280,
-			"pocket": 280,
+			"bedrock": 280,
 			"stack": 64
 		},
 
 		"bowl": {
 			"java": 281,
-			"pocket": 281,
+			"bedrock": 281,
 			"stack": 64
 		},
 
 		"mushroom_stew": {
 			"java": 282,
-			"pocket": 282,
+			"bedrock": 282,
 			"stack": 1
 		},
 
 		"golden_sword": {
 			"java": 283,
-			"pocket": 283,
+			"bedrock": 283,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"golden_shovel": {
 			"java": 284,
-			"pocket": 284,
+			"bedrock": 284,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"golden_pickaxe": {
 			"java": 285,
-			"pocket": 285,
+			"bedrock": 285,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"golden_axe": {
 			"java": 286,
-			"pocket": 286,
+			"bedrock": 286,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"string": {
 			"java": 287,
-			"pocket": 287,
+			"bedrock": 287,
 			"stack": 64
 		},
 
 		"feather": {
 			"java": 288,
-			"pocket": 288,
+			"bedrock": 288,
 			"stack": 64
 		},
 
 		"gunpowder": {
 			"java": 289,
-			"pocket": 289,
+			"bedrock": 289,
 			"stack": 64
 		},
 
 		"wooden_hoe": {
 			"java": 290,
-			"pocket": 290,
+			"bedrock": 290,
 			"stack": 1,
 			"durability": 60
 		},
 
 		"stone_hoe": {
 			"java": 291,
-			"pocket": 291,
+			"bedrock": 291,
 			"stack": 1,
 			"durability": 132
 		},
 
 		"iron_hoe": {
 			"java": 292,
-			"pocket": 292,
+			"bedrock": 292,
 			"stack": 1,
 			"durability": 251
 		},
 
 		"diamond_hoe": {
 			"java": 293,
-			"pocket": 293,
+			"bedrock": 293,
 			"stack": 1,
 			"durability": 1562
 		},
 
 		"golden_hoe": {
 			"java": 294,
-			"pocket": 294,
+			"bedrock": 294,
 			"stack": 1,
 			"durability": 33
 		},
 
 		"seeds": {
 			"java": 295,
-			"pocket": 295,
+			"bedrock": 295,
 			"stack": 64
 		},
 
 		"wheat": {
 			"java": 296,
-			"pocket": 296,
+			"bedrock": 296,
 			"stack": 64
 		},
 
 		"bread": {
 			"java": 297,
-			"pocket": 297,
+			"bedrock": 297,
 			"stack": 64
 		},
 
 		"leather_cap": {
 			"java": 298,
-			"pocket": 298,
+			"bedrock": 298,
 			"stack": 1,
 			"durability": 56
 		},
 
 		"leather_tunic": {
 			"java": 299,
-			"pocket": 299,
+			"bedrock": 299,
 			"stack": 1,
 			"durability": 81
 		},
 
 		"leather_pants": {
 			"java": 300,
-			"pocket": 300,
+			"bedrock": 300,
 			"stack": 1,
 			"durability": 76
 		},
 
 		"leather_boots": {
 			"java": 301,
-			"pocket": 301,
+			"bedrock": 301,
 			"stack": 1,
 			"durability": 66
 		},
 
 		"chain_helmet": {
 			"java": 302,
-			"pocket": 302,
+			"bedrock": 302,
 			"stack": 1,
 			"durability": 166
 		},
 
 		"chain_chestplate": {
 			"java": 303,
-			"pocket": 303,
+			"bedrock": 303,
 			"stack": 1,
 			"durability": 241
 		},
 
 		"chain_leggings": {
 			"java": 304,
-			"pocket": 304,
+			"bedrock": 304,
 			"stack": 1,
 			"durability": 226
 		},
 
 		"chain_boots": {
 			"java": 305,
-			"pocket": 305,
+			"bedrock": 305,
 			"stack": 1,
 			"durability": 196
 		},
 
 		"iron_helmet": {
 			"java": 306,
-			"pocket": 306,
+			"bedrock": 306,
 			"stack": 1,
 			"durability": 166
 		},
 
 		"iron_chestplate": {
 			"java": 307,
-			"pocket": 307,
+			"bedrock": 307,
 			"stack": 1,
 			"durability": 241
 		},
 
 		"iron_leggings": {
 			"java": 308,
-			"pocket": 308,
+			"bedrock": 308,
 			"stack": 1,
 			"durability": 226
 		},
 
 		"iron_boots": {
 			"java": 309,
-			"pocket": 309,
+			"bedrock": 309,
 			"stack": 1,
 			"durability": 196
 		},
 
 		"diamond_helmet": {
 			"java": 310,
-			"pocket": 310,
+			"bedrock": 310,
 			"stack": 1,
 			"durability": 364
 		},
 
 		"diamond_chestplate": {
 			"java": 311,
-			"pocket": 311,
+			"bedrock": 311,
 			"stack": 1,
 			"durability": 529
 		},
 
 		"diamond_leggings": {
 			"java": 312,
-			"pocket": 312,
+			"bedrock": 312,
 			"stack": 1,
 			"durability": 496
 		},
 
 		"diamond_boots": {
 			"java": 313,
-			"pocket": 313,
+			"bedrock": 313,
 			"stack": 1,
 			"durability": 430
 		},
 
 		"golden_helmet": {
 			"java": 314,
-			"pocket": 314,
+			"bedrock": 314,
 			"stack": 1,
 			"durability": 78
 		},
 
 		"golden_chestplate": {
 			"java": 315,
-			"pocket": 315,
+			"bedrock": 315,
 			"stack": 1,
 			"durability": 113
 		},
 
 		"golden_leggings": {
 			"java": 316,
-			"pocket": 316,
+			"bedrock": 316,
 			"stack": 1,
 			"durability": 106
 		},
 
 		"golden_boots": {
 			"java": 317,
-			"pocket": 317,
+			"bedrock": 317,
 			"stack": 1,
 			"durability": 92
 		},
 
 		"flint": {
 			"java": 318,
-			"pocket": 318,
+			"bedrock": 318,
 			"stack": 64
 		},
 
 		"raw_porkchop": {
 			"java": 319,
-			"pocket": 319,
+			"bedrock": 319,
 			"stack": 64
 		},
 
 		"cooked_porkchop": {
 			"java": 320,
-			"pocket": 320,
+			"bedrock": 320,
 			"stack": 64
 		},
 
 		"painting": {
 			"java": 321,
-			"pocket": 321,
+			"bedrock": 321,
 			"stack": 64
 		},
 
 		"golden_apple": {
 			"java": 322,
-			"pocket": 322,
+			"bedrock": 322,
 			"stack": 64
 		},
 
@@ -4419,31 +4418,31 @@
 				"id": 322,
 				"meta": 1
 			},
-			"pocket": 466,
+			"bedrock": 466,
 			"stack": 64
 		},
 
 		"sign": {
 			"java": 323,
-			"pocket": 323,
+			"bedrock": 323,
 			"stack": 64
 		},
 
 		"oak_door": {
 			"java": 324,
-			"pocket": 324,
+			"bedrock": 324,
 			"stack": 64
 		},
 
 		"bucket": {
 			"java": 325,
-			"pocket": 325,
+			"bedrock": 325,
 			"stack": 16
 		},
 
 		"water_bucket": {
 			"java": 326,
-			"pocket": {
+			"bedrock": {
 				"id": 325,
 				"meta": 8
 			},
@@ -4452,7 +4451,7 @@
 
 		"lava_bucket": {
 			"java": 327,
-			"pocket": {
+			"bedrock": {
 				"id": 325,
 				"meta": 10
 			},
@@ -4461,49 +4460,49 @@
 
 		"minecart": {
 			"java": 328,
-			"pocket": 328,
+			"bedrock": 328,
 			"stack": 1
 		},
 
 		"saddle": {
 			"java": 329,
-			"pocket": 329,
+			"bedrock": 329,
 			"stack": 1
 		},
 
 		"iron_door": {
 			"java": 330,
-			"pocket": 330,
+			"bedrock": 330,
 			"stack": 64
 		},
 
 		"redstone_dust": {
 			"java": 331,
-			"pocket": 331,
+			"bedrock": 331,
 			"stack": 64
 		},
 
 		"snowball": {
 			"java": 332,
-			"pocket": 332,
+			"bedrock": 332,
 			"stack": 16
 		},
 
 		"oak_boat": {
 			"java": 333,
-			"pocket": 333,
+			"bedrock": 333,
 			"stack": 1
 		},
 
 		"leather": {
 			"java": 334,
-			"pocket": 334,
+			"bedrock": 334,
 			"stack": 64
 		},
 
 		"milk_bucket": {
 			"java": 335,
-			"pocket": {
+			"bedrock": {
 				"id": 325,
 				"meta": 1
 			},
@@ -4512,43 +4511,43 @@
 
 		"brick": {
 			"java": 336,
-			"pocket": 336,
+			"bedrock": 336,
 			"stack": 64
 		},
 
 		"clay": {
 			"java": 337,
-			"pocket": 337,
+			"bedrock": 337,
 			"stack": 64
 		},
 
 		"sugar_canes": {
 			"java": 338,
-			"pocket": 338,
+			"bedrock": 338,
 			"stack": 64
 		},
 
 		"paper": {
 			"java": 339,
-			"pocket": 339,
+			"bedrock": 339,
 			"stack": 64
 		},
 
 		"book": {
 			"java": 340,
-			"pocket": 340,
+			"bedrock": 340,
 			"stack": 64
 		},
 
 		"slimeball": {
 			"java": 341,
-			"pocket": 341,
+			"bedrock": 341,
 			"stack": 64
 		},
 
 		"minecart_with_chest": {
 			"java": 342,
-			"pocket": 342,
+			"bedrock": 342,
 			"stack": 1
 		},
 
@@ -4559,32 +4558,32 @@
 
 		"egg": {
 			"java": 344,
-			"pocket": 344,
+			"bedrock": 344,
 			"stack": 16
 		},
 
 		"compass": {
 			"java": 345,
-			"pocket": 345,
+			"bedrock": 345,
 			"stack": 64
 		},
 
 		"fishing_rod": {
 			"java": 346,
-			"pocket": 346,
+			"bedrock": 346,
 			"stack": 1,
 			"durability": 65
 		},
 
 		"clock": {
 			"java": 347,
-			"pocket": 347,
+			"bedrock": 347,
 			"stack": 64
 		},
 
 		"glowstone_dust": {
 			"java": 348,
-			"pocket": 348,
+			"bedrock": 348,
 			"stack": 64
 		},
 
@@ -4593,7 +4592,7 @@
 				"id": 349,
 				"meta": 0
 			},
-			"pocket": 349,
+			"bedrock": 349,
 			"stack": 64
 		},
 
@@ -4602,7 +4601,7 @@
 				"id": 349,
 				"meta": 1
 			},
-			"pocket": 460,
+			"bedrock": 460,
 			"stack": 64
 		},
 
@@ -4611,7 +4610,7 @@
 				"id": 349,
 				"meta": 2
 			},
-			"pocket": 461,
+			"bedrock": 461,
 			"stack": 64
 		},
 
@@ -4620,7 +4619,7 @@
 				"id": 349,
 				"meta": 3
 			},
-			"pocket": 462,
+			"bedrock": 462,
 			"stack": 64
 		},
 
@@ -4629,7 +4628,7 @@
 				"id": 350,
 				"meta": 0
 			},
-			"pocket": 350,
+			"bedrock": 350,
 			"stack": 64
 		},
 
@@ -4638,7 +4637,7 @@
 				"id": 350,
 				"meta": 1
 			},
-			"pocket": 463,
+			"bedrock": 463,
 			"stack": 64
 		},
 
@@ -4647,7 +4646,7 @@
 				"id": 351,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 0
 			},
@@ -4659,7 +4658,7 @@
 				"id": 351,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 1
 			},
@@ -4671,7 +4670,7 @@
 				"id": 351,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 2
 			},
@@ -4683,7 +4682,7 @@
 				"id": 351,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 3
 			},
@@ -4695,7 +4694,7 @@
 				"id": 351,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 4
 			},
@@ -4707,7 +4706,7 @@
 				"id": 351,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 5
 			},
@@ -4719,7 +4718,7 @@
 				"id": 351,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 6
 			},
@@ -4731,7 +4730,7 @@
 				"id": 351,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 7
 			},
@@ -4743,7 +4742,7 @@
 				"id": 351,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 8
 			},
@@ -4755,7 +4754,7 @@
 				"id": 351,
 				"meta": 9
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 9
 			},
@@ -4767,7 +4766,7 @@
 				"id": 351,
 				"meta": 10
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 10
 			},
@@ -4779,7 +4778,7 @@
 				"id": 351,
 				"meta": 11
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 11
 			},
@@ -4791,7 +4790,7 @@
 				"id": 351,
 				"meta": 12
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 12
 			},
@@ -4803,7 +4802,7 @@
 				"id": 351,
 				"meta": 13
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 13
 			},
@@ -4815,7 +4814,7 @@
 				"id": 351,
 				"meta": 14
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 14
 			},
@@ -4827,7 +4826,7 @@
 				"id": 351,
 				"meta": 15
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 351,
 				"meta": 15
 			},
@@ -4836,19 +4835,19 @@
 
 		"bone": {
 			"java": 352,
-			"pocket": 352,
+			"bedrock": 352,
 			"stack": 64
 		},
 
 		"sugar": {
 			"java": 353,
-			"pocket": 353,
+			"bedrock": 353,
 			"stack": 64
 		},
 
 		"cake": {
 			"java": 354,
-			"pocket": 354,
+			"bedrock": 354,
 			"stack": 1
 		},
 
@@ -4857,7 +4856,7 @@
 				"id": 355,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 0
 			},
@@ -4869,7 +4868,7 @@
 				"id": 355,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 1
 			},
@@ -4881,7 +4880,7 @@
 				"id": 355,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 2
 			},
@@ -4893,7 +4892,7 @@
 				"id": 355,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 3
 			},
@@ -4905,7 +4904,7 @@
 				"id": 355,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 4
 			},
@@ -4917,7 +4916,7 @@
 				"id": 355,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 5
 			},
@@ -4929,7 +4928,7 @@
 				"id": 355,
 				"meta": 6
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 6
 			},
@@ -4941,7 +4940,7 @@
 				"id": 355,
 				"meta": 7
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 7
 			},
@@ -4953,7 +4952,7 @@
 				"id": 355,
 				"meta": 8
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 8
 			},
@@ -4965,7 +4964,7 @@
 				"id": 355,
 				"meta": 9
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 9
 			},
@@ -4977,7 +4976,7 @@
 				"id": 355,
 				"meta": 10
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 10
 			},
@@ -4989,7 +4988,7 @@
 				"id": 355,
 				"meta": 11
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 11
 			},
@@ -5001,7 +5000,7 @@
 				"id": 355,
 				"meta": 12
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 12
 			},
@@ -5013,7 +5012,7 @@
 				"id": 355,
 				"meta": 13
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 13
 			},
@@ -5025,7 +5024,7 @@
 				"id": 355,
 				"meta": 14
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 14
 			},
@@ -5037,7 +5036,7 @@
 				"id": 355,
 				"meta": 15
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 355,
 				"meta": 15
 			},
@@ -5046,104 +5045,104 @@
 
 		"redstone_repeater": {
 			"java": 356,
-			"pocket": 356,
+			"bedrock": 356,
 			"stack": 64
 		},
 
 		"cookie": {
 			"java": 357,
-			"pocket": 357,
+			"bedrock": 357,
 			"stack": 64
 		},
 
 		"map": {
 			"java": 358,
-			"pocket": 358,
+			"bedrock": 358,
 			"stack": 64
 		},
 
 		"shears": {
 			"java": 359,
-			"pocket": 359,
+			"bedrock": 359,
 			"stack": 1,
 			"durability": 238
 		},
 
 		"melon": {
 			"java": 360,
-			"pocket": 360,
+			"bedrock": 360,
 			"stack": 64
 		},
 
 		"pumpkin_seeds": {
 			"java": 361,
-			"pocket": 361,
+			"bedrock": 361,
 			"stack": 64
 		},
 
 		"melon_seeds": {
 			"java": 362,
-			"pocket": 362,
+			"bedrock": 362,
 			"stack": 64
 		},
 
 		"raw_beef": {
 			"java": 363,
-			"pocket": 363,
+			"bedrock": 363,
 			"stack": 64
 		},
 
 		"steak": {
 			"java": 364,
-			"pocket": 364,
+			"bedrock": 364,
 			"stack": 64
 		},
 
 		"raw_chicken": {
 			"java": 365,
-			"pocket": 365,
+			"bedrock": 365,
 			"stack": 64
 		},
 
 		"cooked_chicken": {
 			"java": 366,
-			"pocket": 366,
+			"bedrock": 366,
 			"stack": 64
 		},
 
 		"rotten_flesh": {
 			"java": 367,
-			"pocket": 367,
+			"bedrock": 367,
 			"stack": 64
 		},
 
 		"ender_pearl": {
 			"java": 368,
-			"pocket": 368,
+			"bedrock": 368,
 			"stack": 16
 		},
 
 		"blaze_rod": {
 			"java": 369,
-			"pocket": 369,
+			"bedrock": 369,
 			"stack": 64
 		},
 
 		"ghast_tear": {
 			"java": 370,
-			"pocket": 370,
+			"bedrock": 370,
 			"stack": 64
 		},
 
 		"gold_nugget": {
 			"java": 371,
-			"pocket": 371,
+			"bedrock": 371,
 			"stack": 64
 		},
 
 		"nether_wart": {
 			"java": 372,
-			"pocket": 372,
+			"bedrock": 372,
 			"stack": 64
 		},
 
@@ -5154,7 +5153,7 @@
 
 		"water_bottle": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 0
 			},
@@ -5163,7 +5162,7 @@
 
 		"mundane_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 1
 			},
@@ -5171,7 +5170,7 @@
 		},
 
 		"mundane_potion_extended": {
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 2
 			},
@@ -5180,7 +5179,7 @@
 
 		"thick_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 3
 			},
@@ -5189,7 +5188,7 @@
 
 		"awkward_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 4
 			},
@@ -5198,7 +5197,7 @@
 
 		"night_vision_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 5
 			},
@@ -5207,7 +5206,7 @@
 
 		"night_vision_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 6
 			},
@@ -5216,7 +5215,7 @@
 
 		"invisibility_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 7
 			},
@@ -5225,7 +5224,7 @@
 
 		"invisibility_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 8
 			},
@@ -5234,7 +5233,7 @@
 
 		"leaping_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 9
 			},
@@ -5243,7 +5242,7 @@
 
 		"leaping_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 10
 			},
@@ -5252,7 +5251,7 @@
 
 		"leaping_potion_plus": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 11
 			},
@@ -5261,7 +5260,7 @@
 
 		"fire_resistance_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 12
 			},
@@ -5270,7 +5269,7 @@
 
 		"fire_resistance_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 13
 			},
@@ -5279,7 +5278,7 @@
 
 		"swiftness_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 14
 			},
@@ -5288,7 +5287,7 @@
 
 		"swiftness_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 15
 			},
@@ -5297,7 +5296,7 @@
 
 		"swiftness_potion_plus": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 16
 			},
@@ -5306,7 +5305,7 @@
 
 		"slowness_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 17
 			},
@@ -5315,7 +5314,7 @@
 
 		"slowness_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 18
 			},
@@ -5324,7 +5323,7 @@
 
 		"water_breathing_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 19
 			},
@@ -5333,7 +5332,7 @@
 
 		"water_breathing_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 20
 			},
@@ -5342,7 +5341,7 @@
 
 		"healing_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 21
 			},
@@ -5351,7 +5350,7 @@
 
 		"healing_potion_plus": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 22
 			},
@@ -5360,7 +5359,7 @@
 
 		"harming_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 23
 			},
@@ -5369,7 +5368,7 @@
 
 		"harming_potion_plus": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 24
 			},
@@ -5378,7 +5377,7 @@
 
 		"poison_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 25
 			},
@@ -5387,7 +5386,7 @@
 
 		"poison_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 26
 			},
@@ -5396,7 +5395,7 @@
 
 		"poison_potion_plus": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 27
 			},
@@ -5405,7 +5404,7 @@
 
 		"regeneration_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 28
 			},
@@ -5414,7 +5413,7 @@
 
 		"regeneration_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 29
 			},
@@ -5423,7 +5422,7 @@
 
 		"regeneration_potion_plus": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 30
 			},
@@ -5432,7 +5431,7 @@
 
 		"strength_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 31
 			},
@@ -5441,7 +5440,7 @@
 
 		"strength_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 32
 			},
@@ -5450,7 +5449,7 @@
 
 		"strength_potion_plus": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 33
 			},
@@ -5459,7 +5458,7 @@
 
 		"weakness_potion": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 34
 			},
@@ -5468,7 +5467,7 @@
 
 		"weakness_potion_extended": {
 			"java": 373,
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 35
 			},
@@ -5476,7 +5475,7 @@
 		},
 
 		"decay_potion": {
-			"pocket": {
+			"bedrock": {
 				"id": 373,
 				"meta": 36
 			},
@@ -5485,61 +5484,61 @@
 
 		"glass_bottle": {
 			"java": 374,
-			"pocket": 374,
+			"bedrock": 374,
 			"stack": 64
 		},
 
 		"spider_eye": {
 			"java": 375,
-			"pocket": 375,
+			"bedrock": 375,
 			"stack": 64
 		},
 
 		"fermented_spider_eye": {
 			"java": 376,
-			"pocket": 376,
+			"bedrock": 376,
 			"stack": 64
 		},
 
 		"blaze_powder": {
 			"java": 377,
-			"pocket": 377,
+			"bedrock": 377,
 			"stack": 64
 		},
 
 		"magma_cream": {
 			"java": 378,
-			"pocket": 378,
+			"bedrock": 378,
 			"stack": 64
 		},
 
 		"brewing_stand": {
 			"java": 379,
-			"pocket": 379,
+			"bedrock": 379,
 			"stack": 64
 		},
 
 		"cauldron": {
 			"java": 380,
-			"pocket": 380,
+			"bedrock": 380,
 			"stack": 64
 		},
 
 		"eye_of_ender": {
 			"java": 381,
-			"pocket": 381,
+			"bedrock": 381,
 			"stack": 16
 		},
 
 		"glistering_melon": {
 			"java": 382,
-			"pocket": 382,
+			"bedrock": 382,
 			"stack": 64
 		},
 
 		"spawn_elder_guardian": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 50
 			},
@@ -5548,7 +5547,7 @@
 
 		"spawn_wither_skeleton": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 48
 			},
@@ -5557,7 +5556,7 @@
 
 		"spawn_stray": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 46
 			},
@@ -5566,7 +5565,7 @@
 
 		"spawn_husk": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 47
 			},
@@ -5575,7 +5574,7 @@
 
 		"spawn_zombie_villager": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 44
 			},
@@ -5584,7 +5583,7 @@
 
 		"spawn_skeleton_horse": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 26
 			},
@@ -5593,7 +5592,7 @@
 
 		"spawn_zombie_horse": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 27
 			},
@@ -5602,7 +5601,7 @@
 
 		"spawn_donkey": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 24
 			},
@@ -5611,7 +5610,7 @@
 
 		"spawn_mule": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 25
 			},
@@ -5620,7 +5619,7 @@
 
 		"spawn_evoker": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 104
 			},
@@ -5629,7 +5628,7 @@
 
 		"spawn_vex": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 105
 			},
@@ -5638,7 +5637,7 @@
 
 		"spawn_vindicator": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 56
 			},
@@ -5647,7 +5646,7 @@
 
 		"spawn_creeper": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 33
 			},
@@ -5656,7 +5655,7 @@
 
 		"spawn_skeleton": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 34
 			},
@@ -5665,7 +5664,7 @@
 
 		"spawn_spider": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 35
 			},
@@ -5674,7 +5673,7 @@
 
 		"spawn_zombie": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 32
 			},
@@ -5683,7 +5682,7 @@
 
 		"spawn_slime": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 37
 			},
@@ -5692,7 +5691,7 @@
 
 		"spawn_ghast": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 41
 			},
@@ -5701,7 +5700,7 @@
 
 		"spawn_zombie_pigman": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 36
 			},
@@ -5710,7 +5709,7 @@
 
 		"spawn_enderman": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 38
 			},
@@ -5719,7 +5718,7 @@
 
 		"spawn_cave_spider": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 40
 			},
@@ -5728,7 +5727,7 @@
 
 		"spawn_silverfish": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 39
 			},
@@ -5737,7 +5736,7 @@
 
 		"spawn_blaze": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 43
 			},
@@ -5746,7 +5745,7 @@
 
 		"spawn_magma_cube": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 42
 			},
@@ -5755,7 +5754,7 @@
 
 		"spawn_bat": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 19
 			},
@@ -5764,7 +5763,7 @@
 
 		"spawn_witch": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 45
 			},
@@ -5773,7 +5772,7 @@
 
 		"spawn_endermite": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 55
 			},
@@ -5782,7 +5781,7 @@
 
 		"spawn_guardian": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 49
 			},
@@ -5791,7 +5790,7 @@
 
 		"spawn_shulker": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 54
 			},
@@ -5800,7 +5799,7 @@
 
 		"spawn_pig": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 12
 			},
@@ -5809,7 +5808,7 @@
 
 		"spawn_sheep": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 13
 			},
@@ -5818,7 +5817,7 @@
 
 		"spawn_cow": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 11
 			},
@@ -5827,7 +5826,7 @@
 
 		"spawn_chicken": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 10
 			},
@@ -5836,7 +5835,7 @@
 
 		"spawn_squid": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 17
 			},
@@ -5845,7 +5844,7 @@
 
 		"spawn_wolf": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 14
 			},
@@ -5854,7 +5853,7 @@
 
 		"spawn_mooshroom": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 16
 			},
@@ -5863,7 +5862,7 @@
 
 		"spawn_ocelot": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 22
 			},
@@ -5872,7 +5871,7 @@
 
 		"spawn_horse": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 23
 			},
@@ -5881,7 +5880,7 @@
 
 		"spawn_rabbit": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 18
 			},
@@ -5890,7 +5889,7 @@
 
 		"spawn_polar_bear": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 28
 			},
@@ -5899,7 +5898,7 @@
 
 		"spawn_llama": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 29
 			},
@@ -5913,7 +5912,7 @@
 
 		"spawn_villager": {
 			"java": 383,
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 15
 			},
@@ -5921,7 +5920,7 @@
 		},
 
 		"spawn_npc": {
-			"pocket": {
+			"bedrock": {
 				"id": 383,
 				"meta": 51
 			},
@@ -5930,78 +5929,78 @@
 
 		"bottle_o_enchanting": {
 			"java": 384,
-			"pocket": 384,
+			"bedrock": 384,
 			"stack": 64
 		},
 
 		"fire_charge": {
 			"java": 385,
-			"pocket": 385,
+			"bedrock": 385,
 			"stack": 64
 		},
 
 		"book_and_quill": {
 			"java": 386,
-			"pocket": 386,
+			"bedrock": 386,
 			"stack": 1
 		},
 
 		"written_book": {
 			"java": 387,
-			"pocket": 387,
+			"bedrock": 387,
 			"stack": 1
 		},
 
 		"emerald": {
 			"java": 388,
-			"pocket": 388,
+			"bedrock": 388,
 			"stack": 64
 		},
 
 		"item_frame": {
 			"java": 389,
-			"pocket": 389,
+			"bedrock": 389,
 			"stack": 64
 		},
 
 		"flower_pot": {
 			"java": 390,
-			"pocket": 390,
+			"bedrock": 390,
 			"stack": 64
 		},
 
 		"carrot": {
 			"java": 391,
-			"pocket": 391,
+			"bedrock": 391,
 			"stack": 64
 		},
 
 		"potato": {
 			"java": 392,
-			"pocket": 392,
+			"bedrock": 392,
 			"stack": 64
 		},
 
 		"baked_potato": {
 			"java": 393,
-			"pocket": 393,
+			"bedrock": 393,
 			"stack": 64
 		},
 
 		"poisonous_potato": {
 			"java": 394,
-			"pocket": 394,
+			"bedrock": 394,
 			"stack": 64
 		},
 
 		"empty_map": {
 			"java": 395,
-			"pocket": 395,
+			"bedrock": 395,
 			"stack": 64
 		},
 
 		"empty_locator_map": {
-			"pocket": {
+			"bedrock": {
 				"id": 395,
 				"meta": 2
 			},
@@ -6010,7 +6009,7 @@
 
 		"golden_carrot": {
 			"java": 396,
-			"pocket": 396,
+			"bedrock": 396,
 			"stack": 64
 		},
 
@@ -6019,7 +6018,7 @@
 				"id": 397,
 				"meta": 0
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 397,
 				"meta": 0
 			},
@@ -6031,7 +6030,7 @@
 				"id": 397,
 				"meta": 1
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 397,
 				"meta": 1
 			},
@@ -6043,7 +6042,7 @@
 				"id": 397,
 				"meta": 2
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 397,
 				"meta": 2
 			},
@@ -6055,7 +6054,7 @@
 				"id": 397,
 				"meta": 3
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 397,
 				"meta": 3
 			},
@@ -6067,7 +6066,7 @@
 				"id": 397,
 				"meta": 4
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 397,
 				"meta": 4
 			},
@@ -6079,7 +6078,7 @@
 				"id": 397,
 				"meta": 5
 			},
-			"pocket": {
+			"bedrock": {
 				"id": 397,
 				"meta": 5
 			},
@@ -6088,247 +6087,247 @@
 
 		"carrot_on_a_stick": {
 			"java": 398,
-			"pocket": 398,
+			"bedrock": 398,
 			"stack": 1,
 			"durability": 26
 		},
 
 		"nether_star": {
 			"java": 399,
-			"pocket": 399,
+			"bedrock": 399,
 			"stack": 64
 		},
 
 		"pumpkin_pie": {
 			"java": 400,
-			"pocket": 400,
+			"bedrock": 400,
 			"stack": 64
 		},
 
 		"firework_rocket": {
 			"java": 401,
-			"pocket": 401,
+			"bedrock": 401,
 			"stack": 64
 		},
 
 		"firework_star": {
 			"java": 402,
-			"pocket": 402,
+			"bedrock": 402,
 			"stack": 64
 		},
 
 		"enchanted_book": {
 			"java": 403,
-			"pocket": 403,
+			"bedrock": 403,
 			"stack": 1
 		},
 
 		"redstone_comparator": {
 			"java": 404,
-			"pocket": 404,
+			"bedrock": 404,
 			"stack": 64
 		},
 
 		"nether_brick": {
 			"java": 405,
-			"pocket": 405,
+			"bedrock": 405,
 			"stack": 64
 		},
 
 		"nether_quartz": {
 			"java": 406,
-			"pocket": 406,
+			"bedrock": 406,
 			"stack": 64
 		},
 
 		"minecart_with_tnt": {
 			"java": 407,
-			"pocket": 407,
+			"bedrock": 407,
 			"stack": 1
 		},
 
 		"minecart_with_hopper": {
 			"java": 408,
-			"pocket": 408,
+			"bedrock": 408,
 			"stack": 1
 		},
 
 		"prismarine_shard": {
 			"java": 409,
-			"pocket": 409,
+			"bedrock": 409,
 			"stack": 64
 		},
 
 		"prismarine_crystals": {
 			"java": 410,
-			"pocket": 422,
+			"bedrock": 422,
 			"stack": 64
 		},
 
 		"raw_rabbit": {
 			"java": 411,
-			"pocket": 411,
+			"bedrock": 411,
 			"stack": 64
 		},
 
 		"cooked_rabbit": {
 			"java": 412,
-			"pocket": 412,
+			"bedrock": 412,
 			"stack": 64
 		},
 
 		"rabbit_stew": {
 			"java": 413,
-			"pocket": 413,
+			"bedrock": 413,
 			"stack": 1
 		},
 
 		"rabbit_foot": {
 			"java": 414,
-			"pocket": 414,
+			"bedrock": 414,
 			"stack": 64
 		},
 
 		"rabbit_hide": {
 			"java": 415,
-			"pocket": 415,
+			"bedrock": 415,
 			"stack": 64
 		},
 
 		"armor_stand": {
 			"java": 416,
-			"pocket": 425,
+			"bedrock": 425,
 			"stack": 16
 		},
 
 		"leather_horse_armor": {
-			"pocket": 416,
+			"bedrock": 416,
 			"stack": 1
 		},
 
 		"iron_horse_armor": {
 			"java": 417,
-			"pocket": 417,
+			"bedrock": 417,
 			"stack": 1
 		},
 
 		"golden_horse_armor": {
 			"java": 418,
-			"pocket": 418,
+			"bedrock": 418,
 			"stack": 1
 		},
 
 		"diamond_horse_armor": {
 			"java": 419,
-			"pocket": 419,
+			"bedrock": 419,
 			"stack": 1
 		},
 
 		"lead": {
 			"java": 420,
-			"pocket": 420,
+			"bedrock": 420,
 			"stack": 64
 		},
 
 		"name_tag": {
 			"java": 421,
-			"pocket": 421,
+			"bedrock": 421,
 			"stack": 64
 		},
 
 		"minecart_with_command_block": {
 			"java": 422,
-			"pocket": 443,
+			"bedrock": 443,
 			"stack": 1
 		},
 
 		"raw_mutton": {
 			"java": 423,
-			"pocket": 423,
+			"bedrock": 423,
 			"stack": 64
 		},
 
 		"cooked_mutton": {
 			"java": 424,
-			"pocket": 424,
+			"bedrock": 424,
 			"stack": 64
 		},
 
 		"banner": {
 			"java": 425,
-			"pocket": 446,
+			"bedrock": 446,
 			"stack": 64
 		},
 
 		"end_crystal": {
 			"java": 426,
-			"pocket": 426,
+			"bedrock": 426,
 			"stack": 64
 		},
 
 		"spruce_door": {
 			"java": 427,
-			"pocket": 427,
+			"bedrock": 427,
 			"stack": 64
 		},
 
 		"birch_door": {
 			"java": 428,
-			"pocket": 428,
+			"bedrock": 428,
 			"stack": 64
 		},
 
 		"jungle_door": {
 			"java": 429,
-			"pocket": 429,
+			"bedrock": 429,
 			"stack": 64
 		},
 
 		"acacia_door": {
 			"java": 430,
-			"pocket": 430,
+			"bedrock": 430,
 			"stack": 64
 		},
 
 		"dark_oak_door": {
 			"java": 431,
-			"pocket": 431,
+			"bedrock": 431,
 			"stack": 64
 		},
 
 		"chorus_fruit": {
 			"java": 432,
-			"pocket": 432,
+			"bedrock": 432,
 			"stack": 64
 		},
 
 		"popped_chorus_fruit": {
 			"java": 433,
-			"pocket": 433,
+			"bedrock": 433,
 			"stack": 64
 		},
 
 		"beetroot": {
 			"java": 434,
-			"pocket": 457,
+			"bedrock": 457,
 			"stack": 64
 		},
 
 		"beetroot_seeds": {
 			"java": 435,
-			"pocket": 458,
+			"bedrock": 458,
 			"stack": 64
 		},
 
 		"beetroot_soup": {
 			"java": 436,
-			"pocket": 459,
+			"bedrock": 459,
 			"stack": 1
 		},
 
 		"dragons_breath": {
 			"java": 437,
-			"pocket": 437,
+			"bedrock": 437,
 			"stack": 64
 		},
 
@@ -6339,7 +6338,7 @@
 
 		"splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 0
 			},
@@ -6348,7 +6347,7 @@
 
 		"mundane_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 1
 			},
@@ -6356,7 +6355,7 @@
 		},
 
 		"mundane_splash_potion_extended": {
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 2
 			},
@@ -6365,7 +6364,7 @@
 
 		"thick_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 3
 			},
@@ -6374,7 +6373,7 @@
 
 		"awkward_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 4
 			},
@@ -6383,7 +6382,7 @@
 
 		"night_vision_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 5
 			},
@@ -6392,7 +6391,7 @@
 
 		"night_vision_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 6
 			},
@@ -6401,7 +6400,7 @@
 
 		"invisibility_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 7
 			},
@@ -6410,7 +6409,7 @@
 
 		"invisibility_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 8
 			},
@@ -6419,7 +6418,7 @@
 
 		"leaping_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 9
 			},
@@ -6428,7 +6427,7 @@
 
 		"leaping_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 10
 			},
@@ -6437,7 +6436,7 @@
 
 		"leaping_splash_potion_plus": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 11
 			},
@@ -6446,7 +6445,7 @@
 
 		"fire_resistance_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 12
 			},
@@ -6455,7 +6454,7 @@
 
 		"fire_resistance_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 13
 			},
@@ -6464,7 +6463,7 @@
 
 		"swiftness_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 14
 			},
@@ -6473,7 +6472,7 @@
 
 		"swiftness_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 15
 			},
@@ -6482,7 +6481,7 @@
 
 		"swiftness_splash_potion_plus": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 16
 			},
@@ -6491,7 +6490,7 @@
 
 		"slowness_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 17
 			},
@@ -6500,7 +6499,7 @@
 
 		"slowness_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 18
 			},
@@ -6509,7 +6508,7 @@
 
 		"water_breathing_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 19
 			},
@@ -6518,7 +6517,7 @@
 
 		"water_breathing_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 20
 			},
@@ -6527,7 +6526,7 @@
 
 		"healing_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 21
 			},
@@ -6536,7 +6535,7 @@
 
 		"healing_splash_potion_plus": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 22
 			},
@@ -6545,7 +6544,7 @@
 
 		"harming_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 23
 			},
@@ -6554,7 +6553,7 @@
 
 		"harming_splash_potion_plus": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 24
 			},
@@ -6563,7 +6562,7 @@
 
 		"poison_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 25
 			},
@@ -6572,7 +6571,7 @@
 
 		"poison_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 26
 			},
@@ -6581,7 +6580,7 @@
 
 		"poison_splash_potion_plus": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 27
 			},
@@ -6590,7 +6589,7 @@
 
 		"regeneration_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 28
 			},
@@ -6599,7 +6598,7 @@
 
 		"regeneration_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 29
 			},
@@ -6608,7 +6607,7 @@
 
 		"regeneration_splash_potion_plus": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 30
 			},
@@ -6617,7 +6616,7 @@
 
 		"strength_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 31
 			},
@@ -6626,7 +6625,7 @@
 
 		"strength_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 32
 			},
@@ -6635,7 +6634,7 @@
 
 		"strength_splash_potion_plus": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 33
 			},
@@ -6644,7 +6643,7 @@
 
 		"weakness_splash_potion": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 34
 			},
@@ -6653,7 +6652,7 @@
 
 		"weakness_splash_potion_extended": {
 			"java": 438,
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 35
 			},
@@ -6661,7 +6660,7 @@
 		},
 
 		"decay_splash_potion": {
-			"pocket": {
+			"bedrock": {
 				"id": 438,
 				"meta": 36
 			},
@@ -6680,7 +6679,7 @@
 
 		"tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 0
 			},
@@ -6689,7 +6688,7 @@
 
 		"mundane_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 1
 			},
@@ -6697,7 +6696,7 @@
 		},
 
 		"mundane_tipped_arrow_extended": {
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 2
 			},
@@ -6706,7 +6705,7 @@
 
 		"thick_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 3
 			},
@@ -6715,7 +6714,7 @@
 
 		"awkward_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 4
 			},
@@ -6724,7 +6723,7 @@
 
 		"night_vision_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 5
 			},
@@ -6733,7 +6732,7 @@
 
 		"night_vision_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 6
 			},
@@ -6742,7 +6741,7 @@
 
 		"invisibility_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 7
 			},
@@ -6751,7 +6750,7 @@
 
 		"invisibility_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 8
 			},
@@ -6760,7 +6759,7 @@
 
 		"leaping_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 9
 			},
@@ -6769,7 +6768,7 @@
 
 		"leaping_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 10
 			},
@@ -6778,7 +6777,7 @@
 
 		"leaping_tipped_arrow_plus": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 11
 			},
@@ -6787,7 +6786,7 @@
 
 		"fire_resistance_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 12
 			},
@@ -6796,7 +6795,7 @@
 
 		"fire_resistance_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 13
 			},
@@ -6805,7 +6804,7 @@
 
 		"swiftness_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 14
 			},
@@ -6814,7 +6813,7 @@
 
 		"swiftness_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 15
 			},
@@ -6823,7 +6822,7 @@
 
 		"swiftness_tipped_arrow_plus": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 16
 			},
@@ -6832,7 +6831,7 @@
 
 		"slowness_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 17
 			},
@@ -6841,7 +6840,7 @@
 
 		"slowness_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 18
 			},
@@ -6850,7 +6849,7 @@
 
 		"water_breathing_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 19
 			},
@@ -6859,7 +6858,7 @@
 
 		"water_breathing_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 20
 			},
@@ -6868,7 +6867,7 @@
 
 		"healing_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 21
 			},
@@ -6877,7 +6876,7 @@
 
 		"healing_tipped_arrow_plus": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 22
 			},
@@ -6886,7 +6885,7 @@
 
 		"harming_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 23
 			},
@@ -6895,7 +6894,7 @@
 
 		"harming_tipped_arrow_plus": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 24
 			},
@@ -6904,7 +6903,7 @@
 
 		"poison_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 25
 			},
@@ -6913,7 +6912,7 @@
 
 		"poison_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 26
 			},
@@ -6922,7 +6921,7 @@
 
 		"poison_tipped_arrow_plus": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 27
 			},
@@ -6931,7 +6930,7 @@
 
 		"regeneration_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 28
 			},
@@ -6940,7 +6939,7 @@
 
 		"regeneration_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 29
 			},
@@ -6949,7 +6948,7 @@
 
 		"regeneration_tipped_arrow_plus": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 30
 			},
@@ -6958,7 +6957,7 @@
 
 		"strength_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 31
 			},
@@ -6967,7 +6966,7 @@
 
 		"strength_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 32
 			},
@@ -6976,7 +6975,7 @@
 
 		"strength_tipped_arrow_plus": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 33
 			},
@@ -6985,7 +6984,7 @@
 
 		"weakness_tipped_arrow": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 34
 			},
@@ -6994,7 +6993,7 @@
 
 		"weakness_tipped_arrow_extended": {
 			"java": 440,
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 35
 			},
@@ -7002,7 +7001,7 @@
 		},
 
 		"decay_tipped_arrow": {
-			"pocket": {
+			"bedrock": {
 				"id": 440,
 				"meta": 36
 			},
@@ -7016,7 +7015,7 @@
 
 		"lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 0
 			},
@@ -7025,7 +7024,7 @@
 
 		"mundane_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 1
 			},
@@ -7033,7 +7032,7 @@
 		},
 
 		"mundane_lingering_potion_extended": {
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 2
 			},
@@ -7042,7 +7041,7 @@
 
 		"thick_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 3
 			},
@@ -7051,7 +7050,7 @@
 
 		"awkward_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 4
 			},
@@ -7060,7 +7059,7 @@
 
 		"night_vision_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 5
 			},
@@ -7069,7 +7068,7 @@
 
 		"night_vision_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 6
 			},
@@ -7078,7 +7077,7 @@
 
 		"invisibility_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 7
 			},
@@ -7087,7 +7086,7 @@
 
 		"invisibility_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 8
 			},
@@ -7096,7 +7095,7 @@
 
 		"leaping_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 9
 			},
@@ -7105,7 +7104,7 @@
 
 		"leaping_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 10
 			},
@@ -7114,7 +7113,7 @@
 
 		"leaping_lingering_potion_plus": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 11
 			},
@@ -7123,7 +7122,7 @@
 
 		"fire_resistance_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 12
 			},
@@ -7132,7 +7131,7 @@
 
 		"fire_resistance_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 13
 			},
@@ -7141,7 +7140,7 @@
 
 		"swiftness_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 14
 			},
@@ -7150,7 +7149,7 @@
 
 		"swiftness_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 15
 			},
@@ -7159,7 +7158,7 @@
 
 		"swiftness_lingering_potion_plus": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 16
 			},
@@ -7168,7 +7167,7 @@
 
 		"slowness_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 17
 			},
@@ -7177,7 +7176,7 @@
 
 		"slowness_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 18
 			},
@@ -7186,7 +7185,7 @@
 
 		"water_breathing_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 19
 			},
@@ -7195,7 +7194,7 @@
 
 		"water_breathing_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 20
 			},
@@ -7204,7 +7203,7 @@
 
 		"healing_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 21
 			},
@@ -7213,7 +7212,7 @@
 
 		"healing_lingering_potion_plus": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 22
 			},
@@ -7222,7 +7221,7 @@
 
 		"harming_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 23
 			},
@@ -7231,7 +7230,7 @@
 
 		"harming_lingering_potion_plus": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 24
 			},
@@ -7240,7 +7239,7 @@
 
 		"poison_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 25
 			},
@@ -7249,7 +7248,7 @@
 
 		"poison_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 26
 			},
@@ -7258,7 +7257,7 @@
 
 		"poison_lingering_potion_plus": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 27
 			},
@@ -7267,7 +7266,7 @@
 
 		"regeneration_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 28
 			},
@@ -7276,7 +7275,7 @@
 
 		"regeneration_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 29
 			},
@@ -7285,7 +7284,7 @@
 
 		"regeneration_lingering_potion_plus": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 30
 			},
@@ -7294,7 +7293,7 @@
 
 		"strength_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 31
 			},
@@ -7303,7 +7302,7 @@
 
 		"strength_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 32
 			},
@@ -7312,7 +7311,7 @@
 
 		"strength_lingering_potion_plus": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 33
 			},
@@ -7321,7 +7320,7 @@
 
 		"weakness_lingering_potion": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 34
 			},
@@ -7330,7 +7329,7 @@
 
 		"weakness_lingering_potion_extended": {
 			"java": 441,
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 35
 			},
@@ -7338,7 +7337,7 @@
 		},
 
 		"decay_lingering_potion": {
-			"pocket": {
+			"bedrock": {
 				"id": 441,
 				"meta": 36
 			},
@@ -7353,14 +7352,14 @@
 
 		"elytra": {
 			"java": 443,
-			"pocket": 444,
+			"bedrock": 444,
 			"stack": 64,
 			"durability": 432
 		},
 
 		"spruce_boat": {
 			"java": 444,
-			"pocket": {
+			"bedrock": {
 				"id": 333,
 				"meta": 1
 			},
@@ -7369,7 +7368,7 @@
 
 		"birch_boat": {
 			"java": 445,
-			"pocket": {
+			"bedrock": {
 				"id": 333,
 				"meta": 2
 			},
@@ -7378,7 +7377,7 @@
 
 		"jungle_boat": {
 			"java": 446,
-			"pocket": {
+			"bedrock": {
 				"id": 333,
 				"meta": 3
 			},
@@ -7387,7 +7386,7 @@
 
 		"acacia_boat": {
 			"java": 447,
-			"pocket": {
+			"bedrock": {
 				"id": 333,
 				"meta": 4
 			},
@@ -7396,7 +7395,7 @@
 
 		"dark_oak_boat": {
 			"java": 448,
-			"pocket": {
+			"bedrock": {
 				"id": 333,
 				"meta": 5
 			},
@@ -7405,19 +7404,19 @@
 
 		"undying_totem": {
 			"java": 449,
-			"pocket": 450,
+			"bedrock": 450,
 			"stack": 1
 		},
 
 		"shulker_shell": {
 			"java": 450,
-			"pocket": 445,
+			"bedrock": 445,
 			"stack": 64
 		},
 
 		"iron_nugget": {
 			"java": 452,
-			"pocket": 452,
+			"bedrock": 452,
 			"stack": 64
 		},
 
@@ -7428,73 +7427,73 @@
 
 		"disc_13": {
 			"java": 2256,
-			"pocket": 500,
+			"bedrock": 500,
 			"stack": 1
 		},
 
 		"disc_cat": {
 			"java": 2257,
-			"pocket": 501,
+			"bedrock": 501,
 			"stack": 1
 		},
 
 		"disc_blocks": {
 			"java": 2258,
-			"pocket": 502,
+			"bedrock": 502,
 			"stack": 1
 		},
 
 		"disc_chirp": {
 			"java": 2259,
-			"pocket": 503,
+			"bedrock": 503,
 			"stack": 1
 		},
 
 		"disc_far": {
 			"java": 2260,
-			"pocket": 504,
+			"bedrock": 504,
 			"stack": 1
 		},
 
 		"disc_mall": {
 			"java": 2261,
-			"pocket": 505,
+			"bedrock": 505,
 			"stack": 1
 		},
 
 		"disc_mellohi": {
 			"java": 2262,
-			"pocket": 506,
+			"bedrock": 506,
 			"stack": 1
 		},
 
 		"disc_stal": {
 			"java": 2263,
-			"pocket": 507,
+			"bedrock": 507,
 			"stack": 1
 		},
 
 		"disc_strad": {
 			"java": 2264,
-			"pocket": 508,
+			"bedrock": 508,
 			"stack": 1
 		},
 
 		"disc_ward": {
 			"java": 2265,
-			"pocket": 509,
+			"bedrock": 509,
 			"stack": 1
 		},
 
 		"disc_11": {
 			"java": 2266,
-			"pocket": 510,
+			"bedrock": 510,
 			"stack": 1
 		},
 
 		"disc_wait": {
 			"java": 2267,
-			"pocket": 511,
+			"bedrock": 511,
 			"stack": 1
 		}
 
