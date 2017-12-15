@@ -1868,11 +1868,11 @@ const Play = {
 		static get RESPAWN(){ return 17; }
 		static get UNLEASH(){ return 63; }
 
-		constructor(entityId=0, eventId=0, unknown2=0) {
+		constructor(entityId=0, eventId=0, data=0) {
 			super();
 			this.entityId = entityId;
 			this.eventId = eventId;
-			this.unknown2 = unknown2;
+			this.data = data;
 		}
 
 		/** @return {Uint8Array} */
@@ -1881,7 +1881,7 @@ const Play = {
 			this.writeVaruint(27);
 			this.writeVarlong(this.entityId);
 			this.writeLittleEndianByte(this.eventId);
-			this.writeVarint(this.unknown2);
+			this.writeVarint(this.data);
 			return new Uint8Array(this._buffer);
 		}
 
@@ -1891,7 +1891,7 @@ const Play = {
 			var _id=this.readVaruint();
 			this.entityId=this.readVarlong();
 			this.eventId=this.readLittleEndianByte();
-			this.unknown2=this.readVarint();
+			this.data=this.readVarint();
 			return this;
 		}
 
@@ -1902,7 +1902,7 @@ const Play = {
 
 		/** @return {string} */
 		toString() {
-			return "EntityEvent(entityId: " + this.entityId + ", eventId: " + this.eventId + ", unknown2: " + this.unknown2 + ")";
+			return "EntityEvent(entityId: " + this.entityId + ", eventId: " + this.eventId + ", data: " + this.data + ")";
 		}
 
 	},
