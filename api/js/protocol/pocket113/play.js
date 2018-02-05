@@ -10,17 +10,8 @@
 
 //import Types from 'types';
 
-/**
- * Packets related to the gameplay. Network-related packets (encapsulation, acks, nacks)
- * are managed by RakNet and every packet in this section is encapsualted in an Encapsualted
- * packet.
- */
 const Play = {
 
-	/**
-	 * First MCPE packet sent after the establishment of the connection through raknet.
-	 * It contains informations about the player.
-	 */
 	Login: class extends Buffer {
 
 		static get ID(){ return 1; }
@@ -81,10 +72,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Packet sent as response to Login to indicate whether the connection has been accepted
-	 * and when the player is ready to spawn in the world.
-	 */
 	PlayStatus: class extends Buffer {
 
 		static get ID(){ return 2; }
@@ -214,9 +201,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Disconnects the player from the server.
-	 */
 	Disconnect: class extends Buffer {
 
 		static get ID(){ return 5; }
@@ -408,10 +392,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sends or receives a message from the player. Every variant's field can contain Minecraft's
-	 * formatting codes.
-	 */
 	Text: class extends Buffer {
 
 		static get ID(){ return 9; }
@@ -521,9 +501,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sets the time.
-	 */
 	SetTime: class extends Buffer {
 
 		static get ID(){ return 10; }
@@ -739,13 +716,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Spawns a player after adding it to the player's list using PlayerList. If PlayerList
-	 * is sent after this packet the player will appear to have the same skin as the player
-	 * who receives this packet.
-	 * Spawning a player to itself (using the same entity id given in the StartGame packet)
-	 * will crash the client's game.
-	 */
 	AddPlayer: class extends Buffer {
 
 		static get ID(){ return 12; }
@@ -889,9 +859,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Despawns an entity or a player.
-	 */
 	RemoveEntity: class extends Buffer {
 
 		static get ID(){ return 14; }
@@ -932,9 +899,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Spawns a dropped item.
-	 */
 	AddItemEntity: class extends Buffer {
 
 		static get ID(){ return 15; }
@@ -1039,9 +1003,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Plays the collection animation and despawns the entity that has been collected.
-	 */
 	TakeItemEntity: class extends Buffer {
 
 		static get ID(){ return 17; }
@@ -1262,10 +1223,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Instantly removes a block, either because the player is in creative mode or because
-	 * the target block's hardness is 0 or lower (after all enchantments are applied).
-	 */
 	RemoveBlock: class extends Buffer {
 
 		static get ID(){ return 21; }
@@ -1358,9 +1315,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Spawns a painting entity in the world.
-	 */
 	AddPainting: class extends Buffer {
 
 		static get ID(){ return 23; }
@@ -1459,9 +1413,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Plays a sound at a certain position.
-	 */
 	LevelSoundEvent: class extends Buffer {
 
 		static get ID(){ return 25; }
@@ -1895,11 +1846,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Updates an entity's attributes. This packet should be used when a value must be
-	 * modified but it cannot be done using another packet (for example controlling the
-	 * player's experience and level).
-	 */
 	UpdateAttributes: class extends Buffer {
 
 		static get ID(){ return 30; }
@@ -1943,9 +1889,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sent when the client puts an item in its hotbar or selects a new hotbar slot.
-	 */
 	MobEquipment: class extends Buffer {
 
 		static get ID(){ return 31; }
@@ -2263,10 +2206,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sent by the player when it falls from a distance that causes damage, that can be
-	 * influenced by its armour and its effects.
-	 */
 	EntityFall: class extends Buffer {
 
 		static get ID(){ return 37; }
@@ -2357,9 +2296,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Updates an entity's metadata.
-	 */
 	SetEntityData: class extends Buffer {
 
 		static get ID(){ return 39; }
@@ -2403,9 +2339,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Updates an entity's motion.
-	 */
 	SetEntityMotion: class extends Buffer {
 
 		static get ID(){ return 40; }
@@ -3111,9 +3044,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Updates the world's settings and client's permissions.
-	 */
 	AdventureSettings: class extends Buffer {
 
 		static get ID(){ return 55; }
@@ -3176,12 +3106,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sets a block entity's nbt tag, block's additional data that cannot be indicated
-	 * in the block's meta. More informations about block entities and their tag format
-	 * can be found on Minecraft Wiki.
-	 * The client sends this packet when it writes a sign.
-	 */
 	BlockEntityData: class extends Buffer {
 
 		static get ID(){ return 56; }
@@ -3287,9 +3211,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sends a 16x16 chunk to the client with its blocks, lights and block entities (tiles).
-	 */
 	FullChunkData: class extends Buffer {
 
 		static get ID(){ return 58; }
@@ -3337,9 +3258,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Indicates whether the cheats are enabled. If not the client cannot send commands.
-	 */
 	SetCommandsEnabled: class extends Buffer {
 
 		static get ID(){ return 59; }
@@ -3380,9 +3298,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sets the world's difficulty.
-	 */
 	SetDifficulty: class extends Buffer {
 
 		static get ID(){ return 60; }
@@ -3480,11 +3395,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sets the player's gamemode. This packet is sent by the player when it has the operator
-	 * status (set in AdventureSettings.permissions) and it changes the gamemode in the
-	 * settings screen.
-	 */
 	SetPlayerGameType: class extends Buffer {
 
 		static get ID(){ return 62; }
@@ -3530,11 +3440,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Adds or removes a player from the player's list displayed in the pause menu. This
-	 * packet should be sent before spawning a player with AddPlayer, otherwise the skin
-	 * is not applied.
-	 */
 	PlayerList: class extends Buffer {
 
 		static get ID(){ return 63; }
@@ -3829,11 +3734,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Packet sent by the client when its view-distance is updated and when it spawns for
-	 * the first time a world. A ChunkRadiusUpdate should always be sent in response, otherwise
-	 * the player will not update its view distance.
-	 */
 	RequestChunkRadius: class extends Buffer {
 
 		static get ID(){ return 69; }
@@ -3879,10 +3779,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Packet sent always and only in response to RequestChunkRadius to change the client's
-	 * view distance.
-	 */
 	ChunkRadiusUpdated: class extends Buffer {
 
 		static get ID(){ return 70; }
@@ -4010,11 +3906,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Updates client's game rules. This packet is ignored if the game is not launched
-	 * as Education Edition and should be avoid in favour of AdventureSettings, with which
-	 * the same result can be obtained with less data.
-	 */
 	GameRulesChanged: class extends Buffer {
 
 		static get ID(){ return 73; }
@@ -4138,10 +4029,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Adds, removes or modifies an entity's boss bar. The percentage of the bar is calculated
-	 * using the entity's attributes for the health and the max health, updated with UpdateAttributes.
-	 */
 	BossEvent: class extends Buffer {
 
 		static get ID(){ return 76; }
@@ -4237,9 +4124,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Sends a list of the commands that the player can use through the CommandStep packet.
-	 */
 	AvailableCommands: class extends Buffer {
 
 		static get ID(){ return 78; }
@@ -4660,11 +4544,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Transfers the player to another server. Once transferred the player will immediately
-	 * close the connection with the transferring server, try to resolve the ip and join
-	 * the new server starting a new raknet session.
-	 */
 	Transfer: class extends Buffer {
 
 		static get ID(){ return 86; }
@@ -4807,9 +4686,6 @@ const Play = {
 
 	},
 
-	/**
-	 * Displays titles on the client's screen.
-	 */
 	SetTitle: class extends Buffer {
 
 		static get ID(){ return 89; }
